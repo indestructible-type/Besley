@@ -4,7 +4,7 @@ FullName: Besley* Book
 FamilyName: Besley*
 Weight: Book
 Copyright: Copyright (c) 2017, Owen Earl,,, (EwonRael@yahoo.com)
-Version: 001.000
+Version: 001.1
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,27 +20,27 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1495818585
+ModificationTime: 1500758461
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 90
+LineGap: 100
 VLineGap: 0
 OS2TypoAscent: 800
 OS2TypoAOffset: 0
 OS2TypoDescent: -200
 OS2TypoDOffset: 0
-OS2TypoLinegap: 90
-OS2WinAscent: 1310
+OS2TypoLinegap: 100
+OS2WinAscent: 900
 OS2WinAOffset: 0
-OS2WinDescent: 830
+OS2WinDescent: 300
 OS2WinDOffset: 0
-HheadAscent: 1310
+HheadAscent: 900
 HheadAOffset: 0
-HheadDescent: -830
+HheadDescent: -200
 HheadDOffset: 0
-OS2CapHeight: 750
-OS2XHeight: 520
+OS2CapHeight: 700
+OS2XHeight: 460
 OS2FamilyClass: 1024
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000001.00000000.00000000.00000000
@@ -50,39 +50,46 @@ Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "Not your mama's contextual
 Lookup: 258 0 0 "Kern like there's no tomorrow" { "Get it right" [150,0,5] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 18 15 "Get it right"
+KernClass2: 19 21 "Get it right"
  3 A L
- 7 D G O Q
+ 15 B R G C U J S N
+ 3 D O
+ 7 E H I Z
  5 F P Y
  3 K X
- 1 T
- 5 U J C
+ 3 Q M
  3 V W
- 3 u z
- 9 b c e o p
- 5 h n m
+ 9 a h m n u
+ 7 b e o p
+ 3 c q
+ 7 d j l i
  3 k x
- 11 r y v w g q
- 6 period
- 1 a
- 27 H M I N l d uniFB02 uniFB04
- 1 R
+ 9 r v w y g
  68 quotedbl quotesingle quoteleft quoteright quotedblleft quotedblright
- 3 A J
- 7 C G O Q
+ 1 f
+ 1 t
  1 T
- 5 V W Y
- 1 X
- 11 a m n r z s
- 11 d e g o q c
- 1 u
- 5 v w y
- 1 x
- 12 period comma
- 5 t p j
- 37 B D E F H I K M N P R b h k l uniFFFD
+ 3 A J
+ 31 B D E F H I K L M N P R uniFFFD
+ 7 C G O Q
+ 3 S Z
+ 3 V W
  1 U
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} -50 {} -40 {} -150 {} 0 {} 0 {} 0 {} -50 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} -50 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} -30 {} -30 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} -30 {} -100 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 20 {} -20 {} 0 {} 0 {} 0 {} 0 {} -20 {} -40 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 30 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} -50 {} 0 {} 20 {} 0 {} 0 {} -100 {} -30 {} 0 {} 0 {} 0 {} -40 {} -40 {} -40 {} -40 {} -40 {} -60 {} 0 {} 0 {} 0 {} 0 {} -150 {} -40 {} 0 {} 30 {} 0 {} -100 {} -120 {} -50 {} -50 {} -50 {} -150 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} -30 {} -100 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} -40 {} 0 {} -60 {} -120 {} -30 {} 0 {} 0 {} -30 {} -30 {} -20 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -150 {} 0 {} 0 {} -20 {} -40 {} -50 {} 0 {} 0 {} -20 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} -100 {} 0 {} 30 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -100 {} -100 {} 10 {} -10 {} 0 {} 30 {} 0 {} -100 {} 30 {} -20 {} 0 {} 0 {} 0 {} -70 {} -100 {} -150 {} 0 {} 0 {} -30 {} -50 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -50 {} -150 {} 50 {} 0 {} -30 {} -50 {} -50 {} 30 {} 0 {} -30 {} 10 {} 0 {} 0 {} -30 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} -30 {} -30 {} -50 {} 50 {} 30 {} 0 {} -30 {} -20 {} 50 {} 40 {} 0 {} 0 {} 0 {} 0 {} -200 {} -20 {} 0 {} 0 {} 0 {} -50 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ 1 X
+ 1 Y
+ 5 a g s
+ 7 b h k l
+ 9 c d e o q
+ 3 f i
+ 5 p t u
+ 5 m n r
+ 3 v w
+ 1 z
+ 12 comma period
+ 68 quotedbl quotesingle quoteleft quoteright quotedblleft quotedblright
+ 1 T
+ 3 y j
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} -50 {} 0 {} -200 {} -70 {} 30 {} -200 {} 20 {} 20 {} -10 {} 0 {} -30 {} 0 {} -150 {} 0 {} 0 {} -200 {} -100 {} 0 {} 0 {} -80 {} 0 {} -20 {} -30 {} -30 {} -30 {} -30 {} -30 {} 0 {} -30 {} 0 {} 0 {} -20 {} -30 {} -20 {} -20 {} -30 {} -30 {} 20 {} 0 {} 0 {} -70 {} -30 {} 20 {} 0 {} -30 {} -20 {} -50 {} -50 {} 0 {} -30 {} 0 {} 10 {} 10 {} 0 {} 30 {} 0 {} -50 {} -50 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 20 {} 20 {} 30 {} 30 {} 0 {} 20 {} 20 {} 0 {} 40 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} -150 {} 0 {} -20 {} 0 {} 30 {} 20 {} 10 {} 30 {} -50 {} 0 {} -100 {} -20 {} 0 {} -20 {} 10 {} -30 {} -200 {} 0 {} 20 {} 0 {} 0 {} 50 {} 30 {} -30 {} 40 {} 20 {} 10 {} 70 {} 30 {} 50 {} 50 {} 10 {} 50 {} 0 {} 30 {} -100 {} 30 {} 20 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} -50 {} 20 {} -40 {} -40 {} 30 {} -50 {} 20 {} 30 {} -20 {} 20 {} -50 {} 20 {} 0 {} 0 {} 0 {} -50 {} -10 {} 0 {} 0 {} -200 {} 20 {} -40 {} 0 {} 40 {} 30 {} 30 {} 40 {} -130 {} 50 {} -150 {} -30 {} -50 {} -50 {} -50 {} -70 {} -150 {} 40 {} 50 {} -70 {} 0 {} 20 {} 0 {} -70 {} 10 {} -200 {} -70 {} 50 {} -170 {} 10 {} 20 {} -30 {} 0 {} -60 {} 10 {} -80 {} 0 {} 0 {} -100 {} -100 {} -40 {} 0 {} -20 {} -20 {} 0 {} 0 {} -150 {} -70 {} 0 {} -150 {} 0 {} -10 {} 0 {} -20 {} -30 {} -30 {} -20 {} -20 {} -50 {} -80 {} -20 {} -20 {} 0 {} -20 {} -50 {} 0 {} -20 {} -150 {} -70 {} 0 {} -150 {} -10 {} -30 {} -10 {} 0 {} -10 {} -20 {} 0 {} -40 {} -50 {} -80 {} -20 {} 0 {} 0 {} 10 {} 0 {} -40 {} 10 {} -20 {} -40 {} 40 {} -30 {} 0 {} 30 {} -20 {} 20 {} -50 {} 0 {} -40 {} 0 {} 0 {} -60 {} -40 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 30 {} -20 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} 20 {} 20 {} 10 {} 20 {} 0 {} -40 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 150 {} 70 {} 120 {} 200 {} 170 {} 170 {} 200 {} 0 {} 150 {} -30 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 170 {} 200 {} 10 {} 0 {} 0 {} 0 {} -30 {} 0 {} -70 {} -50 {} 0 {} -100 {} 0 {} 0 {} -30 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -50 {} -30 {} 0 {} 0 {} -100 {} 10 {} 0 {} 0 {} 50 {} 30 {} 30 {} 40 {} -10 {} 40 {} -50 {} 20 {} 40 {} 30 {} 40 {} 0 {} -100 {} 0 {} 30 {} 20 {}
 ContextSub2: class "'calt' Contextual Alternates lookup 1-1" 4 4 4 4
   Class: 1 R
   Class: 7 uniFFFD
@@ -128,7 +135,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 80 16 3
+WinInfo: 96 16 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1937,7 +1944,7 @@ EndChar
 
 StartChar: e
 Encoding: 101 101 42
-Width: 553
+Width: 548
 VWidth: 1155
 Flags: HMW
 LayerCount: 2
@@ -2160,7 +2167,7 @@ EndChar
 
 StartChar: j
 Encoding: 106 106 47
-Width: 302
+Width: 262
 VWidth: 1155
 Flags: HMW
 LayerCount: 2
@@ -2198,7 +2205,7 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 48
-Width: 626
+Width: 596
 VWidth: 1155
 Flags: MW
 LayerCount: 2
@@ -2470,7 +2477,7 @@ EndChar
 
 StartChar: q
 Encoding: 113 113 54
-Width: 623
+Width: 628
 VWidth: 1155
 Flags: MW
 LayerCount: 2
@@ -2517,38 +2524,38 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-338 466 m 1
- 338 476 332 481 308 481 c 0
- 240 481 190 386 190 283 c 1
- 166 283 l 1
- 166 375 189 530 330 530 c 0
- 386 530 438 494 438 436 c 1
- 338 466 l 1
-10 55 m 1
- 100 55 l 1
- 100 0 l 1
- 10 0 l 1
- 10 55 l 1
-10 520 m 1
- 100 520 l 1
- 100 465 l 1
- 10 465 l 1
- 10 520 l 1
-100 520 m 1
- 190 520 l 1
- 190 0 l 1
- 100 0 l 1
- 100 520 l 1
-190 55 m 1
- 280 55 l 1
- 280 0 l 1
- 190 0 l 1
- 190 55 l 1
-315 411 m 0
- 315 447 338 454 338 466 c 1
- 438 436 l 1
- 438 394 411 360 376 360 c 0
- 342 360 315 380 315 411 c 0
+353 466 m 1
+ 353 476 347 481 323 481 c 0
+ 255 481 205 386 205 283 c 1
+ 181 283 l 1
+ 181 375 204 530 345 530 c 0
+ 401 530 453 494 453 436 c 1
+ 353 466 l 1
+25 55 m 1
+ 115 55 l 1
+ 115 0 l 1
+ 25 0 l 1
+ 25 55 l 1
+25 520 m 1
+ 115 520 l 1
+ 115 465 l 1
+ 25 465 l 1
+ 25 520 l 1
+115 520 m 1
+ 205 520 l 1
+ 205 0 l 1
+ 115 0 l 1
+ 115 520 l 1
+205 55 m 1
+ 295 55 l 1
+ 295 0 l 1
+ 205 0 l 1
+ 205 55 l 1
+330 411 m 0
+ 330 447 353 454 353 466 c 1
+ 453 436 l 1
+ 453 394 426 360 391 360 c 0
+ 357 360 330 380 330 411 c 0
 EndSplineSet
 EndChar
 
@@ -4380,9 +4387,9 @@ EndChar
 
 StartChar: egrave
 Encoding: 232 232 163
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 123 96 N 1 0 0 1 -40 -120 2
@@ -4391,9 +4398,9 @@ EndChar
 
 StartChar: eacute
 Encoding: 233 233 164
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 124 180 N 1 0 0 1 235 -120 2
@@ -4402,9 +4409,9 @@ EndChar
 
 StartChar: ecircumflex
 Encoding: 234 234 165
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 113 94 N 1 0 0 1 12.5 40 2
@@ -4413,9 +4420,9 @@ EndChar
 
 StartChar: edieresis
 Encoding: 235 235 166
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 103 168 N 1 0 0 1 85 -90 2
@@ -4743,9 +4750,9 @@ EndChar
 
 StartChar: emacron
 Encoding: 275 275 196
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 84 175 N 1 0 0 1 21.4707 30 2
@@ -4765,9 +4772,9 @@ EndChar
 
 StartChar: edotaccent
 Encoding: 279 279 198
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1 46 N 1 0 0 1 185 600 2
@@ -4787,9 +4794,9 @@ EndChar
 
 StartChar: ecaron
 Encoding: 283 283 200
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 113 94 N 1 0 0 -1 12.5 1360 2
@@ -4941,9 +4948,9 @@ EndChar
 
 StartChar: jcircumflex
 Encoding: 309 309 214
-Width: 302
+Width: 262
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 113 94 N 1 0 0 1 -120.5 270 2
@@ -4963,9 +4970,9 @@ EndChar
 
 StartChar: uni0137
 Encoding: 311 311 216
-Width: 626
+Width: 596
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 65 44 N 1 0 0 1 195.5 -168 2
@@ -5163,10 +5170,10 @@ StartChar: racute
 Encoding: 341 341 234
 Width: 453
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 124 180 N 1 0 0 1 174 -120 2
+Refer: 124 180 N 1 0 0 1 189 -120 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 EndChar
 
@@ -5185,10 +5192,10 @@ StartChar: uni0157
 Encoding: 343 343 236
 Width: 453
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 65 44 N 1 0 0 1 37.5 -168 2
+Refer: 65 44 N 1 0 0 1 52.5 -168 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 EndChar
 
@@ -5207,10 +5214,10 @@ StartChar: rcaron
 Encoding: 345 345 238
 Width: 453
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 113 94 S 1 0 0 -1 -48.5 1360 2
+Refer: 113 94 S 1 0 0 -1 -33.5 1360 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 EndChar
 
@@ -5809,9 +5816,9 @@ EndChar
 
 StartChar: uni01E9
 Encoding: 489 489 293
-Width: 626
+Width: 596
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 113 94 N 1 0 0 -1 -167.5 1610 2
@@ -5820,9 +5827,9 @@ EndChar
 
 StartChar: uni01F0
 Encoding: 496 496 294
-Width: 302
+Width: 262
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 113 94 N 1 0 0 -1 -120.5 1590 2
@@ -5996,9 +6003,9 @@ EndChar
 
 StartChar: uni0229
 Encoding: 553 553 310
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 128 184 N 1 0 0 1 -34 -41.5853 2
@@ -6378,9 +6385,9 @@ EndChar
 
 StartChar: uni1E15
 Encoding: 7701 7701 345
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 123 96 N 1 0 0 1 -40 -5 2
@@ -6400,9 +6407,9 @@ EndChar
 
 StartChar: uni1E17
 Encoding: 7703 7703 347
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 124 180 N 1 0 0 1 235 -5 2
@@ -6422,9 +6429,9 @@ EndChar
 
 StartChar: uni1E1B
 Encoding: 7707 7707 349
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 323 732 N 1 0 0 1 278 -337 2
@@ -6620,9 +6627,9 @@ EndChar
 
 StartChar: uni1E31
 Encoding: 7729 7729 367
-Width: 626
+Width: 596
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 124 180 N 1 0 0 1 100 130 2
@@ -6642,9 +6649,9 @@ EndChar
 
 StartChar: uni1E33
 Encoding: 7731 7731 369
-Width: 626
+Width: 596
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 321 729 N 1 0 0 1 303 -240 2
@@ -6664,9 +6671,9 @@ EndChar
 
 StartChar: uni1E35
 Encoding: 7733 7733 371
-Width: 626
+Width: 596
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 84 175 N 1 0 0 1 39.4707 -675 2
@@ -7018,10 +7025,10 @@ StartChar: uni1E59
 Encoding: 7769 7769 403
 Width: 453
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 321 729 N 1 0 0 1 224 530 2
+Refer: 321 729 N 1 0 0 1 239 530 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7040,10 +7047,10 @@ StartChar: uni1E5B
 Encoding: 7771 7771 405
 Width: 453
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 321 729 N 1 0 0 1 145 -240 2
+Refer: 321 729 N 1 0 0 1 160 -240 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7062,10 +7069,10 @@ StartChar: uni1E5D
 Encoding: 7773 7773 407
 Width: 453
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 84 175 N 1 0 0 1 66.4707 30 2
+Refer: 84 175 N 1 0 0 1 81.4707 30 2
 Refer: 405 7771 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7084,10 +7091,10 @@ StartChar: uni1E5F
 Encoding: 7775 7775 409
 Width: 453
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 84 175 N 1 0 0 1 -118.529 -675 2
+Refer: 84 175 N 1 0 0 1 -103.529 -675 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7808,9 +7815,9 @@ EndChar
 
 StartChar: uni1EB9
 Encoding: 7865 7865 475
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 321 729 N 1 0 0 1 278 -250 2
@@ -7830,9 +7837,9 @@ EndChar
 
 StartChar: uni1EBD
 Encoding: 7869 7869 477
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 323 732 N 1 0 0 1 285 530 2
@@ -7852,9 +7859,9 @@ EndChar
 
 StartChar: uni1EBF
 Encoding: 7871 7871 479
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 124 180 N 1 0 0 1 235 160 2
@@ -7874,9 +7881,9 @@ EndChar
 
 StartChar: uni1EC1
 Encoding: 7873 7873 481
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 123 96 N 1 0 0 1 -40 160 2
@@ -7896,9 +7903,9 @@ EndChar
 
 StartChar: uni1EC5
 Encoding: 7877 7877 483
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 323 732 N 1 0 0 1 285 810 2
@@ -7918,9 +7925,9 @@ EndChar
 
 StartChar: uni1EC7
 Encoding: 7879 7879 485
-Width: 553
+Width: 548
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 113 94 N 1 0 0 1 12.5 40 2

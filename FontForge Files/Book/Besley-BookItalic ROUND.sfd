@@ -5,7 +5,7 @@ FamilyName: Besley*
 Weight: Book
 Copyright: Copyright (c) 2017, Owen Earl,,, (EwonRael@yahoo.com)
 UComments: "2016-4-15: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 001.1
 ItalicAngle: -13
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -21,27 +21,27 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1495839962
+ModificationTime: 1500758449
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 90
+LineGap: 100
 VLineGap: 0
 OS2TypoAscent: 800
 OS2TypoAOffset: 0
 OS2TypoDescent: -200
 OS2TypoDOffset: 0
-OS2TypoLinegap: 90
-OS2WinAscent: 1310
+OS2TypoLinegap: 100
+OS2WinAscent: 900
 OS2WinAOffset: 0
-OS2WinDescent: 830
+OS2WinDescent: 300
 OS2WinDOffset: 0
-HheadAscent: 1310
+HheadAscent: 900
 HheadAOffset: 0
-HheadDescent: -830
+HheadDescent: -200
 HheadDOffset: 0
-OS2CapHeight: 750
-OS2XHeight: 520
+OS2CapHeight: 700
+OS2XHeight: 460
 OS2FamilyClass: 1024
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000001.00000000.00000000.00000000
@@ -2718,7 +2718,7 @@ StartChar: u
 Encoding: 117 117 58
 Width: 685
 VWidth: 1155
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet

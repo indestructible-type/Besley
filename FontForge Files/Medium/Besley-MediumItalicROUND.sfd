@@ -5,7 +5,7 @@ FamilyName: Besley* Medium
 Weight: Medium
 Copyright: Copyright (c) 2017, Owen Earl,,, (EwonRael@yahoo.com)
 UComments: "2016-4-15: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 001.1
 ItalicAngle: -13
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -21,27 +21,27 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1496084066
+ModificationTime: 1500758481
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
-LineGap: 90
+LineGap: 100
 VLineGap: 0
 OS2TypoAscent: 800
 OS2TypoAOffset: 0
 OS2TypoDescent: -200
 OS2TypoDOffset: 0
-OS2TypoLinegap: 90
-OS2WinAscent: 1310
+OS2TypoLinegap: 100
+OS2WinAscent: 900
 OS2WinAOffset: 0
-OS2WinDescent: 830
+OS2WinDescent: 300
 OS2WinDOffset: 0
-HheadAscent: 1310
+HheadAscent: 900
 HheadAOffset: 0
-HheadDescent: -830
+HheadDescent: -200
 HheadDOffset: 0
-OS2CapHeight: 750
-OS2XHeight: 520
+OS2CapHeight: 700
+OS2XHeight: 460
 OS2FamilyClass: 1024
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000001.00000000.00000000.00000000
@@ -51,57 +51,56 @@ Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "Not your mama's contextual
 Lookup: 258 0 0 "Kern like there's no tomorrow" { "Get it right" [150,0,5] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 17 15 "Get it right"
- 13 backslash A L
- 3 B S
- 5 D O Q
- 1 E
- 3 F P
- 5 G g r
- 7 H I M N
- 3 J U
- 5 K X Z
- 3 T Y
- 9 a h m n u
- 15 b c e o p v w y
- 5 d i l
- 1 f
- 7 k x z t
- 9 slash W V
- 3 A J
- 23 B D E F H I K L M N P R
- 7 C G O Q
- 3 T Y
- 1 U
+KernClass2: 19 21 "Get it right"
+ 3 A L
+ 15 B R G C U J S N
+ 3 D O
+ 7 E H I Z
+ 5 F P Y
+ 3 K X
+ 3 Q M
  3 V W
- 3 X Z
- 13 a c d e o q s
- 5 b l t
- 19 f m n p r u y w i j
- 3 h k
- 1 v
- 3 x z
- 12 period comma
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 20 {} 10 {} -70 {} -120 {} -70 {} -200 {} 30 {} -50 {} -50 {} -30 {} 0 {} -50 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} -70 {} -40 {} 0 {} -20 {} -30 {} -50 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 30 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 30 {} -20 {} -50 {} 30 {} 0 {} 30 {} 0 {} -29 {} -100 {} -10 {} -70 {} -30 {} 30 {} -30 {} 0 {} -50 {} -50 {} -20 {} 0 {} 10 {} -20 {} 0 {} -20 {} -20 {} 0 {} -50 {} 30 {} -30 {} 0 {} 0 {} 30 {} 0 {} -50 {} 0 {} -50 {} 0 {} -30 {} 20 {} 0 {} 0 {} -100 {} 0 {} -30 {} 30 {} 30 {} 70 {} 0 {} -50 {} 30 {} -30 {} 30 {} -50 {} -20 {} -50 {} 0 {} 50 {} 30 {} -50 {} 50 {} 0 {} 0 {} 30 {} 0 {} 0 {} -30 {} 0 {} -30 {} 50 {} 0 {} 0 {} -100 {} 30 {} 0 {} 0 {} 20 {} 50 {} 0 {} -30 {} 20 {} 20 {} 20 {} 0 {} 0 {} -100 {} 0 {} 50 {} 30 {} 0 {} -30 {} -30 {} -80 {} 50 {} 0 {} 0 {} -40 {} 0 {} -20 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -30 {} -100 {} 0 {} -20 {} 0 {} -20 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -30 {} -30 {} -30 {} 0 {} 0 {} 0 {} -20 {} -10 {} -30 {} 30 {} 0 {} 0 {} -70 {} 120 {} 100 {} 150 {} 120 {} 170 {} 100 {} -20 {} 0 {} 0 {} 0 {} 0 {} -30 {} -50 {} 30 {} 0 {} 0 {} 0 {} -20 {} -50 {} -100 {} 20 {} -10 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} -200 {} 0 {} -50 {} 50 {} 0 {} 50 {} 50 {} -50 {} 0 {} -50 {} 40 {} 0 {} 0 {} 0 {}
-ContextSub2: class "'calt' Contextual Alternates lookup 1-1" 7 7 7 5
+ 9 a h m n u
+ 7 b e o p
+ 3 c q
+ 7 d j l i
+ 3 k x
+ 9 r v w y g
+ 68 quotedbl quotesingle quoteleft quoteright quotedblleft quotedblright
+ 1 f
+ 1 t
+ 1 T
+ 3 A J
+ 31 B D E F H I K L M N P R uniFFFD
+ 7 C G O Q
+ 3 S Z
+ 3 V W
+ 1 U
+ 1 X
+ 1 Y
+ 5 a g s
+ 7 b h k l
+ 9 c d e o q
+ 3 f i
+ 5 p t u
+ 5 m n r
+ 3 v w
+ 1 z
+ 12 comma period
+ 68 quotedbl quotesingle quoteleft quoteright quotedblleft quotedblright
+ 1 T
+ 3 y j
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} -50 {} 0 {} -200 {} -70 {} 30 {} -200 {} 20 {} 20 {} -10 {} 0 {} -30 {} 0 {} -150 {} 0 {} 0 {} -200 {} -100 {} 0 {} 0 {} -40 {} 0 {} -20 {} -30 {} -30 {} -30 {} -30 {} -30 {} 0 {} -30 {} 0 {} 0 {} -20 {} -30 {} -20 {} -20 {} -30 {} -30 {} 20 {} 0 {} 0 {} -70 {} -30 {} 20 {} 0 {} -30 {} -20 {} -50 {} -50 {} 0 {} -30 {} 0 {} 10 {} 10 {} 0 {} 30 {} 0 {} -50 {} -50 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 20 {} 20 {} 30 {} 30 {} 0 {} 20 {} 20 {} 0 {} 40 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} -150 {} 0 {} -20 {} 0 {} 30 {} 20 {} 10 {} 30 {} -50 {} 0 {} -100 {} -20 {} 0 {} -20 {} 10 {} -30 {} -200 {} 0 {} 20 {} 0 {} 0 {} 50 {} 30 {} -30 {} 40 {} 20 {} 10 {} 70 {} 30 {} 50 {} 50 {} 10 {} 50 {} 0 {} 30 {} -100 {} 30 {} 20 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} -50 {} 20 {} -40 {} -40 {} 30 {} -50 {} 20 {} 30 {} -20 {} 20 {} -50 {} 20 {} 0 {} 0 {} 0 {} -50 {} -10 {} 0 {} 0 {} -200 {} 20 {} -40 {} 0 {} 40 {} 30 {} 30 {} 40 {} -130 {} 50 {} -150 {} -30 {} -50 {} -50 {} -50 {} -70 {} -150 {} 40 {} 50 {} -70 {} 0 {} 20 {} 0 {} -70 {} 10 {} -200 {} -70 {} 50 {} -170 {} 0 {} 20 {} -30 {} 0 {} -60 {} 10 {} -80 {} 0 {} 0 {} -100 {} -100 {} -40 {} 0 {} -20 {} -20 {} 0 {} 0 {} -150 {} -70 {} 0 {} -150 {} 0 {} -10 {} 0 {} -20 {} -30 {} -30 {} -20 {} -20 {} -50 {} -80 {} -20 {} -20 {} 0 {} -20 {} -50 {} 0 {} -20 {} -150 {} -70 {} 0 {} -150 {} -10 {} -30 {} -10 {} 0 {} -10 {} -20 {} 0 {} -40 {} -50 {} -80 {} -20 {} 0 {} 0 {} 10 {} 0 {} -40 {} 10 {} -20 {} -40 {} 40 {} -30 {} 0 {} 30 {} -20 {} 20 {} -50 {} 0 {} -40 {} 0 {} 0 {} -60 {} -40 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 30 {} -20 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} -20 {} -20 {} -20 {} 20 {} 20 {} 10 {} 20 {} 0 {} -40 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 150 {} 70 {} 120 {} 200 {} 170 {} 170 {} 200 {} 0 {} 150 {} -30 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 170 {} 200 {} 10 {} 0 {} 0 {} 0 {} -30 {} 0 {} -70 {} -50 {} 0 {} -100 {} 0 {} 0 {} -30 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -50 {} -30 {} 0 {} 0 {} -100 {} 10 {} 0 {} 0 {} 50 {} 30 {} 30 {} 40 {} -10 {} 40 {} -50 {} 20 {} 40 {} 30 {} 40 {} 0 {} -100 {} 0 {} 30 {} 20 {}
+ContextSub2: class "'calt' Contextual Alternates lookup 1-1" 4 4 4 4
   Class: 1 R
   Class: 7 uniFFFD
-  Class: 41 A B D E F H I K L M N P X b h i k l m n x
-  Class: 1 f
-  Class: 1 t
-  Class: 0 
+  Class: 45 A B D E F H I K L M N P X b f h i k l m n r x
   BClass: 1 R
   BClass: 7 uniFFFD
-  BClass: 41 A B D E F H I K L M N P X b h i k l m n x
-  BClass: 1 f
-  BClass: 1 t
-  BClass: 0 
+  BClass: 45 A B D E F H I K L M N P X b f h i k l m n r x
   FClass: 1 R
   FClass: 7 uniFFFD
-  FClass: 41 A B D E F H I K L M N P X b h i k l m n x
-  FClass: 1 f
-  FClass: 1 t
-  FClass: 0 
+  FClass: 45 A B D E F H I K L M N P X b f h i k l m n r x
  2 0 0
   ClsList: 1 3
   BClsList:
@@ -109,33 +108,26 @@ ContextSub2: class "'calt' Contextual Alternates lookup 1-1" 7 7 7 5
  1
   SeqLookup: 0 "'ss01' Style Set 1 lookup 2"
  2 0 0
-  ClsList: 4 5
-  BClsList:
-  FClsList:
- 1
-  SeqLookup: 1 "'ss01' Style Set 1 lookup 2"
- 2 0 0
   ClsList: 1 1
   BClsList:
   FClsList:
  1
   SeqLookup: 0 "'ss01' Style Set 1 lookup 2"
- 3 0 0
-  ClsList: 1 1 3
-  BClsList:
-  FClsList:
- 2
-  SeqLookup: 0 "'ss01' Style Set 1 lookup 2"
-  SeqLookup: 1 "'ss01' Style Set 1 lookup 2"
  2 0 0
   ClsList: 1 2
   BClsList:
   FClsList:
  1
   SeqLookup: 0 "'ss01' Style Set 1 lookup 2"
-  ClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
-  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
-  FClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
+ 2 0 0
+  ClsList: 2 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "'ss01' Style Set 1 lookup 2"
+  ClassNames: "All_Others" "1" "2" "3"
+  BClassNames: "All_Others" "1" "2" "3"
+  FClassNames: "All_Others" "1" "2" "3"
 EndFPST
 LangName: 1033 "" "" "Medium Italic" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2017, Owen Earl,,, (<URL|email>),+AAoA-with Reserved Font Name Besley*." "" "" "Besley*"
 Encoding: UnicodeBmp
@@ -144,7 +136,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 3680 16 3
+WinInfo: 64 16 3
 BeginPrivate: 0
 EndPrivate
 Grid
