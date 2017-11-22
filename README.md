@@ -31,9 +31,7 @@ Besley* was created using the free and open source font building application [Fo
 To build it yourself you are going to need to download a copy of FontForge,
 which you can get from their [website](https://fontforge.github.io/), or can be build using the [github branch](https://github.com/fontforge/fontforge/blob/master/INSTALL-git.md).
 Start by opening the files located in the "FontForge Files" directory in FontForge.
-In FontForge, unlink all references by selecting all (Ctrl-A) and pressing Ctrl-U.
-Then remove all overlap by pressing Ctrl-Shift-O. Simplify, using Ctrl-Shift-M,
-then round to nearist int by pressing Ctrl-Shift-_. Ctrl-Shift-G to generate
+Make sure to use the ROUND versions. Generate using Ctrl-Shift-G to generate
 your font!
 
 You can then add True-Type hinting following the instruction over at [ttfautohint](https://www.freetype.org/ttfautohint/).
