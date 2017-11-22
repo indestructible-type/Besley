@@ -43,6 +43,3 @@ If you want to skip all that jazz and download the compleated font, visit the [w
 Contact
 -------
 If you have questions or want to help out, send me and email at indestructibletype@gmail.com
-=======
-Besley*(http://indestructible-type.github.io/Besley.html)
-======
