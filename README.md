@@ -1,6 +1,6 @@
 [Besley*](http://indestructible-type.github.io/Besley.html)
 ========
-![Renner* Picture](https://indestructible-type.github.io/Besley/0.png)
+![Besley* Picture](https://indestructibletype.com/assets/Besley.svg)
 Besley* is an original font created by indestructible type*. It is inspired by 
 the designs of Robert Besley. This is version 1.1.
 
