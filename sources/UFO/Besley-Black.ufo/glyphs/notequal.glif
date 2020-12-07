@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notequal" format="2">
+  <advance width="1119"/>
+  <unicode hex="2260"/>
+  <outline>
+    <component base="figuredash" xScale="0.739145" xyScale="1.05561" yxScale="-0.655322" yScale="0.458861" xOffset="615" yOffset="-268"/>
+    <component base="equal"/>
+  </outline>
+</glyph>

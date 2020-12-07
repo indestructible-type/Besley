@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0312" format="2">
+  <unicode hex="0312"/>
+  <anchor x="497" y="920" name="_Anchor-0"/>
+  <outline>
+    <component base="comma" xScale="-0.8" xyScale="9.79717e-17" yxScale="-9.79717e-17" yScale="-0.8" xOffset="775" yOffset="1417"/>
+  </outline>
+</glyph>

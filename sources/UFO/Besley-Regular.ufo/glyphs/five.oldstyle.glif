@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.oldstyle" format="2">
+  <advance width="1030"/>
+  <outline>
+    <component base="five" yOffset="-460"/>
+  </outline>
+</glyph>

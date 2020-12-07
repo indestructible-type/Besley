@@ -1,0 +1,17 @@
+FONTLOG for Besley*
+===================
+
+This file includes information about the Besley* typeface by indestructible type*.
+
+Changelog
+---------
+1.0
+Original Release.<br>
+1.1
+Added the Fatface weight. Corrected kerning.
+2.0
+Redrew to make interpolatable
+
+Contact
+-------
+If you have questions, email me at indestructibletype@gmail.com

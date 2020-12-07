@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Euro" format="2">
+  <advance width="1629"/>
+  <unicode hex="20AC"/>
+  <outline>
+    <contour>
+      <point x="1039.99" y="1404" type="curve" smooth="yes"/>
+      <point x="691.989" y="1404"/>
+      <point x="499.989" y="1114"/>
+      <point x="499.989" y="750" type="curve" smooth="yes"/>
+      <point x="499.989" y="386"/>
+      <point x="681.989" y="98"/>
+      <point x="979.989" y="98" type="curve" smooth="yes"/>
+      <point x="1280.99" y="98"/>
+      <point x="1430.99" y="325"/>
+      <point x="1437.99" y="464" type="curve" smooth="yes"/>
+      <point x="1438.59" y="476.026"/>
+      <point x="1443.99" y="480"/>
+      <point x="1457.99" y="480" type="curve" smooth="yes"/>
+      <point x="1527.99" y="480" type="line" smooth="yes"/>
+      <point x="1541.99" y="480"/>
+      <point x="1549.32" y="479.034"/>
+      <point x="1548.99" y="466" type="curve" smooth="yes"/>
+      <point x="1543.99" y="266"/>
+      <point x="1340.99" y="-20"/>
+      <point x="959.989" y="-20" type="curve" smooth="yes"/>
+      <point x="583.989" y="-20"/>
+      <point x="269.989" y="304"/>
+      <point x="269.989" y="750" type="curve" smooth="yes"/>
+      <point x="269.989" y="1196"/>
+      <point x="623.989" y="1520"/>
+      <point x="1029.99" y="1520" type="curve" smooth="yes"/>
+      <point x="1323.99" y="1520"/>
+      <point x="1511.99" y="1356"/>
+      <point x="1511.99" y="1152" type="curve" smooth="yes"/>
+      <point x="1511.99" y="1056"/>
+      <point x="1441.99" y="1020"/>
+      <point x="1383.99" y="1020" type="curve" smooth="yes"/>
+      <point x="1329.99" y="1020"/>
+      <point x="1269.99" y="1062"/>
+      <point x="1269.99" y="1136" type="curve" smooth="yes"/>
+      <point x="1269.99" y="1208"/>
+      <point x="1333.99" y="1218"/>
+      <point x="1333.99" y="1264" type="curve" smooth="yes"/>
+      <point x="1333.99" y="1318"/>
+      <point x="1257.99" y="1404"/>
+    </contour>
+    <component base="equal" xOffset="-70.0101" yOffset="-30"/>
+  </outline>
+</glyph>
