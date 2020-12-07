@@ -1,6 +1,6 @@
 Thank you for buying Besley* by indestructible type* (https://indestructible-type.github.io)!
 
-This is verson 1.0
+This is verson 1.1
 
 To download a newer version of this font, please go to this secret link:
 https://indestructible-type.github.io/Robert0105.html
