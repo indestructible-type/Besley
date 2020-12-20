@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1500759805
+ModificationTime: 1608021949
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -124,7 +124,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 16 3
+WinInfo: 0 16 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -314,11 +314,11 @@ SplineSet
  347 410 l 5
  99 410 l 5
  111 465 l 5
--0 55 m 5
+0 55 m 5
  170 55 l 5
  157 0 l 5
  -13 0 l 5
- -0 55 l 5
+ 0 55 l 5
 265 55 m 5
  425 55 l 5
  412 0 l 5
@@ -5699,7 +5699,7 @@ EndChar
 
 StartChar: cent
 Encoding: 162 162 98
-Width: 691
+Width: 1382
 VWidth: 1155
 Flags: HMW
 LayerCount: 2
@@ -5760,7 +5760,7 @@ EndChar
 
 StartChar: yen
 Encoding: 165 165 100
-Width: 835
+Width: 1670
 Flags: HMW
 LayerCount: 2
 Fore
@@ -5991,7 +5991,7 @@ EndChar
 
 StartChar: mu
 Encoding: 181 181 111
-Width: 884
+Width: 1768
 VWidth: 1155
 Flags: HMW
 LayerCount: 2
@@ -6223,7 +6223,7 @@ EndChar
 
 StartChar: ordmasculine
 Encoding: 186 186 125
-Width: 688
+Width: 1376
 VWidth: 1155
 Flags: HMW
 LayerCount: 2
@@ -7002,7 +7002,7 @@ EndChar
 
 StartChar: dcaron
 Encoding: 271 271 194
-Width: 784
+Width: 1568
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7299,7 +7299,7 @@ EndChar
 
 StartChar: Lcaron
 Encoding: 317 317 221
-Width: 801
+Width: 1602
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7310,7 +7310,7 @@ EndChar
 
 StartChar: lcaron
 Encoding: 318 318 222
-Width: 425
+Width: 850
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7334,7 +7334,7 @@ StartChar: ldot
 Encoding: 320 320 224
 Width: 577
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 114 183 N 1 0 0 1 379 0 2
@@ -7618,7 +7618,7 @@ EndChar
 
 StartChar: tcaron
 Encoding: 357 357 250
-Width: 475
+Width: 950
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7816,7 +7816,7 @@ EndChar
 
 StartChar: Ohorn
 Encoding: 416 416 268
-Width: 950
+Width: 1900
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7827,7 +7827,7 @@ EndChar
 
 StartChar: ohorn
 Encoding: 417 417 269
-Width: 688
+Width: 1376
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7838,7 +7838,7 @@ EndChar
 
 StartChar: Uhorn
 Encoding: 431 431 270
-Width: 915
+Width: 1830
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7849,7 +7849,7 @@ EndChar
 
 StartChar: uhorn
 Encoding: 432 432 271
-Width: 884
+Width: 1768
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -8401,7 +8401,7 @@ StartChar: dotaccent
 Encoding: 729 729 321
 Width: 300
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1 46 N 1 0 0 1 -27.8302 80 2
@@ -8411,7 +8411,7 @@ StartChar: ring
 Encoding: 730 730 322
 Width: 300
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 115 176 N 1 0 0 1 -198.213 -500 2
@@ -8421,7 +8421,7 @@ StartChar: tilde
 Encoding: 732 732 323
 Width: 300
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 104 126 N 1 0 0 1 -306.022 -263 2
@@ -8825,7 +8825,7 @@ EndChar
 
 StartChar: uni1E28
 Encoding: 7720 7720 360
-Width: 983
+Width: 1966
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -8836,7 +8836,7 @@ EndChar
 
 StartChar: uni1E29
 Encoding: 7721 7721 361
-Width: 784
+Width: 1568
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10343,7 +10343,7 @@ EndChar
 
 StartChar: uni1EDA
 Encoding: 7898 7898 498
-Width: 950
+Width: 1900
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10354,7 +10354,7 @@ EndChar
 
 StartChar: uni1EDB
 Encoding: 7899 7899 499
-Width: 688
+Width: 1376
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10365,7 +10365,7 @@ EndChar
 
 StartChar: uni1EDC
 Encoding: 7900 7900 500
-Width: 950
+Width: 1900
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10376,7 +10376,7 @@ EndChar
 
 StartChar: uni1EDD
 Encoding: 7901 7901 501
-Width: 688
+Width: 1376
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10387,7 +10387,7 @@ EndChar
 
 StartChar: uni1EE0
 Encoding: 7904 7904 502
-Width: 950
+Width: 1900
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10398,7 +10398,7 @@ EndChar
 
 StartChar: uni1EE1
 Encoding: 7905 7905 503
-Width: 688
+Width: 1376
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10409,7 +10409,7 @@ EndChar
 
 StartChar: uni1EE2
 Encoding: 7906 7906 504
-Width: 950
+Width: 1900
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10420,7 +10420,7 @@ EndChar
 
 StartChar: uni1EE3
 Encoding: 7907 7907 505
-Width: 688
+Width: 1376
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10453,7 +10453,7 @@ EndChar
 
 StartChar: uni1EE8
 Encoding: 7912 7912 508
-Width: 915
+Width: 1830
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10464,7 +10464,7 @@ EndChar
 
 StartChar: uni1EE9
 Encoding: 7913 7913 509
-Width: 884
+Width: 1768
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10475,7 +10475,7 @@ EndChar
 
 StartChar: uni1EEA
 Encoding: 7914 7914 510
-Width: 915
+Width: 1830
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10486,7 +10486,7 @@ EndChar
 
 StartChar: uni1EEB
 Encoding: 7915 7915 511
-Width: 884
+Width: 1768
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10497,7 +10497,7 @@ EndChar
 
 StartChar: uni1EEE
 Encoding: 7918 7918 512
-Width: 915
+Width: 1830
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10508,7 +10508,7 @@ EndChar
 
 StartChar: uni1EEF
 Encoding: 7919 7919 513
-Width: 884
+Width: 1768
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10519,7 +10519,7 @@ EndChar
 
 StartChar: uni1EF0
 Encoding: 7920 7920 514
-Width: 915
+Width: 1830
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10530,7 +10530,7 @@ EndChar
 
 StartChar: uni1EF1
 Encoding: 7921 7921 515
-Width: 884
+Width: 1768
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -10609,7 +10609,7 @@ StartChar: uni1FC0
 Encoding: 8128 8128 522
 Width: 300
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 323 732 N 1 0 0 1 129.286 560 2
@@ -10641,7 +10641,7 @@ StartChar: uni203E
 Encoding: 8254 8254 525
 Width: 300
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 84 175 S 1 0 0 1 -263.529 -500 2
@@ -10675,7 +10675,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 527
-Width: 958
+Width: 1916
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10685,7 +10685,7 @@ EndChar
 
 StartChar: Oslash
 Encoding: 216 216 528
-Width: 950
+Width: 1900
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10797,7 +10797,7 @@ StartChar: oslash
 Encoding: 248 248 530
 Width: 1000
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 52 111 N 1 0 0 1 0 0 2
@@ -10978,7 +10978,7 @@ EndChar
 
 StartChar: uniF8EA
 Encoding: 63722 63722 541
-Width: 814
+Width: 1628
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11690,7 +11690,7 @@ StartChar: uni01E2
 Encoding: 482 482 551
 Width: 1197
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 84 175 N 1 0 0 1 605.873 290 2
@@ -11712,7 +11712,7 @@ StartChar: AEacute
 Encoding: 508 508 553
 Width: 1197
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 124 180 N 1 0 0 1 890.2 120 2
@@ -11732,7 +11732,7 @@ EndChar
 
 StartChar: Oslashacute
 Encoding: 510 510 555
-Width: 950
+Width: 1900
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -11745,7 +11745,7 @@ StartChar: oslashacute
 Encoding: 511 511 556
 Width: 1000
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 124 180 N 1 0 0 1 351.347 -51 2
@@ -11800,7 +11800,7 @@ StartChar: uni1E4A
 Encoding: 7754 7754 561
 Width: 958
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 29 82 N 1 0 0 1 119.193 -820 2

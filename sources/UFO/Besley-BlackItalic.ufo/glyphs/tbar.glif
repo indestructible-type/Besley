@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="950"/>
+  <unicode hex="0167"/>
+  <outline>
+    <component base="hyphen" xScale="1.28408" xOffset="-178.267" yOffset="-160"/>
+    <component base="t"/>
+  </outline>
+</glyph>

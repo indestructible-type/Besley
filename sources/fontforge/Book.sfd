@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1607335206
+ModificationTime: 1607766462
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -154,8 +154,8 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
-FitToEm: 0
-WinInfo: 48 16 4
+FitToEm: 1
+WinInfo: 176 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6521,8 +6521,8 @@ SplineSet
  626 323 680 372 750 372 c 0
  811 372 858 332 858 260 c 0
  858 225 842 196 817 176 c 0
- 795 159 785 161 811 141 c 4
- 859 104 925 93 993 93 c 0
+ 795 159 795 152 811 141 c 4
+ 860.941291793 106.665361892 925 93 993 93 c 0
  1131 93 1200 162 1200 290 c 0
  1200 505 836 577 836 787 c 0
  836 1007 1130 1045 1130 1233 c 0

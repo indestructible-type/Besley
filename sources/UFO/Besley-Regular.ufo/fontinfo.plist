@@ -21,9 +21,9 @@
     <key>openTypeHeadCreated</key>
     <string>2016/04/15 23:15:50</string>
     <key>openTypeHheaAscender</key>
-    <integer>2000</integer>
+    <integer>2500</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-800</integer>
+    <integer>-850</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
@@ -50,17 +50,17 @@
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>2000</integer>
+    <integer>2500</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-800</integer>
+    <integer>-850</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2VendorID</key>
     <string>it* </string>
     <key>openTypeOS2WinAscent</key>
-    <integer>2000</integer>
+    <integer>2500</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>800</integer>
+    <integer>850</integer>
     <key>postscriptBlueValues</key>
     <array/>
     <key>postscriptFamilyBlues</key>

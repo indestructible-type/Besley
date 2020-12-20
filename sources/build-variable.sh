@@ -3,6 +3,7 @@ set -e
 #source ../env/bin/activate
 
 fontName="Besley"
+fontName_it="Besley-Italic"
 axes="wght"
 
 ##########################################
@@ -15,6 +16,7 @@ rm -rf $VF_DIR
 mkdir -p $VF_DIR
 
 fontmake -m designspace/$fontName.designspace -o variable --output-path $VF_DIR/$fontName[$axes].ttf
+fontmake -m designspace/$fontName_it.designspace -o variable --output-path $VF_DIR/$fontName_it[$axes].ttf
 
 ##########################################
 

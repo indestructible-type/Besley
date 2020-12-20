@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcroat" format="2">
+  <advance width="1568"/>
+  <unicode hex="0111"/>
+  <outline>
+    <component base="d" xOffset="0.344789"/>
+    <component base="hyphen" xScale="1.06667" xOffset="705.345" yOffset="400"/>
+  </outline>
+</glyph>

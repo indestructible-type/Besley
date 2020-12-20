@@ -3,6 +3,7 @@ set -e
 #source ../env/bin/activate
 
 fontName="Besley"
+fontName_it="Besley-Italic"
 
 ##########################################
 
@@ -22,6 +23,7 @@ else
 	GENERATING TTF SOURCES
 	."
 	fontmake -m designspace/$fontName.designspace -i -o ttf --output-dir $TT_DIR
+	fontmake -m designspace/$fontName_it.designspace -i -o ttf --output-dir $TT_DIR
 	ttfs=$(ls $TT_DIR/*.ttf)
 	for font in $ttfs
 	do

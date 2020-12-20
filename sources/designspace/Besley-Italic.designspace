@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designspace format="4.1">
+
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="900" default="400">
+      <map input="400" output="400"/>
+      <map input="500" output="470"/>
+      <map input="600" output="550"/>
+      <map input="700" output="650"/>
+      <map input="800" output="766"/>
+      <map input="900" output="900"/>
+    </axis>
+  </axes>
+
+  <sources>
+
+    <source filename="../UFO/Besley-Italic.ufo" name="Besley Italic" familyname="Besley" stylename="Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+
+    <source filename="../UFO/Besley-BlackItalic.ufo" name="Besley Black Italic" familyname="Besley" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </source>
+
+  </sources>
+
+  <instances>
+
+    <instance name="Besley Italic" familyname="Besley" stylename="Italic" filename="../instance_ufo/Besley-Italic.ufo" stylemapfamilyname="Besley" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Medium Italic" familyname="Besley" stylename="Medium Italic" filename="../instance_ufo/Besley-MediumItalic.ufo" stylemapfamilyname="Besley Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+      </location>
+    </instance>
+
+    <instance name="Besley SemiBold Italic" familyname="Besley" stylename="SemiBold Italic" filename="../instance_ufo/Besley-SemiBoldItalic.ufo" stylemapfamilyname="Besley SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Bold Italic" familyname="Besley" stylename="Bold Italic" filename="../instance_ufo/Besley-BoldItalic.ufo" stylemapfamilyname="Besley" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+      </location>
+    </instance>
+
+    <instance name="Besley ExtraBold Italic" familyname="Besley" stylename="ExtraBold Italic" filename="../instance_ufo/Besley-ExtraBoldItalic.ufo" stylemapfamilyname="Besley ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Black Italic" familyname="Besley" stylename="Black Italic" filename="../instance_ufo/Besley-BlackItalic.ufo" stylemapfamilyname="Besley Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </instance>
+
+  </instances>
+
+</designspace>

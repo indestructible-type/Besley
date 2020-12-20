@@ -361,6 +361,8 @@
       <string>quoteright</string>
       <string>quotedblleft</string>
       <string>quotedblright</string>
+      <string>quotesinglbase</string>
+      <string>quotedblbase</string>
       <string>guilsinglleft</string>
       <string>guilsinglright</string>
       <string>guillemotleft</string>
@@ -372,6 +374,7 @@
       <string>comma</string>
       <string>colon</string>
       <string>semicolon</string>
+      <string>ellipsis</string>
       <string>exclam</string>
       <string>exclamdown</string>
       <string>question</string>
@@ -422,6 +425,7 @@
       <string>acute</string>
       <string>grave</string>
       <string>hungarumlaut</string>
+      <string>circumflex</string>
       <string>breve</string>
       <string>tilde</string>
       <string>macron</string>
