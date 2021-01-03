@@ -2,7 +2,7 @@
 ========
 ![Besley* Picture](https://indestructibletype.com/assets/Besley.svg)
 Besley* is an original font created by indestructible type*. It is inspired by 
-the designs of Robert Besley. This is version 1.1.
+the designs of Robert Besley. This is version 2.0.
 
 Besley* is designed and maintained by [Owen Earl](https://plus.google.com/103790404905174393616), who is the creator of the font foundry [indestructible type*](http://indestructible-type.github.io).
 
