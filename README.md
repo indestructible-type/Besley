@@ -23,20 +23,19 @@ Changelog
 <b>v1.0</b>
 Original Release.<br>
 <b>v1.1</b>
-Added the Fatface weight. Corrected kerning.
+Added the Fatface weight. Corrected kerning.<br>
+<b>v2.0</b>
+Redrew letterforms to enable variable font versions. Improved language support. Added options for old-style and tabular numbers. Improved kerning and various other improvements.
 
 Building
 --------
-Besley* was created using the free and open source font building application [FontForge](https://fontforge.github.io/).
-To build it yourself you are going to need to download a copy of FontForge,
-which you can get from their [website](https://fontforge.github.io/), or can be build using the [github branch](https://github.com/fontforge/fontforge/blob/master/INSTALL-git.md).
-Start by opening the files located in the "FontForge Files" directory in FontForge.
-Make sure to use the ROUND versions. Generate using Ctrl-Shift-G to generate
-your font!
+I use fontmake to build the finished font files. If for some reason you want to build this font yourself, follow these steps:
 
-You can then add True-Type hinting following the instruction over at [ttfautohint](https://www.freetype.org/ttfautohint/).
+Download the complete source code, either by cloning this repository or downloading the .zip file.
 
-If you want to skip all that jazz and download the compleated font, visit the [website](http://indestructible-type.github.io/Renner.html).
+Download and install fontmake which can be found [here](https://github.com/googlei18n/fontmake).
+
+Build your preferred version of the font by running the corresponding build file found in the "scripts" folder. For example running  `build-variable.sh` will build the variable version of the font. To toggle between the standard naming conventions and the indestructible type* naming conventions run the `toggle.sh` script found in the "misc" folder.
 
 Contact
 -------
