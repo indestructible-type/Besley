@@ -3,29 +3,25 @@ languagesystem grek dflt;
 languagesystem latn dflt;
 
 
-# GSUB
+# GSUB 
 
 
-lookup caltContextualAlternateslookup1 {
-  lookupflag 0;
-    @cc0_match_1 = [\R ];
-    @cc0_match_2 = [\R.alt ];
-    @cc0_match_3 = [\A \B \D \E \F \H \I \K \L \M \N \P \X \b \f \h \i \k \l \m \n \r \x ];
-    @cc0_back_1 = [\R ];
-    @cc0_back_2 = [\R.alt ];
-    @cc0_back_3 = [\A \B \D \E \F \H \I \K \L \M \N \P \X \b \f \h \i \k \l \m \n \r \x ];
-    @cc0_ahead_1 = [\R ];
-    @cc0_ahead_2 = [\R.alt ];
-    @cc0_ahead_3 = [\A \B \D \E \F \H \I \K \L \M \N \P \X \b \f \h \i \k \l \m \n \r \x ];
-    sub @cc0_match_1' @cc0_match_3'  by [\R.alt ] ;
-    sub @cc0_match_1' @cc0_match_1'  by [\R.alt ] ;
-    sub @cc0_match_1' @cc0_match_2'  by [\R.alt ] ;
-} caltContextualAlternateslookup1;
-
-lookup ss01StyleSet1lookup2 {
+lookup ss01StyleSet1lookup3 {
   lookupflag 0;
     sub \R by \R.alt ;
-} ss01StyleSet1lookup2;
+} ss01StyleSet1lookup3;
+
+lookup caltContextualAlternateslookup4 {
+  lookupflag 0;
+    @cc1_match_1 = [\R ];
+    @cc1_match_2 = [\A \B \D \E \F \H \I \K \L \M \N \P \Q \AE \Egrave \Eacute \Ecircumflex \Edieresis \Dcaron 
+	\Dcroat \Emacron \Eogonek \Ecaron \Hcircumflex \Hbar ];
+    @cc1_ahead_1 = [\A \B \D \E \F \H \I \K \L \M \N \P \R \Agrave \Aacute \Acircumflex \Atilde \Adieresis 
+	\Aring \AE \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute 
+	\Icircumflex \Idieresis \Eth \Ntilde \Amacron \Abreve \Aogonek \Dcaron 
+	\Dcroat \Ebreve \Edotaccent \Eogonek \Ecaron \Hcircumflex \Hbar ];
+    sub @cc1_match_1'lookup ss01StyleSet1lookup3  @cc1_ahead_1 ;
+} caltContextualAlternateslookup4;
 
 lookup ligaStandardLigatureslookup0 {
   lookupflag 0;
@@ -70,35 +66,35 @@ lookup TabularNumberslookup {
     sub \nine.oldstyle by \nine.oldtab ;
 } TabularNumberslookup;
 
-feature calt {
-
- script DFLT;
-     language dflt ;
-      lookup caltContextualAlternateslookup1;
-
- script grek;
-     language dflt ;
-      lookup caltContextualAlternateslookup1;
-
- script latn;
-     language dflt ;
-      lookup caltContextualAlternateslookup1;
-} calt;
-
 feature ss01 {
 
  script DFLT;
      language dflt ;
-      lookup ss01StyleSet1lookup2;
+      lookup ss01StyleSet1lookup3;
 
  script grek;
      language dflt ;
-      lookup ss01StyleSet1lookup2;
+      lookup ss01StyleSet1lookup3;
 
  script latn;
      language dflt ;
-      lookup ss01StyleSet1lookup2;
+      lookup ss01StyleSet1lookup3;
 } ss01;
+
+feature calt {
+
+ script DFLT;
+     language dflt ;
+      lookup caltContextualAlternateslookup4;
+
+ script grek;
+     language dflt ;
+      lookup caltContextualAlternateslookup4;
+
+ script latn;
+     language dflt ;
+      lookup caltContextualAlternateslookup4;
+} calt;
 
 feature liga {
 
@@ -145,22 +141,22 @@ feature tnum {
       lookup TabularNumberslookup;
 } tnum;
 
-# GPOS
+# GPOS 
 
 
 lookup kernHorizontalKerninglookup0 {
   lookupflag 0;
     @kc5_first_1 = [\A \backslash \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \uni013B ];
     @kc5_first_2 = [\B ];
-    @kc5_first_3 = [\C \E \Egrave \Eacute \Ecircumflex \Edieresis \Cacute \Ccircumflex \Cdotaccent
+    @kc5_first_3 = [\C \E \Egrave \Eacute \Ecircumflex \Edieresis \Cacute \Ccircumflex \Cdotaccent 
 	\Ccaron \Emacron \Ebreve \Edotaccent \Eogonek \Ecaron ];
-    @kc5_first_4 = [\D \O \Q \Eth \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Dcaron
+    @kc5_first_4 = [\D \O \Q \Eth \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Dcaron 
 	\Dcroat \Omacron \Obreve ];
     @kc5_first_5 = [\Y \Yacute \Ycircumflex \Ydieresis ];
     @kc5_first_6 = [\G ];
-    @kc5_first_7 = [\H \I \M \N \Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Hcircumflex \Itilde
+    @kc5_first_7 = [\H \I \M \N \Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Hcircumflex \Itilde 
 	\Imacron \Ibreve \Iogonek \Idotaccent ];
-    @kc5_first_8 = [\J \U \Ugrave \Uacute \Ucircumflex \Udieresis \IJ \Jcircumflex \Utilde \Umacron
+    @kc5_first_8 = [\J \U \Ugrave \Uacute \Ucircumflex \Udieresis \IJ \Jcircumflex \Utilde \Umacron 
 	\Ubreve \Uring \Uogonek ];
     @kc5_first_9 = [\K \X \uni0136 ];
     @kc5_first_10 = [\R \R.alt ];
@@ -168,7 +164,7 @@ lookup kernHorizontalKerninglookup0 {
     @kc5_first_12 = [\slash \V \W \Wcircumflex ];
     @kc5_first_13 = [\Z \Zacute \Zdotaccent \Zcaron ];
     @kc5_first_14 = [\T \uni0162 \Tcaron ];
-    @kc5_first_15 = [\a \h \m \n \agrave \aacute \acircumflex \atilde \adieresis \aring \amacron \abreve
+    @kc5_first_15 = [\a \h \m \n \agrave \aacute \acircumflex \atilde \adieresis \aring \amacron \abreve 
 	\aogonek \hcircumflex \nacute \uni0146 \ncaron \napostrophe ];
     @kc5_first_16 = [\b \c \e \o \p \thorn \eogonek ];
     @kc5_first_17 = [\d \l \lacute \uni013C \lslash \uniFB02 \uniFB04 ];
@@ -185,15 +181,15 @@ lookup kernHorizontalKerninglookup0 {
     @kc5_first_28 = [\L \Lacute \Lslash ];
     @kc5_first_29 = [\P ];
     @kc5_first_30 = [\F ];
-    @kc5_second_1 = [\slash \A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Amacron
+    @kc5_second_1 = [\slash \A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Amacron 
 	\Abreve \Aogonek ];
-    @kc5_second_2 = [\B \D \E \F \H \I \K \L \M \N \P \R \Egrave \Eacute \Ecircumflex \Edieresis \Igrave
-	\Iacute \Icircumflex \Idieresis \Eth \Ntilde \Thorn \Hcircumflex
-	\Itilde \Imacron \Ibreve \Iogonek \Idotaccent \IJ \uni0136 \Lacute
-	\uni013B \Lcaron \Ldot \Lslash \Nacute \Ncaron \Racute \uni0156 \Rcaron
+    @kc5_second_2 = [\B \D \E \F \H \I \K \L \M \N \P \R \Egrave \Eacute \Ecircumflex \Edieresis \Igrave 
+	\Iacute \Icircumflex \Idieresis \Eth \Ntilde \Thorn \Hcircumflex 
+	\Itilde \Imacron \Ibreve \Iogonek \Idotaccent \IJ \uni0136 \Lacute 
+	\uni013B \Lcaron \Ldot \Lslash \Nacute \Ncaron \Racute \uni0156 \Rcaron 
 	\R.alt ];
-    @kc5_second_3 = [\C \G \O \Q \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Cacute
-	\Ccircumflex \Cdotaccent \Ccaron \Gcircumflex \Gbreve \Gdotaccent
+    @kc5_second_3 = [\C \G \O \Q \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Cacute 
+	\Ccircumflex \Cdotaccent \Ccaron \Gcircumflex \Gbreve \Gdotaccent 
 	\uni0122 \Omacron \Obreve \OE ];
     @kc5_second_4 = [\J ];
     @kc5_second_5 = [\S ];
@@ -205,13 +201,13 @@ lookup kernHorizontalKerninglookup0 {
     @kc5_second_11 = [\T \uni0162 \Tcaron ];
     @kc5_second_12 = [\a \ae \aogonek ];
     @kc5_second_13 = [\b \h \k \l \hcircumflex \lacute \uni013C \lcaron \ldot \lslash ];
-    @kc5_second_14 = [\c \d \e \o \q \ccedilla \egrave \eacute \ecircumflex \edieresis \ograve \oacute
-	\ocircumflex \otilde \odieresis \oslash \cacute \ccircumflex
-	\cdotaccent \ccaron \dcaron \dcroat \emacron \ebreve \edotaccent
+    @kc5_second_14 = [\c \d \e \o \q \ccedilla \egrave \eacute \ecircumflex \edieresis \ograve \oacute 
+	\ocircumflex \otilde \odieresis \oslash \cacute \ccircumflex 
+	\cdotaccent \ccaron \dcaron \dcroat \emacron \ebreve \edotaccent 
 	\eogonek \ecaron ];
     @kc5_second_15 = [\f \uniFB00 \uniFB01 \uniFB02 \uniFB03 \uniFB04 ];
     @kc5_second_16 = [\g \gcircumflex \gbreve \gdotaccent ];
-    @kc5_second_17 = [\i \j \igrave \iacute \icircumflex \idieresis \itilde \imacron \ibreve \iogonek
+    @kc5_second_17 = [\i \j \igrave \iacute \icircumflex \idieresis \itilde \imacron \ibreve \iogonek 
 	\dotlessi \ij \jcircumflex ];
     @kc5_second_18 = [\m \n \r \nacute \uni0146 \ncaron \racute \uni0157 \rcaron ];
     @kc5_second_19 = [\t \uni0163 \tcaron ];
@@ -659,62 +655,63 @@ feature kern {
 } kern;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\ampersand \period \zero \one \two \three \four \five \six \seven
-	\eight \nine \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \b \c \d
-	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \space \comma \quotedbl \exclam
-	\semicolon \colon \quotesingle \quoteleft \quotedblleft \quotedblright
-	\quoteright \question \parenleft \parenright \asterisk \at \dollar \numbersign
-	\slash \percent \hyphen \underscore \plus \equal \less \greater \backslash
-	\bracketleft \braceleft \bracketright \braceright \bar \asciitilde
-	\asciicircum \grave \uni203E \uni2010 \uni2011 \endash \figuredash \emdash
-	\uni2015 \perthousand \uni2031 \R.alt \zero.oldstyle \one.oldstyle
-	\two.oldstyle \three.oldstyle \four.oldstyle \five.oldstyle \seven.oldstyle
-	\nine.oldstyle \zero.oldtab \one.oldtab \two.oldtab \three.oldtab
-	\four.oldtab \five.oldtab \seven.oldtab \nine.oldtab \uniFF10 \uniFF11
-	\uniFF12 \uniFF13 \uniFF14 \uniFF15 \uniFF16 \uniFF17 \uniFF18 \uniFF19 \uni2000
-	\uni2001 \uni2002 \uni2003 \uni2004 \uni2005 \uni2006 \uni2007 \uni2008 \uni2009
-	\uni200A \uni200B \dagger \daggerdbl \bullet \fraction \eogonek \Ecaron \Aogonek
-	\aogonek \uni0000 \uni000D \uni00A0 \exclamdown \cent \sterling \currency \yen
-	\brokenbar \section \copyright \ordfeminine \guillemotleft \logicalnot
-	\uni00AD \registered \macron \degree \plusminus \uni00B2 \uni00B3 \acute \mu
-	\paragraph \periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright
-	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Ccedilla
-	\Acircumflex \Atilde \Adieresis \Aring \Egrave \Eacute \Ecircumflex \Edieresis
-	\Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute \Ocircumflex
-	\Otilde \Odieresis \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \agrave
-	\aacute \acircumflex \atilde \adieresis \aring \ccedilla \egrave \eacute
-	\ecircumflex \multiply \Thorn \dotlessi \germandbls \AE \ae \Eth \Oslash \eth
-	\ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide \thorn \yacute
-	\edieresis \igrave \iacute \icircumflex \idieresis \oslash \ugrave \uacute
-	\ucircumflex \udieresis \ydieresis \Amacron \amacron \Abreve \abreve \Cacute
-	\cacute \Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron
-	\Dcaron \dcaron \Emacron \emacron \Ebreve \ebreve \Edotaccent \edotaccent
-	\Eogonek \dcroat \Dcroat \hcircumflex \Hbar \hbar \Gdotaccent \gdotaccent
-	\uni0122 \uni0123 \Hcircumflex \ecaron \Gcircumflex \gcircumflex \Gbreve
-	\gbreve \Itilde \itilde \Imacron \imacron \Ibreve \ibreve \Iogonek \iogonek
-	\Idotaccent \ij \IJ \uni0237 \Jcircumflex \jcircumflex \uni0136 \uni0137
-	\kgreenlandic \Lacute \lacute \uni013B \uni013C \Lcaron \lcaron \Ldot \ldot
-	\Lslash \lslash \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron \napostrophe
-	\eng \Eng \Omacron \omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe
-	\Racute \racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute \Scircumflex
-	\scircumflex \Scedilla \scedilla \Scaron \scaron \uni0162 \uni0163 \Tcaron
-	\tcaron \Utilde \utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring
-	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex
-	\Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent
-	\Zcaron \zcaron \Tbar \tbar \longs \uni0218 \uni0219 \uni021A \uni021B \uni0212
-	\uni0213 \uni0394 \uni03BC \pi \uni03A9 \Wgrave \wgrave \Wacute \wacute
-	\Wdieresis \wdieresis \uni1E86 \uni1E87 \uni1E88 \uni1E89 \uni1E9E \Ygrave
-	\ygrave \guilsinglleft \guilsinglright \uni2074 \Euro \partialdiff \emptyset
-	\summation \minus \uni2215 \uni2219 \product \radical \infinity \integral
-	\approxequal \notequal \lessequal \greaterequal \lozenge \uniF8E8 \uniF8E9
+@GDEF_Simple = [\ampersand \period \zero \one \two \three \four \five \six \seven 
+	\eight \nine \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \b \c \d 
+	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \space \comma \quotedbl \exclam 
+	\semicolon \colon \quotesingle \quoteleft \quotedblleft \quotedblright 
+	\quoteright \question \parenleft \parenright \asterisk \at \dollar \numbersign 
+	\slash \percent \hyphen \underscore \plus \equal \less \greater \backslash 
+	\bracketleft \braceleft \bracketright \braceright \bar \asciitilde 
+	\asciicircum \grave \uni203E \uni2010 \uni2011 \endash \figuredash \emdash 
+	\uni2015 \perthousand \uni2031 \R.alt \zero.oldstyle \one.oldstyle 
+	\two.oldstyle \three.oldstyle \four.oldstyle \five.oldstyle \seven.oldstyle 
+	\nine.oldstyle \zero.oldtab \one.oldtab \two.oldtab \three.oldtab 
+	\four.oldtab \five.oldtab \seven.oldtab \nine.oldtab \uniFF10 \uniFF11 
+	\uniFF12 \uniFF13 \uniFF14 \uniFF15 \uniFF16 \uniFF17 \uniFF18 \uniFF19 \uni2000 
+	\uni2001 \uni2002 \uni2003 \uni2004 \uni2005 \uni2006 \uni2007 \uni2008 \uni2009 
+	\uni200A \uni200B \dagger \daggerdbl \bullet \fraction \eogonek \Ecaron \Aogonek 
+	\aogonek \uni0000 \uni000D \uni00A0 \exclamdown \cent \sterling \currency \yen 
+	\brokenbar \section \copyright \ordfeminine \guillemotleft \logicalnot 
+	\uni00AD \registered \macron \degree \plusminus \uni00B2 \uni00B3 \acute \mu 
+	\paragraph \periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright 
+	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Ccedilla 
+	\Acircumflex \Atilde \Adieresis \Aring \Egrave \Eacute \Ecircumflex \Edieresis 
+	\Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute \Ocircumflex 
+	\Otilde \Odieresis \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \agrave 
+	\aacute \acircumflex \atilde \adieresis \aring \ccedilla \egrave \eacute 
+	\ecircumflex \multiply \Thorn \dotlessi \germandbls \AE \ae \Eth \Oslash \eth 
+	\ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide \thorn \yacute 
+	\edieresis \igrave \iacute \icircumflex \idieresis \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \ydieresis \Amacron \amacron \Abreve \abreve \Cacute 
+	\cacute \Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron 
+	\Dcaron \dcaron \Emacron \emacron \Ebreve \ebreve \Edotaccent \edotaccent 
+	\Eogonek \dcroat \Dcroat \hcircumflex \Hbar \hbar \Gdotaccent \gdotaccent 
+	\uni0122 \uni0123 \Hcircumflex \ecaron \Gcircumflex \gcircumflex \Gbreve 
+	\gbreve \Itilde \itilde \Imacron \imacron \Ibreve \ibreve \Iogonek \iogonek 
+	\Idotaccent \ij \IJ \uni0237 \Jcircumflex \jcircumflex \uni0136 \uni0137 
+	\kgreenlandic \Lacute \lacute \uni013B \uni013C \Lcaron \lcaron \Ldot \ldot 
+	\Lslash \lslash \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron \napostrophe 
+	\eng \Eng \Omacron \omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe 
+	\Racute \racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute \Scircumflex 
+	\scircumflex \Scedilla \scedilla \Scaron \scaron \uni0162 \uni0163 \Tcaron 
+	\tcaron \Utilde \utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring 
+	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex 
+	\Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent 
+	\Zcaron \zcaron \Tbar \tbar \longs \uni0218 \uni0219 \uni021A \uni021B \uni0212 
+	\uni0213 \uni0394 \uni03BC \pi \uni03A9 \Wgrave \wgrave \Wacute \wacute 
+	\Wdieresis \wdieresis \uni1E86 \uni1E87 \uni1E88 \uni1E89 \uni1E9E \Ygrave 
+	\ygrave \guilsinglleft \guilsinglright \uni2074 \Euro \partialdiff \emptyset 
+	\summation \minus \uni2215 \uni2219 \product \radical \infinity \integral 
+	\approxequal \notequal \lessequal \greaterequal \lozenge \uniF8E8 \uniF8E9 
 	\uniF8EA ];
 @GDEF_Ligature = [\uniFB00 \uniFB01 \uniFB02 \uniFB03 \uniFB04 ];
-@GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307
-	\uni0308 \uni030A \uni030B \uni030C \uni0311 \uni0312 \dotbelowcomb \uni0326
-	\uni0327 \uni0328 \breve \dotaccent \ring \ogonek \tilde \hungarumlaut
+@GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 
+	\uni0308 \uni030A \uni030B \uni030C \uni0311 \uni0312 \dotbelowcomb \uni0326 
+	\uni0327 \uni0328 \breve \dotaccent \ring \ogonek \tilde \hungarumlaut 
 	\uni030C.alt \dieresis ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
+

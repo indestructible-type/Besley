@@ -6,33 +6,6 @@ languagesystem latn dflt;
 # GSUB 
 
 
-lookup caltContextualAlternateslookup1 {
-  lookupflag 0;
-    @cc0_match_1 = [\R ];
-    @cc0_match_2 = [\R.alt ];
-    @cc0_match_3 = [\A \B \D \E \F \H \I \K \L \M \N \P \X \b \h \i \k \l \m \n \x ];
-    @cc0_match_4 = [\f ];
-    @cc0_match_5 = [\t ];
-    @cc0_back_1 = [\R ];
-    @cc0_back_2 = [\R.alt ];
-    @cc0_back_3 = [\A \B \D \E \F \H \I \K \L \M \N \P \X \b \h \i \k \l \m \n \x ];
-    @cc0_back_4 = [\f ];
-    @cc0_back_5 = [\t ];
-    @cc0_ahead_1 = [\R ];
-    @cc0_ahead_2 = [\R.alt ];
-    @cc0_ahead_3 = [\A \B \D \E \F \H \I \K \L \M \N \P \X \b \h \i \k \l \m \n \x ];
-    @cc0_ahead_4 = [\f ];
-    @cc0_ahead_5 = [\t ];
-    sub @cc0_match_1' @cc0_match_3'  by [\R.alt ] ;
-    sub @cc0_match_4' @cc0_match_5'  by [\t.alt ] ;
-} caltContextualAlternateslookup1;
-
-lookup ss01StyleSet1lookup2 {
-  lookupflag 0;
-    sub \R by \R.alt ;
-    sub \t by \t.alt ;
-} ss01StyleSet1lookup2;
-
 lookup ligaStandardLigatureslookup0 {
   lookupflag 0;
     sub \f \f  by \uniFB00;
@@ -76,35 +49,28 @@ lookup TabularNumberslookup {
     sub \nine.oldstyle by \nine.oldtab ;
 } TabularNumberslookup;
 
-feature calt {
+lookup ss01StyleSet1lookup3 {
+  lookupflag 0;
+    sub \R by \R.alt ;
+    sub \t by \t.alt ;
+} ss01StyleSet1lookup3;
 
- script DFLT;
-     language dflt ;
-      lookup caltContextualAlternateslookup1;
-
- script grek;
-     language dflt ;
-      lookup caltContextualAlternateslookup1;
-
- script latn;
-     language dflt ;
-      lookup caltContextualAlternateslookup1;
-} calt;
-
-feature ss01 {
-
- script DFLT;
-     language dflt ;
-      lookup ss01StyleSet1lookup2;
-
- script grek;
-     language dflt ;
-      lookup ss01StyleSet1lookup2;
-
- script latn;
-     language dflt ;
-      lookup ss01StyleSet1lookup2;
-} ss01;
+lookup caltContextualAlternateslookup4 {
+  lookupflag 0;
+    @cc4_match_1 = [\R ];
+    @cc4_match_2 = [\A \B \D \E \F \H \I \K \L \M \N \P \Q \AE \Egrave \Eacute \Ecircumflex \Edieresis \Dcaron 
+	\Dcroat \Emacron \Eogonek \Ecaron \Hcircumflex \Hbar ];
+    @cc4_ahead_1 = [\A \B \D \E \F \H \I \K \L \M \N \P \R \Agrave \Aacute \Acircumflex \Atilde \Adieresis 
+	\Aring \AE \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute 
+	\Icircumflex \Idieresis \Eth \Ntilde \Amacron \Abreve \Aogonek \Dcaron 
+	\Dcroat \Ebreve \Edotaccent \Eogonek \Ecaron \Hcircumflex \Hbar ];
+    sub @cc4_match_1'lookup ss01StyleSet1lookup3  @cc4_ahead_1 ;
+    @cc5_match_1 = [\t ];
+    @cc5_match_2 = [\uniFB00 \f ];
+    @cc5_back_1 = [\t ];
+    @cc5_back_2 = [\uniFB00 \f ];
+    sub @cc5_back_2 @cc5_match_1'lookup ss01StyleSet1lookup3  ;
+} caltContextualAlternateslookup4;
 
 feature liga {
 
@@ -151,171 +117,201 @@ feature tnum {
       lookup TabularNumberslookup;
 } tnum;
 
+feature ss01 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1lookup3;
+
+ script grek;
+     language dflt ;
+      lookup ss01StyleSet1lookup3;
+
+ script latn;
+     language dflt ;
+      lookup ss01StyleSet1lookup3;
+} ss01;
+
+feature calt {
+
+ script DFLT;
+     language dflt ;
+      lookup caltContextualAlternateslookup4;
+
+ script grek;
+     language dflt ;
+      lookup caltContextualAlternateslookup4;
+
+ script latn;
+     language dflt ;
+      lookup caltContextualAlternateslookup4;
+} calt;
+
 # GPOS 
 
 
 lookup Kernliketheresnotomorrow {
   lookupflag 0;
-    @kc5_first_1 = [\backslash \A \L ];
-    @kc5_first_2 = [\B \S ];
-    @kc5_first_3 = [\D \O \Q ];
-    @kc5_first_4 = [\E ];
-    @kc5_first_5 = [\F \P ];
-    @kc5_first_6 = [\G \g \r ];
-    @kc5_first_7 = [\H \I \M \N ];
-    @kc5_first_8 = [\J \U ];
-    @kc5_first_9 = [\K \X \Z ];
-    @kc5_first_10 = [\T \Y ];
-    @kc5_first_11 = [\a \h \m \n \u ];
-    @kc5_first_12 = [\b \c \e \o \p \v \w \y ];
-    @kc5_first_13 = [\d \i \l ];
-    @kc5_first_14 = [\f ];
-    @kc5_first_15 = [\k \x \z \t ];
-    @kc5_first_16 = [\slash \W \V ];
-    @kc5_second_1 = [\A \J ];
-    @kc5_second_2 = [\B \D \E \F \H \I \K \L \M \N \P \R ];
-    @kc5_second_3 = [\C \G \O \Q ];
-    @kc5_second_4 = [\T \Y ];
-    @kc5_second_5 = [\U ];
-    @kc5_second_6 = [\V \W ];
-    @kc5_second_7 = [\X \Z ];
-    @kc5_second_8 = [\a \c \d \e \o \q \s ];
-    @kc5_second_9 = [\b \l \t ];
-    @kc5_second_10 = [\f \m \n \p \r \u \y \w \i \j ];
-    @kc5_second_11 = [\h \k ];
-    @kc5_second_12 = [\v ];
-    @kc5_second_13 = [\x \z ];
-    @kc5_second_14 = [\period \comma ];
-    pos @kc5_first_1 @kc5_second_1 40;
-    pos @kc5_first_1 @kc5_second_2 20;
-    pos @kc5_first_1 @kc5_second_3 -140;
-    pos @kc5_first_1 @kc5_second_4 -240;
-    pos @kc5_first_1 @kc5_second_5 -140;
-    pos @kc5_first_1 @kc5_second_6 -400;
-    pos @kc5_first_1 @kc5_second_7 60;
-    pos @kc5_first_1 @kc5_second_8 -100;
-    pos @kc5_first_1 @kc5_second_9 -100;
-    pos @kc5_first_1 @kc5_second_10 -60;
-    pos @kc5_first_1 @kc5_second_12 -100;
-    pos @kc5_first_1 @kc5_second_13 60;
-    pos @kc5_first_2 @kc5_second_5 -60;
-    pos @kc5_first_2 @kc5_second_6 -40;
-    pos @kc5_first_2 @kc5_second_13 80;
-    pos @kc5_first_3 @kc5_second_1 -140;
-    pos @kc5_first_3 @kc5_second_2 -80;
-    pos @kc5_first_3 @kc5_second_4 -40;
-    pos @kc5_first_3 @kc5_second_5 -60;
-    pos @kc5_first_3 @kc5_second_6 -100;
-    pos @kc5_first_3 @kc5_second_7 -60;
-    pos @kc5_first_4 @kc5_second_1 60;
-    pos @kc5_first_4 @kc5_second_6 60;
-    pos @kc5_first_4 @kc5_second_7 60;
-    pos @kc5_first_4 @kc5_second_13 80;
-    pos @kc5_first_5 @kc5_second_1 -240;
-    pos @kc5_first_5 @kc5_second_6 60;
-    pos @kc5_first_5 @kc5_second_7 -40;
-    pos @kc5_first_5 @kc5_second_8 -100;
-    pos @kc5_first_5 @kc5_second_9 60;
-    pos @kc5_first_5 @kc5_second_11 60;
-    pos @kc5_first_5 @kc5_second_13 -58;
-    pos @kc5_first_5 @kc5_second_14 -200;
-    pos @kc5_first_6 @kc5_second_1 -140;
-    pos @kc5_first_6 @kc5_second_2 -60;
-    pos @kc5_first_6 @kc5_second_3 60;
-    pos @kc5_first_6 @kc5_second_4 -60;
-    pos @kc5_first_6 @kc5_second_6 -100;
-    pos @kc5_first_6 @kc5_second_7 -100;
-    pos @kc5_first_6 @kc5_second_8 -40;
-    pos @kc5_first_6 @kc5_second_10 20;
-    pos @kc5_first_6 @kc5_second_11 -40;
-    pos @kc5_first_6 @kc5_second_13 -40;
-    pos @kc5_first_6 @kc5_second_14 -40;
-    pos @kc5_first_7 @kc5_second_1 -100;
-    pos @kc5_first_7 @kc5_second_2 60;
-    pos @kc5_first_7 @kc5_second_3 -60;
-    pos @kc5_first_7 @kc5_second_6 60;
-    pos @kc5_first_7 @kc5_second_8 -100;
-    pos @kc5_first_7 @kc5_second_10 -100;
-    pos @kc5_first_7 @kc5_second_12 -60;
-    pos @kc5_first_7 @kc5_second_13 40;
-    pos @kc5_first_8 @kc5_second_1 -200;
-    pos @kc5_first_8 @kc5_second_3 -60;
-    pos @kc5_first_8 @kc5_second_4 60;
-    pos @kc5_first_8 @kc5_second_5 60;
-    pos @kc5_first_8 @kc5_second_6 140;
-    pos @kc5_first_8 @kc5_second_8 -100;
-    pos @kc5_first_8 @kc5_second_9 60;
-    pos @kc5_first_8 @kc5_second_10 -60;
-    pos @kc5_first_8 @kc5_second_11 60;
-    pos @kc5_first_8 @kc5_second_12 -100;
-    pos @kc5_first_8 @kc5_second_13 -40;
-    pos @kc5_first_8 @kc5_second_14 -100;
-    pos @kc5_first_9 @kc5_second_1 100;
-    pos @kc5_first_9 @kc5_second_2 60;
-    pos @kc5_first_9 @kc5_second_3 -100;
-    pos @kc5_first_9 @kc5_second_4 100;
-    pos @kc5_first_9 @kc5_second_7 60;
-    pos @kc5_first_9 @kc5_second_10 -60;
-    pos @kc5_first_9 @kc5_second_12 -60;
-    pos @kc5_first_9 @kc5_second_13 100;
-    pos @kc5_first_10 @kc5_second_1 -200;
-    pos @kc5_first_10 @kc5_second_2 60;
-    pos @kc5_first_10 @kc5_second_4 100;
-    pos @kc5_first_10 @kc5_second_5 40;
-    pos @kc5_first_10 @kc5_second_6 100;
-    pos @kc5_first_10 @kc5_second_7 100;
-    pos @kc5_first_10 @kc5_second_8 -60;
-    pos @kc5_first_10 @kc5_second_9 40;
-    pos @kc5_first_10 @kc5_second_10 40;
-    pos @kc5_first_10 @kc5_second_11 40;
-    pos @kc5_first_10 @kc5_second_14 -200;
-    pos @kc5_first_11 @kc5_second_1 100;
-    pos @kc5_first_11 @kc5_second_2 60;
-    pos @kc5_first_11 @kc5_second_4 -60;
-    pos @kc5_first_11 @kc5_second_5 -60;
-    pos @kc5_first_11 @kc5_second_6 -160;
-    pos @kc5_first_11 @kc5_second_7 100;
-    pos @kc5_first_11 @kc5_second_10 -80;
-    pos @kc5_first_11 @kc5_second_12 -40;
-    pos @kc5_first_11 @kc5_second_13 40;
-    pos @kc5_first_12 @kc5_second_4 -60;
-    pos @kc5_first_12 @kc5_second_5 -60;
-    pos @kc5_first_12 @kc5_second_6 -200;
-    pos @kc5_first_12 @kc5_second_8 -40;
-    pos @kc5_first_12 @kc5_second_10 -40;
-    pos @kc5_first_12 @kc5_second_11 -20;
-    pos @kc5_first_13 @kc5_second_3 -60;
-    pos @kc5_first_13 @kc5_second_4 -60;
-    pos @kc5_first_13 @kc5_second_5 -60;
-    pos @kc5_first_13 @kc5_second_6 -60;
-    pos @kc5_first_13 @kc5_second_10 -40;
-    pos @kc5_first_13 @kc5_second_11 -20;
-    pos @kc5_first_13 @kc5_second_12 -60;
-    pos @kc5_first_13 @kc5_second_13 60;
-    pos @kc5_first_14 @kc5_second_1 -140;
-    pos @kc5_first_14 @kc5_second_2 240;
-    pos @kc5_first_14 @kc5_second_3 200;
-    pos @kc5_first_14 @kc5_second_4 300;
-    pos @kc5_first_14 @kc5_second_5 240;
-    pos @kc5_first_14 @kc5_second_6 340;
-    pos @kc5_first_14 @kc5_second_7 200;
-    pos @kc5_first_14 @kc5_second_8 -40;
-    pos @kc5_first_14 @kc5_second_13 -60;
-    pos @kc5_first_14 @kc5_second_14 -100;
-    pos @kc5_first_15 @kc5_second_4 -40;
-    pos @kc5_first_15 @kc5_second_5 -100;
-    pos @kc5_first_15 @kc5_second_6 -200;
-    pos @kc5_first_15 @kc5_second_7 40;
-    pos @kc5_first_15 @kc5_second_8 -20;
-    pos @kc5_first_15 @kc5_second_13 60;
-    pos @kc5_first_16 @kc5_second_1 -400;
-    pos @kc5_first_16 @kc5_second_3 -100;
-    pos @kc5_first_16 @kc5_second_4 100;
-    pos @kc5_first_16 @kc5_second_6 120;
-    pos @kc5_first_16 @kc5_second_7 120;
-    pos @kc5_first_16 @kc5_second_8 -100;
-    pos @kc5_first_16 @kc5_second_10 -100;
-    pos @kc5_first_16 @kc5_second_11 80;
+    @kc6_first_1 = [\backslash \A \L ];
+    @kc6_first_2 = [\B \S ];
+    @kc6_first_3 = [\D \O \Q ];
+    @kc6_first_4 = [\E ];
+    @kc6_first_5 = [\F \P ];
+    @kc6_first_6 = [\G \g \r ];
+    @kc6_first_7 = [\H \I \M \N ];
+    @kc6_first_8 = [\J \U ];
+    @kc6_first_9 = [\K \X \Z ];
+    @kc6_first_10 = [\T \Y ];
+    @kc6_first_11 = [\a \h \m \n \u ];
+    @kc6_first_12 = [\b \c \e \o \p \v \w \y ];
+    @kc6_first_13 = [\d \i \l ];
+    @kc6_first_14 = [\f ];
+    @kc6_first_15 = [\k \x \z \t ];
+    @kc6_first_16 = [\slash \W \V ];
+    @kc6_second_1 = [\A \J ];
+    @kc6_second_2 = [\B \D \E \F \H \I \K \L \M \N \P \R ];
+    @kc6_second_3 = [\C \G \O \Q ];
+    @kc6_second_4 = [\T \Y ];
+    @kc6_second_5 = [\U ];
+    @kc6_second_6 = [\V \W ];
+    @kc6_second_7 = [\X \Z ];
+    @kc6_second_8 = [\a \c \d \e \o \q \s ];
+    @kc6_second_9 = [\b \l \t ];
+    @kc6_second_10 = [\f \m \n \p \r \u \y \w \i \j ];
+    @kc6_second_11 = [\h \k ];
+    @kc6_second_12 = [\v ];
+    @kc6_second_13 = [\x \z ];
+    @kc6_second_14 = [\period \comma ];
+    pos @kc6_first_1 @kc6_second_1 40;
+    pos @kc6_first_1 @kc6_second_2 20;
+    pos @kc6_first_1 @kc6_second_3 -140;
+    pos @kc6_first_1 @kc6_second_4 -240;
+    pos @kc6_first_1 @kc6_second_5 -140;
+    pos @kc6_first_1 @kc6_second_6 -400;
+    pos @kc6_first_1 @kc6_second_7 60;
+    pos @kc6_first_1 @kc6_second_8 -100;
+    pos @kc6_first_1 @kc6_second_9 -100;
+    pos @kc6_first_1 @kc6_second_10 -60;
+    pos @kc6_first_1 @kc6_second_12 -100;
+    pos @kc6_first_1 @kc6_second_13 60;
+    pos @kc6_first_2 @kc6_second_5 -60;
+    pos @kc6_first_2 @kc6_second_6 -40;
+    pos @kc6_first_2 @kc6_second_13 80;
+    pos @kc6_first_3 @kc6_second_1 -140;
+    pos @kc6_first_3 @kc6_second_2 -80;
+    pos @kc6_first_3 @kc6_second_4 -40;
+    pos @kc6_first_3 @kc6_second_5 -60;
+    pos @kc6_first_3 @kc6_second_6 -100;
+    pos @kc6_first_3 @kc6_second_7 -60;
+    pos @kc6_first_4 @kc6_second_1 60;
+    pos @kc6_first_4 @kc6_second_6 60;
+    pos @kc6_first_4 @kc6_second_7 60;
+    pos @kc6_first_4 @kc6_second_13 80;
+    pos @kc6_first_5 @kc6_second_1 -240;
+    pos @kc6_first_5 @kc6_second_6 60;
+    pos @kc6_first_5 @kc6_second_7 -40;
+    pos @kc6_first_5 @kc6_second_8 -100;
+    pos @kc6_first_5 @kc6_second_9 60;
+    pos @kc6_first_5 @kc6_second_11 60;
+    pos @kc6_first_5 @kc6_second_13 -58;
+    pos @kc6_first_5 @kc6_second_14 -200;
+    pos @kc6_first_6 @kc6_second_1 -140;
+    pos @kc6_first_6 @kc6_second_2 -60;
+    pos @kc6_first_6 @kc6_second_3 60;
+    pos @kc6_first_6 @kc6_second_4 -60;
+    pos @kc6_first_6 @kc6_second_6 -100;
+    pos @kc6_first_6 @kc6_second_7 -100;
+    pos @kc6_first_6 @kc6_second_8 -40;
+    pos @kc6_first_6 @kc6_second_10 20;
+    pos @kc6_first_6 @kc6_second_11 -40;
+    pos @kc6_first_6 @kc6_second_13 -40;
+    pos @kc6_first_6 @kc6_second_14 -40;
+    pos @kc6_first_7 @kc6_second_1 -100;
+    pos @kc6_first_7 @kc6_second_2 60;
+    pos @kc6_first_7 @kc6_second_3 -60;
+    pos @kc6_first_7 @kc6_second_6 60;
+    pos @kc6_first_7 @kc6_second_8 -100;
+    pos @kc6_first_7 @kc6_second_10 -100;
+    pos @kc6_first_7 @kc6_second_12 -60;
+    pos @kc6_first_7 @kc6_second_13 40;
+    pos @kc6_first_8 @kc6_second_1 -200;
+    pos @kc6_first_8 @kc6_second_3 -60;
+    pos @kc6_first_8 @kc6_second_4 60;
+    pos @kc6_first_8 @kc6_second_5 60;
+    pos @kc6_first_8 @kc6_second_6 140;
+    pos @kc6_first_8 @kc6_second_8 -100;
+    pos @kc6_first_8 @kc6_second_9 60;
+    pos @kc6_first_8 @kc6_second_10 -60;
+    pos @kc6_first_8 @kc6_second_11 60;
+    pos @kc6_first_8 @kc6_second_12 -100;
+    pos @kc6_first_8 @kc6_second_13 -40;
+    pos @kc6_first_8 @kc6_second_14 -100;
+    pos @kc6_first_9 @kc6_second_1 100;
+    pos @kc6_first_9 @kc6_second_2 60;
+    pos @kc6_first_9 @kc6_second_3 -100;
+    pos @kc6_first_9 @kc6_second_4 100;
+    pos @kc6_first_9 @kc6_second_7 60;
+    pos @kc6_first_9 @kc6_second_10 -60;
+    pos @kc6_first_9 @kc6_second_12 -60;
+    pos @kc6_first_9 @kc6_second_13 100;
+    pos @kc6_first_10 @kc6_second_1 -200;
+    pos @kc6_first_10 @kc6_second_2 60;
+    pos @kc6_first_10 @kc6_second_4 100;
+    pos @kc6_first_10 @kc6_second_5 40;
+    pos @kc6_first_10 @kc6_second_6 100;
+    pos @kc6_first_10 @kc6_second_7 100;
+    pos @kc6_first_10 @kc6_second_8 -60;
+    pos @kc6_first_10 @kc6_second_9 40;
+    pos @kc6_first_10 @kc6_second_10 40;
+    pos @kc6_first_10 @kc6_second_11 40;
+    pos @kc6_first_10 @kc6_second_14 -200;
+    pos @kc6_first_11 @kc6_second_1 100;
+    pos @kc6_first_11 @kc6_second_2 60;
+    pos @kc6_first_11 @kc6_second_4 -60;
+    pos @kc6_first_11 @kc6_second_5 -60;
+    pos @kc6_first_11 @kc6_second_6 -160;
+    pos @kc6_first_11 @kc6_second_7 100;
+    pos @kc6_first_11 @kc6_second_10 -80;
+    pos @kc6_first_11 @kc6_second_12 -40;
+    pos @kc6_first_11 @kc6_second_13 40;
+    pos @kc6_first_12 @kc6_second_4 -60;
+    pos @kc6_first_12 @kc6_second_5 -60;
+    pos @kc6_first_12 @kc6_second_6 -200;
+    pos @kc6_first_12 @kc6_second_8 -40;
+    pos @kc6_first_12 @kc6_second_10 -40;
+    pos @kc6_first_12 @kc6_second_11 -20;
+    pos @kc6_first_13 @kc6_second_3 -60;
+    pos @kc6_first_13 @kc6_second_4 -60;
+    pos @kc6_first_13 @kc6_second_5 -60;
+    pos @kc6_first_13 @kc6_second_6 -60;
+    pos @kc6_first_13 @kc6_second_10 -40;
+    pos @kc6_first_13 @kc6_second_11 -20;
+    pos @kc6_first_13 @kc6_second_12 -60;
+    pos @kc6_first_13 @kc6_second_13 60;
+    pos @kc6_first_14 @kc6_second_1 -140;
+    pos @kc6_first_14 @kc6_second_2 240;
+    pos @kc6_first_14 @kc6_second_3 200;
+    pos @kc6_first_14 @kc6_second_4 300;
+    pos @kc6_first_14 @kc6_second_5 240;
+    pos @kc6_first_14 @kc6_second_6 340;
+    pos @kc6_first_14 @kc6_second_7 200;
+    pos @kc6_first_14 @kc6_second_8 -40;
+    pos @kc6_first_14 @kc6_second_13 -60;
+    pos @kc6_first_14 @kc6_second_14 -100;
+    pos @kc6_first_15 @kc6_second_4 -40;
+    pos @kc6_first_15 @kc6_second_5 -100;
+    pos @kc6_first_15 @kc6_second_6 -200;
+    pos @kc6_first_15 @kc6_second_7 40;
+    pos @kc6_first_15 @kc6_second_8 -20;
+    pos @kc6_first_15 @kc6_second_13 60;
+    pos @kc6_first_16 @kc6_second_1 -400;
+    pos @kc6_first_16 @kc6_second_3 -100;
+    pos @kc6_first_16 @kc6_second_4 100;
+    pos @kc6_first_16 @kc6_second_6 120;
+    pos @kc6_first_16 @kc6_second_7 120;
+    pos @kc6_first_16 @kc6_second_8 -100;
+    pos @kc6_first_16 @kc6_second_10 -100;
+    pos @kc6_first_16 @kc6_second_11 80;
 } Kernliketheresnotomorrow;
 
 feature kern {

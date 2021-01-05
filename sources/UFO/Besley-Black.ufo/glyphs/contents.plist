@@ -580,6 +580,8 @@
     <string>periodcentered.glif</string>
     <key>perthousand</key>
     <string>perthousand.glif</string>
+    <key>pi</key>
+    <string>pi.glif</string>
     <key>plus</key>
     <string>plus.glif</string>
     <key>plusminus</key>
