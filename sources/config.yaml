@@ -1,0 +1,7 @@
+    sources:
+      - designspace/Besley.designspace
+      - designspace/Besley-Italic.designspace
+    axisOrder:
+      - wght
+    outputDir: "../fonts"
+    familyName: Besley
