@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eth" format="2">
   <advance width="1340"/>
   <unicode hex="00F0"/>
@@ -50,6 +50,6 @@
       <point x="524" y="882"/>
       <point x="450" y="738"/>
     </contour>
-    <component base="hyphen" xScale="0.749531" xyScale="0.661969" yxScale="-0.661969" yScale="0.749531" xOffset="1018" yOffset="517"/>
+    <component base="hyphen" xScale="0.749531" yScale="0.749531" xyScale="0.661969" yxScale="-0.661969" xOffset="1018" yOffset="517"/>
   </outline>
 </glyph>

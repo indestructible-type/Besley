@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: Besley-Fatface
 FullName: Besley* Fatface
 FamilyName: Besley*
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1607335205
+ModificationTime: 1615566604
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -44,14 +44,119 @@ OS2XHeight: 1040
 OS2FamilyClass: 1024
 OS2Vendor: 'it* '
 OS2UnicodeRanges: 00000001.00000000.00000000.00000000
+Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals in Latin lookup 0" { "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable"  } ['smcp' ('latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'c2sc' Capitals to Small Capitals in Latin lookup 0" { "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable"  } ['c2sc' ('latn' <'dflt' > ) ]
 Lookup: 5 0 0 "'calt' Contextual Alternates lookup 1" { "'calt' Contextual Alternates lookup 1-1"  } ['calt' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set 1 lookup 2" { "'ss01' Style Set 1 lookup 2-1"  } ['ss01' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "Not your mama's contextual ligatures"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 6" { "'onum' Oldstyle Figures lookup 6-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Tabular Numbers lookup" { "Tabular Numbers lookup"  } ['tnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "kerning like they all do" [150,0,6] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "cap/smallcap pairs" [500,0,2] "smallcaps" [300,0,2] "kerning like they all do" [150,0,6] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 28 33 "cap/smallcap pairs"
+ 85 A K X Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni0136
+ 1 B
+ 47 C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron
+ 100 D O Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash Dcaron Dcroat Omacron Obreve Ohungarumlaut
+ 81 E AE Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Ecaron Ldot OE
+ 1 F
+ 39 G Gcircumflex Gbreve Gdotaccent uni0122
+ 15 H M Hcircumflex
+ 78 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent
+ 104 J U Ugrave Uacute Ucircumflex Udieresis IJ Jcircumflex Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek
+ 50 L Z Lacute uni013B Lslash Zacute Zdotaccent Zcaron
+ 30 N Ntilde Nacute uni0145 Ncaron
+ 1 P
+ 1 Q
+ 31 R Racute uni0156 Rcaron uni0212
+ 44 S Sacute Scircumflex Scedilla Scaron uni0218
+ 29 T uni0162 Tcaron Tbar uni021A
+ 55 V W Wcircumflex Wgrave Wacute Wdieresis uni1E86 uni1E88
+ 37 Y Yacute Ycircumflex Ydieresis Ygrave
+ 5 Thorn
+ 10 germandbls
+ 7 Eogonek
+ 4 Hbar
+ 6 Lcaron
+ 3 Eng
+ 7 uni1E9E
+ 5 R.alt
+ 26 a.sc amacron.sc aogonek.sc
+ 286 b.sc d.sc e.sc f.sc h.sc i.sc k.sc l.sc m.sc n.sc p.sc r.sc x.sc eacute.sc ecircumflex.sc dcaron.sc emacron.sc ebreve.sc edotaccent.sc eogonek.sc ecaron.sc hcircumflex.sc iogonek.sc uni0137.sc uni013C.sc lcaron.sc nacute.sc uni0146.sc ncaron.sc racute.sc uni0157.sc rcaron.sc uni0213.sc
+ 100 c.sc g.sc o.sc q.sc ccedilla.sc oacute.sc cacute.sc cdotaccent.sc gdotaccent.sc omacron.sc obreve.sc
+ 4 j.sc
+ 37 s.sc sacute.sc scedilla.sc uni0219.sc
+ 36 t.sc uni0163.sc tcaron.sc uni021B.sc
+ 70 u.sc ucircumflex.sc utilde.sc umacron.sc ubreve.sc uring.sc uogonek.sc
+ 63 v.sc wcircumflex.sc wgrave.sc wacute.sc wdieresis.sc uni1E87.sc
+ 20 w.sc y.sc uni1E89.sc
+ 28 z.sc zacute.sc zdotaccent.sc
+ 19 agrave.sc atilde.sc
+ 18 aacute.sc aring.sc
+ 24 acircumflex.sc abreve.sc
+ 12 adieresis.sc
+ 54 egrave.sc ntilde.sc imacron.sc idotaccent.sc lacute.sc
+ 22 edieresis.sc ibreve.sc
+ 9 igrave.sc
+ 9 iacute.sc
+ 14 icircumflex.sc
+ 12 idieresis.sc
+ 51 ograve.sc ocircumflex.sc otilde.sc ohungarumlaut.sc
+ 12 odieresis.sc
+ 39 ugrave.sc udieresis.sc uhungarumlaut.sc
+ 9 uacute.sc
+ 24 yacute.sc ycircumflex.sc
+ 60 ccircumflex.sc ccaron.sc gcircumflex.sc gbreve.sc uni0123.sc
+ 9 itilde.sc
+ 14 jcircumflex.sc
+ 24 scircumflex.sc scaron.sc
+ 12 ydieresis.sc
+ 9 zcaron.sc
+ 9 ygrave.sc
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -32 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -213 {} 0 {} -13 {} -116 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -125 {} -169 {} -169 {} -47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -17 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1 {} -8 {} -3 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -21 {} -74 {} -54 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} -84 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -145 {} -176 {} -152 {} -109 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -67 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -43 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -16 {} -60 {} -41 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -232 {} -2 {} -78 {} -174 {} -61 {} 0 {} 0 {} -10 {} 0 {} -15 {} -91 {} -150 {} -159 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} -27 {} 0 {} -53 {} 0 {} -58 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} -3 {} -133 {} -107 {} -59 {} -64 {} -42 {} -75 {} -58 {} -18 {} -33 {} -125 {} -86 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} -79 {} -46 {} -87 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} -66 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -98 {} -97 {} -99 {} -90 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+KernClass2: 28 14 "smallcaps"
+ 103 a.sc agrave.sc aacute.sc acircumflex.sc atilde.sc adieresis.sc aring.sc amacron.sc abreve.sc aogonek.sc
+ 4 b.sc
+ 65 c.sc ccedilla.sc cacute.sc ccircumflex.sc cdotaccent.sc ccaron.sc
+ 88 d.sc o.sc ograve.sc oacute.sc ocircumflex.sc otilde.sc odieresis.sc omacron.sc obreve.sc
+ 136 e.sc z.sc egrave.sc eacute.sc ecircumflex.sc edieresis.sc emacron.sc ebreve.sc edotaccent.sc ecaron.sc zacute.sc zdotaccent.sc zcaron.sc
+ 4 f.sc
+ 54 g.sc gcircumflex.sc gbreve.sc gdotaccent.sc uni0123.sc
+ 51 h.sc i.sc m.sc hcircumflex.sc imacron.sc iogonek.sc
+ 123 j.sc u.sc ugrave.sc uacute.sc ucircumflex.sc udieresis.sc jcircumflex.sc utilde.sc umacron.sc ubreve.sc uring.sc uogonek.sc
+ 15 k.sc uni0137.sc
+ 25 l.sc lacute.sc uni013C.sc
+ 45 n.sc ntilde.sc nacute.sc uni0146.sc ncaron.sc
+ 4 p.sc
+ 4 q.sc
+ 46 r.sc racute.sc uni0157.sc rcaron.sc uni0213.sc
+ 62 s.sc sacute.sc scircumflex.sc scedilla.sc scaron.sc uni0219.sc
+ 36 t.sc uni0163.sc tcaron.sc uni021B.sc
+ 79 v.sc w.sc wcircumflex.sc wgrave.sc wacute.sc wdieresis.sc uni1E87.sc uni1E89.sc
+ 4 x.sc
+ 52 y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc
+ 68 igrave.sc iacute.sc icircumflex.sc itilde.sc ibreve.sc idotaccent.sc
+ 12 idieresis.sc
+ 9 dcaron.sc
+ 10 eogonek.sc
+ 9 lcaron.sc
+ 16 ohungarumlaut.sc
+ 16 uhungarumlaut.sc
+ 84 a.sc agrave.sc acircumflex.sc atilde.sc adieresis.sc amacron.sc abreve.sc aogonek.sc
+ 399 b.sc d.sc e.sc f.sc h.sc i.sc k.sc l.sc m.sc n.sc p.sc r.sc x.sc egrave.sc eacute.sc ecircumflex.sc edieresis.sc iacute.sc icircumflex.sc ntilde.sc dcaron.sc emacron.sc ebreve.sc edotaccent.sc eogonek.sc ecaron.sc hcircumflex.sc itilde.sc imacron.sc ibreve.sc iogonek.sc idotaccent.sc uni0137.sc lacute.sc uni013C.sc lcaron.sc nacute.sc uni0146.sc ncaron.sc racute.sc uni0157.sc rcaron.sc uni0213.sc
+ 226 c.sc g.sc o.sc q.sc ccedilla.sc ograve.sc oacute.sc ocircumflex.sc otilde.sc odieresis.sc cacute.sc ccircumflex.sc cdotaccent.sc ccaron.sc gcircumflex.sc gbreve.sc gdotaccent.sc uni0123.sc omacron.sc obreve.sc ohungarumlaut.sc
+ 19 j.sc jcircumflex.sc
+ 62 s.sc sacute.sc scircumflex.sc scedilla.sc scaron.sc uni0219.sc
+ 36 t.sc uni0163.sc tcaron.sc uni021B.sc
+ 120 u.sc ugrave.sc uacute.sc ucircumflex.sc udieresis.sc utilde.sc umacron.sc ubreve.sc uring.sc uhungarumlaut.sc uogonek.sc
+ 74 v.sc wcircumflex.sc wgrave.sc wacute.sc wdieresis.sc uni1E87.sc uni1E89.sc
+ 57 w.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc
+ 38 z.sc zacute.sc zdotaccent.sc zcaron.sc
+ 18 aacute.sc aring.sc
+ 9 igrave.sc
+ 12 idieresis.sc
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -82 {} -72 {} -150 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -29 {} -3 {} -8 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} -41 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -49 {} -2 {} -9 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -109 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -119 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -2 {} 0 {} 0 {} 0 {} -204 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -7 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -23 {} -17 {} -76 {} -56 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -108 {} 0 {} 0 {} -79 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -106 {} 0 {} 0 {} 0 {} -180 {} 0 {} -16 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -180 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -148 {} 0 {} 0 {} -115 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -7 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -8 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -53 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -15 {} -9 {} 0 {} -76 {} 0 {} 0 {} 0 {} -115 {} 0 {} 0 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {}
 KernClass2: 31 27 "kerning like they all do"
  68 A backslash Agrave Aacute Acircumflex Atilde Adieresis Aring uni013B
  1 B
@@ -150,12 +255,13 @@ ContextSub2: class "'calt' Contextual Alternates lookup 1-1" 4 4 4 4
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "-----------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "https://scripts.sil.org/OFL" "" "Besley*"
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 16 4
+WinInfo: 480 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -176,7 +282,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0""" 
-BeginChars: 65554 451
+BeginChars: 65670 567
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -647,6 +753,7 @@ SplineSet
  66 0 l 6
  10 0 0 1 0 57 c 6
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" a.sc
 EndChar
 
 StartChar: B
@@ -694,6 +801,7 @@ SplineSet
  1523 714 1650 603 1650 420 c 0
  1650 100 1452 0 970 0 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" b.sc
 EndChar
 
 StartChar: C
@@ -727,6 +835,7 @@ SplineSet
  1604 202 1365 -40 920 -40 c 0
  414 -40 70 264 70 750 c 0
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" c.sc
 EndChar
 
 StartChar: D
@@ -763,6 +872,7 @@ SplineSet
  740 316 l 2
  740 272 753 270 798 270 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" d.sc
 EndChar
 
 StartChar: E
@@ -821,6 +931,7 @@ SplineSet
  270 1192 l 2
  270 1227 262 1230 226 1230 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" e.sc
 EndChar
 
 StartChar: F
@@ -875,6 +986,7 @@ SplineSet
  270 1195 l 2
  270 1225 262 1230 234 1230 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" f.sc
 EndChar
 
 StartChar: G
@@ -920,6 +1032,7 @@ SplineSet
  910 810 l 2
  910 858 922 860 967 860 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" g.sc
 EndChar
 
 StartChar: H
@@ -989,6 +1102,7 @@ SplineSet
  783 1230 l 6
  747 1230 740 1225 740 1188 c 6
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" h.sc
 EndChar
 
 StartChar: I
@@ -1027,6 +1141,7 @@ SplineSet
  835 1250 l 2
  791 1250 785 1240 785 1198 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" i.sc
 EndChar
 
 StartChar: J
@@ -1060,6 +1175,7 @@ SplineSet
  1172 160 894 -40 532 -40 c 0
  218 -40 0 170 0 390 c 0
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" j.sc
 EndChar
 
 StartChar: K
@@ -1129,6 +1245,7 @@ SplineSet
  96 0 l 2
  52 0 50 10 50 54 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" k.sc
 EndChar
 
 StartChar: L
@@ -1170,6 +1287,7 @@ SplineSet
  270 1180 l 2
  270 1221 267 1230 227 1230 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" l.sc
 EndChar
 
 StartChar: M
@@ -1236,6 +1354,7 @@ SplineSet
  334 1195 l 2
  336 1238 324 1230 282 1230 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" m.sc
 EndChar
 
 StartChar: N
@@ -1289,6 +1408,7 @@ SplineSet
  260 1179 l 2
  260 1230 260 1230 209 1230 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" n.sc
 EndChar
 
 StartChar: O
@@ -1311,6 +1431,7 @@ SplineSet
  1230 1074 1138 1280 910 1280 c 0
  682 1280 590 1074 590 750 c 0
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" o.sc
 EndChar
 
 StartChar: P
@@ -1355,6 +1476,7 @@ SplineSet
  740 874 l 2
  740 836 745 830 782 830 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" p.sc
 EndChar
 
 StartChar: Q
@@ -1380,13 +1502,13 @@ SplineSet
  1125 -30 1114 -21 1078 -27 c 0
  1025 -36 968 -40 910 -40 c 0
  384 -40 70 284 70 750 c 0
-726 285 m 0
- 775 244 834 220 910 220 c 0
- 934 220 957 221 978 226 c 0
- 1016 236 1021 250 998 278 c 0
- 958 328 905 360 828 360 c 0
- 795 360 765 357 740 345 c 0
- 705 329 696 311 726 285 c 0
+726 285 m 4
+ 775 244 834 220 910 220 c 4
+ 934 220 957 221 978 226 c 4
+ 1016 236 1021 250 998 278 c 4
+ 958 328 905 360 828 360 c 4
+ 795 360 765 357 740 345 c 4
+ 705 329 696 311 726 285 c 4
 1206 484 m 0
  1221 560 1230 649 1230 750 c 0
  1230 1074 1138 1280 910 1280 c 0
@@ -1397,6 +1519,7 @@ SplineSet
  1006 706 1087 620 1150 509 c 0
  1176 464 1196 437 1206 484 c 0
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" q.sc
 EndChar
 
 StartChar: R
@@ -1449,6 +1572,7 @@ SplineSet
  740 926 l 2
  740 877 744 880 792 880 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" r.sc
 Substitution2: "'ss01' Style Set 1 lookup 2-1" R.alt
 EndChar
 
@@ -1491,6 +1615,7 @@ SplineSet
  1214 950 l 2
  1148 950 1155 965 1144 1017 c 0
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" s.sc
 EndChar
 
 StartChar: T
@@ -1534,6 +1659,7 @@ SplineSet
  409 0 l 2
  367 0 355 6 355 51 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" t.sc
 EndChar
 
 StartChar: U
@@ -1578,6 +1704,7 @@ SplineSet
  1345 1179 l 2
  1345 1224 1333 1230 1291 1230 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" u.sc
 EndChar
 
 StartChar: V
@@ -1621,6 +1748,7 @@ SplineSet
  978 601 l 2
  1017 500 1030 342 1093 489 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" v.sc
 EndChar
 
 StartChar: W
@@ -1689,6 +1817,7 @@ SplineSet
  910 705 922 622 946 622 c 0
  967 622 978 643 994 676 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" w.sc
 EndChar
 
 StartChar: X
@@ -1758,6 +1887,7 @@ SplineSet
  48 0 l 2
  1 0 0 11 0 59 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" x.sc
 EndChar
 
 StartChar: Y
@@ -1813,6 +1943,7 @@ SplineSet
  482 0 l 2
  455 0 450 7 450 36 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" y.sc
 EndChar
 
 StartChar: Z
@@ -1854,6 +1985,7 @@ SplineSet
  110 1456 l 2
  110 1498 118 1500 160 1500 c 2
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" z.sc
 EndChar
 
 StartChar: a
@@ -1899,6 +2031,7 @@ SplineSet
  699 437 l 2
  607 437 519 360 519 286 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" a.sc
 EndChar
 
 StartChar: b
@@ -1941,6 +2074,7 @@ SplineSet
  225 1343 222 1350 203 1350 c 2
  81 1350 l 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" b.sc
 EndChar
 
 StartChar: c
@@ -1969,6 +2103,7 @@ SplineSet
  1107 64 898 -40 646 -40 c 0
  244 -40 50 220 50 500 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" c.sc
 EndChar
 
 StartChar: d
@@ -2012,6 +2147,7 @@ SplineSet
  744 12 650 -40 494 -40 c 0
  236 -40 50 158 50 518 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" d.sc
 EndChar
 
 StartChar: e
@@ -2045,6 +2181,7 @@ SplineSet
  552 882 514 806 500 695 c 0
  496 666 491 658 526 658 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" e.sc
 EndChar
 
 StartChar: f
@@ -2095,6 +2232,7 @@ SplineSet
  677 830 l 6
  640 830 630 824 630 787 c 6
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" f.sc
 EndChar
 
 StartChar: g
@@ -2149,6 +2287,7 @@ SplineSet
  305 -300 405 -326 557 -326 c 0
  725 -326 817 -286 817 -202 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" g.sc
 EndChar
 
 StartChar: h
@@ -2202,6 +2341,7 @@ SplineSet
  225 1316 l 2
  225 1342 222 1350 197 1350 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" h.sc
 EndChar
 
 StartChar: i
@@ -2240,6 +2380,7 @@ SplineSet
  235 804 l 6
  235 821 232 830 216 830 c 6
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" i.sc
 EndChar
 
 StartChar: j
@@ -2274,6 +2415,7 @@ SplineSet
  220 797 l 6
  220 820 219 830 196 830 c 6
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" j.sc
 EndChar
 
 StartChar: k
@@ -2338,6 +2480,7 @@ SplineSet
  225 1302 l 6
  225 1339 216 1350 178 1350 c 6
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" k.sc
 EndChar
 
 StartChar: l
@@ -2373,6 +2516,7 @@ SplineSet
  225 1298 l 2
  225 1348 213 1350 166 1350 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" l.sc
 EndChar
 
 StartChar: m
@@ -2444,6 +2588,7 @@ SplineSet
  104 0 l 2
  70 0 55 1 55 38 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" m.sc
 EndChar
 
 StartChar: n
@@ -2497,6 +2642,7 @@ SplineSet
  235 784 l 6
  235 825 229 830 189 830 c 6
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" n.sc
 EndChar
 
 StartChar: o
@@ -2520,6 +2666,7 @@ SplineSet
  1246 220 1030 -40 648 -40 c 0
  266 -40 50 210 50 490 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" o.sc
 EndChar
 
 StartChar: p
@@ -2566,6 +2713,7 @@ SplineSet
  100 830 l 6
  51 830 45 835 45 882 c 6
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" p.sc
 EndChar
 
 StartChar: q
@@ -2612,6 +2760,7 @@ SplineSet
  1246 -274 l 2
  1246 -300 1255 -310 1281 -310 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" q.sc
 EndChar
 
 StartChar: r
@@ -2655,6 +2804,7 @@ SplineSet
  222 210 235 213 235 246 c 2
  235 787 l 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" r.sc
 EndChar
 
 StartChar: s
@@ -2697,6 +2847,7 @@ SplineSet
  894 660 l 2
  862 660 860 671 851 692 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" s.sc
 EndChar
 
 StartChar: t
@@ -2738,6 +2889,7 @@ SplineSet
  914 235 l 2
  942 218 952 207 936 185 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" t.sc
 EndChar
 
 StartChar: u
@@ -2784,6 +2936,7 @@ SplineSet
  840 19 746 -40 574 -40 c 0
  340 -40 210 88 210 302 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" u.sc
 EndChar
 
 StartChar: v
@@ -2829,6 +2982,7 @@ SplineSet
  769 517 776 451 803 451 c 0
  830 451 845 516 859 547 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" v.sc
 EndChar
 
 StartChar: w
@@ -2888,6 +3042,7 @@ SplineSet
  679 526 673 507 689 507 c 0
  706 507 704 527 720 567 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" w.sc
 EndChar
 
 StartChar: x
@@ -2962,6 +3117,7 @@ SplineSet
  772 734 781 721 809 721 c 0
  835 721 856 747 890 765 c 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" x.sc
 EndChar
 
 StartChar: y
@@ -3013,6 +3169,7 @@ SplineSet
  690 -398 553 -530 337 -530 c 0
  123 -530 -19 -406 -19 -212 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" y.sc
 EndChar
 
 StartChar: z
@@ -3053,6 +3210,7 @@ SplineSet
  643 822 643 840 594 840 c 2
  572 840 l 2
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" z.sc
 EndChar
 
 StartChar: space
@@ -5893,6 +6051,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 410 -30 2
 Refer: 26 79 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" odieresis.sc
 EndChar
 
 StartChar: breve
@@ -5992,6 +6151,7 @@ LayerCount: 2
 Fore
 Refer: 213 184 N 1 0 0 1 395 -33 2
 Refer: 14 67 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ccedilla.sc
 EndChar
 
 StartChar: Agrave
@@ -6003,6 +6163,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 393 0 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" agrave.sc
 EndChar
 
 StartChar: Aacute
@@ -6014,6 +6175,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 535 0 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" aacute.sc
 EndChar
 
 StartChar: Acircumflex
@@ -6025,6 +6187,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 465 0 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" acircumflex.sc
 EndChar
 
 StartChar: Atilde
@@ -6036,6 +6199,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 468 0 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" atilde.sc
 EndChar
 
 StartChar: Adieresis
@@ -6047,6 +6211,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 463 0 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" adieresis.sc
 EndChar
 
 StartChar: Aring
@@ -6058,6 +6223,7 @@ LayerCount: 2
 Fore
 Refer: 208 730 N 1 0 0 1 464 0 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" aring.sc
 EndChar
 
 StartChar: Egrave
@@ -6069,6 +6235,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 273 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" egrave.sc
 EndChar
 
 StartChar: Eacute
@@ -6080,6 +6247,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 415 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" eacute.sc
 EndChar
 
 StartChar: Ecircumflex
@@ -6091,6 +6259,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 345 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ecircumflex.sc
 EndChar
 
 StartChar: Edieresis
@@ -6102,6 +6271,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 343 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" edieresis.sc
 EndChar
 
 StartChar: Igrave
@@ -6113,6 +6283,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 -24 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" igrave.sc
 EndChar
 
 StartChar: Iacute
@@ -6124,6 +6295,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 118 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" iacute.sc
 EndChar
 
 StartChar: Icircumflex
@@ -6135,6 +6307,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 48 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" icircumflex.sc
 EndChar
 
 StartChar: Idieresis
@@ -6146,6 +6319,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 46 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" idieresis.sc
 EndChar
 
 StartChar: Ntilde
@@ -6157,6 +6331,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 450 0 2
 Refer: 25 78 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ntilde.sc
 EndChar
 
 StartChar: Ograve
@@ -6168,6 +6343,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 335 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ograve.sc
 EndChar
 
 StartChar: Oacute
@@ -6179,6 +6355,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 477 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" oacute.sc
 EndChar
 
 StartChar: Ocircumflex
@@ -6190,6 +6367,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 407 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ocircumflex.sc
 EndChar
 
 StartChar: Otilde
@@ -6201,6 +6379,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 440 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" otilde.sc
 EndChar
 
 StartChar: multiply
@@ -6221,6 +6400,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 425 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ugrave.sc
 EndChar
 
 StartChar: Uacute
@@ -6232,6 +6412,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 567 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uacute.sc
 EndChar
 
 StartChar: Ucircumflex
@@ -6243,6 +6424,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 497 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ucircumflex.sc
 EndChar
 
 StartChar: Udieresis
@@ -6254,6 +6436,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 495 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" udieresis.sc
 EndChar
 
 StartChar: Yacute
@@ -6265,6 +6448,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 557 0 2
 Refer: 36 89 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" yacute.sc
 EndChar
 
 StartChar: germandbls
@@ -6405,6 +6589,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 101 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" agrave.sc
 EndChar
 
 StartChar: aacute
@@ -6416,6 +6601,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 243 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aacute.sc
 EndChar
 
 StartChar: acircumflex
@@ -6427,6 +6613,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 173 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" acircumflex.sc
 EndChar
 
 StartChar: atilde
@@ -6438,6 +6625,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 206 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" atilde.sc
 EndChar
 
 StartChar: adieresis
@@ -6449,6 +6637,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 171 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" adieresis.sc
 EndChar
 
 StartChar: aring
@@ -6460,6 +6649,7 @@ LayerCount: 2
 Fore
 Refer: 208 730 N 1 0 0 1 172 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aring.sc
 EndChar
 
 StartChar: ae
@@ -6533,6 +6723,7 @@ LayerCount: 2
 Fore
 Refer: 213 184 N 1 0 0 1 121 -33 2
 Refer: 40 99 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ccedilla.sc
 EndChar
 
 StartChar: egrave
@@ -6544,6 +6735,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 84 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" egrave.sc
 EndChar
 
 StartChar: eacute
@@ -6555,6 +6747,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 226 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" eacute.sc
 EndChar
 
 StartChar: ecircumflex
@@ -6566,6 +6759,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 156 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ecircumflex.sc
 EndChar
 
 StartChar: edieresis
@@ -6577,6 +6771,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 154 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" edieresis.sc
 EndChar
 
 StartChar: dotlessi
@@ -6632,6 +6827,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 245 -460 2
 Refer: 62 121 S 1 0 0 1 0 5 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" yacute.sc
 EndChar
 
 StartChar: thorn
@@ -6689,6 +6885,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 -132 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" igrave.sc
 EndChar
 
 StartChar: iacute
@@ -6700,6 +6897,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 10 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" iacute.sc
 EndChar
 
 StartChar: icircumflex
@@ -6711,6 +6909,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 -60 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" icircumflex.sc
 EndChar
 
 StartChar: idieresis
@@ -6722,6 +6921,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 -62 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" idieresis.sc
 EndChar
 
 StartChar: ntilde
@@ -6733,6 +6933,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 335 -460 2
 Refer: 51 110 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ntilde.sc
 EndChar
 
 StartChar: ograve
@@ -6744,6 +6945,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 77 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ograve.sc
 EndChar
 
 StartChar: oacute
@@ -6755,6 +6957,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 219 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" oacute.sc
 EndChar
 
 StartChar: ocircumflex
@@ -6766,6 +6969,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 149 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ocircumflex.sc
 EndChar
 
 StartChar: otilde
@@ -6777,6 +6981,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 182 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" otilde.sc
 EndChar
 
 StartChar: odieresis
@@ -6788,6 +6993,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 147 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" odieresis.sc
 EndChar
 
 StartChar: eth
@@ -6868,6 +7074,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 169 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ugrave.sc
 EndChar
 
 StartChar: uacute
@@ -6879,6 +7086,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 311 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uacute.sc
 EndChar
 
 StartChar: ucircumflex
@@ -6890,6 +7098,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 241 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ucircumflex.sc
 EndChar
 
 StartChar: udieresis
@@ -6901,6 +7110,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 239 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" udieresis.sc
 EndChar
 
 StartChar: ydieresis
@@ -6912,6 +7122,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 253 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ydieresis.sc
 EndChar
 
 StartChar: Amacron
@@ -6923,6 +7134,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 464 0 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" amacron.sc
 EndChar
 
 StartChar: amacron
@@ -6934,6 +7146,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 172 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" amacron.sc
 EndChar
 
 StartChar: Abreve
@@ -6945,6 +7158,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 465 0 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" abreve.sc
 EndChar
 
 StartChar: abreve
@@ -6956,6 +7170,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 173 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" abreve.sc
 EndChar
 
 StartChar: Aogonek
@@ -6967,6 +7182,7 @@ LayerCount: 2
 Fore
 Refer: 209 731 N 1 0 0 1 975 -47 2
 Refer: 12 65 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" aogonek.sc
 EndChar
 
 StartChar: aogonek
@@ -6978,6 +7194,7 @@ LayerCount: 2
 Fore
 Refer: 209 731 N 1 0 0 1 694 43 2
 Refer: 38 97 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aogonek.sc
 EndChar
 
 StartChar: Cacute
@@ -6989,6 +7206,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 487 0 2
 Refer: 14 67 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" cacute.sc
 EndChar
 
 StartChar: cacute
@@ -7000,6 +7218,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 252 -460 2
 Refer: 40 99 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" cacute.sc
 EndChar
 
 StartChar: Ccircumflex
@@ -7011,6 +7230,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 417 0 2
 Refer: 14 67 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ccircumflex.sc
 EndChar
 
 StartChar: ccircumflex
@@ -7022,6 +7242,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 182 -460 2
 Refer: 40 99 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ccircumflex.sc
 EndChar
 
 StartChar: Cdotaccent
@@ -7033,6 +7254,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 419 460 2
 Refer: 14 67 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" cdotaccent.sc
 EndChar
 
 StartChar: cdotaccent
@@ -7044,6 +7266,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 184 0 2
 Refer: 40 99 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" cdotaccent.sc
 EndChar
 
 StartChar: Ccaron
@@ -7055,6 +7278,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 417 0 2
 Refer: 14 67 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ccaron.sc
 EndChar
 
 StartChar: ccaron
@@ -7066,6 +7290,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 182 -460 2
 Refer: 40 99 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ccaron.sc
 EndChar
 
 StartChar: Dcaron
@@ -7077,6 +7302,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 435 0 2
 Refer: 15 68 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" dcaron.sc
 EndChar
 
 StartChar: dcaron
@@ -7088,6 +7314,7 @@ LayerCount: 2
 Fore
 Refer: 65 44 S 1 0 0 1 1301 1344 2
 Refer: 41 100 N 1 0 0 1 0 0 2
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" dcaron.sc
 EndChar
 
 StartChar: Emacron
@@ -7099,6 +7326,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 344 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" emacron.sc
 EndChar
 
 StartChar: emacron
@@ -7110,6 +7338,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 155 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" emacron.sc
 EndChar
 
 StartChar: Ebreve
@@ -7121,6 +7350,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 345 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ebreve.sc
 EndChar
 
 StartChar: ebreve
@@ -7132,6 +7362,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 156 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ebreve.sc
 EndChar
 
 StartChar: Edotaccent
@@ -7143,6 +7374,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 347 460 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" edotaccent.sc
 EndChar
 
 StartChar: edotaccent
@@ -7154,6 +7386,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 158 0 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" edotaccent.sc
 EndChar
 
 StartChar: Eogonek
@@ -7165,6 +7398,7 @@ LayerCount: 2
 Fore
 Refer: 209 731 N 1 0 0 1 915 3 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" eogonek.sc
 EndChar
 
 StartChar: eogonek
@@ -7176,6 +7410,7 @@ LayerCount: 2
 Fore
 Refer: 209 731 N 1 0 0 1 407 55 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" eogonek.sc
 EndChar
 
 StartChar: Ecaron
@@ -7187,6 +7422,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 345 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ecaron.sc
 EndChar
 
 StartChar: Dcroat
@@ -7218,6 +7454,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 156 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ecaron.sc
 EndChar
 
 StartChar: Gcircumflex
@@ -7229,6 +7466,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 417 0 2
 Refer: 18 71 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" gcircumflex.sc
 EndChar
 
 StartChar: gcircumflex
@@ -7240,6 +7478,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 203 -460 2
 Refer: 44 103 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" gcircumflex.sc
 EndChar
 
 StartChar: Gbreve
@@ -7251,6 +7490,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 417 0 2
 Refer: 18 71 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" gbreve.sc
 EndChar
 
 StartChar: gbreve
@@ -7262,6 +7502,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 203 -460 2
 Refer: 44 103 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" gbreve.sc
 EndChar
 
 StartChar: Gdotaccent
@@ -7273,6 +7514,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 419 460 2
 Refer: 18 71 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" gdotaccent.sc
 EndChar
 
 StartChar: gdotaccent
@@ -7284,6 +7526,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 205 0 2
 Refer: 44 103 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" gdotaccent.sc
 EndChar
 
 StartChar: uni0122
@@ -7295,6 +7538,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 391 0 2
 Refer: 18 71 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni0123.sc
 EndChar
 
 StartChar: uni0123
@@ -7306,6 +7550,7 @@ LayerCount: 2
 Fore
 Refer: 200 786 N 1 0 0 1 205 120 2
 Refer: 44 103 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0123.sc
 EndChar
 
 StartChar: Hcircumflex
@@ -7317,6 +7562,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 512 0 2
 Refer: 19 72 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" hcircumflex.sc
 EndChar
 
 StartChar: hcircumflex
@@ -7328,6 +7574,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 569 -461 2
 Refer: 45 104 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" hcircumflex.sc
 EndChar
 
 StartChar: Hbar
@@ -7360,6 +7607,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 81 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" itilde.sc
 EndChar
 
 StartChar: itilde
@@ -7371,6 +7619,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 -27 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" itilde.sc
 EndChar
 
 StartChar: Imacron
@@ -7382,6 +7631,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 47 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" imacron.sc
 EndChar
 
 StartChar: imacron
@@ -7393,6 +7643,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 -61 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" imacron.sc
 EndChar
 
 StartChar: Ibreve
@@ -7404,6 +7655,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 48 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ibreve.sc
 EndChar
 
 StartChar: ibreve
@@ -7415,6 +7667,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 -60 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ibreve.sc
 EndChar
 
 StartChar: Iogonek
@@ -7426,6 +7679,7 @@ LayerCount: 2
 Fore
 Refer: 209 731 N 1 0 0 1 32 -47 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" iogonek.sc
 EndChar
 
 StartChar: iogonek
@@ -7437,6 +7691,7 @@ LayerCount: 2
 Fore
 Refer: 209 731 N 1 0 0 1 -104 -87 2
 Refer: 46 105 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" iogonek.sc
 EndChar
 
 StartChar: Idotaccent
@@ -7448,6 +7703,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 50 460 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" idotaccent.sc
 EndChar
 
 StartChar: IJ
@@ -7480,6 +7736,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 337 0 2
 Refer: 21 74 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" jcircumflex.sc
 EndChar
 
 StartChar: jcircumflex
@@ -7491,6 +7748,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 -77 -460 2
 Refer: 332 567 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" jcircumflex.sc
 EndChar
 
 StartChar: uni0237
@@ -7532,6 +7790,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 504 0 2
 Refer: 22 75 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni0137.sc
 EndChar
 
 StartChar: uni0137
@@ -7543,6 +7802,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 280 0 2
 Refer: 48 107 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0137.sc
 EndChar
 
 StartChar: kgreenlandic
@@ -7616,6 +7876,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 15 0 2
 Refer: 23 76 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" lacute.sc
 EndChar
 
 StartChar: lacute
@@ -7627,6 +7888,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 4 196 2
 Refer: 49 108 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" lacute.sc
 EndChar
 
 StartChar: uni013B
@@ -7638,6 +7900,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 290 0 2
 Refer: 23 76 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni013C.sc
 EndChar
 
 StartChar: uni013C
@@ -7649,6 +7912,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 -56 0 2
 Refer: 49 108 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni013C.sc
 EndChar
 
 StartChar: Lcaron
@@ -7660,6 +7924,7 @@ LayerCount: 2
 Fore
 Refer: 65 44 N 1 0 0 1 1000 1304 2
 Refer: 23 76 N 1 0 0 1 0 0 2
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" lcaron.sc
 EndChar
 
 StartChar: lcaron
@@ -7671,6 +7936,7 @@ LayerCount: 2
 Fore
 Refer: 65 44 S 1 0 0 1 689 1344 2
 Refer: 49 108 N 1 0 0 1 0 0 2
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" lcaron.sc
 EndChar
 
 StartChar: Ldot
@@ -7744,6 +8010,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 517 0 2
 Refer: 25 78 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" nacute.sc
 EndChar
 
 StartChar: nacute
@@ -7755,6 +8022,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 372 -460 2
 Refer: 51 110 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" nacute.sc
 EndChar
 
 StartChar: uni0145
@@ -7766,6 +8034,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 410 0 2
 Refer: 25 78 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni0146.sc
 EndChar
 
 StartChar: uni0146
@@ -7777,6 +8046,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 294 0 2
 Refer: 51 110 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0146.sc
 EndChar
 
 StartChar: Ncaron
@@ -7788,6 +8058,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 447 0 2
 Refer: 25 78 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ncaron.sc
 EndChar
 
 StartChar: ncaron
@@ -7799,6 +8070,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 302 -460 2
 Refer: 51 110 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ncaron.sc
 EndChar
 
 StartChar: napostrophe
@@ -7915,6 +8187,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 406 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" omacron.sc
 EndChar
 
 StartChar: omacron
@@ -7926,6 +8199,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 148 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" omacron.sc
 EndChar
 
 StartChar: Obreve
@@ -7937,6 +8211,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 407 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" obreve.sc
 EndChar
 
 StartChar: obreve
@@ -7948,6 +8223,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 149 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" obreve.sc
 EndChar
 
 StartChar: Ohungarumlaut
@@ -7959,6 +8235,7 @@ LayerCount: 2
 Fore
 Refer: 211 733 N 1 0 0 1 482 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ohungarumlaut.sc
 EndChar
 
 StartChar: ohungarumlaut
@@ -7970,6 +8247,7 @@ LayerCount: 2
 Fore
 Refer: 211 733 N 1 0 0 1 224 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ohungarumlaut.sc
 EndChar
 
 StartChar: OE
@@ -8014,6 +8292,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 397 0 2
 Refer: 29 82 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" racute.sc
 EndChar
 
 StartChar: racute
@@ -8025,6 +8304,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 216 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" racute.sc
 EndChar
 
 StartChar: uni0156
@@ -8036,6 +8316,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 420 0 2
 Refer: 29 82 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni0157.sc
 EndChar
 
 StartChar: uni0157
@@ -8047,6 +8328,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 -69 0 2
 Refer: 55 114 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0157.sc
 EndChar
 
 StartChar: Rcaron
@@ -8058,6 +8340,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 327 0 2
 Refer: 29 82 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" rcaron.sc
 EndChar
 
 StartChar: rcaron
@@ -8069,6 +8352,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 146 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" rcaron.sc
 EndChar
 
 StartChar: Sacute
@@ -8080,6 +8364,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 367 0 2
 Refer: 30 83 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" sacute.sc
 EndChar
 
 StartChar: sacute
@@ -8091,6 +8376,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 171 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" sacute.sc
 EndChar
 
 StartChar: Scircumflex
@@ -8102,6 +8388,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 297 0 2
 Refer: 30 83 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" scircumflex.sc
 EndChar
 
 StartChar: scircumflex
@@ -8113,6 +8400,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 101 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" scircumflex.sc
 EndChar
 
 StartChar: Scedilla
@@ -8124,6 +8412,7 @@ LayerCount: 2
 Fore
 Refer: 213 184 N 1 0 0 1 275 -33.2973 2
 Refer: 30 83 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" scedilla.sc
 EndChar
 
 StartChar: scedilla
@@ -8135,6 +8424,7 @@ LayerCount: 2
 Fore
 Refer: 213 184 N 1 0 0 1 111 -37.2973 2
 Refer: 56 115 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" scedilla.sc
 EndChar
 
 StartChar: Scaron
@@ -8146,6 +8436,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 297 0 2
 Refer: 30 83 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" scaron.sc
 EndChar
 
 StartChar: scaron
@@ -8157,6 +8448,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 101 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" scaron.sc
 EndChar
 
 StartChar: uni0162
@@ -8168,6 +8460,7 @@ LayerCount: 2
 Fore
 Refer: 213 184 N 1 0 0 1 284 6.70275 2
 Refer: 31 84 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni0163.sc
 EndChar
 
 StartChar: uni0163
@@ -8179,6 +8472,7 @@ LayerCount: 2
 Fore
 Refer: 213 184 N 1 0 0 1 6 -27.2973 2
 Refer: 57 116 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0163.sc
 EndChar
 
 StartChar: Tcaron
@@ -8190,6 +8484,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 306 0 2
 Refer: 31 84 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" tcaron.sc
 EndChar
 
 StartChar: tcaron
@@ -8201,6 +8496,7 @@ LayerCount: 2
 Fore
 Refer: 65 44 N 1 0 0 1 860 1082 2
 Refer: 57 116 N 1 0 0 1 0 0 2
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" tcaron.sc
 EndChar
 
 StartChar: Tbar
@@ -8233,6 +8529,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 530 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" utilde.sc
 EndChar
 
 StartChar: utilde
@@ -8244,6 +8541,7 @@ LayerCount: 2
 Fore
 Refer: 210 732 N 1 0 0 1 274 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" utilde.sc
 EndChar
 
 StartChar: Umacron
@@ -8255,6 +8553,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 496 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" umacron.sc
 EndChar
 
 StartChar: umacron
@@ -8266,6 +8565,7 @@ LayerCount: 2
 Fore
 Refer: 192 772 N 1 0 0 1 240 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" umacron.sc
 EndChar
 
 StartChar: Ubreve
@@ -8277,6 +8577,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 497 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ubreve.sc
 EndChar
 
 StartChar: ubreve
@@ -8288,6 +8589,7 @@ LayerCount: 2
 Fore
 Refer: 206 728 N 1 0 0 1 241 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ubreve.sc
 EndChar
 
 StartChar: Uring
@@ -8299,6 +8601,7 @@ LayerCount: 2
 Fore
 Refer: 208 730 N 1 0 0 1 496 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uring.sc
 EndChar
 
 StartChar: uring
@@ -8310,6 +8613,7 @@ LayerCount: 2
 Fore
 Refer: 208 730 N 1 0 0 1 240 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uring.sc
 EndChar
 
 StartChar: Uhungarumlaut
@@ -8321,6 +8625,7 @@ LayerCount: 2
 Fore
 Refer: 211 733 N 1 0 0 1 572 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uhungarumlaut.sc
 EndChar
 
 StartChar: uhungarumlaut
@@ -8332,6 +8637,7 @@ LayerCount: 2
 Fore
 Refer: 211 733 N 1 0 0 1 316 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uhungarumlaut.sc
 EndChar
 
 StartChar: Uogonek
@@ -8343,6 +8649,7 @@ LayerCount: 2
 Fore
 Refer: 209 731 N 1 0 0 1 860 143 2
 Refer: 32 85 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uogonek.sc
 EndChar
 
 StartChar: uogonek
@@ -8354,6 +8661,7 @@ LayerCount: 2
 Fore
 Refer: 209 731 S 1 0 0 1 711 -7 2
 Refer: 58 117 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uogonek.sc
 EndChar
 
 StartChar: Wcircumflex
@@ -8365,6 +8673,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 897 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" wcircumflex.sc
 EndChar
 
 StartChar: wcircumflex
@@ -8376,6 +8685,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 518 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" wcircumflex.sc
 EndChar
 
 StartChar: Ycircumflex
@@ -8387,6 +8697,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 487 0 2
 Refer: 36 89 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ycircumflex.sc
 EndChar
 
 StartChar: ycircumflex
@@ -8398,6 +8709,7 @@ LayerCount: 2
 Fore
 Refer: 190 770 N 1 0 0 1 255 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ycircumflex.sc
 EndChar
 
 StartChar: Ydieresis
@@ -8409,6 +8721,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 485 0 2
 Refer: 36 89 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ydieresis.sc
 EndChar
 
 StartChar: Zacute
@@ -8420,6 +8733,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 367 0 2
 Refer: 37 90 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" zacute.sc
 EndChar
 
 StartChar: zacute
@@ -8431,6 +8745,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 179 -460 2
 Refer: 63 122 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" zacute.sc
 EndChar
 
 StartChar: Zdotaccent
@@ -8442,6 +8757,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 299 460 2
 Refer: 37 90 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" zdotaccent.sc
 EndChar
 
 StartChar: zdotaccent
@@ -8453,6 +8769,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 111 0 2
 Refer: 63 122 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" zdotaccent.sc
 EndChar
 
 StartChar: Zcaron
@@ -8464,6 +8781,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 297 0 2
 Refer: 37 90 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" zcaron.sc
 EndChar
 
 StartChar: zcaron
@@ -8475,6 +8793,7 @@ LayerCount: 2
 Fore
 Refer: 198 780 N 1 0 0 1 109 -460 2
 Refer: 63 122 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" zcaron.sc
 EndChar
 
 StartChar: longs
@@ -8518,6 +8837,7 @@ LayerCount: 2
 Fore
 Refer: 199 785 S 1 0 0 1 327 0 2
 Refer: 29 82 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni0213.sc
 EndChar
 
 StartChar: uni0213
@@ -8529,6 +8849,7 @@ LayerCount: 2
 Fore
 Refer: 199 785 N 1 0 0 1 146 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0213.sc
 EndChar
 
 StartChar: uni0218
@@ -8540,6 +8861,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 289 0 2
 Refer: 30 83 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni0219.sc
 EndChar
 
 StartChar: uni0219
@@ -8551,6 +8873,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 74 0 2
 Refer: 56 115 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0219.sc
 EndChar
 
 StartChar: uni021A
@@ -8562,6 +8885,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 310 0 2
 Refer: 31 84 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni021B.sc
 EndChar
 
 StartChar: uni021B
@@ -8573,6 +8897,7 @@ LayerCount: 2
 Fore
 Refer: 202 806 N 1 0 0 1 39 0 2
 Refer: 57 116 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni021B.sc
 EndChar
 
 StartChar: uni03A9
@@ -8652,6 +8977,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 825 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" wgrave.sc
 EndChar
 
 StartChar: wgrave
@@ -8663,6 +8989,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 446 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" wgrave.sc
 EndChar
 
 StartChar: Wacute
@@ -8674,6 +9001,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 967 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" wacute.sc
 EndChar
 
 StartChar: wacute
@@ -8685,6 +9013,7 @@ LayerCount: 2
 Fore
 Refer: 189 769 N 1 0 0 1 588 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" wacute.sc
 EndChar
 
 StartChar: Wdieresis
@@ -8696,6 +9025,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 895 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" wdieresis.sc
 EndChar
 
 StartChar: wdieresis
@@ -8707,6 +9037,7 @@ LayerCount: 2
 Fore
 Refer: 212 168 N 1 0 0 1 516 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" wdieresis.sc
 EndChar
 
 StartChar: uni1E86
@@ -8718,6 +9049,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 899 460 2
 Refer: 34 87 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni1E87.sc
 EndChar
 
 StartChar: uni1E87
@@ -8729,6 +9061,7 @@ LayerCount: 2
 Fore
 Refer: 207 729 N 1 0 0 1 520 0 2
 Refer: 60 119 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni1E87.sc
 EndChar
 
 StartChar: uni1E88
@@ -8740,6 +9073,7 @@ LayerCount: 2
 Fore
 Refer: 201 803 N 1 0 0 1 806 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni1E89.sc
 EndChar
 
 StartChar: uni1E89
@@ -8751,6 +9085,7 @@ LayerCount: 2
 Fore
 Refer: 201 803 N 1 0 0 1 457 0 2
 Refer: 60 119 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni1E89.sc
 EndChar
 
 StartChar: uni1E9E
@@ -8802,6 +9137,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 415 0 2
 Refer: 36 89 N 1 0 0 1 0 0 3
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ygrave.sc
 EndChar
 
 StartChar: ygrave
@@ -8813,6 +9149,7 @@ LayerCount: 2
 Fore
 Refer: 188 768 N 1 0 0 1 183 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ygrave.sc
 EndChar
 
 StartChar: guilsinglleft
@@ -9261,6 +9598,2264 @@ LayerCount: 2
 Fore
 Refer: 24 77 N 0.36 0 0 0.36 686 975 2
 Refer: 31 84 N 0.36 0 0 0.36 70 975 2
+EndChar
+
+StartChar: a.sc
+Encoding: 65554 -1 451
+Width: 1446
+Flags: HMW
+AnchorPoint: "Anchor-3" 1154 0 basechar 0
+AnchorPoint: "Anchor-2" 656 0 basechar 0
+AnchorPoint: "Anchor-0" 772 1032.96 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+598 524.16015625 m 2
+ 595.120117187 517.435872396 593.493489583 510.394422743 593.493489583 503.994393808 c 0
+ 593.493489583 491.194335938 600 480.959960938 616 480.959960938 c 2
+ 762 480.959960938 l 2
+ 781.470368516 480.959960938 787.479402285 488.232928417 787.479402285 498.585486742 c 0
+ 787.479402285 505.247596944 784.990929488 513.185033321 782 521.280273438 c 2
+ 710 716.16015625 l 2
+ 704.722958339 730.443575919 700.440883705 737.578473296 695.902166986 737.578473296 c 0
+ 691.064755809 737.578473296 685.935811628 729.473574741 679 713.280273438 c 2
+ 598 524.16015625 l 2
+21.8603515625 45.259765625 m 2
+ 21.8603515625 186.821289062 l 2
+ 21.8603515625 215.909179688 27.7998046875 229.484375 53.5400390625 229.484375 c 2
+ 166.400390625 229.484375 l 2
+ 189.169921875 229.484375 188.1796875 233.362304688 194.120117188 238.209960938 c 2
+ 551.509765625 1037.16015625 l 2
+ 560.419921875 1058.4921875 563.389648438 1059.4609375 595.0703125 1059.4609375 c 2
+ 901 1053.12011719 l 2
+ 934 1052 938 1045.44042969 947 1024.3203125 c 2
+ 1266 245.759765625 l 2
+ 1276 237.120117188 1273 231.360351562 1313 231.360351562 c 2
+ 1404 231.360351562 l 2
+ 1428 231.360351562 1441 231.360351562 1441 197.759765625 c 2
+ 1441 38.400390625 l 2
+ 1441 3.83984375 1437 0 1410 0 c 2
+ 770 0 l 2
+ 742 0 742 7.6796875 742 42.240234375 c 2
+ 742 194.879882812 l 2
+ 742 227.51953125 746 231.360351562 772 231.360351562 c 2
+ 851 231.360351562 l 2
+ 866.203717037 231.360351562 881.67378618 238.473749317 881.67378618 247.663939987 c 0
+ 881.67378618 248.74973913 881.457841654 249.864527934 881 251 c 2
+ 872 272.639648438 l 2
+ 864.997070312 289.477539062 862 305.280273438 835 305.280273438 c 2
+ 540 305.280273438 l 2
+ 513 305.280273438 507.502929688 296.405273438 494 272.639648438 c 2
+ 480 248 l 2
+ 478.497720919 245.285325749 477.694710471 242.754494872 477.694710471 240.52667877 c 0
+ 477.694710471 235.016758366 482.606651779 231.360351562 494 231.360351562 c 2
+ 566 231.360351562 l 2
+ 588 231.360351562 589 223.6796875 589 195.83984375 c 2
+ 589 31.6796875 l 2
+ 589 3.83984375 582 0 561 0 c 2
+ 67.400390625 -4.1904296875 l 2
+ 28.7900390625 -4.1904296875 21.8603515625 -3.220703125 21.8603515625 45.259765625 c 2
+EndSplineSet
+EndChar
+
+StartChar: b.sc
+Encoding: 65555 -1 452
+Width: 1390
+Flags: HM
+AnchorPoint: "Anchor-2" 668 0 basechar 0
+AnchorPoint: "Anchor-0" 646 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+747 241 m 2
+ 873 241 909 279 909 334 c 0
+ 909 389 844 413 747 413 c 2
+ 608 413 l 6
+ 589 413 578 406 578 393 c 6
+ 578 267 l 6
+ 578 248 582 241 611 241 c 6
+ 747 241 l 2
+618 655 m 6
+ 714 655 l 2
+ 800 655 855 679 855 732 c 0
+ 855 785 814 799 714 799 c 2
+ 614 799 l 6
+ 592 799 578 799 578 785 c 6
+ 578 682 l 6
+ 578 660 583 655 618 655 c 6
+780 0 m 2
+ 67 0 l 2
+ 35 0 35 17 35 59 c 2
+ 35 214 l 2
+ 35 237 42 241 59 241 c 2
+ 155 241 l 2
+ 186 241 188 251 188 277 c 2
+ 188 769 l 2
+ 188 790 183 799 159 799 c 2
+ 65 799 l 2
+ 39 799 35 804 35 836 c 2
+ 35 994 l 2
+ 35 1030 41 1040 67 1040 c 2
+ 727 1040 l 2
+ 1117 1040 1284 977 1284 783 c 0
+ 1284 669 1198 595 1038 558 c 0
+ 1004 550 1002 533 1043 527 c 0
+ 1242 495 1356 418 1356 291 c 0
+ 1356 69 1188 0 780 0 c 2
+EndSplineSet
+EndChar
+
+StartChar: c.sc
+Encoding: 65556 -1 453
+Width: 1356
+Flags: HM
+AnchorPoint: "Anchor-2" 740 0.799805 basechar 0
+AnchorPoint: "Anchor-0" 740 1034.72 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+49 517.280273438 m 0
+ 49 828.3203125 333 1069.28027344 723 1069.28027344 c 0
+ 835 1069.28027344 925 1031.83984375 993 975.200195312 c 0
+ 1026 948.3203125 1033 950.240234375 1060 986.719726562 c 2
+ 1086 1024.16015625 l 2
+ 1098 1040.48046875 1103 1043.36035156 1133 1043.36035156 c 2
+ 1245 1043.36035156 l 2
+ 1284 1043.36035156 1286 1035.6796875 1286 993.440429688 c 2
+ 1286 658.400390625 l 2
+ 1286 635.360351562 1281 630.559570312 1245 630.559570312 c 2
+ 1055 630.559570312 l 2
+ 1012 630.559570312 1007 638.240234375 999 660.3203125 c 0
+ 968 771.6796875 902 849.440429688 756 849.440429688 c 0
+ 612 849.440429688 514 732.3203125 514 520.16015625 c 0
+ 514 308 614 197.599609375 775 197.599609375 c 0
+ 906 197.599609375 1008 265.759765625 1036 379.040039062 c 0
+ 1047 412.639648438 1052 421.280273438 1096 421.280273438 c 2
+ 1271 421.280273438 l 2
+ 1318 421.280273438 1322 414.559570312 1318 391.51953125 c 0
+ 1284 142.879882812 1091 -33.759765625 733 -33.759765625 c 0
+ 326 -33.759765625 49 178.400390625 49 517.280273438 c 0
+EndSplineSet
+EndChar
+
+StartChar: d.sc
+Encoding: 65557 -1 454
+Width: 1475
+Flags: HM
+AnchorPoint: "Anchor-2" 742 0 basechar 0
+AnchorPoint: "Anchor-0" 742 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+35 30 m 2
+ 35 205 l 2
+ 35 234 40 241 62 241 c 2
+ 162 241 l 2
+ 187 241 188 246 188 268 c 2
+ 188 769 l 2
+ 188 794 184 799 155 799 c 2
+ 69 799 l 2
+ 38 799 35 805 35 842 c 2
+ 35 993 l 2
+ 35 1033 42 1040 72 1040 c 2
+ 716 1040 l 2
+ 1266 1040 1427 815 1427 520 c 0
+ 1427 225 1250 0 716 0 c 2
+ 68 0 l 2
+ 45 0 35 1 35 30 c 2
+648 241 m 2
+ 712 241 l 2
+ 870 241 962 332 962 520 c 0
+ 962 708 856 799 712 799 c 2
+ 649 799 l 2
+ 616 799 608 794 608 766 c 2
+ 608 268 l 2
+ 608 242 617 241 648 241 c 2
+EndSplineSet
+EndChar
+
+StartChar: e.sc
+Encoding: 65558 -1 455
+Width: 1353
+Flags: HM
+AnchorPoint: "Anchor-3" 1143 45 basechar 0
+AnchorPoint: "Anchor-2" 660 0 basechar 0
+AnchorPoint: "Anchor-0" 680 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+157 799 m 2
+ 67 799 l 2
+ 38 799 35 806 35 842 c 2
+ 35 999 l 2
+ 35 1039 45 1040 74 1040 c 2
+ 1246 1040 l 2
+ 1279 1040 1281 1030 1281 997 c 2
+ 1281 660 l 2
+ 1281 641 1281 642 1247 642 c 2
+ 1077 642 l 2
+ 1050 642 1049 648 1048 661 c 0
+ 1043 761 1003 799 836 799 c 2
+ 652 799 l 2
+ 622 799 608 797 608 776 c 2
+ 608 646 l 2
+ 608 622 612 617 634 617 c 2
+ 638 617 l 2
+ 710 617 754 659 765 705 c 0
+ 769 720 771 728 796 728 c 2
+ 895 728 l 2
+ 933 728 938 726 938 705 c 2
+ 938 334 l 2
+ 938 317 933 313 900 313 c 2
+ 804 313 l 2
+ 767 313 769 322 764 338 c 0
+ 753 383 697 428 644 428 c 2
+ 640 428 l 2
+ 621 428 608 419 608 399 c 2
+ 608 261 l 6
+ 608 242 615 241 649 241 c 2
+ 822 241 l 2
+ 1016 241 1061 285 1066 399 c 0
+ 1068 473 1062 483 1111 483 c 2
+ 1263 483 l 2
+ 1303 483 1299 473 1299 403 c 2
+ 1299 36 l 2
+ 1299 -2 1297 0 1262 0 c 2
+ 69 0 l 2
+ 41 0 35 -6 35 32 c 2
+ 35 212 l 2
+ 35 242 37 241 60 241 c 2
+ 157 241 l 2
+ 187 241 188 227 188 265 c 2
+ 188 777 l 2
+ 188 797 182 799 157 799 c 2
+EndSplineSet
+EndChar
+
+StartChar: f.sc
+Encoding: 65559 -1 456
+Width: 1311
+Flags: HM
+AnchorPoint: "Anchor-2" 407 0 basechar 0
+AnchorPoint: "Anchor-0" 666 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+163 799 m 2
+ 52 799 l 2
+ 36 799 35 807 35 828 c 2
+ 35 1017 l 2
+ 35 1039 41 1040 58 1040 c 2
+ 1237 1040 l 2
+ 1264 1040 1267 1033 1267 1004 c 2
+ 1267 646 l 2
+ 1267 632 1261 631 1235 631 c 2
+ 1076 631 l 2
+ 1044 631 1036 631 1035 648 c 0
+ 1031 752 990 799 821 799 c 2
+ 640 799 l 2
+ 616 799 608 799 608 783 c 2
+ 608 612 l 2
+ 608 607 610 605 614 605 c 2
+ 615 605 l 2
+ 686 605 747 651 753 710 c 0
+ 754 717 752 718 766 718 c 2
+ 903 718 l 2
+ 922 718 924 714 924 703 c 2
+ 924 306 l 2
+ 924 295 918 292 895 292 c 2
+ 788 292 l 2
+ 762 292 756 293 753 305 c 0
+ 745.041667078 360.708330453 681.665039062 405.53125 618 405.99609375 c 6
+ 617 406 l 2
+ 609 406 608 402 608 400 c 2
+ 608 263 l 2
+ 608 244 611 241 640 241 c 2
+ 765 241 l 2
+ 798 241 798 241 798 208 c 2
+ 798 42 l 2
+ 798 5 793 0 756 0 c 2
+ 63 0 l 2
+ 40 0 35 2 35 31 c 2
+ 35 215 l 2
+ 35 240 41 241 61 241 c 2
+ 158 241 l 2
+ 186 241 188 245 188 269 c 2
+ 188 779 l 2
+ 188 796 182 799 163 799 c 2
+EndSplineSet
+EndChar
+
+StartChar: g.sc
+Encoding: 65560 -1 457
+Width: 1509
+Flags: HM
+AnchorPoint: "Anchor-2" 719 2.71973 basechar 0
+AnchorPoint: "Anchor-0" 740 1034.72 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+775 618.080078125 m 6
+ 1460 618.080078125 l 6
+ 1491 618.080078125 1496 613.280273438 1496 572.959960938 c 6
+ 1496 416.48046875 l 6
+ 1496 387.6796875 1490 385.759765625 1466 385.759765625 c 6
+ 1382 385.759765625 l 6
+ 1360 385.759765625 1357 383.83984375 1357 363.6796875 c 6
+ 1357 215.83984375 l 6
+ 1357 185.120117188 1352 182.240234375 1333 167.83984375 c 4
+ 1231 89.1201171875 1018 -31.83984375 743 -31.83984375 c 4
+ 338 -31.83984375 49 180.3203125 49 519.200195312 c 4
+ 49 830.240234375 323 1069.28027344 722 1069.28027344 c 4
+ 844 1069.28027344 936 1029.91992188 1005 970.400390625 c 4
+ 1033 951.200195312 1042 950.240234375 1064 978.080078125 c 6
+ 1103 1028 l 6
+ 1112 1039.51953125 1123 1043.36035156 1145 1043.36035156 c 6
+ 1279 1043.36035156 l 6
+ 1309 1043.36035156 1321 1041.44042969 1321 1012.63964844 c 6
+ 1321 710.240234375 l 6
+ 1321 686.240234375 1320 678.559570312 1281 678.559570312 c 6
+ 1105 678.559570312 l 6
+ 1054 678.559570312 1058 685.280273438 1043 705.440429688 c 4
+ 983 799.51953125 900 849.440429688 756 849.440429688 c 4
+ 612 849.440429688 514 731.360351562 514 518.240234375 c 4
+ 514 305.120117188 598 184.16015625 735 184.16015625 c 4
+ 858 184.16015625 898 229.280273438 924 276.3203125 c 4
+ 932 290.719726562 937 301.280273438 937 324.3203125 c 6
+ 937 361.759765625 l 6
+ 937 382.879882812 934 385.759765625 908 385.759765625 c 6
+ 767 385.759765625 l 6
+ 726 385.759765625 735 403.040039062 735 439.51953125 c 6
+ 735 574.879882812 l 6
+ 735 616.16015625 744 618.080078125 775 618.080078125 c 6
+EndSplineSet
+EndChar
+
+StartChar: h.sc
+Encoding: 65561 -1 458
+Width: 1673
+Flags: HM
+AnchorPoint: "Anchor-2" 885 0 basechar 0
+AnchorPoint: "Anchor-0" 889 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+641 780 m 2
+ 641 669 l 2
+ 641 646 650 646 688 646 c 2
+ 1035 646 l 6
+ 1073 646 1076 651 1076 675 c 6
+ 1076 783 l 6
+ 1076 798 1067 799 1044 799 c 6
+ 976 799 l 6
+ 941 799 937 801 937 845 c 6
+ 937 986 l 6
+ 937 1034 942 1040 978 1040 c 6
+ 1597 1040 l 2
+ 1623 1040 1639 1033 1639 996 c 2
+ 1639 842 l 2
+ 1639 807 1633 799 1604 799 c 2
+ 1514 799 l 2
+ 1488 799 1486 792 1486 769 c 2
+ 1486 270 l 2
+ 1486 248 1487 241 1513 241 c 2
+ 1603 241 l 2
+ 1634 241 1639 232 1639 190 c 2
+ 1639 72 l 2
+ 1639 7 1632 0 1583 0 c 2
+ 992 0 l 6
+ 951 0 937 6 937 62 c 6
+ 937 201 l 6
+ 937 235 946 241 971 241 c 6
+ 1033 241 l 6
+ 1066 241 1076 242 1076 264 c 6
+ 1076 398 l 6
+ 1076 418 1069 422 1038 422 c 6
+ 677 422 l 2
+ 645 422 641 417 641 397 c 2
+ 641 269 l 2
+ 641 248 642 241 681 241 c 2
+ 772 241 l 2
+ 808 241 820 239 820 204 c 2
+ 820 58 l 2
+ 820 5 796 0 748 0 c 2
+ 97 0 l 2
+ 45 0 35 6 35 60 c 2
+ 35 184 l 2
+ 35 224 37 241 77 241 c 2
+ 173 241 l 2
+ 217 241 231 242 231 270 c 2
+ 231 772 l 2
+ 231 796 221 799 183 799 c 2
+ 93 799 l 2
+ 47 799 35 804 35 853 c 2
+ 35 990 l 2
+ 35 1034 57 1040 97 1040 c 2
+ 748 1040 l 2
+ 799 1040 820 1034 820 979 c 2
+ 820 842 l 2
+ 820 804 815 799 778 799 c 2
+ 679 799 l 2
+ 647 799 641 797 641 780 c 2
+EndSplineSet
+EndChar
+
+StartChar: i.sc
+Encoding: 65562 -1 459
+Width: 970
+Flags: HM
+AnchorPoint: "Anchor-3" 470 0 basechar 0
+AnchorPoint: "Anchor-2" 470 0 basechar 0
+AnchorPoint: "Anchor-0" 473 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+686 786 m 2
+ 686 249 l 2
+ 686 223 695 223 734 223 c 2
+ 876 223 l 2
+ 906 223 919 222 919 193 c 2
+ 919 45 l 2
+ 919 5 913 0 874 0 c 2
+ 97 0 l 2
+ 56 0 52 8 52 50 c 2
+ 52 179 l 2
+ 52 219 64 223 101 223 c 2
+ 224 223 l 2
+ 258 223 266 227 266 251 c 2
+ 266 785 l 2
+ 266 811 264 817 226 817 c 2
+ 99 817 l 2
+ 62 817 52 821 52 860 c 2
+ 52 989 l 2
+ 52 1032 54 1040 97 1040 c 2
+ 871 1040 l 2
+ 914 1040 919 1030 919 990 c 2
+ 919 865 l 2
+ 919 822 913 817 872 817 c 2
+ 731 817 l 2
+ 692 817 686 811 686 786 c 2
+EndSplineSet
+EndChar
+
+StartChar: j.sc
+Encoding: 65563 -1 460
+Width: 1161
+Flags: M
+AnchorPoint: "Anchor-2" 459 8 basechar 0
+AnchorPoint: "Anchor-0" 682 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+0 267 m 0
+ 0 407 99 506 250 506 c 0
+ 379 506 458 451 458 376 c 0
+ 458 269 357 270 357 237 c 0
+ 357 217 376 178 448 178 c 0
+ 519 178 580 220 580 351 c 2
+ 580 764 l 2
+ 580 797 571 799 532 799 c 2
+ 399 799 l 2
+ 369 799 358 800 358 842 c 2
+ 358 988 l 2
+ 358 1032 359 1040 393 1040 c 2
+ 1113 1040 l 2
+ 1142 1040 1148 1033 1148 994 c 2
+ 1148 836 l 2
+ 1148 799 1139 799 1111 799 c 2
+ 1008 799 l 2
+ 984 799 982 790 982 767 c 2
+ 982 350 l 2
+ 982 103 749 -28 446 -28 c 0
+ 183 -28 0 116 0 267 c 0
+EndSplineSet
+EndChar
+
+StartChar: k.sc
+Encoding: 65564 -1 461
+Width: 1439
+Flags: HM
+AnchorPoint: "Anchor-2" 788 0 basechar 0
+AnchorPoint: "Anchor-0" 785 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+35 48 m 2
+ 35 200 l 2
+ 35 234 38 241 64 241 c 2
+ 152 241 l 2
+ 185 241 188 245 188 272 c 2
+ 188 778 l 2
+ 188 798 179 799 155 799 c 2
+ 62 799 l 2
+ 35 799 35 810 35 845 c 2
+ 35 999 l 2
+ 35 1036 45 1040 71 1040 c 2
+ 739 1040 l 2
+ 764 1040 774 1036 774 1001 c 2
+ 774 853 l 2
+ 774 809 771 799 738 799 c 2
+ 641 799 l 2
+ 613 799 608 794 608 770 c 2
+ 608 603 l 2
+ 608 561 614 555.667774086 644 576 c 2
+ 945 780 l 2
+ 969 793 980 799 934 799 c 2
+ 880 799 l 2
+ 844 799 837 801 837 847 c 2
+ 837 1003 l 2
+ 837 1032 840 1040 862 1040 c 2
+ 1369 1040 l 2
+ 1391 1040 1391 1023 1391 995 c 2
+ 1391 850 l 2
+ 1391 810 1390 799 1359 799 c 2
+ 1262 799 l 2
+ 1222 799 1217 790 1196 776 c 2
+ 1018 653 l 2
+ 982 634 984.738235294 626 1001 607 c 2
+ 1292 267 l 2
+ 1311 245 1315 241 1361 241 c 2
+ 1440 241 l 2
+ 1461 241 1468 235 1468 206 c 2
+ 1468 36 l 2
+ 1468 5 1457 0 1432 0 c 2
+ 845 0 l 2
+ 819 0 816 7 816 41 c 2
+ 816 199 l 2
+ 816 237 829 241 856 241 c 2
+ 921 241 l 2
+ 969 241 950 255 934 271 c 2
+ 784 462 l 2
+ 771.434554974 478 762 476.944954128 742 463 c 2
+ 633 387 l 2
+ 615 374 608 366 608 343 c 2
+ 608 264 l 2
+ 608 242 614 241 640 241 c 2
+ 733 241 l 2
+ 757 241 760 234 760 202 c 2
+ 760 50 l 2
+ 760 4 752 0 719 0 c 2
+ 67 0 l 2
+ 36 0 35 9 35 48 c 2
+EndSplineSet
+EndChar
+
+StartChar: l.sc
+Encoding: 65565 -1 462
+Width: 1224
+Flags: HM
+AnchorPoint: "Anchor-2" 640 0 basechar 0
+AnchorPoint: "Anchor-1" 801 632 basechar 0
+AnchorPoint: "Anchor-0" 343 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+158 799 m 2
+ 59 799 l 2
+ 38 799 35 804 35 833 c 2
+ 35 992 l 2
+ 35 1032 36 1040 67 1040 c 2
+ 754 1040 l 2
+ 782 1040 788 1035 788 997 c 2
+ 788 842 l 2
+ 788 803 779 799 751 799 c 2
+ 642 799 l 2
+ 615 799 608 799 608 776 c 2
+ 608 274 l 2
+ 608 247 609 241 642 241 c 2
+ 726 241 l 2
+ 881 241 967 287 975 460 c 0
+ 977 484 974 485 1012 485 c 2
+ 1153 485 l 2
+ 1182 485 1190 483 1190 464 c 2
+ 1190 46 l 2
+ 1190 8 1187 0 1153 0 c 2
+ 66 0 l 2
+ 38 0 35 6 35 43 c 2
+ 35 209 l 2
+ 35 233 37 241 55 241 c 2
+ 151 241 l 2
+ 182 241 188 245 188 272 c 2
+ 188 770 l 2
+ 188 794 186 799 158 799 c 2
+EndSplineSet
+EndChar
+
+StartChar: m.sc
+Encoding: 65566 -1 463
+Width: 1759
+Flags: HM
+AnchorPoint: "Anchor-2" 788 5 basechar 0
+AnchorPoint: "Anchor-0" 858 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+163 799 m 6
+ 84 799 l 2
+ 51 799 50 798 50 841 c 2
+ 50 1012 l 2
+ 50 1049 63 1040 89 1040 c 2
+ 622 1040 l 2
+ 680 1040 674 1021 688 983 c 2
+ 862 574 l 2
+ 878 530 886 481 901 481 c 0
+ 917 481 925 505 944 552 c 2
+ 1139 1012 l 2
+ 1149 1037 1151 1040 1189 1040 c 2
+ 1676 1040 l 2
+ 1711 1040 1724 1051 1724 1002 c 2
+ 1724 845 l 2
+ 1724 801 1736 799 1691 799 c 2
+ 1599 799 l 2
+ 1561 799 1565 798 1566 774 c 2
+ 1566 265 l 2
+ 1567 245 1555 241 1589 241 c 2
+ 1700 241 l 2
+ 1723 241 1725 234 1725 204 c 2
+ 1725 49 l 2
+ 1725 11 1723 0 1691 0 c 2
+ 1066 0 l 2
+ 1035 0 1034 7 1034 47 c 2
+ 1034 199 l 2
+ 1034 239 1042 241 1071 241 c 2
+ 1145 241 l 2
+ 1176 241 1205 247 1204 271 c 2
+ 1203 533 l 2
+ 1200 614 1199 693 1176 693 c 0
+ 1159 693 1159 673 1137 621 c 2
+ 914 19 l 2
+ 904 -14 899 -21 858 -21 c 2
+ 733 -21 l 2
+ 692 -21 686 -14 676 19 c 2
+ 447 600 l 2
+ 429 644 415 722 397 722 c 0
+ 385 722 383.717488259 701.982160262 384 650 c 2
+ 386 282 l 2
+ 384 254 370 241 419 241 c 2
+ 511 241 l 2
+ 537 241 541 235 541 201 c 2
+ 541 46 l 2
+ 541 2 533 0 501 0 c 2
+ 71 0 l 2
+ 38 0 35 5 35 49 c 2
+ 35 210 l 2
+ 35 235 36 241 55 241 c 2
+ 165 241 l 2
+ 219 241 198 255 200 286 c 2
+ 199 779 l 6
+ 198.969578276 793.997909895 192 799 163 799 c 6
+EndSplineSet
+EndChar
+
+StartChar: n.sc
+Encoding: 65567 -1 464
+Width: 1432
+Flags: HM
+AnchorPoint: "Anchor-2" 682 5 basechar 0
+AnchorPoint: "Anchor-0" 710 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+145 799 m 2
+ 66 799 l 2
+ 42 799 35 802 35 832 c 2
+ 35 983 l 2
+ 35 1035 41 1040 80 1040 c 2
+ 423 1040 l 2
+ 477 1040 496 1036 520 1011 c 2
+ 988 537 l 2
+ 1012 507 1025 485 1025 565 c 2
+ 1025 776 l 2
+ 1025 793 1022 799 1003 799 c 2
+ 903 799 l 2
+ 873 799 872 809 872 848 c 2
+ 872 994 l 2
+ 872 1037 882 1040 913 1040 c 2
+ 1386 1040 l 2
+ 1405 1040 1412 1035 1412 1009 c 2
+ 1412 855 l 2
+ 1412 802 1406 799 1364 799 c 2
+ 1297 799 l 2
+ 1271 799 1266 792 1266 771 c 2
+ 1266 9 l 2
+ 1266 -18 1259 -21 1231 -21 c 2
+ 1125 -21 l 2
+ 1081 -21 1070 -8 1050 15 c 2
+ 458 621 l 2
+ 433 656 422 668 422 585 c 2
+ 422 273 l 2
+ 422 246 425 241 457 241 c 2
+ 557 241 l 2
+ 576 241 581 234 581 207 c 2
+ 581 45 l 2
+ 581 1 562 0 532 0 c 2
+ 81 0 l 2
+ 41 0 35 4 35 58 c 2
+ 35 195 l 2
+ 35 240 42 241 77 241 c 2
+ 145 241 l 2
+ 177 241 181 247 181 274 c 2
+ 181 769 l 2
+ 181 799 180 799 145 799 c 2
+EndSplineSet
+EndChar
+
+StartChar: o.sc
+Encoding: 65568 -1 465
+Width: 1471
+Flags: HM
+AnchorPoint: "Anchor-2" 733 1.75977 basechar 0
+AnchorPoint: "Anchor-0" 733 1035.68 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+49 519.200195312 m 4
+ 49 844.639648438 306 1070.24023438 736 1070.24023438 c 4
+ 1166 1070.24023438 1423 844.639648438 1423 519.200195312 c 4
+ 1423 193.759765625 1150 -32.7998046875 736 -32.7998046875 c 4
+ 306 -32.7998046875 49 193.759765625 49 519.200195312 c 4
+514 519.200195312 m 4
+ 514 319.51953125 578 191.83984375 736 191.83984375 c 4
+ 908 191.83984375 958 319.51953125 958 519.200195312 c 4
+ 958 718.879882812 894 845.599609375 736 845.599609375 c 4
+ 578 845.599609375 514 718.879882812 514 519.200195312 c 4
+EndSplineSet
+EndChar
+
+StartChar: p.sc
+Encoding: 65569 -1 466
+Width: 1304
+Flags: HM
+AnchorPoint: "Anchor-2" 359 0 basechar 0
+AnchorPoint: "Anchor-0" 612 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+149 799 m 2
+ 72 799 l 2
+ 40 799 35 801 35 842 c 2
+ 35 994 l 2
+ 35 1037 43 1040 74 1040 c 2
+ 703 1040 l 2
+ 1009 1040 1277 954 1277 710 c 0
+ 1277 466 1017 366 722 366 c 2
+ 614 366 l 6
+ 579 366 578 363 578 344 c 6
+ 578 262 l 6
+ 578 243 583 241 614 241 c 6
+ 758 241 l 2
+ 787 241 788 233 788 196 c 2
+ 788 50 l 2
+ 788 9 788 0 756 0 c 2
+ 68 0 l 2
+ 40 0 35 4 35 41 c 2
+ 35 196 l 2
+ 35 234 38 241 67 241 c 2
+ 147 241 l 2
+ 186 241 188 247 188 278 c 2
+ 188 771 l 2
+ 188 798 182 799 149 799 c 2
+607 609 m 6
+ 677 609 l 2
+ 769 609 830 643 830 709 c 0
+ 830 775 769 799 677 799 c 2
+ 603 799 l 6
+ 579 799 578 795 578 778 c 6
+ 578 630 l 6
+ 578 612 581 609 607 609 c 6
+EndSplineSet
+EndChar
+
+StartChar: q.sc
+Encoding: 65570 -1 467
+Width: 1490
+Flags: HM
+AnchorPoint: "Anchor-0" 733 1035.68 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+49 519.200195312 m 0
+ 49 844.639648438 306 1070.24023438 736 1070.24023438 c 0
+ 1166 1070.24023438 1423 845.599609375 1423 522.080078125 c 0
+ 1423 324.3203125 1310 164 1121 68.9599609375 c 0
+ 1080 47.83984375 1075 42.080078125 1120 20 c 0
+ 1137 11.3603515625 1157 6.5595703125 1178 6.5595703125 c 0
+ 1244 6.5595703125 1288 37.2802734375 1309 112.16015625 c 0
+ 1314 132.3203125 1308 142.879882812 1337 142.879882812 c 2
+ 1453 142.879882812 l 2
+ 1500 142.879882812 1512 136.16015625 1507 96.7998046875 c 0
+ 1485 -89.4404296875 1391 -298.719726562 1207 -298.719726562 c 0
+ 1041 -298.719726562 979 -177.759765625 926 -50.080078125 c 0
+ 915 -24.16015625 907 -16.48046875 877 -21.2802734375 c 0
+ 833 -28.9599609375 787 -32.7998046875 739 -32.7998046875 c 0
+ 307 -32.7998046875 49 193.759765625 49 519.200195312 c 0
+596 222.799804688 m 0
+ 632.75 193.280273438 677 176 734 176 c 0
+ 752 176 769.25 176.719726562 785 180.3203125 c 0
+ 813.5 187.51953125 817.25 197.599609375 800 217.759765625 c 0
+ 770 253.759765625 730.25 276.799804688 672.5 276.799804688 c 0
+ 647.75 276.799804688 625.25 274.639648438 606.5 266 c 0
+ 580.25 254.48046875 573.5 241.51953125 596 222.799804688 c 0
+941 332 m 0
+ 951 380.959960938 958 438.559570312 958 503.83984375 c 0
+ 958 713.120117188 894 845.599609375 736 845.599609375 c 0
+ 578 845.599609375 514 719.83984375 514 520.16015625 c 0
+ 514 484.639648438 514 451.040039062 520 420.3203125 c 0
+ 525 384.799804688 520.215820312 386.421875 551 416.48046875 c 0
+ 586.120117188 450.771484375 643 475.040039062 717 475.040039062 c 0
+ 802 475.040039062 858.486328125 421.3125 902 353.120117188 c 0
+ 924.913085938 317.212890625 934 291.6796875 941 332 c 0
+EndSplineSet
+EndChar
+
+StartChar: r.sc
+Encoding: 65571 -1 468
+Width: 1512
+Flags: M
+AnchorPoint: "Anchor-2" 730 -0 basechar 0
+AnchorPoint: "Anchor-0" 667 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+1498 171 m 0
+ 1421 50 1322 -36 1159 -36 c 0
+ 810 -36 1035 423 701 423 c 2
+ 607 423 l 2
+ 577 423 578 419 578 401 c 2
+ 578 260 l 2
+ 578 246 579 241 600 241 c 2
+ 728 241 l 2
+ 753 241 760 235 760 200 c 2
+ 760 64 l 2
+ 760 11 759 0 718 0 c 2
+ 65 0 l 2
+ 41 0 35 5 35 34 c 2
+ 35 202 l 2
+ 35 235 39 241 64 241 c 2
+ 148 241 l 2
+ 181 241 188 244 188 271 c 2
+ 188 769 l 2
+ 188 796 180 799 150 799 c 2
+ 67 799 l 2
+ 38 799 35 809 35 845 c 2
+ 35 1006 l 2
+ 35 1036 42 1040 66 1040 c 2
+ 763 1040 l 2
+ 1148 1040 1314 944 1314 790 c 0
+ 1314 687 1235 590.904761905 1081 579 c 4
+ 1034.56601063 575.410483196 1017.5568732 549.413302127 1066 538 c 4
+ 1257 493 1196 275 1287 275 c 0
+ 1311 275 1337 286 1356 300 c 0
+ 1374 329 1380 326 1407 302 c 2
+ 1489 237 l 2
+ 1521 214 1519 200 1498 171 c 0
+614 636 m 2
+ 760 636 l 2
+ 838 636 885 669 885 715 c 0
+ 885 761 838 799 760 799 c 2
+ 607 799 l 2
+ 581 799 578 795 578 777 c 2
+ 578 657 l 2
+ 578 636 581 636 614 636 c 2
+EndSplineSet
+EndChar
+
+StartChar: s.sc
+Encoding: 65572 -1 469
+Width: 1278
+Flags: HMW
+AnchorPoint: "Anchor-2" 639 8 basechar 0
+AnchorPoint: "Anchor-0" 647 1039 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+988 683 m 0
+ 957.200195312 794 796.599609375 853 672.299804688 853 c 0
+ 583.400390625 853 550.700195312 804 550.700195312 759 c 0
+ 550.700195312 704.449966131 633.532132959 678.507907219 741.999995543 652.201289878 c 4
+ 947.700999095 602.312802559 1245.59960938 551.113209253 1245.59960938 301 c 0
+ 1245.59960938 51 1023.59960938 -28 694.299804688 -28 c 0
+ 530.400390625 -28 420.400390625 20 348.900390625 85 c 0
+ 309.299804688 121 306 99 280.5 53 c 2
+ 265.5 23 l 2
+ 254.5 2 240.5 -1 209.5 -1 c 2
+ 105.5 -1 l 2
+ 73.5 -1 60.5 5 60.5 39 c 2
+ 60.5 399 l 2
+ 60.5 424 63.5 431 100.5 431 c 2
+ 230.5 431 l 2
+ 272.5 431 263.5 426 268.5 401 c 0
+ 286.5 296 417.099609375 206 608.5 206 c 0
+ 723.700195312 206 755.400390625 238 755.400390625 303 c 0
+ 755.400390625 387.166364991 615.649947494 409.188910046 464.000004756 444.870815319 c 0
+ 284.120963595 487.194780574 87.5 548.736692535 87.5 756 c 0
+ 87.5 980 329.099609375 1067 566.700195312 1067 c 0
+ 705.299804688 1067 817.5 1025 898.900390625 963 c 0
+ 934.099609375 937 947.299804688 934 973.700195312 976 c 2
+ 995.700195312 1015 l 2
+ 1006.59960938 1032 1007.59960938 1040 1034.59960938 1040 c 2
+ 1161.59960938 1040 l 2
+ 1190.59960938 1040 1200.59960938 1032 1200.59960938 999 c 2
+ 1200.59960938 675 l 2
+ 1200.59960938 646 1195.59960938 642 1150.59960938 642 c 2
+ 1052.59960938 642 l 2
+ 992.400390625 642 999 652 988 683 c 0
+EndSplineSet
+EndChar
+
+StartChar: t.sc
+Encoding: 65573 -1 470
+Width: 1304
+Flags: M
+AnchorPoint: "Anchor-2" 649 0 basechar 0
+AnchorPoint: "Anchor-0" 648 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+294 46 m 2
+ 294 196 l 2
+ 294 232 299 241 326 241 c 2
+ 417 241 l 2
+ 454 241 460 248 460 279 c 2
+ 460 786 l 2
+ 460 800 454 808 437 808 c 2
+ 426 808 l 2
+ 288 808 250 749 246 528 c 0
+ 245 485 232 477 186 477 c 2
+ 78 477 l 2
+ 43 477 31 479 31 514 c 2
+ 31 988 l 2
+ 31 1026 32 1040 67 1040 c 2
+ 1241 1040 l 2
+ 1267 1040 1273 1028 1273 997 c 2
+ 1273 528 l 2
+ 1273 482 1265 477 1218 477 c 2
+ 1113 477 l 2
+ 1067 477 1059 482 1058 526 c 0
+ 1054 749 1018 808 879 808 c 2
+ 871 808 l 2
+ 850 808 844 800 844 783 c 2
+ 844 288 l 2
+ 844 251 846 241 890 241 c 2
+ 971 241 l 2
+ 1003 241 1010 230 1010 192 c 2
+ 1010 49 l 2
+ 1010 6 1004 0 972 0 c 2
+ 331 0 l 2
+ 302 0 294 6 294 46 c 2
+EndSplineSet
+EndChar
+
+StartChar: u.sc
+Encoding: 65574 -1 471
+Width: 1447
+Flags: HM
+AnchorPoint: "Anchor-3" 1051 178 basechar 0
+AnchorPoint: "Anchor-2" 792 8 basechar 0
+AnchorPoint: "Anchor-0" 785 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+990 799 m 2
+ 896 799 l 2
+ 863 799 854 810 854 850 c 2
+ 854 975 l 2
+ 854 1023 856 1040 893 1040 c 2
+ 1397 1040 l 2
+ 1427 1040 1430 1032 1430 992 c 2
+ 1430 848 l 2
+ 1430 805 1426 799 1391 799 c 2
+ 1320 799 l 2
+ 1284 799 1277 794 1277 759 c 2
+ 1277 389 l 2
+ 1277 109 1066 -28 716 -28 c 0
+ 246 -28 170 164 170 402 c 2
+ 170 766 l 2
+ 170 796 164 799 133 799 c 2
+ 59 799 l 2
+ 25 799 17 801 17 845 c 2
+ 17 984 l 2
+ 17 1028 22 1040 55 1040 c 2
+ 728 1040 l 2
+ 754 1040 757 1032 757 997 c 2
+ 757 843 l 2
+ 757 807 753 799 723 799 c 2
+ 629 799 l 2
+ 592 799 590 793 590 761 c 2
+ 590 470 l 2
+ 590 306 640 235 798 235 c 0
+ 915 235 1027 282 1027 435 c 2
+ 1027 770 l 2
+ 1027 796 1019 799 990 799 c 2
+EndSplineSet
+EndChar
+
+StartChar: v.sc
+Encoding: 65575 -1 472
+Width: 1450
+Flags: MW
+AnchorPoint: "Anchor-2" 674 -54 basechar 0
+AnchorPoint: "Anchor-0" 760 1040 basechar 0
+LayerCount: 2
+Back
+SplineSet
+849 547 m 6
+ 973 799 l 6
+ 983 821 978 830 946 830 c 6
+ 886 830 l 6
+ 865 830 860 840 860 859 c 6
+ 860 1010 l 6
+ 860 1034 865 1040 888 1040 c 6
+ 1342 1040 l 6
+ 1360 1040 1368 1032 1368 1015 c 6
+ 1368 857 l 6
+ 1368 839 1361 830 1342 830 c 6
+ 1262 830 l 6
+ 1234 830 1227 817 1218 799 c 6
+ 816 2 l 6
+ 803 -24 794 -30 754 -30 c 6
+ 622 -30 l 6
+ 592 -30 583 -24 573 -5 c 6
+ 149 812 l 6
+ 140 828 129 830 104 830 c 6
+ 22 830 l 6
+ -2 830 -10 833 -10 856 c 6
+ -10 1012 l 6
+ -10 1035 -3 1040 18 1040 c 6
+ 662 1040 l 6
+ 681 1040 682 1031 682 1011 c 6
+ 682 855 l 6
+ 682 832 674 830 650 830 c 6
+ 613 830 l 6
+ 580 830 582.935546875 819.834960938 589 797 c 6
+ 710 492 l 6
+ 729.283203125 450.049804688 745 394 760 394 c 4
+ 783 394 831.75821501 511.960243408 849 547 c 6
+EndSplineSet
+Fore
+SplineSet
+849 547 m 2
+ 973 799 l 2
+ 983 821 978 830 946 830 c 2
+ 886 830 l 2
+ 865 830 860 840 860 859 c 2
+ 860 1010 l 2
+ 860 1034 865 1040 888 1040 c 2
+ 1342 1040 l 2
+ 1360 1040 1368 1032 1368 1015 c 2
+ 1368 857 l 2
+ 1368 839 1361 830 1342 830 c 2
+ 1262 830 l 2
+ 1234 830 1227 817 1218 799 c 2
+ 816 2 l 2
+ 803 -24 794 -30 754 -30 c 2
+ 622 -30 l 2
+ 592 -30 583 -24 573 -5 c 2
+ 149 812 l 2
+ 140 828 129 830 104 830 c 2
+ 22 830 l 2
+ -2 830 -10 833 -10 856 c 2
+ -10 1012 l 2
+ -10 1035 -3 1040 18 1040 c 2
+ 662 1040 l 2
+ 681 1040 682 1031 682 1011 c 2
+ 682 855 l 2
+ 682 832 674 830 650 830 c 2
+ 593 830 l 6
+ 560 830 562.935546875 819.834960938 569 797 c 6
+ 710 492 l 2
+ 729.283203125 450.049804688 745 394 760 394 c 0
+ 783 394 831.75821501 511.960243408 849 547 c 2
+EndSplineSet
+EndChar
+
+StartChar: w.sc
+Encoding: 65576 -1 473
+Width: 1925
+Flags: MW
+AnchorPoint: "Anchor-2" 905 -54 basechar 0
+AnchorPoint: "Anchor-0" 968 1040 basechar 0
+LayerCount: 2
+Back
+SplineSet
+734 799 m 6
+ 699 799 698 814 698 846 c 6
+ 698 999 l 6
+ 698 1036 706 1040 740 1040 c 6
+ 1214 1040 l 6
+ 1249 1040 1258 1036 1258 999 c 6
+ 1258 844 l 6
+ 1258 806 1255 799 1218 799 c 6
+ 734 799 l 6
+720 567 m 6
+ 895 1013 l 6
+ 903.207901856 1033.91842416 912 1040 942 1040 c 6
+ 1036 1040 l 6
+ 1073 1040 1084.01816688 1012.7979689 1114 947 c 6
+ 1299 541 l 6
+ 1319.96735317 494.985160063 1343 442 1357 442 c 4
+ 1372 442 1419 603 1419 603 c 6
+ 1478 782 l 6
+ 1487.84765625 814.046875 1481 799 1444 799 c 6
+ 1364 799 l 6
+ 1335 799 1332 810 1332 836 c 6
+ 1332 1013 l 6
+ 1332 1013.11567441 1341 1040 1368 1040 c 6
+ 1862 1040 l 6
+ 1889 1040 1900 1002.09795254 1900 1002 c 6
+ 1900 846 l 6
+ 1900 808 1898 799 1860 799 c 6
+ 1786 799 l 6
+ 1742 799 1732.42285156 812.186523438 1722 780 c 6
+ 1472 21 l 6
+ 1471.94301363 20.8269893856 1464 -30 1410 -30 c 6
+ 1254 -30 l 6
+ 1195 -30 1193.54460889 -24.579795103 1177 15 c 6
+ 1047 326 l 6
+ 1025.73535156 377.03515625 979.069209569 511 963 511 c 7
+ 948.983271813 511 892.966796875 361.013671875 877 321 c 6
+ 742 15 l 6
+ 725.520813737 -22.3528221957 728 -30 672 -30 c 6
+ 520 -30 l 6
+ 461 -30 462.924644335 -21.0079757532 448 21 c 6
+ 189 750 l 6
+ 178.302734375 780.107421875 163 799 120 799 c 6
+ 26 799 l 6
+ -9 799 -10 814 -10 846 c 6
+ -10 999 l 6
+ -10 1036 -2 1040 32 1040 c 6
+ 573 1040 l 6
+ 608 1040 617 1036 617 999 c 6
+ 617 844 l 6
+ 617 806 614 799 577 799 c 6
+ 562 799 l 6
+ 542 799 540 788 552 752 c 6
+ 630 518 l 6
+ 647.841513814 464.475458557 653 444 668 444 c 4
+ 679 444 690.571748879 492 720 567 c 6
+EndSplineSet
+Fore
+SplineSet
+734 799 m 2
+ 699 799 698 814 698 846 c 2
+ 698 999 l 2
+ 698 1036 706 1040 740 1040 c 2
+ 1214 1040 l 2
+ 1249 1040 1258 1036 1258 999 c 2
+ 1258 844 l 2
+ 1258 806 1255 799 1218 799 c 2
+ 1204 799 l 2
+ 1182 799 1186.15233984 787.77510742 1192.83004926 774 c 2
+ 1299 541 l 2
+ 1319.96735317 494.985160063 1347 442 1357 442 c 0
+ 1366 442 1404.9638185 560.318550138 1419 603 c 2
+ 1468 752 l 2
+ 1477.84765625 784.046875 1481 799 1444 799 c 2
+ 1364 799 l 2
+ 1335 799 1332 810 1332 836 c 2
+ 1332 1013 l 2
+ 1332 1023 1341 1040 1368 1040 c 2
+ 1862 1040 l 2
+ 1891.27533127 1040 1900 1015 1900 1002 c 6
+ 1900 846 l 2
+ 1900 808 1898 799 1860 799 c 2
+ 1786 799 l 2
+ 1742 799 1732.42285156 812.186523438 1722 780 c 2
+ 1472 21 l 2
+ 1471.94301363 20.8269893856 1464 -30 1410 -30 c 2
+ 1254 -30 l 2
+ 1195 -30 1193.21416916 -24.6245145234 1177 15 c 2
+ 999 450 l 2
+ 977.735351562 501.03515625 975.069209569 511 963 511 c 0
+ 950.983271813 511 944.966796875 493.013671875 929 453 c 2
+ 742 15 l 2
+ 725.973023773 -22.5391207893 728 -30 672 -30 c 2
+ 520 -30 l 2
+ 461 -30 462.924644335 -21.0079757532 448 21 c 2
+ 189 750 l 2
+ 178.302734375 780.107421875 163 799 120 799 c 2
+ 26 799 l 2
+ -9 799 -10 814 -10 846 c 2
+ -10 999 l 2
+ -10 1036 -2 1040 32 1040 c 2
+ 573 1040 l 2
+ 608 1040 617 1036 617 999 c 2
+ 617 844 l 2
+ 617 806 614 799 577 799 c 2
+ 562 799 l 2
+ 542 799 540 788 552 752 c 2
+ 630 518 l 2
+ 647.841513814 464.475458557 653 444 668 444 c 0
+ 679 444 690.571748879 492 720 567 c 2
+ 801.221973094 774 l 2
+ 808 792 810 799 784 799 c 2
+ 734 799 l 2
+EndSplineSet
+EndChar
+
+StartChar: x.sc
+Encoding: 65577 -1 474
+Width: 1276
+Flags: HM
+AnchorPoint: "Anchor-2" 587 0 basechar 0
+AnchorPoint: "Anchor-0" 691 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+0 53 m 2
+ 0 188 l 2
+ 0 230 0 241 33 241 c 2
+ 111 241 l 2
+ 144 241 154 246 172 261 c 2
+ 420 467 l 2
+ 458 498.564516129 455 509.217741935 417 544 c 2
+ 169 771 l 2
+ 149 789 145 799 101 799 c 2
+ 46 799 l 2
+ 11 799 7 805 7 851 c 2
+ 7 978 l 2
+ 7 1030 9 1040 49 1040 c 2
+ 619 1040 l 2
+ 650 1040 659 1037 659 994 c 2
+ 659 844 l 2
+ 659 808 658 799 630 799 c 2
+ 559 799 l 2
+ 532 799 536 790 557 771 c 2
+ 662 676 l 2
+ 677 662.428571429 697 662.64 725 687 c 2
+ 825 774 l 2
+ 847 793.14 839 799 789 799 c 2
+ 763 799 l 2
+ 733 799 728 802 728 839 c 2
+ 728 992 l 2
+ 728 1033 730 1040 761 1040 c 2
+ 1225 1040 l 2
+ 1245 1040 1248 1033 1248 1005 c 2
+ 1248 839 l 2
+ 1248 801 1243 799 1212 799 c 2
+ 1137 799 l 2
+ 1104 799 1096 797 1080 784 c 2
+ 828 576 l 2
+ 802 554.53968254 805 546.846153846 847 509 c 2
+ 1120 263 l 2
+ 1137 248 1139 241 1176 241 c 2
+ 1239 241 l 2
+ 1266 241 1276 235 1276 201 c 2
+ 1276 38 l 2
+ 1276 1 1270 0 1241 0 c 2
+ 663 0 l 2
+ 632 0 624 1 624 40 c 2
+ 624 198 l 2
+ 624 232 626 241 652 241 c 2
+ 689 241 l 2
+ 734 241 739 256 712 275 c 2
+ 603 377 l 2
+ 580 398.52293578 574 398.65625 554 381 c 2
+ 426 268 l 2
+ 401 251 406 241 447 241 c 2
+ 487 241 l 2
+ 516 241 527 232 527 192 c 2
+ 527 71 l 2
+ 527 17 516 0 476 0 c 2
+ 33 0 l 2
+ 0 0 0 10 0 53 c 2
+EndSplineSet
+EndChar
+
+StartChar: y.sc
+Encoding: 65578 -1 475
+Width: 1321
+Flags: HM
+AnchorPoint: "Anchor-2" 671 0 basechar 0
+AnchorPoint: "Anchor-0" 747 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+312 32 m 2
+ 312 200 l 2
+ 312 234 313 241 339 241 c 2
+ 434 241 l 2
+ 462 241 464 245 464 269 c 2
+ 464 353 l 2
+ 464 384 458 393 444 410 c 2
+ 148 772 l 2
+ 132 792 131 799 89 799 c 2
+ 16 799 l 2
+ -13 799 -14 808 -14 845 c 2
+ -14 978 l 2
+ -14 1033 -1 1040 39 1040 c 2
+ 626 1040 l 2
+ 672 1040 688 1037 688 988 c 2
+ 688 841 l 2
+ 688 805 681 799 646 799 c 2
+ 570 799 l 2
+ 525 799 519 793 545 768 c 2
+ 691 622 l 2
+ 738 551 737 560 786 625 c 2
+ 951 770 l 2
+ 980 794 969 799 931 799 c 2
+ 875 799 l 2
+ 829 799 822 800 822 846 c 2
+ 822 995 l 2
+ 822 1035 827 1040 866 1040 c 2
+ 1301 1040 l 2
+ 1325 1040 1335 1039 1335 1005 c 2
+ 1335 823 l 2
+ 1335 801 1327 799 1309 799 c 2
+ 1264 799 l 2
+ 1223 799 1220 793 1203 775 c 2
+ 912 473 l 2
+ 894 454 884 448 884 411 c 2
+ 884 268 l 2
+ 884 246 886 241 912 241 c 2
+ 1022 241 l 2
+ 1049 241 1051 233 1051 197 c 2
+ 1051 35 l 2
+ 1051 7 1048 0 1027 0 c 2
+ 334 0 l 2
+ 315 0 312 6 312 32 c 2
+EndSplineSet
+EndChar
+
+StartChar: z.sc
+Encoding: 65579 -1 476
+Width: 1284
+Flags: HMW
+AnchorPoint: "Anchor-2" 621 0 basechar 0
+AnchorPoint: "Anchor-0" 600 1040 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+117 1040 m 2
+ 1160 1040 l 2
+ 1204 1040 1217 1034 1217 1000 c 2
+ 1217 872 l 2
+ 1217 827 1203 817 1174 796 c 2
+ 600 304 l 2
+ 581 286 541 266 541 253 c 0
+ 541 246 552 241 585 241 c 2
+ 848 241 l 2
+ 987 241 1018 308 1026 448 c 0
+ 1028 480 1030 485 1080 485 c 2
+ 1194 485 l 2
+ 1236 485 1241 465 1241 441 c 2
+ 1241 55 l 2
+ 1241 3 1233 0 1190 0 c 2
+ 84 0 l 2
+ 42 0 35 1 35 39 c 2
+ 35 175 l 2
+ 35 219 45 223 67 243 c 2
+ 687 757 l 2
+ 700 769 708 779 708 785 c 0
+ 708 795 689 799 651 799 c 2
+ 485 799 l 2
+ 346 799 298 725 292 605 c 0
+ 290 578 291 578 248 578 c 2
+ 109 578 l 2
+ 77 578 77 578 77 599 c 2
+ 77 1001 l 2
+ 77 1038 83 1040 117 1040 c 2
+EndSplineSet
+EndChar
+
+StartChar: agrave.sc
+Encoding: 65580 -1 477
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 188 768 N 1 0 0 1 201 -467.04 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aacute.sc
+Encoding: 65581 -1 478
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 343 -467.04 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acircumflex.sc
+Encoding: 65582 -1 479
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 273 -467.04 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: atilde.sc
+Encoding: 65583 -1 480
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 191 771 N 1 0 0 1 276 -467.04 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: adieresis.sc
+Encoding: 65584 -1 481
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 195 776 N 1 0 0 1 271 -467.04 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aring.sc
+Encoding: 65585 -1 482
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 196 778 N 1 0 0 1 272 -467.04 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ccedilla.sc
+Encoding: 65586 -1 483
+Width: 1356
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 203 807 N 1 0 0 1 212 0.799805 2
+Refer: 453 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: egrave.sc
+Encoding: 65587 -1 484
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 188 768 N 1 0 0 1 109 -460 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eacute.sc
+Encoding: 65588 -1 485
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 251 -460 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ecircumflex.sc
+Encoding: 65589 -1 486
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 181 -460 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: edieresis.sc
+Encoding: 65590 -1 487
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 195 776 N 1 0 0 1 179 -460 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: igrave.sc
+Encoding: 65591 -1 488
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 188 768 N 1 0 0 1 -98 -460 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: iacute.sc
+Encoding: 65592 -1 489
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 44 -460 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: icircumflex.sc
+Encoding: 65593 -1 490
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 -26 -460 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: idieresis.sc
+Encoding: 65594 -1 491
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 195 776 N 1 0 0 1 -28 -460 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ntilde.sc
+Encoding: 65595 -1 492
+Width: 1432
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 191 771 N 1 0 0 1 214 -460 2
+Refer: 464 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ograve.sc
+Encoding: 65596 -1 493
+Width: 1471
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 188 768 N 1 0 0 1 162 -464.32 2
+Refer: 465 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oacute.sc
+Encoding: 65597 -1 494
+Width: 1471
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 304 -464.32 2
+Refer: 465 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ocircumflex.sc
+Encoding: 65598 -1 495
+Width: 1471
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 234 -464.32 2
+Refer: 465 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: otilde.sc
+Encoding: 65599 -1 496
+Width: 1471
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 191 771 N 1 0 0 1 237 -464.32 2
+Refer: 465 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: odieresis.sc
+Encoding: 65600 -1 497
+Width: 1471
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 195 776 N 1 0 0 1 232 -464.32 2
+Refer: 465 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ugrave.sc
+Encoding: 65601 -1 498
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 188 768 N 1 0 0 1 214 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uacute.sc
+Encoding: 65602 -1 499
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 356 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ucircumflex.sc
+Encoding: 65603 -1 500
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 286 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: udieresis.sc
+Encoding: 65604 -1 501
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 195 776 N 1 0 0 1 284 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: yacute.sc
+Encoding: 65605 -1 502
+Width: 1321
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 318 -460 2
+Refer: 475 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: amacron.sc
+Encoding: 65606 -1 503
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 192 772 N 1 0 0 1 272 -467.04 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: abreve.sc
+Encoding: 65607 -1 504
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 193 774 N 1 0 0 1 273 -467.04 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aogonek.sc
+Encoding: 65608 -1 505
+Width: 1446
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 204 808 N 1 0 0 1 643 -47 2
+Refer: 451 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: cacute.sc
+Encoding: 65609 -1 506
+Width: 1356
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 311 -465.28 2
+Refer: 453 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ccircumflex.sc
+Encoding: 65610 -1 507
+Width: 1356
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 241 -465.28 2
+Refer: 453 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: cdotaccent.sc
+Encoding: 65611 -1 508
+Width: 1356
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 194 775 N 1 0 0 1 240 114.72 2
+Refer: 453 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ccaron.sc
+Encoding: 65612 -1 509
+Width: 1356
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 198 780 N 1 0 0 1 241 -465.28 2
+Refer: 453 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: dcaron.sc
+Encoding: 65613 -1 510
+Width: 1475
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 198 780 N 1 0 0 1 301.586 0 2
+Refer: 454 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: emacron.sc
+Encoding: 65614 -1 511
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 192 772 N 1 0 0 1 180 -460 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ebreve.sc
+Encoding: 65615 -1 512
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 193 774 N 1 0 0 1 181 -460 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: edotaccent.sc
+Encoding: 65616 -1 513
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 194 775 S 1 0 0 1 180 -152 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eogonek.sc
+Encoding: 65617 -1 514
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 808 N 1 0 0 1 632 -2 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ecaron.sc
+Encoding: 65618 -1 515
+Width: 1353
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 198 780 N 1 0 0 1 181 -460 2
+Refer: 455 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: gcircumflex.sc
+Encoding: 65619 -1 516
+Width: 1509
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 241 -465.28 2
+Refer: 457 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: gbreve.sc
+Encoding: 65620 -1 517
+Width: 1509
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 193 774 N 1 0 0 1 241 -465.28 2
+Refer: 457 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: gdotaccent.sc
+Encoding: 65621 -1 518
+Width: 1509
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 194 775 S 1 0 0 1 240 -53.2803 2
+Refer: 457 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0123.sc
+Encoding: 65622 -1 519
+Width: 1509
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 200 786 N 1 0 0 1 243 114.72 2
+Refer: 457 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: hcircumflex.sc
+Encoding: 65623 -1 520
+Width: 1673
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 390 -460 2
+Refer: 458 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: itilde.sc
+Encoding: 65624 -1 521
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 191 771 N 1 0 0 1 -23 -460 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: imacron.sc
+Encoding: 65625 -1 522
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 192 772 N 1 0 0 1 -27 -460 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ibreve.sc
+Encoding: 65626 -1 523
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 193 774 N 1 0 0 1 -26 -460 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: iogonek.sc
+Encoding: 65627 -1 524
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 808 N 1 0 0 1 -41 -47 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: idotaccent.sc
+Encoding: 65628 -1 525
+Width: 970
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 207 729 S 1 0 0 1 -33.335 -53.082 2
+Refer: 459 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: jcircumflex.sc
+Encoding: 65629 -1 526
+Width: 1161
+Flags: M
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 183 -460 2
+Refer: 460 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0137.sc
+Encoding: 65630 -1 527
+Width: 1439
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 202 806 N 1 0 0 1 292 0 2
+Refer: 461 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: lacute.sc
+Encoding: 65631 -1 528
+Width: 1224
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 -86 -460 2
+Refer: 462 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni013C.sc
+Encoding: 65632 -1 529
+Width: 1224
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 202 806 N 1 0 0 1 144 0 2
+Refer: 462 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: lcaron.sc
+Encoding: 65633 -1 530
+Width: 1294
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 65 44 N 0.75 0 0 0.75 813.975 914.047 2
+Refer: 462 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: nacute.sc
+Encoding: 65634 -1 531
+Width: 1432
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 281 -460 2
+Refer: 464 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0146.sc
+Encoding: 65635 -1 532
+Width: 1432
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 202 806 N 1 0 0 1 186 5 2
+Refer: 464 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ncaron.sc
+Encoding: 65636 -1 533
+Width: 1432
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 198 780 N 1 0 0 1 211 -460 2
+Refer: 464 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: omacron.sc
+Encoding: 65637 -1 534
+Width: 1471
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 192 772 N 1 0 0 1 233 -464.32 2
+Refer: 465 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: obreve.sc
+Encoding: 65638 -1 535
+Width: 1471
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 193 774 N 1 0 0 1 234 -464.32 2
+Refer: 465 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ohungarumlaut.sc
+Encoding: 65639 -1 536
+Width: 1471
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 197 779 N 1 0 0 1 339 -464.32 2
+Refer: 465 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: racute.sc
+Encoding: 65640 -1 537
+Width: 1512
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 238 -460 2
+Refer: 468 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0157.sc
+Encoding: 65641 -1 538
+Width: 1512
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 202 806 N 1 0 0 1 234 0 2
+Refer: 468 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: rcaron.sc
+Encoding: 65642 -1 539
+Width: 1512
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 198 780 N 1 0 0 1 168 -460 2
+Refer: 468 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: sacute.sc
+Encoding: 65643 -1 540
+Width: 1278
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 218 -461 2
+Refer: 469 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: scircumflex.sc
+Encoding: 65644 -1 541
+Width: 1278
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 148 -461 2
+Refer: 469 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: scedilla.sc
+Encoding: 65645 -1 542
+Width: 1278
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 203 807 N 1 0 0 1 111 8 2
+Refer: 469 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: scaron.sc
+Encoding: 65646 -1 543
+Width: 1278
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 198 780 N 1 0 0 1 148 -461 2
+Refer: 469 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0163.sc
+Encoding: 65647 -1 544
+Width: 1304
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 203 807 N 1 0 0 1 121 0 2
+Refer: 470 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: tcaron.sc
+Encoding: 65648 -1 545
+Width: 1304
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 198 780 N 1 0 0 1 212.15 0 2
+Refer: 470 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: utilde.sc
+Encoding: 65649 -1 546
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 191 771 N 1 0 0 1 289 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: umacron.sc
+Encoding: 65650 -1 547
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 192 772 N 1 0 0 1 285 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ubreve.sc
+Encoding: 65651 -1 548
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 193 774 N 1 0 0 1 286 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uring.sc
+Encoding: 65652 -1 549
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 196 778 N 1 0 0 1 285 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uhungarumlaut.sc
+Encoding: 65653 -1 550
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 197 779 N 1 0 0 1 391 -460 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uogonek.sc
+Encoding: 65654 -1 551
+Width: 1447
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 808 N 1 0 0 1 540 131 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: wcircumflex.sc
+Encoding: 65655 -1 552
+Width: 1925
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 469 -460 2
+Refer: 473 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ycircumflex.sc
+Encoding: 65656 -1 553
+Width: 1321
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 190 770 N 1 0 0 1 248 -460 2
+Refer: 475 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ydieresis.sc
+Encoding: 65657 -1 554
+Width: 1321
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 195 776 N 1 0 0 1 246 -460 2
+Refer: 475 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: zacute.sc
+Encoding: 65658 -1 555
+Width: 1284
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 171 -460 2
+Refer: 476 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: zdotaccent.sc
+Encoding: 65659 -1 556
+Width: 1284
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 194 775 N 1 0 0 1 100 120 2
+Refer: 476 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: zcaron.sc
+Encoding: 65660 -1 557
+Width: 1284
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 198 780 N 1 0 0 1 101 -460 2
+Refer: 476 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0213.sc
+Encoding: 65661 -1 558
+Width: 1512
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 199 785 N 1 0 0 1 168 -460 2
+Refer: 468 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0219.sc
+Encoding: 65662 -1 559
+Width: 1278
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 202 806 N 1 0 0 1 143 8 2
+Refer: 469 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni021B.sc
+Encoding: 65663 -1 560
+Width: 1304
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 202 806 N 1 0 0 1 153 0 2
+Refer: 470 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: wgrave.sc
+Encoding: 65664 -1 561
+Width: 1925
+Flags: M
+LayerCount: 2
+Fore
+Refer: 188 768 N 1 0 0 1 397 -460 2
+Refer: 473 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: wacute.sc
+Encoding: 65665 -1 562
+Width: 1925
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 189 769 N 1 0 0 1 539 -460 2
+Refer: 473 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: wdieresis.sc
+Encoding: 65666 -1 563
+Width: 1925
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 195 776 N 1 0 0 1 467 -460 2
+Refer: 473 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E87.sc
+Encoding: 65667 -1 564
+Width: 1925
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 194 775 S 1 0 0 1 468 -52 2
+Refer: 473 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E89.sc
+Encoding: 65668 -1 565
+Width: 1925
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 803 N 1 0 0 1 405 -54 2
+Refer: 473 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ygrave.sc
+Encoding: 65669 -1 566
+Width: 1321
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 188 768 N 1 0 0 1 176 -460 2
+Refer: 475 -1 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

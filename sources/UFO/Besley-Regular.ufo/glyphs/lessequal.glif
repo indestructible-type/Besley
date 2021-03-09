@@ -1,58 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lessequal" format="2">
   <advance width="1119"/>
   <unicode hex="2264"/>
   <outline>
-    <contour>
-      <point x="155.88213923528" y="170.0" type="curve" smooth="yes"/>
-      <point x="966.41443291964" y="170.0" type="line" smooth="yes"/>
-      <point x="996.1943734224201" y="170.0"/>
-      <point x="1000.078713488" y="166.0"/>
-      <point x="1000.078713488" y="142.0" type="curve" smooth="yes"/>
-      <point x="1000.078713488" y="93.0" type="line" smooth="yes"/>
-      <point x="1000.078713488" y="69.0"/>
-      <point x="997.48915344428" y="60.0"/>
-      <point x="963.82487287592" y="60.0" type="curve" smooth="yes"/>
-      <point x="153.29257919156" y="60.0" type="line" smooth="yes"/>
-      <point x="120.92307864506" y="60.0"/>
-      <point x="119.62829862320001" y="64.0"/>
-      <point x="119.62829862320001" y="90.0" type="curve" smooth="yes"/>
-      <point x="119.62829862320001" y="142.0" type="line" smooth="yes"/>
-      <point x="119.62829862320001" y="165.0"/>
-      <point x="128.69175877622" y="170.0"/>
-    </contour>
-    <contour>
-      <point x="296" y="752" type="curve" smooth="yes"/>
-      <point x="962" y="495" type="line" smooth="yes"/>
-      <point x="990" y="484"/>
-      <point x="1000" y="477"/>
-      <point x="1000" y="437" type="curve" smooth="yes"/>
-      <point x="1000" y="395" type="line" smooth="yes"/>
-      <point x="1000" y="350"/>
-      <point x="983" y="357"/>
-      <point x="956" y="367" type="curve" smooth="yes"/>
-      <point x="152" y="678" type="line" smooth="yes"/>
-      <point x="123" y="689"/>
-      <point x="120" y="699"/>
-      <point x="120" y="740" type="curve" smooth="yes"/>
-      <point x="120" y="820" type="line" smooth="yes"/>
-      <point x="120" y="862"/>
-      <point x="125" y="862"/>
-      <point x="154" y="873" type="curve" smooth="yes"/>
-      <point x="966" y="1187" type="line" smooth="yes"/>
-      <point x="991" y="1197"/>
-      <point x="1000" y="1193"/>
-      <point x="1000" y="1159" type="curve" smooth="yes"/>
-      <point x="1000" y="1113" type="line" smooth="yes"/>
-      <point x="1000" y="1076"/>
-      <point x="989" y="1066"/>
-      <point x="964" y="1056" type="curve" smooth="yes"/>
-      <point x="298" y="799" type="line" smooth="yes"/>
-      <point x="267" y="787"/>
-      <point x="250" y="787"/>
-      <point x="250" y="776" type="curve" smooth="yes"/>
-      <point x="250" y="765"/>
-      <point x="263" y="765"/>
-    </contour>
+    <component base="figuredash" xScale="0.894426" xOffset="12.5537" yOffset="-660"/>
+    <component base="less"/>
   </outline>
 </glyph>
