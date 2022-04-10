@@ -14,13 +14,13 @@
 
   <sources>
 
-    <source filename="../UFO/Besley-Italic.ufo" name="Besley Italic" familyname="Besley" stylename="Italic">
+    <source filename="../ufo/Besley-Italic.ufo" name="Besley Italic" familyname="Besley" stylename="Italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
       </location>
     </source>
 
-    <source filename="../UFO/Besley-BlackItalic.ufo" name="Besley Black Italic" familyname="Besley" stylename="Black Italic">
+    <source filename="../ufo/Besley-FatfaceItalic.ufo" name="Besley Black Italic" familyname="Besley" stylename="Black Italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
       </location>

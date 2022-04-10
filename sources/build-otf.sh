@@ -23,7 +23,7 @@ fi
 ##########################################
 
 if [ $UFO_SOURCES = false ]
-	then
+then
 	echo ".
 GENERATING SOURCES
 ."
@@ -49,52 +49,33 @@ fi
 
 ##########################################
 
-if [ -f "../fonts/ttf/Besley-Regular.ttf" ]; then
-	TT_DIR=../fonts/ttf
-	echo ".
-	GENERATING WEBFONTS
-	."
-	ttfs=$(ls $TT_DIR/*.ttf)
-	for font in $ttfs
-	do
-		fonttools ttLib.woff2 compress $font
-	done
-else
-	TT_DIR=instance_ttf
-	echo ".
-	GENERATING TTF SOURCES
-	."
-	fontmake -m designspace/$fontName.designspace -i -o ttf --output-dir $TT_DIR
-	fontmake -m designspace/$fontName_it.designspace -i -o ttf --output-dir $TT_DIR
-	ttfs=$(ls $TT_DIR/*.ttf)
-	for font in $ttfs
-	do
-		gftools fix-dsig --autofix $font
-		python3 -m ttfautohint $font $font.fix
-		[ -f $font.fix ] && mv $font.fix $font
-		gftools fix-hinting $font
-		[ -f $font.fix ] && mv $font.fix $font
-		fonttools ttLib.woff2 compress $font
-	done
-fi
+echo ".
+GENERATING OTF
+."
+TT_DIR=../fonts/otf
+rm -rf $TT_DIR
+mkdir -p $TT_DIR
+
+fontmake -m designspace/$fontName.designspace -i -o otf --output-dir $TT_DIR
+fontmake -m designspace/$fontName_it.designspace -i -o otf --output-dir $TT_DIR
+
+##########################################
 
 echo ".
-MOVE WEBFONTS TO OWN DIRECTORY
+POST-PROCESSING OTF
 ."
-WEB_DIR=../fonts/woff2
-rm -rf $WEB_DIR
-mkdir -p $WEB_DIR
-
-webfonts=$(ls $TT_DIR/*.woff2)
-for font in $webfonts
+otfs=$(ls $TT_DIR/*.otf)
+for font in $otfs
 do
-  mv $font $WEB_DIR
+	gftools fix-dsig --autofix $font
+	gftools fix-hinting $font
+	[ -f $font.fix ] && mv $font.fix $font
 done
 
 
 ##########################################
 
-rm -rf instance_ufo/ master_ufo/ instance_ttf/
+rm -rf instance_ufo/ master_ufo/
 
 if [ $UFO_SOURCES = false ]
 then

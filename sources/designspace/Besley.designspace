@@ -14,13 +14,13 @@
 
   <sources>
 
-    <source filename="../UFO/Besley-Regular.ufo" name="Besley Regular" familyname="Besley" stylename="Regular">
+    <source filename="../ufo/Besley-Book.ufo" name="Besley Regular" familyname="Besley" stylename="Regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
       </location>
     </source>
 
-    <source filename="../UFO/Besley-Black.ufo" name="Besley Black" familyname="Besley" stylename="Black">
+    <source filename="../ufo/Besley-Fatface.ufo" name="Besley Black" familyname="Besley" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="900"/>
       </location>
