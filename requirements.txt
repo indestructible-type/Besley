@@ -1,4 +1,4 @@
+python3
 fontbakery
 fontmake
 gftools
-brotli

@@ -29,13 +29,13 @@ Redrew letterforms to enable variable font versions. Improved language support. 
 
 Building
 --------
-I use fontmake to build the finished font files. If for some reason you want to build this font yourself, follow these steps:
+Build scripts can be found inside the "sources" folder. To build, download and install the required software listed in the "requirements.txt" file and run the build script that corresponds to your desired output (so if you want woff2 files run "build-woff2.sh")
 
-Download the complete source code, either by cloning this repository or downloading the .zip file.
+Contributing
+---------------
+Besley* is built and maintained using the open-source program [FontForge](https://fontforge.org), and by default will build the finished fonts using the FontForge files as sources. FontForge is free and cross platform, so it is possible for anyone looking to contribute to this project to use it to make modifications to the source files.
 
-Download and install fontmake which can be found [here](https://github.com/googlei18n/fontmake).
-
-Build your preferred version of the font by running the corresponding build file found in the "scripts" folder. For example running  `build-variable.sh` will build the variable version of the font. To toggle between the standard naming conventions and the indestructible type* naming conventions run the `toggle.sh` script found in the "misc" folder.
+If you'd rather work with UFO files, simply run the "build-ufo.sh" shell script, and UFO files will be generated using the FontForge files as sources. If a "ufo" folder is detected in the "sources" folder, the other build scripts will automatically switch to using the UFO files as sources instead of the FontForge files. All the scripts should work without having FontForge installed, so you should be able to contribute using your software of choice without downloading unwanted software.
 
 Contact
 -------
