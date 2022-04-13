@@ -11,6 +11,8 @@ Original Release.<br>
 Added the Fatface weight. Corrected kerning.
 2.0
 Redrew to make interpolatable
+2.01
+Added small caps designed by Fredrick Brennan
 
 Contact
 -------

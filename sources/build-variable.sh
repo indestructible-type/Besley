@@ -38,7 +38,7 @@ GENERATING SOURCES
 		base=${source##*/}
 		test="Italic"
 	#	sfd2ufo $source $UFO_DIR/${base%.*}.ufo
-		python3 misc/sfd2ufo --ufo-kerning $source $UFO_DIR/${base%.*}.ufo
+		python3 misc/sfd2ufo --ufo-kerning --ufo-anchors $source $UFO_DIR/${base%.*}.ufo
 		if test "${base#*$test}" != "$base"
 		then
 		    cp misc/featuresItalic.fea $UFO_DIR/${base%.*}.ufo/features.fea
@@ -73,6 +73,10 @@ do
 	mv $font.fix $font
 	gftools fix-unwanted-tables --tables MVAR $font
 done
+
+statmake --designspace designspace/$fontName.designspace $VF_DIR/$fontName[$axes].ttf
+statmake --designspace designspace/$fontName_it.designspace $VF_DIR/$fontName_it[$axes].ttf
+
 rm $VF_DIR/*gasp*
 
 ##########################################

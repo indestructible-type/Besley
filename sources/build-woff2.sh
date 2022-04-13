@@ -37,7 +37,7 @@ GENERATING SOURCES
 		base=${source##*/}
 		test="Italic"
 	#	sfd2ufo $source $UFO_DIR/${base%.*}.ufo
-		python3 misc/sfd2ufo --ufo-kerning $source $UFO_DIR/${base%.*}.ufo
+		python3 misc/sfd2ufo --ufo-kerning --ufo-anchors $source $UFO_DIR/${base%.*}.ufo
 		if test "${base#*$test}" != "$base"
 		then
 		    cp misc/featuresItalic.fea $UFO_DIR/${base%.*}.ufo/features.fea
