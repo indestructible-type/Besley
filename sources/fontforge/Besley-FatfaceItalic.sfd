@@ -4,7 +4,7 @@ FullName: Besley* Fatface Italic
 FamilyName: Besley* Fatface
 Weight: Black
 Copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type)
-Version: 002.01
+Version: 002.011
 ItalicAngle: -13
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1649847988
+ModificationTime: 1650090399
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -54,42 +54,108 @@ Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals in Latin lookup 0" { "'smcp' L
 Lookup: 1 0 0 "'c2sc' Capitals to Small Capitals in Latin lookup 1" { "'c2sc' Capitals to Small Capitals in Latin lookup 1 subtable"  } ['c2sc' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Contextual Alternates lookup 9" { "'calt' Contextual Alternates lookup 9 subtable"  } ['calt' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 10" { "Single Substitution lookup 10 subtable"  } []
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 kerning class 2" [300,0,4] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 1" { "'mark' Mark Positioning lookup 1 subtable"  } ['mark' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 16+ 15 "'kern' Horizontal Kerning lookup 0 subtable"
- 15 b c e o p v w y
- 9 a h m n u
- 7 H I M N
- 7 k t x z
- 13 A L backslash
- 5 D O Q
- 5 G g r
- 5 K X Z
- 9 V W slash
- 5 d i l
- 3 B S
- 3 F P
- 3 J U
- 3 T Y
- 1 E
- 1 f
- 23 B D E F H I K L M N P R
- 19 f i j m n p r u w y
- 13 a c d e o q s
- 7 C G O Q
- 5 b l t
- 3 A J
- 3 T Y
- 3 V W
- 3 X Z
- 12 period comma
- 3 h k
- 3 x z
- 1 U
+KernClass2: 56+ 41 "'kern' Horizontal Kerning lookup 0 kerning class 2"
+ 220 a u agrave aacute acircumflex atilde adieresis aring igrave iacute icircumflex idieresis ugrave uacute ucircumflex udieresis amacron abreve itilde imacron ibreve dotlessi utilde umacron ubreve uring uhungarumlaut uogonek
+ 103 H Hcircumflex I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde M N Ntilde
+ 117 C Cacute Ccaron Ccircumflex Cdotaccent E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek
+ 88 D Dcaron Dcroat Eth O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde Q
+ 90 IJ J Jcircumflex U Uacute Ubreve Ucircumflex Udieresis Ugrave Umacron Uogonek Uring Utilde
+ 68 A Aacute Acircumflex Adieresis Agrave Aring Atilde backslash uni013B
+ 68 quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle
+ 21 V W Wcircumflex slash
+ 26 Z Zacute Zcaron Zdotaccent
+ 30 Y Yacute Ycircumflex Ydieresis
+ 16 T Tcaron uni0162
+ 15 L Lacute Lslash
+ 11 K X uni0136
+ 12 comma period
+ 7 R R.alt
+ 1 S
+ 1 P
+ 1 G
+ 1 F
+ 1 B
+ 140 j.sc jcircumflex.sc u.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc ugrave.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc
+ 108 h.sc hcircumflex.sc i.sc iacute.sc ibreve.sc idieresis.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc m.sc
+ 105 d.sc o.sc oacute.sc obreve.sc ocircumflex.sc odieresis.sc ograve.sc ohungarumlaut.sc omacron.sc otilde.sc
+ 103 a.sc aacute.sc abreve.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc
+ 74 uni1E87.sc uni1E89.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc
+ 65 c.sc cacute.sc ccaron.sc ccedilla.sc ccircumflex.sc cdotaccent.sc
+ 46 r.sc racute.sc rcaron.sc uni0157.sc uni0213.sc
+ 45 n.sc nacute.sc ncaron.sc ntilde.sc uni0146.sc
+ 54 g.sc gbreve.sc gcircumflex.sc gdotaccent.sc uni0123.sc
+ 42 y.sc yacute.sc ycircumflex.sc ydieresis.sc
+ 36 t.sc tcaron.sc uni0163.sc uni021B.sc
+ 25 l.sc lacute.sc uni013C.sc
+ 14 v.sc ygrave.sc
+ 15 k.sc uni0137.sc
+ 4 x.sc
+ 4 q.sc
+ 4 p.sc
+ 9 itilde.sc
+ 14 icircumflex.sc
+ 4 f.sc
+ 9 dcaron.sc
+ 4 b.sc
+ 63 b o p ograve oacute ocircumflex otilde odieresis omacron obreve
+ 132 c e ae ccedilla egrave eacute ecircumflex edieresis cacute ccircumflex cdotaccent ccaron emacron ebreve edotaccent eogonek ecaron oe
+ 66 d i l dcroat lacute uni013C lslash uniFB01 uniFB02 uniFB03 uniFB04
+ 9 f uniFB00
+ 39 g gcircumflex gbreve gdotaccent uni0123
+ 59 h m n ntilde hcircumflex hbar nacute ncaron napostrophe eng
+ 16 j ij jcircumflex
+ 24 k x uni0137 kgreenlandic
+ 1 q
+ 23 r racute uni0157 rcaron
+ 36 s sacute scircumflex scedilla scaron
+ 20 t uni0163 tbar t.alt
+ 29 v w y wcircumflex ycircumflex
+ 26 z zacute zdotaccent zcaron
+ 252 B D E Eacute Ecircumflex Edieresis Egrave Eth F H Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde K L Lacute Lcaron Ldot Lslash M N Nacute Ncaron Ntilde P R R.alt Racute Rcaron Thorn uni0136 uni013B uni0156
+ 150 C Cacute Ccaron Ccircumflex Cdotaccent G Gbreve Gcircumflex Gdotaccent O OE Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde Q uni0122
+ 82 A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde slash
+ 68 quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle
+ 37 U Ubreve Umacron Uogonek Uring Utilde
+ 15 V W Wcircumflex
+ 16 T Tcaron uni0162
+ 12 comma period
+ 1 Z
+ 1 Y
+ 1 X
+ 1 S
+ 1 J
+ 379 b.sc d.sc dcaron.sc e.sc eacute.sc ebreve.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc f.sc h.sc hcircumflex.sc i.sc iacute.sc ibreve.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc k.sc l.sc lacute.sc lcaron.sc m.sc n.sc nacute.sc ncaron.sc ntilde.sc p.sc r.sc racute.sc rcaron.sc uni0137.sc uni013C.sc uni0146.sc uni0157.sc uni0213.sc
+ 226 c.sc cacute.sc ccaron.sc ccedilla.sc ccircumflex.sc cdotaccent.sc g.sc gbreve.sc gcircumflex.sc gdotaccent.sc o.sc oacute.sc obreve.sc ocircumflex.sc odieresis.sc ograve.sc ohungarumlaut.sc omacron.sc otilde.sc q.sc uni0123.sc
+ 120 u.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc ugrave.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc
+ 103 a.sc aacute.sc abreve.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc
+ 79 uni1E87.sc uni1E89.sc v.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc
+ 62 s.sc sacute.sc scaron.sc scedilla.sc scircumflex.sc uni0219.sc
+ 38 z.sc zacute.sc zcaron.sc zdotaccent.sc
+ 42 y.sc ycircumflex.sc ydieresis.sc ygrave.sc
+ 36 t.sc tcaron.sc uni0163.sc uni021B.sc
+ 19 j.sc jcircumflex.sc
+ 9 yacute.sc
+ 4 x.sc
+ 9 itilde.sc
+ 12 idieresis.sc
+ 14 icircumflex.sc
+ 295 a c d e o q agrave aacute acircumflex atilde adieresis aring ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis amacron abreve aogonek cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe
+ 59 b h k l hcircumflex hbar uni0137 lacute uni013C lcaron ldot
+ 45 f i j uniFB00 uniFB01 uniFB02 uniFB03 uniFB04
+ 39 g gcircumflex gbreve gdotaccent uni0123
+ 55 m n p r nacute uni0146 ncaron eng racute uni0157 rcaron
+ 36 s sacute scircumflex scedilla scaron
+ 21 t uni0163 tcaron tbar
+ 101 u w ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek wcircumflex
  1 v
- 0 {} 0 {} -40 {} -40 {} 0 {} 0 {} 0 {} -60 {} -200 {} 0 {} 0 {} -20 {} 0 {} -60 {} 0 {} 0 {} 60 {} -80 {} 0 {} 0 {} 0 {} 100 {} -60 {} -160 {} 100 {} 0 {} 0 {} 40 {} -60 {} -40 {} 0 {} 60 {} -100 {} -100 {} -60 {} 0 {} -100 {} 0 {} 60 {} 0 {} 0 {} 0 {} 40 {} 0 {} -60 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -40 {} -200 {} 40 {} 0 {} 0 {} 60 {} -100 {} 0 {} 0 {} 20 {} -60 {} -100 {} -140 {} -100 {} 40 {} -240 {} -400 {} 60 {} 0 {} 0 {} 60 {} -140 {} -100 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} -140 {} -40 {} -100 {} -60 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} -60 {} 20 {} -40 {} 60 {} 0 {} -140 {} -60 {} -100 {} -100 {} -40 {} -40 {} -40 {} 0 {} 0 {} 0 {} 60 {} -60 {} 0 {} -100 {} 0 {} 100 {} 100 {} 0 {} 60 {} 0 {} 0 {} 100 {} 0 {} -60 {} 0 {} 0 {} -100 {} -100 {} -100 {} 0 {} -400 {} 100 {} 120 {} 120 {} 0 {} 80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -60 {} 0 {} 0 {} -60 {} -60 {} 0 {} 0 {} -20 {} 60 {} -60 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 80 {} -60 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 60 {} -240 {} 0 {} 60 {} -40 {} -200 {} 60 {} -58 {} 0 {} 0 {} 0 {} 0 {} -60 {} -100 {} -60 {} 60 {} -200 {} 60 {} 140 {} 0 {} -100 {} 60 {} -40 {} 60 {} -100 {} 0 {} 60 {} 40 {} -60 {} 0 {} 40 {} -200 {} 100 {} 100 {} 100 {} -200 {} 40 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 60 {} 0 {} 60 {} 60 {} 0 {} 0 {} 80 {} 0 {} 0 {} 0 {} 240 {} 0 {} -40 {} 200 {} 0 {} -140 {} 300 {} 340 {} 200 {} -100 {} 0 {} -60 {} 240 {} 0 {}
+ 1 x
+ 13 y ycircumflex
+ 26 z zacute zdotaccent zcaron
+ 0 {} 0 {} 0 {} 0 {} -61 {} -80 {} -100 {} -50 {} 30 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -147 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} -20 {} -30 {} -30 {} 0 {} -30 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 20 {} 20 {} 50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -50 {} 0 {} -30 {} -50 {} 0 {} 0 {} -20 {} -50 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -100 {} 0 {} 20 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -30 {} -80 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} -150 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -30 {} -30 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 20 {} -150 {} -100 {} -150 {} -100 {} 0 {} 10 {} -120 {} 20 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -100 {} 0 {} 0 {} -85 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} -30 {} -30 {} -20 {} 0 {} -20 {} -20 {} 0 {} -50 {} -80 {} 0 {} -50 {} 0 {} 0 {} 0 {} -30 {} -100 {} 0 {} 0 {} 0 {} 0 {} -61 {} 0 {} 0 {} 0 {} -40 {} -100 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} -145 {} -144 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -150 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} -100 {} 0 {} -150 {} 0 {} 0 {} -100 {} 0 {} 0 {} -150 {} -150 {} 0 {} 0 {} 0 {} 0 {} -70 {} 20 {} 0 {} -70 {} -30 {} -50 {} 0 {} -70 {} -40 {} -50 {} -30 {} -50 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -120 {} 0 {} 0 {} 40 {} 20 {} -100 {} -20 {} 40 {} 0 {} -20 {} -141 {} -100 {} -150 {} 0 {} -150 {} 0 {} -100 {} -100 {} 0 {} -50 {} -150 {} -150 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} -80 {} -40 {} -50 {} 0 {} -80 {} -70 {} -70 {} -50 {} -70 {} 0 {} 0 {} -20 {} -100 {} 61 {} 20 {} 40 {} 0 {} -100 {} 0 {} 40 {} 0 {} 0 {} -61 {} 0 {} -100 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 10 {} 40 {} -30 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -100 {} -80 {} -100 {} -100 {} 0 {} 0 {} -100 {} 20 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -61 {} 0 {} -61 {} -60 {} -100 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -61 {} 20 {} -61 {} -60 {} -100 {} -70 {} 0 {} 20 {} -50 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -104 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} -30 {} 0 {} 0 {} -40 {} 0 {} -30 {} 0 {} -20 {} 0 {} -22 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 20 {} 20 {} 30 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} -120 {} 0 {} -100 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -100 {} -61 {} -50 {} -100 {} 0 {} -61 {} -30 {} -70 {} -90 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -31 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -150 {} 0 {} 20 {} 40 {} 0 {} -100 {} -30 {} 0 {} 0 {} -20 {} -61 {} 0 {} -80 {} 0 {} -150 {} 0 {} 0 {} -10 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 30 {} 20 {} -30 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -61 {} -40 {} -20 {} 0 {} 0 {} -20 {} -40 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 30 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -115 {} 65 {} -155 {} -190 {} -121 {} -304 {} -340 {} -71 {} -125 {} -378 {} -215 {} 59 {} 138 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} -34 {} 0 {} 0 {} 0 {} -132 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -121 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} -61 {} 0 {} 0 {} -35 {} -59 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -165 {} 89 {} -302 {} 75 {} -165 {} -294 {} 156 {} -187 {} -181 {} -369 {} -302 {} -27 {} -308 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -127 {} 106 {} -260 {} 76 {} -126 {} -303 {} 84 {} -209 {} -233 {} -417 {} -290 {} -70 {} -311 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 150 {} 22 {} 215 {} -95 {} -149 {} -381 {} -364 {} 127 {} 144 {} -447 {} 223 {} 100 {} 94 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 203 {} -29 {} 42 {} 208 {} 240 {} 299 {} 207 {} 80 {} 91 {} 302 {} 146 {} 15 {} -38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 62 {} -9 {} 125 {} 123 {} -75 {} -69 {} 125 {} 93 {} 70 {} -70 {} 133 {} 31 {} -16 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -151 {} 104 {} -367 {} 110 {} -132 {} -330 {} 92 {} -438 {} -305 {} -479 {} -478 {} -62 {} -290 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -127 {} 63 {} -179 {} -199 {} -127 {} -271 {} -315 {} -82 {} -143 {} -318 {} -238 {} 58 {} 133 {} -35 {} 0 {} 0 {} 0 {} 0 {} 0 {} -47 {} 0 {} 0 {} 0 {} -147 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 30 {} 14 {} -26 {} -123 {} -352 {} -363 {} 66 {} 25 {} -449 {} 3 {} 92 {} 200 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -59 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} 0 {} -30 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -30 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 50 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 ChainSub2: coverage "'calt' Contextual Alternates lookup 9 subtable" 0 0 0 1
  1 1 0
   Coverage: 6 hyphen
@@ -142,7 +208,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0""" 
-BeginChars: 65672 574
+BeginChars: 65672 577
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -199,16 +265,16 @@ EndChar
 StartChar: period
 Encoding: 46 46 1
 GlifName: period
-Width: 610
+Width: 620
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
--70 200 m 0
- -70 332 38 440 170 440 c 0
- 302 440 410 332 410 200 c 0
- 410 68 302 -40 170 -40 c 0
- 38 -40 -70 68 -70 200 c 0
+-60 200 m 0
+ -60 332 48 440 180 440 c 0
+ 312 440 420 332 420 200 c 0
+ 420 68 312 -40 180 -40 c 0
+ 48 -40 -60 68 -60 200 c 0
 EndSplineSet
 EndChar
 
@@ -1962,44 +2028,44 @@ EndChar
 StartChar: a
 Encoding: 97 97 38
 GlifName: a
-Width: 1588
+Width: 1444
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-2" 1187 10 basechar 0
-AnchorPoint: "Anchor-1" 545 0 basechar 0
-AnchorPoint: "Anchor-0" 911 1040 basechar 0
-AnchorPoint: "Anchor-0" 911 1040 basechar 0
-AnchorPoint: "Anchor-2" 545 0 basechar 0
-AnchorPoint: "Anchor-3" 1187 10 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-2" 1137 10 basechar 0
+AnchorPoint: "Anchor-1" 495 0 basechar 0
+AnchorPoint: "Anchor-0" 861 1040 basechar 0
+AnchorPoint: "Anchor-0" 861 1040 basechar 0
+AnchorPoint: "Anchor-2" 495 0 basechar 0
+AnchorPoint: "Anchor-3" 1137 10 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-846 640 m 0
- 846 750 824 850 768 850 c 0
- 642 850 510 608 510 360 c 0
- 510 232 538 188 598 188 c 0
- 680 188 846 372 846 640 c 0
-1518 273 m 0
- 1412 71 1242 -50 1022 -50 c 0
- 919 -50 842 -7 792 49 c 0
- 780 63 771 72 763 79 c 0
- 741 98 729 90 692 61 c 0
- 616 1 522 -40 404 -40 c 0
- 206 -40 20 40 20 340 c 0
- 20 780 326 1078 604 1078 c 0
- 745 1078 829 1031 883 937 c 0
- 900 908 914 895 927 954 c 2
- 939 1008 l 2
- 944 1032 951 1040 992 1040 c 2
- 1330 1040 l 2
- 1381 1040 1380 1031 1370 994 c 2
- 1184 302 l 2
- 1181 290 1178 272 1178 262 c 0
- 1178 240 1186 234 1206 234 c 0
- 1246 234 1291 277 1341 372 c 0
- 1365 418 1375 417 1414 399 c 2
- 1496 361 l 2
- 1544 338 1547 328 1518 273 c 0
+749 640 m 0
+ 749 750 732 850 681 850 c 0
+ 567 850 443 608 443 360 c 0
+ 443 232 466 188 520 188 c 0
+ 594 188 749 372 749 640 c 0
+1374 273 m 0
+ 1268 71 1100 -50 900 -50 c 0
+ 807 -50 738 -7 694 49 c 0
+ 683 63 675 72 668 79 c 0
+ 648 98 638 90 604 61 c 0
+ 535 1 448 -40 342 -40 c 0
+ 161 -40 -22 40 -22 340 c 0
+ -22 780 281 1078 536 1078 c 0
+ 663 1078 738 1031 786 937 c 0
+ 801 908 814 895 826 954 c 2
+ 837 1008 l 2
+ 842 1032 849 1040 886 1040 c 2
+ 1192 1040 l 2
+ 1240 1040 1240 1031 1230 994 c 2
+ 1050 302 l 2
+ 1047 290 1044 272 1044 262 c 0
+ 1044 240 1051 234 1069 234 c 0
+ 1105 234 1147 277 1197 372 c 0
+ 1221 418 1231 417 1270 399 c 2
+ 1352 361 l 2
+ 1400 338 1403 328 1374 273 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" a.sc
 EndChar
@@ -2007,39 +2073,39 @@ EndChar
 StartChar: b
 Encoding: 98 98 39
 GlifName: b
-Width: 1368
+Width: 1275
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 545 0 basechar 0
-AnchorPoint: "Anchor-0" 1091 1040 basechar 0
-AnchorPoint: "Anchor-0" 1091 1040 basechar 0
-AnchorPoint: "Anchor-2" 545 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 495 0 basechar 0
+AnchorPoint: "Anchor-0" 1041 1040 basechar 0
+AnchorPoint: "Anchor-0" 1041 1040 basechar 0
+AnchorPoint: "Anchor-2" 495 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-459.597224276 253.999994822 m 0
- 476.004461458 210.642522705 505.841600053 190 546 190 c 0
- 654 190 808 392 808 700 c 0
- 808 788 786 846 738 846 c 0
- 660.352076387 846 558 760 510.977163146 555.208894503 c 2
- 457.587401575 323 l 2
- 451.579736245 296.870770653 450.556035599 277.892078639 459.597224276 253.999994822 c 0
-34.1848484848 302 m 2
- 260.456060606 1291 l 2
- 270.449554477 1334.68017189 267.420898438 1350 208 1350 c 2
- 115 1350 l 2
- 84.7080987715 1350 82 1357.67382812 82 1389 c 2
- 82 1519 l 2
- 82 1553.14648438 85.8557462105 1560 119 1560 c 2
- 688 1560 l 2
- 736.672749678 1560 738.127929688 1554.90625 728.493164062 1513 c 2
- 615.313385827 1009 l 2
- 605.233043661 964.111305829 606.326171875 939.356445312 651 974.323242188 c 4
- 726.995117188 1033.80761719 807.895980876 1078 894 1078 c 0
- 1132 1078 1288 940 1288 660 c 0
- 1288 280 982 -50 524 -50 c 0
- 269.843351881 -50 129.007350722 53.4050903504 55 171.999687908 c 0
- 25.334304111 219.53809093 20.2642511442 241.155005001 34.1848484848 302 c 2
+396 254 m 0
+ 410 211 437 190 473 190 c 0
+ 570 190 716 392 716 700 c 0
+ 716 788.005681635 697 846 654 846 c 0
+ 584 846 491 760 446 555 c 2
+ 395 323 l 2
+ 389 297 388 278 396 254 c 0
+1 302 m 2
+ 227 1291 l 2
+ 237 1335 234 1350 175 1350 c 2
+ 82 1350 l 2
+ 52 1350 49 1358 49 1389 c 2
+ 49 1519 l 2
+ 49 1553 53 1560 86 1560 c 2
+ 617 1560 l 2
+ 661 1560 663 1555 653 1513 c 2
+ 545 1009 l 2
+ 535 964 536 939 577 974 c 0
+ 646 1033 748 1078 849 1078 c 0
+ 1037 1078 1183 990 1183 710 c 0
+ 1183 330 877 -50 451 -50 c 0
+ 222 -50 89 53 20 172 c 0
+ -8 220 -13 241 1 302 c 2
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" b.sc
 EndChar
@@ -2047,31 +2113,31 @@ EndChar
 StartChar: c
 Encoding: 99 99 40
 GlifName: c
-Width: 1382
+Width: 1211
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 539 0 basechar 0
-AnchorPoint: "Anchor-0" 800 1040 basechar 0
-AnchorPoint: "Anchor-0" 800 1040 basechar 0
-AnchorPoint: "Anchor-2" 539 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 489 0 basechar 0
+AnchorPoint: "Anchor-0" 750 1040 basechar 0
+AnchorPoint: "Anchor-0" 750 1040 basechar 0
+AnchorPoint: "Anchor-2" 489 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1302 734 m 0
- 1302 558 1182 480 1054 480 c 0
- 938 480 850 552 850 686 c 0
- 850 782 934 810 934 844 c 0
- 934 868 916 886 868 886 c 0
- 726 886 470 688 470 380 c 0
- 470 232 526 188 604 188 c 0
- 680.534248837 188 783.995850611 218.095276813 857.999997382 309.297474807 c 0
- 876.207397387 331.736148485 885.026367188 346 929 346 c 2
- 1095 346 l 2
- 1136.8828125 346 1155.11724138 334.090248382 1132.77718778 302.000005016 c 0
- 1012.90134815 129.805034687 825.127562085 -40 510 -40 c 0
- 252 -40 20 78 20 380 c 0
- 20 780 378 1080 780 1080 c 0
- 1064 1080 1302 938 1302 734 c 0
+1165 734 m 0
+ 1165 558 1045 480 917 480 c 0
+ 805 480 725 552 727 686 c 0
+ 728 782 805 810 805 844 c 0
+ 805 868 789 886 746 886 c 0
+ 618 886 417 688 417 380 c 4
+ 417 231.986487103 466 188 536 188 c 0
+ 605 188 698 218 766 309 c 0
+ 782 331 791 346 832 346 c 2
+ 998 346 l 2
+ 1040 346 1058 334 1036 302 c 0
+ 916 130 760 -40 475 -40 c 0
+ 233 -40 -21 98 -21 400 c 0
+ -21 800 307 1080 678 1080 c 0
+ 941 1080 1165 938 1165 734 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" c.sc
 EndChar
@@ -2079,47 +2145,47 @@ EndChar
 StartChar: d
 Encoding: 100 100 41
 GlifName: d
-Width: 1568
+Width: 1486
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 602 0 basechar 0
-AnchorPoint: "Anchor-0" 640 1040 basechar 0
-AnchorPoint: "Anchor-0" 640 1040 basechar 0
-AnchorPoint: "Anchor-1" 1628 1040 basechar 0
-AnchorPoint: "Anchor-2" 602 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 552 0 basechar 0
+AnchorPoint: "Anchor-0" 590 1040 basechar 0
+AnchorPoint: "Anchor-0" 590 1040 basechar 0
+AnchorPoint: "Anchor-1" 1578 1040 basechar 0
+AnchorPoint: "Anchor-2" 552 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-826 640 m 0
- 826 750 804 850 748 850 c 0
- 622 850 490 608 490 360 c 0
- 490 232 518 188 578 188 c 0
- 660 188 826 372 826 640 c 0
-1508 292 m 0
- 1403 78 1229 -50 1002 -50 c 0
- 882 -50 810 9 762 80 c 0
- 754 93 746 100 738 104 c 0
- 722 112 707 102 689 85 c 0
- 610 9 517 -40 384 -40 c 0
- 186 -40 20 40 20 340 c 0
- 20 780 326 1078 584 1078 c 0
- 712 1078 804 1040 848 961 c 0
- 877 909 897 900 910 952 c 2
- 997 1313 l 2
- 1005 1346 999 1350 956 1350 c 2
- 833 1350 l 2
- 790 1350 776 1353 776 1399 c 2
- 776 1517 l 2
- 776 1552 780 1560 814 1560 c 2
- 1406 1560 l 2
- 1482 1560 1490 1552 1475 1494 c 2
- 1164 302 l 2
- 1161 290 1158 272 1158 262 c 0
- 1158 240 1166 234 1186 234 c 0
- 1228 234 1278 283 1332 393 c 0
- 1346 421 1355 420 1384 406 c 2
- 1485 355 l 2
- 1523 337 1526 329 1508 292 c 0
+742 640 m 4
+ 742 750.004545361 725 850 674 850 c 0
+ 560 850 436 608 436 360 c 4
+ 436 231.99609381 459 188 513 188 c 0
+ 587 188 742 372 742 640 c 4
+1398 292 m 0
+ 1293 78 1118 -50 901 -50 c 0
+ 787 -50 720 9 678 80 c 0
+ 671 93 663 100 656 104 c 0
+ 642 112 628 102 612 85 c 0
+ 540 9 455 -40 330 -40 c 0
+ 142 -40 -22 40 -22 340 c 0
+ -22 780 284 1078 529 1078 c 0
+ 645 1078 727 1040 767 961 c 0
+ 794 909 812 900 825 952 c 2
+ 912 1313 l 2
+ 920 1346 915 1350 874 1350 c 2
+ 757 1350 l 2
+ 718 1350 705 1353 706 1399 c 2
+ 707 1517 l 2
+ 707 1552 711 1560 742 1560 c 2
+ 1304 1560 l 2
+ 1376 1560 1383 1552 1368 1494 c 2
+ 1059 302 l 2
+ 1056 290 1053 272 1053 262 c 0
+ 1053 240 1060 234 1079 234 c 0
+ 1119 234 1168 283 1222 393 c 0
+ 1236 421 1245 420 1274 406 c 2
+ 1375 355 l 2
+ 1413 337 1416 329 1398 292 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" d.sc
 EndChar
@@ -2127,35 +2193,35 @@ EndChar
 StartChar: e
 Encoding: 101 101 42
 GlifName: e
-Width: 1320
+Width: 1247
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-2" 873 102 basechar 0
-AnchorPoint: "Anchor-1" 547 0 basechar 0
-AnchorPoint: "Anchor-0" 774 1040 basechar 0
-AnchorPoint: "Anchor-0" 774 1040 basechar 0
-AnchorPoint: "Anchor-2" 547 0 basechar 0
-AnchorPoint: "Anchor-3" 873 102 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-2" 823 102 basechar 0
+AnchorPoint: "Anchor-1" 497 0 basechar 0
+AnchorPoint: "Anchor-0" 724 1040 basechar 0
+AnchorPoint: "Anchor-0" 724 1040 basechar 0
+AnchorPoint: "Anchor-2" 497 0 basechar 0
+AnchorPoint: "Anchor-3" 823 102 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-20 380 m 0
- 20 740 372 1080 834 1080 c 0
- 1118 1080 1280 970 1280 806 c 0
- 1280 515.960534151 816.27547207 422.829222121 498.000006872 394.988996147 c 0
- 474.604182509 392.942514064 470 385.563476562 470 365 c 0
- 470 217 526 188 604 188 c 0
- 680.879600484 188 784.93011511 218.367492277 858.999997393 310.535827398 c 0
- 876.844344733 332.740315039 885.625976562 346 929 346 c 2
- 1083 346 l 2
- 1141.61328125 346 1152.7604959 329.724605365 1124 289.569347133 c 0
- 1003.78595321 121.727105875 817.540641311 -40 510 -40 c 0
- 252 -40 20 78 20 380 c 0
-520.999993279 568.900679016 m 0
- 714.618671733 592.832626734 878 664.008483408 878 808 c 0
- 878 846 862 884 804 884 c 0
- 698.386619351 884 558.802287327 804.343976086 499.102314112 602 c 0
- 490.038664178 571.280137549 493.419603596 565.491646121 520.999993279 568.900679016 c 0
+-21 410 m 0
+ -21 770 280 1080 708 1080 c 0
+ 974 1080 1164 950 1164 756 c 0
+ 1164 466 729 423 442 395 c 0
+ 421 393 417 386 417 365 c 0
+ 415 217 475 188 581 188 c 0
+ 650 188 745 219 815 311 c 0
+ 832 333 841 346 883 346 c 2
+ 1037 346 l 2
+ 1096 346 1107 330 1078 290 c 0
+ 958 122 772 -40 493 -40 c 0
+ 252 -40 -21 108 -21 410 c 0
+465 569 m 0
+ 640 593 770 664 772 808 c 0
+ 772 846 758 884 688 884 c 0
+ 592 884 502 804 446 602 c 0
+ 438 571 440 566 465 569 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" e.sc
 EndChar
@@ -2163,45 +2229,45 @@ EndChar
 StartChar: f
 Encoding: 102 102 43
 GlifName: f
-Width: 980
+Width: 916
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 301 0 basechar 0
-AnchorPoint: "Anchor-0" 1101 1692 basechar 0
-AnchorPoint: "Anchor-0" 1101 1692 basechar 0
-AnchorPoint: "Anchor-2" 301 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 251 0 basechar 0
+AnchorPoint: "Anchor-0" 951 1692 basechar 0
+AnchorPoint: "Anchor-0" 951 1692 basechar 0
+AnchorPoint: "Anchor-2" 251 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-13.4592920354 -233 m 2
- 216.353097345 777 l 2
- 225.448657458 822.277457828 224.405273438 830 167 830 c 2
- 84 830 l 2
- 51.7761782151 830 50 838.478515625 50 871 c 2
- 50 988 l 2
- 50 1030.8984375 51.081416624 1040 94 1040 c 2
- 216 1040 l 2
- 263.488415391 1040 270.468264822 1047.27140674 276.673076923 1078 c 2
- 290 1144 l 2
- 364 1508 664 1600 964 1600 c 0
- 1226 1600 1430 1482 1430 1308 c 0
- 1430 1162 1302 1074 1174 1074 c 0
- 1058 1074 944 1136 944 1260 c 0
- 944 1352 1000 1376 1000 1400 c 0
- 1000 1412 982 1420 958 1420 c 0
- 878 1420 751 1356 700 1100 c 2
- 696.8 1084 l 2
- 690.206967011 1051.03483506 690.448242188 1040 734 1040 c 2
- 902 1040 l 2
- 944.727622674 1040 950 1032.32714844 950 988 c 2
- 950 868 l 2
- 950 831.782234625 941.529296875 830 905 830 c 2
- 700 830 l 2
- 648.68359375 830 643.951139568 819.755697839 635.8 779 c 2
- 431.6 -242 l 2
- 421.241497241 -293.792513794 414.146484375 -300 350 -300 c 2
- 74 -300 l 2
- 5.603515625 -300 2.91861393522 -285.471216974 13.4592920354 -233 c 2
+-24 -233 m 2
+ 180 777 l 2
+ 189 822 188 830 131 830 c 2
+ 48 830 l 2
+ 16 830 14 838 14 871 c 2
+ 14 988 l 2
+ 14 1031 15 1040 58 1040 c 2
+ 180 1040 l 2
+ 226 1040 233 1047 239 1078 c 2
+ 252 1144 l 2
+ 322 1508 542 1600 813 1600 c 0
+ 1055 1600 1199 1482 1199 1308 c 4
+ 1199 1162 1091 1074 963 1074 c 0
+ 856 1074 755 1135.99596781 755 1260 c 4
+ 755 1352 807 1376 807 1400 c 0
+ 807 1412 791 1420 769 1420 c 0
+ 697 1420 672 1356 623 1100 c 2
+ 620 1084 l 2
+ 613 1051 613 1040 653 1040 c 2
+ 804 1040 l 2
+ 843 1040 848 1032 847 988 c 2
+ 846 868 l 2
+ 846 832 838 830 805 830 c 2
+ 620 830 l 2
+ 574 830 569 820 561 779 c 2
+ 386 -242 l 2
+ 376 -294 369 -300 308 -300 c 2
+ 37 -300 l 2
+ -31 -300 -35 -285 -24 -233 c 2
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" f.sc
 EndChar
@@ -2209,56 +2275,56 @@ EndChar
 StartChar: g
 Encoding: 103 103 44
 GlifName: g
-Width: 1318
+Width: 1135
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 245 -565 basechar 0
-AnchorPoint: "Anchor-0" 821 1040 basechar 0
-AnchorPoint: "Anchor-0" 821 1040 basechar 0
-AnchorPoint: "Anchor-2" 245 -565 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 105 -565 basechar 0
+AnchorPoint: "Anchor-0" 681 1040 basechar 0
+AnchorPoint: "Anchor-0" 681 1040 basechar 0
+AnchorPoint: "Anchor-2" 105 -565 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--150 -310 m 0
- -150 -188.425154169 -40.5211553837 -106.00697539 96.9999947344 -56.3162632079 c 0
- 157.030897764 -34.62521189 138.036379253 -39.7414870725 103.97283797 -2.00000794945 c 0
- 72.837193382 32.4974411095 54 74.1940405468 54 122 c 0
- 54 247.175411028 146.279308567 330.860900374 253.999996298 383.341860164 c 0
- 315.649665583 413.377258963 312.907935324 402.315785237 266.479144023 443.999984683 c 0
- 213.568725207 491.503449427 182 555.323789371 182 634 c 0
- 182 932 502 1080 774 1080 c 0
- 776 1080 778.001779113 1080.01304489 780 1079.91284748 c 0
- 800.698462574 1078.87495806 807.486652484 1083.79887563 814 1108.4209517 c 0
- 851.593235914 1250.53274778 945.74440156 1394 1130 1394 c 0
- 1312 1394 1408 1278 1408 1174 c 0
- 1408 1086 1340 992 1222 992 c 0
- 1126 992 1030 1052 1030 1150 c 0
- 1030 1226 1098 1246 1064 1246 c 0
- 1027.14949465 1246 979.265566384 1176.4045631 958.661240788 1081.00000428 c 0
- 953.431316844 1056.7837986 954.54078738 1056.40469749 975.536046378 1049.00001002 c 0
- 1097.3494458 1006.03839892 1176 918.68183801 1176 792 c 0
- 1176 492 876 340 602 340 c 0
- 571.68241955 340 541.763778199 341.595756396 513.000005211 345.039245611 c 0
- 470.572990467 350.118446025 450.974257946 354.345326654 428.11772908 326.000003577 c 0
- 417.787705667 313.189315971 412 297.752199119 412 280 c 0
- 412 258 428 238 486 238 c 0
- 536 238 772 240 828 240 c 0
- 1020 240 1130 148 1130 -18 c 0
- 1130 -389 770 -530 384 -530 c 0
- 48 -530 -150 -454 -150 -310 c 0
-285.015147229 -130 m 0
- 254.823441109 -158.976431357 236 -191.978423531 236 -230 c 0
- 236 -304 326 -326 464 -326 c 0
- 637 -326 756 -286 756 -176 c 0
- 756 -130 712 -118 600 -118 c 0
- 558 -118 456 -118 412 -118 c 0
- 390.98609268 -118 369.566690134 -116.783514323 348.000005669 -114.092329662 c 0
- 312.98065541 -109.722462872 305.513598678 -110.326651001 285.015147229 -130 c 0
-586 604 m 0
- 586 554 602 520 644 520 c 0
- 730 520 792 690 792 816 c 0
- 792 866 774 900 732 900 c 0
- 646 900 586 730 586 604 c 0
+-265 -310 m 0
+ -265 -188 -156 -106 -18 -56 c 0
+ 42 -34 23 -40 -11 -2 c 0
+ -42 32 -61 74 -61 122 c 0
+ -61 247 30 331 138 383 c 0
+ 197 413 194 402 151 444 c 0
+ 98 492 67 555 67 634 c 0
+ 67 932 383 1080 632 1080 c 0
+ 634 1080 635 1080 637 1080 c 0
+ 656 1079 662 1083 669 1108 c 0
+ 707 1250 798 1394 973 1394 c 0
+ 1150 1394 1246 1278 1246 1174 c 0
+ 1246 1086 1178 992 1060 992 c 0
+ 964 992 875 1051.99489809 875 1150 c 4
+ 875 1226 940 1246 908 1246 c 0
+ 873 1246 828 1176 807 1081 c 0
+ 802 1057 802 1056 822 1049 c 0
+ 937 1006 1014 919 1014 792 c 0
+ 1014 492 713 340 460 340 c 0
+ 433 340 405 342 379 345 c 0
+ 341 350 323 354 302 326 c 0
+ 293 313 287 298 287 280 c 0
+ 287 258 302 238 354 238 c 0
+ 399 238 613 240 666 240 c 0
+ 851 240 961 148 961 -18 c 0
+ 961 -389 601 -530 251 -530 c 0
+ -68 -530 -265 -454 -265 -310 c 0
+162 -130 m 0
+ 133 -159 114 -192 114 -230 c 0
+ 113 -304 198 -326 327 -326 c 0
+ 483 -326 592 -286 593 -176 c 0
+ 594 -130 553 -118 452 -118 c 0
+ 414 -118 323 -118 283 -118 c 0
+ 263 -118 243 -117 222 -114 c 0
+ 189 -110 181 -110 162 -130 c 0
+456 604 m 4
+ 456 553.990001 470 520 508 520 c 0
+ 586 520 645 690 645 816 c 4
+ 645 866.009999 630 900 592 900 c 0
+ 514 900 456 730 456 604 c 4
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" g.sc
 EndChar
@@ -2266,46 +2332,46 @@ EndChar
 StartChar: h
 Encoding: 104 104 45
 GlifName: h
-Width: 1568
+Width: 1432
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 599 0 basechar 0
-AnchorPoint: "Anchor-0" 1187 1039 basechar 0
-AnchorPoint: "Anchor-0" 1187 1039 basechar 0
-AnchorPoint: "Anchor-2" 599 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 549 0 basechar 0
+AnchorPoint: "Anchor-0" 1137 1039 basechar 0
+AnchorPoint: "Anchor-0" 1137 1039 basechar 0
+AnchorPoint: "Anchor-2" 549 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1501.00000872 286.914981123 m 0
- 1400.74791723 89.6906580029 1226.65176903 -40 1006 -40 c 0
- 826 -40 732 44 732 146 c 0
- 732 184 741 220 750 250 c 2
- 854 620 l 2
- 892 748 896 826 824 826 c 0
- 705.167741532 826 555 588 495.005462106 326.839443814 c 2
- 433.93359375 62 l 2
- 421.89453125 9.5419921875 416.049443382 0 351 0 c 2
- 87 0 l 6
- 10.126953125 0 1.88079659263 8.15011856805 15.6923076923 68 c 2
- 301.846153846 1308 l 2
- 310.491309722 1345.46234213 307.333007812 1350 259 1350 c 2
- 175 1350 l 2
- 135.896490938 1350 130 1355.33007812 130 1396 c 2
- 130 1498 l 2
- 130 1558.2109375 140.962937798 1560 199 1560 c 2
- 707 1560 l 2
- 773.613399001 1560 777.124023438 1554.8984375 764.06640625 1498 c 2
- 641.684615385 966 l 2
- 624.250877247 890.214635007 631.38671875 872.532226562 699 939.439453125 c 0
- 799.90625 1039.29199219 897.025300969 1078 1022 1078 c 0
- 1180 1078 1391 1014 1284 682 c 2
- 1164 310 l 2
- 1159 294 1156 280 1156 272 c 0
- 1156 252 1166 244 1184 244 c 0
- 1219.76083065 244 1260.80611174 274.385590078 1310.35703086 362 c 0
- 1334.8203587 405.255303271 1332.35955373 438.445485599 1387 412.626373626 c 2
- 1469 373.879120879 l 2
- 1525.95563034 346.966020828 1530.53593513 345.02053292 1501.00000872 286.914981123 c 0
+1389 287 m 0
+ 1289 90 1115 -40 894 -40 c 0
+ 714 -40 620 44 620 146 c 0
+ 620 184 629 220 638 250 c 2
+ 742 620 l 2
+ 780 748 794 806 725 806 c 0
+ 650 806 510 588 453 327 c 2
+ 395 62 l 2
+ 384 10 378 0 316 0 c 2
+ 52 0 l 2
+ -25 0 -33 8 -19 68 c 2
+ 267 1308 l 2
+ 276 1345 272 1350 224 1350 c 2
+ 140 1350 l 2
+ 101 1350 95 1355 95 1396 c 2
+ 95 1498 l 2
+ 95 1558 106 1560 164 1560 c 2
+ 656 1560 l 2
+ 723 1560 726 1555 713 1498 c 2
+ 593 966 l 2
+ 577 890 582 872 645 939 c 0
+ 742 1039 788 1078 910 1078 c 0
+ 1068 1078 1279 1014 1172 682 c 2
+ 1052 310 l 2
+ 1047 294 1044 280 1044 272 c 0
+ 1044 252 1054 244 1072 244 c 0
+ 1108 244 1148 274 1198 362 c 0
+ 1222 405 1220 439 1275 413 c 2
+ 1357 374 l 2
+ 1414 347 1419 345 1389 287 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" h.sc
 EndChar
@@ -2313,40 +2379,40 @@ EndChar
 StartChar: i
 Encoding: 105 105 46
 GlifName: i
-Width: 932
+Width: 906
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-2" 402 30 basechar 0
-AnchorPoint: "Anchor-1" 297 10 basechar 0
-AnchorPoint: "Anchor-3" 402 30 basechar 0
-AnchorPoint: "Anchor-2" 297 10 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-2" 352 30 basechar 0
+AnchorPoint: "Anchor-1" 247 10 basechar 0
+AnchorPoint: "Anchor-3" 352 30 basechar 0
+AnchorPoint: "Anchor-2" 247 10 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-698.262695312 980 m 2
- 528 302 l 2
- 525 290 522 272 522 262 c 0
- 522 240 530 234 550 234 c 0
- 589.055862023 234 633.878681923 275.810444605 683.24436453 368 c 0
- 707.42243121 413.15211985 704.065227768 424.804342923 755 400.736263736 c 2
- 859 351.593406593 l 2
- 904.97943836 329.866858797 880.282972288 306.699865198 859.000014071 266.834561821 c 0
- 752.978736571 68.2451388217 583.786314619 -50 366 -50 c 0
- 202 -50 100 34 100 154 c 0
- 100 192 113 249 120 280 c 2
- 230.265625 772 l 2
- 241.293945312 821.315429688 243.039326253 830 183 830 c 2
- 87 830 l 2
- 44.6462897469 830 40 836.1171875 40 880 c 2
- 40 998 l 2
- 40 1037.046875 50.3227578198 1040 87 1040 c 2
- 645 1040 l 2
- 710.875941267 1040 712.380859375 1035.41992188 698.262695312 980 c 2
-312 1380 m 0
- 312 1516 420 1590 552 1590 c 0
- 684 1590 792 1516 792 1380 c 0
- 792 1244 684 1170 552 1170 c 0
- 420 1170 312 1244 312 1380 c 0
+654 980 m 6
+ 490 302 l 6
+ 487 290 485 272 485 262 c 4
+ 485 240 492 234 510 234 c 4
+ 545 234 586 276 633 368 c 4
+ 657 413 654 425 705 401 c 6
+ 809 352 l 6
+ 855 330 830 307 809 267 c 4
+ 703 68 537 -50 329 -50 c 4
+ 165 -50 63 34 63 154 c 4
+ 63 192 76 249 83 280 c 6
+ 193 772 l 6
+ 204 821 206 830 146 830 c 6
+ 50 830 l 6
+ 8 830 3 836 3 880 c 6
+ 3 998 l 6
+ 3 1037 13 1040 50 1040 c 6
+ 602 1040 l 6
+ 668 1040 668 1035 654 980 c 6
+274 1380 m 4
+ 274 1516 380 1590 510 1590 c 4
+ 640 1590 748 1516 748 1380 c 4
+ 746 1244 640 1170 510 1170 c 4
+ 380 1170 274 1244 274 1380 c 4
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" i.sc
 EndChar
@@ -2354,36 +2420,36 @@ EndChar
 StartChar: j
 Encoding: 106 106 47
 GlifName: j
-Width: 858
+Width: 777
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" -139 -565 basechar 0
-AnchorPoint: "Anchor-2" -139 -565 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" -189 -565 basechar 0
+AnchorPoint: "Anchor-2" -189 -565 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-759.846153846 970 m 6
- 536 0 l 6
- 458 -322 322 -520 -78 -520 c 4
- -360 -520 -514 -382 -514 -248 c 4
- -514 -92 -376 -14 -248 -14 c 4
- -112 -14 -18 -76 -18 -190 c 4
- -18 -282 -76 -290 -76 -318 c 4
- -76 -330 -56 -340 -22 -340 c 4
- 118 -340 92 -128 170 206 c 6
- 294.298076923 764 l 6
- 305.600640715 814.739566951 303.174804688 830 235 830 c 6
- 155 830 l 6
- 110.08984375 830 106 846.164016312 106 888 c 6
- 106 982 l 6
- 106 1032.71191406 111.781916441 1040 161 1040 c 6
- 703 1040 l 6
- 779.178710938 1040 773.078658527 1027.34085362 759.846153846 970 c 6
-378 1380 m 0
- 378 1516 486 1590 618 1590 c 0
- 750 1590 858 1516 858 1380 c 0
- 858 1244 750 1170 618 1170 c 0
- 486 1170 378 1244 378 1380 c 0
+702 970 m 2
+ 482 0 l 2
+ 408 -322 279 -520 -98 -520 c 0
+ -357 -520 -512 -382 -512 -248 c 0
+ -512 -92 -374 -14 -247 -14 c 0
+ -123 -14 -40 -76 -40 -190 c 0
+ -40 -282.005434622 -94 -290 -94 -318 c 0
+ -94 -330 -77 -340 -46 -340 c 0
+ 84 -340 60 -128 134 206 c 2
+ 252 764 l 2
+ 263 815 261 830 200 830 c 2
+ 128 830 l 2
+ 87 830 84 846 84 888 c 2
+ 85 982 l 2
+ 86 1033 92 1040 136 1040 c 2
+ 645 1040 l 2
+ 721 1040 715 1027 702 970 c 2
+335 1380 m 4
+ 335 1516.01470509 436 1590 560 1590 c 0
+ 692 1590 800 1516 800 1380 c 0
+ 800 1244 692 1170 560 1170 c 0
+ 435 1170 335 1244 335 1380 c 4
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" j.sc
 EndChar
@@ -2391,59 +2457,59 @@ EndChar
 StartChar: k
 Encoding: 107 107 48
 GlifName: k
-Width: 1524
+Width: 1432
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 636 0 basechar 0
-AnchorPoint: "Anchor-0" 1269 1040 basechar 0
-AnchorPoint: "Anchor-0" 1269 1040 basechar 0
-AnchorPoint: "Anchor-2" 636 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 586 0 basechar 0
+AnchorPoint: "Anchor-0" 1219 1040 basechar 0
+AnchorPoint: "Anchor-0" 1219 1040 basechar 0
+AnchorPoint: "Anchor-2" 586 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1440.00000458 295.752569585 m 4
- 1328.14981842 62.9864598124 1133.17819127 -50 940 -50 c 4
- 749 -50 649 21 670 192 c 6
- 684 320 l 6
- 687.787196492 351.055011231 690.409413723 383.340815577 693.188820726 413.999996938 c 4
- 695.185938856 436.029878441 687.146856336 438.191316622 662 431.4259432 c 4
- 644.168800557 426.628734309 624.835467224 424 604 424 c 4
- 576.775030682 424 553.448543701 432.284274967 533 446.471567098 c 4
- 508.138361932 463.720684066 504.890334116 454.524781171 500.153846154 434 c 6
- 412 52 l 6
- 402.12363247 9.20240736964 406.514305205 0 352 0 c 6
- 38 0 l 6
- -29.1897605853 0 -18.1880106046 7.84033873025 -6.13333333333 60 c 6
- 279.057777778 1294 l 6
- 289.973105379 1341.22978289 291.658203125 1350 230 1350 c 6
- 158 1350 l 6
- 114.998046875 1350 110 1356.41189911 110 1398 c 6
- 110 1498 l 6
- 110 1556.97753906 118.979591997 1560 176 1560 c 6
- 678 1560 l 6
- 741.687738935 1560 758.125976562 1550.54589844 742.2890625 1482 c 6
- 579.783393502 780 l 6
- 575.152508599 759.995275109 561.007802216 730.907327988 604 745.35767589 c 4
- 629.666441803 753.984567107 658.60242485 758 692 758 c 4
- 700.771418494 758 709.935376695 757.607460294 718.999998882 756.822380882 c 4
- 739.02686258 755.087870821 737.616765424 760.217981538 744.726053198 775 c 4
- 747.666666667 781.114283731 750.723808532 787.447617064 754 794 c 4
- 838 966 956 1080 1136 1080 c 4
- 1358 1080 1464 972 1464 828 c 4
- 1464 700 1358 598 1238 598 c 4
- 1122 598 1022 666 1022 756 c 4
- 1022 820 1048 850 1048 872 c 4
- 1048 888 1036 890 1026 890 c 4
- 994 890 965 855 914 750 c 4
- 911.554793737 744.760272293 908.750610246 739.506539372 906.383565566 734.000001235 c 4
- 899.543714366 718.088218156 898.40978078 702.007544724 927.711259763 682.000004015 c 4
- 1040.62468277 604.900827259 1117.05224003 476.623676385 1098 336 c 6
- 1090 278 l 6
- 1086 250 1091 234 1120 234 c 4
- 1147.91778333 234 1198.36638741 264.300720549 1261.27018372 392 c 4
- 1273.65123035 417.134424742 1279.33181546 420.425625662 1312 404.989010989 c 6
- 1426 351.120879121 l 6
- 1453.07356336 338.327876655 1456.64168655 330.38478347 1440.00000458 295.752569585 c 4
+1329 296 m 0
+ 1217 63 1027 -50 852 -50 c 0
+ 680 -50 592.269722557 20.7517490953 611 192 c 6
+ 625 320 l 6
+ 628.397828709 351.065862485 632 383 628 414 c 0
+ 630 436 623 438 600 431 c 0
+ 584 426 567 424 548 424 c 0
+ 524 424 502 432 484 446 c 0
+ 462 463 459 455 454 434 c 2
+ 377 52 l 2
+ 367 9 372 0 320 0 c 2
+ 6 0 l 2
+ -61 0 -50 8 -38 60 c 2
+ 244 1294 l 2
+ 254 1341 256 1350 197 1350 c 2
+ 126 1350 l 2
+ 83 1350 78 1356 78 1398 c 2
+ 78 1498 l 2
+ 78 1557 87 1560 144 1560 c 2
+ 623 1560 l 2
+ 684 1560 699 1551 684 1482 c 2
+ 530 780 l 2
+ 525 760 512 731 551 745 c 0
+ 575 754 601 758 631 758 c 0
+ 639 758 647 758 655 757 c 0
+ 673 755 673 760 679 775 c 0
+ 682 781 684 787 687 794 c 0
+ 765 966 873 1080 1040 1080 c 0
+ 1251 1080 1356 972 1356 828 c 0
+ 1356 700 1249 598 1131 598 c 0
+ 1021 598 929 666 929 756 c 0
+ 929 820.007812023 954 850 954 872 c 0
+ 954 888 943 890 934 890 c 0
+ 905 890 878 855 831 750 c 0
+ 829 745 826 740 824 734 c 0
+ 817 718 817 702 843 682 c 0
+ 944 605 1018.38389732 476.533255543 999 336 c 6
+ 991 278 l 2
+ 987 250 992 234 1018 234 c 0
+ 1043 234 1088 264 1150 392 c 0
+ 1164 417 1171 420 1204 405 c 2
+ 1315 351 l 2
+ 1342 338 1346 331 1329 296 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" k.sc
 EndChar
@@ -2451,36 +2517,36 @@ EndChar
 StartChar: l
 Encoding: 108 108 49
 GlifName: l
-Width: 850
+Width: 815
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 300 0 basechar 0
-AnchorPoint: "Anchor-0" 486 1696 basechar 0
-AnchorPoint: "Anchor-0" 486 1696 basechar 0
-AnchorPoint: "Anchor-1" 1015 1040 basechar 0
-AnchorPoint: "Anchor-2" 300 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 250 0 basechar 0
+AnchorPoint: "Anchor-0" 436 1696 basechar 0
+AnchorPoint: "Anchor-0" 436 1696 basechar 0
+AnchorPoint: "Anchor-1" 965 1040 basechar 0
+AnchorPoint: "Anchor-2" 250 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-726.445151033 1478 m 2
- 446 302 l 2
- 443 290 440 272 440 262 c 0
- 440 240 448 234 468 234 c 0
- 508.168246564 234 554.436636917 278.226042467 605.473474973 376 c 0
- 624.097196097 411.678443016 626.203125 423.211914062 667 403.93359375 c 2
- 771 356.12109375 l 2
- 802.170898438 341.391601562 810.708884066 335.881377152 795.662893686 304.000017612 c 0
- 691.404968533 83.0850553738 515.048728522 -50 284 -50 c 0
- 120 -50 20 28 20 148 c 0
- 20 186 29 241 38 280 c 2
- 258.119626168 1278 l 2
- 268.580689509 1325.42939735 282.162109375 1350 216 1350 c 2
- 121 1350 l 2
- 80.095703125 1350 70 1351.0825046 70 1392 c 2
- 70 1521 l 2
- 70 1552.95019531 75.1371495389 1560 106 1560 c 2
- 662 1560 l 2
- 744.747070312 1560 740.912115045 1538.66480242 726.445151033 1478 c 2
+678 1478 m 2
+ 424 302 l 6
+ 421 290 418 272 418 262 c 4
+ 418 240 425 234 443 234 c 4
+ 479 234 521 278 570 376 c 4
+ 589 412 591 423 632 404 c 6
+ 736 356 l 6
+ 767 341 776 336 761 304 c 4
+ 657 83 464 -50 251 -50 c 0
+ 88 -50 -12 28 -12 148 c 0
+ -12 186 -3 241 6 280 c 2
+ 226 1278 l 2
+ 236 1325 249 1350 184 1350 c 2
+ 89 1350 l 2
+ 48 1350 38 1351 38 1392 c 2
+ 38 1521 l 2
+ 38 1553 43 1560 74 1560 c 2
+ 614 1560 l 2
+ 697 1560 692 1539 678 1478 c 2
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" l.sc
 EndChar
@@ -2488,56 +2554,56 @@ EndChar
 StartChar: m
 Encoding: 109 109 50
 GlifName: m
-Width: 2230
+Width: 2063
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 950 0 basechar 0
-AnchorPoint: "Anchor-0" 1268 1040 basechar 0
-AnchorPoint: "Anchor-0" 1268 1040 basechar 0
-AnchorPoint: "Anchor-2" 950 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 900 0 basechar 0
+AnchorPoint: "Anchor-0" 1218 1040 basechar 0
+AnchorPoint: "Anchor-0" 1218 1040 basechar 0
+AnchorPoint: "Anchor-2" 900 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-86 1040 m 2
- 568 1040 l 2
- 614.943359375 1040 638.720703125 1034.57519531 632.016601562 992 c 2
- 614.493617021 878 l 2
- 605.527838421 819.670966038 625.841796875 828.35546875 662 874.846679688 c 0
- 764.65625 1006.83984375 878.886340684 1078 1002 1078 c 0
- 1123.48290277 1078 1233.08162986 1041.21482258 1286 921.75 c 0
- 1314.95214844 856.389648438 1323.01074219 858.1484375 1362 904.693359375 c 0
- 1460.89753185 1022.75608105 1568.04930404 1078 1684 1078 c 0
- 1842 1078 2053 1014 1946 682 c 2
- 1826 310 l 2
- 1821 294 1818 280 1818 272 c 0
- 1818 252 1828 244 1846 244 c 0
- 1886.04511605 244 1932.71672515 282.102335067 1990.53798669 396 c 0
- 2009.13232726 432.62756425 2009.63647472 431.226720738 2048 413.098901099 c 2
- 2134 372.461538462 l 2
- 2191.05814511 345.499997365 2191.10303995 341.601580368 2161.51038181 284.000011368 c 0
- 2061.02845128 88.4137673985 1887.56285056 -40 1668 -40 c 0
- 1488 -40 1394 44 1394 146 c 0
- 1394 184 1403 220 1412 250 c 2
- 1516 620 l 2
- 1554 748 1560 826 1506 826 c 0
- 1408 826 1260 597 1201 341 c 2
- 1131.73020528 42 l 2
- 1125.2958445 14.2263667693 1118.70605469 0 1082 0 c 2
- 740 0 l 2
- 687.5348885 0 685.978515625 11.0283203125 697.284179688 55 c 6
- 860 676 l 2
- 889 787 880 826 844 826 c 0
- 746 826 587 596 528 339 c 2
- 461.96460177 52 l 2
- 454.145542525 18.0171655877 440.873046875 0 396 0 c 2
- 106 0 l 2
- 36.4306640625 0 33.2500485645 14.0496891071 45.2674698795 66 c 2
- 208.58313253 772 l 2
- 219.502097948 819.201777588 213.275390625 830 150 830 c 2
- 100 830 l 2
- 48.1162109375 830 40 832.192286214 40 884 c 2
- 40 988 l 2
- 40 1031.89746094 42.2059827172 1040 86 1040 c 2
+49 1040 m 2
+ 522 1040 l 2
+ 567 1040 590 1035 583 992 c 2
+ 566 878 l 2
+ 557 820 577 829 611 875 c 0
+ 709 1007 797 1078 919 1078 c 0
+ 1037 1078 1115 1041 1165 922 c 0
+ 1193 857 1201 858 1238 905 c 0
+ 1333 1023 1416 1078 1532 1078 c 0
+ 1690 1078 1861 1014 1754 682 c 2
+ 1634 310 l 2
+ 1629 294 1626 280 1626 272 c 0
+ 1626 252 1636 244 1653 244 c 0
+ 1691 244 1736 282 1792 396 c 0
+ 1818 433 1818 431 1856 413 c 2
+ 1935 372 l 2
+ 1992 345 1993 342 1963 284 c 0
+ 1863 88 1689 -40 1476 -40 c 0
+ 1296 -40 1202 44 1202 146 c 0
+ 1202 184 1212 220 1221 250 c 2
+ 1324 620 l 2
+ 1362 748 1359 796 1307 796 c 0
+ 1242 796 1140 597 1084 341 c 2
+ 1019 42 l 2
+ 1013 14 1006 0 971 0 c 2
+ 629 0 l 2
+ 580 0 578 11 588 55 c 2
+ 749 676 l 2
+ 778 787 750 796 716 796 c 4
+ 661 796 540 596 484 339 c 2
+ 421 52 l 2
+ 413 18 402 0 359 0 c 2
+ 69 0 l 2
+ -1 0 -4 14 8 66 c 2
+ 172 772 l 2
+ 183 819 176 830 113 830 c 2
+ 63 830 l 2
+ 11 830 3 832 3 884 c 2
+ 3 988 l 2
+ 3 1032 5 1040 49 1040 c 2
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" m.sc
 EndChar
@@ -2545,46 +2611,46 @@ EndChar
 StartChar: n
 Encoding: 110 110 51
 GlifName: n
-Width: 1598
+Width: 1446
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 650 0 basechar 0
-AnchorPoint: "Anchor-0" 770 1040 basechar 0
-AnchorPoint: "Anchor-0" 770 1040 basechar 0
-AnchorPoint: "Anchor-2" 650 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 600 0 basechar 0
+AnchorPoint: "Anchor-0" 720 1040 basechar 0
+AnchorPoint: "Anchor-0" 720 1040 basechar 0
+AnchorPoint: "Anchor-2" 600 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-80 1040 m 2
- 612 1040 l 2
- 648.4609375 1040 658.494140625 1032.03222656 651.1953125 1002 c 2
- 616.254882812 860 l 2
- 603.884907966 809.727680972 613.45703125 800.739257812 652 852.038085938 c 0
- 766.40234375 1004.29882812 897.928735062 1078 1052 1078 c 0
- 1210 1078 1421 1014 1314 682 c 6
- 1194 310 l 2
- 1189 294 1186 280 1186 272 c 0
- 1186 252 1196 244 1214 244 c 0
- 1253.80980441 244 1300.16845397 281.655859629 1357.51983922 394 c 0
- 1371.16790084 420.73483376 1384.39453125 432.12109375 1415 417.659179688 c 2
- 1516 365.846153846 l 2
- 1562.23728589 343.997766007 1556.58024576 338.280695452 1534.00000858 292.881297104 c 0
- 1434.24231589 92.3103645085 1258.86917209 -40 1036 -40 c 0
- 856 -40 762 44 762 146 c 0
- 762 184 771 220 780 250 c 2
- 884 620 l 2
- 922 748 926 826 854 826 c 0
- 737 826 588 597 529 341 c 2
- 461.803710938 48 l 2
- 452.399414062 7.4072265625 443.345184783 0 394 0 c 2
- 96 0 l 2
- 28.3798828125 0 32.5693150761 11.1069349644 44.3421686747 62 c 2
- 209.045783133 774 l 2
- 220.241156163 822.396664664 220.876953125 830 158 830 c 2
- 87 830 l 2
- 45.22265625 830 40 837.744693866 40 878 c 2
- 40 996 l 2
- 40 1033.19140625 43.8680376121 1040 80 1040 c 2
+43 1040 m 2
+ 554 1040 l 2
+ 588 1040 596 1032 591 1002 c 2
+ 568 860 l 6
+ 560 809 565 801 602 852 c 0
+ 710 1004 779 1078 970 1078 c 0
+ 1148 1078 1277 978 1182 682 c 2
+ 1062 310 l 2
+ 1057 294 1054 280 1054 272 c 0
+ 1054 252 1063 244 1080 244 c 0
+ 1118 244 1164 282 1219 394 c 0
+ 1240 421 1252 432 1283 418 c 2
+ 1377 366 l 2
+ 1423 344 1418 338 1395 293 c 0
+ 1295 92 1120 -40 904 -40 c 0
+ 724 -40 630 44 630 146 c 0
+ 630 184 639 220 648 250 c 2
+ 752 620 l 2
+ 790 748 774 776 725 776 c 0
+ 633 776 541 597 485 341 c 2
+ 421 48 l 2
+ 412 7 404 0 357 0 c 2
+ 59 0 l 2
+ -9 0 -5 11 7 62 c 2
+ 172 774 l 2
+ 183 822 184 830 121 830 c 2
+ 50 830 l 2
+ 8 830 3 838 3 878 c 2
+ 3 996 l 2
+ 3 1033 7 1040 43 1040 c 2
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" n.sc
 EndChar
@@ -2592,26 +2658,26 @@ EndChar
 StartChar: o
 Encoding: 111 111 52
 GlifName: o
-Width: 1376
+Width: 1298
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 505 0 basechar 0
-AnchorPoint: "Anchor-0" 767 1040 basechar 0
-AnchorPoint: "Anchor-0" 767 1040 basechar 0
-AnchorPoint: "Anchor-2" 505 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 455 0 basechar 0
+AnchorPoint: "Anchor-0" 717 1040 basechar 0
+AnchorPoint: "Anchor-0" 717 1040 basechar 0
+AnchorPoint: "Anchor-2" 455 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-20 400 m 0
- 20 780 336 1080 798 1080 c 0
- 1100 1080 1296 940 1296 640 c 0
- 1296 260 980 -40 518 -40 c 0
- 216 -40 20 100 20 400 c 0
-470 340 m 0
- 470 212 500 180 558 180 c 0
- 696 180 846 432 846 700 c 0
- 846 828 816 860 758 860 c 0
- 620 860 470 608 470 340 c 0
+-12 430 m 0
+ -12 810 358 1060 670 1060 c 0
+ 961 1060 1196 930 1196 610 c 0
+ 1196 230 866 -20 523 -20 c 0
+ 204 -20 -12 110 -12 430 c 0
+411 320 m 4
+ 411 211.99537047 446 180 516 180 c 0
+ 613 180 772 412 772 680 c 4
+ 772 798.004237212 738 860 677 860 c 0
+ 552 860 411 588 411 320 c 4
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" o.sc
 EndChar
@@ -2619,41 +2685,41 @@ EndChar
 StartChar: p
 Encoding: 112 112 53
 GlifName: p
-Width: 1422
+Width: 1314
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 787 0 basechar 0
-AnchorPoint: "Anchor-0" 1007 1040 basechar 0
-AnchorPoint: "Anchor-0" 1007 1040 basechar 0
-AnchorPoint: "Anchor-2" 787 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 737 0 basechar 0
+AnchorPoint: "Anchor-0" 957 1040 basechar 0
+AnchorPoint: "Anchor-0" 957 1040 basechar 0
+AnchorPoint: "Anchor-2" 737 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-74 1040 m 2
- 590 1040 l 2
- 623.499735907 1040 637.4102642 1038.08541015 628.426757812 1008 c 2
- 608.12195122 940 l 2
- 595.550459417 897.898567579 597.44140625 886.950195312 639 930.879882812 c 0
- 723.604492188 1020.31152344 831.685580825 1078 978 1078 c 0
- 1176 1078 1342 958 1342 658 c 0
- 1342 218 996 -40 758 -40 c 0
- 651.868607181 -40 565.398161491 -7.24477332017 506.000005867 57.4680505478 c 0
- 469.235718745 97.5218335691 457.64548831 79.2401485646 448.727272727 40 c 2
- 338.545898438 -448 l 2
- 328.627929688 -491.637695312 320.891950225 -500 268 -500 c 2
- -18 -500 l 2
- -91.0517578125 -500 -89.40347574 -479.890206362 -77.0857142857 -426 c 2
- 199.942857143 786 l 2
- 207.937300833 820.975691143 208.965820312 830 162 830 c 2
- 74 830 l 2
- 30.3691139098 830 28 837.969726562 28 882 c 2
- 28 998 l 2
- 28 1036.68945312 37.6100816318 1040 74 1040 c 2
-536 398 m 0
- 536 288 558 198 614 198 c 0
- 740 198 872 430 872 678 c 0
- 872 806 844 850 784 850 c 0
- 702 850 536 666 536 398 c 0
+43 1040 m 2
+ 529 1040 l 2
+ 560 1040 573 1038 564 1008 c 2
+ 545 940 l 2
+ 533 898 535 887 574 931 c 0
+ 653 1020 753 1078 893 1078 c 0
+ 1085 1078 1250 958 1250 658 c 0
+ 1250 218 904 -40 682 -40 c 0
+ 586 -40 508 -8 456 57 c 0
+ 423 97 412 79 403 40 c 2
+ 299 -448 l 2
+ 289 -492 282 -500 232 -500 c 2
+ -49 -500 l 2
+ -122 -500 -120 -480 -108 -426 c 2
+ 167 786 l 2
+ 175 821 176 830 131 830 c 2
+ 43 830 l 2
+ -1 830 -3 838 -3 882 c 2
+ -3 998 l 2
+ -3 1037 7 1040 43 1040 c 2
+486 398 m 0
+ 486 287.995454639 504 198 555 198 c 0
+ 669 198 787 429.991935615 787 678 c 0
+ 787 806 762 850 707 850 c 0
+ 631 850 486 666 486 398 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" p.sc
 EndChar
@@ -2661,41 +2727,41 @@ EndChar
 StartChar: q
 Encoding: 113 113 54
 GlifName: q
-Width: 1322
+Width: 1241
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 375 0 basechar 0
-AnchorPoint: "Anchor-0" 725 1040 basechar 0
-AnchorPoint: "Anchor-0" 725 1040 basechar 0
-AnchorPoint: "Anchor-2" 375 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 325 0 basechar 0
+AnchorPoint: "Anchor-0" 675 1040 basechar 0
+AnchorPoint: "Anchor-0" 675 1040 basechar 0
+AnchorPoint: "Anchor-2" 325 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-20 380 m 0
- 20 820 366 1078 604 1078 c 0
- 729.0652384 1078 813.008592228 1031.08617761 869.943625476 944 c 0
- 896.208658364 903.825766516 907.67051 893.471689023 919.508571429 944 c 2
- 933.565714286 1004 l 2
- 941.520338655 1037.95266499 951.633789062 1040 994 1040 c 2
- 1280 1040 l 2
- 1338.10449219 1040 1340.95356961 1035.49594688 1330.38345865 990 c 2
- 1046.93984962 -230 l 2
- 1036.91334138 -273.156168188 1028.78222656 -290 1088 -290 c 2
- 1170 -290 l 2
- 1209.98785981 -290 1214 -298.604492188 1214 -340 c 2
- 1214 -445 l 2
- 1214 -494.1171875 1207.59129255 -500 1160 -500 c 2
- 638 -500 l 2
- 575.33984375 -500 565.721625286 -492.581820459 576.996587031 -444 c 2
- 681.897610922 8 l 2
- 690.046399549 43.1116921723 680.286527468 59.9063638799 618 22.3599426824 c 0
- 552.778395062 -16.9557480409 475.208414948 -40 384 -40 c 0
- 186 -40 20 80 20 380 c 0
-826 640 m 0
- 826 750 814 850 738 850 c 0
- 632 850 490 608 490 360 c 0
- 490 232 518 188 578 188 c 0
- 660 188 826 372 826 640 c 0
+-22 380 m 0
+ -22 820 325 1078 547 1078 c 0
+ 660 1078 735 1031 785 944 c 0
+ 808 904 819 893 830 944 c 2
+ 844 1004 l 2
+ 852 1038 860 1040 898 1040 c 2
+ 1165 1040 l 2
+ 1221 1040 1224 1035 1213 990 c 2
+ 933 -230 l 2
+ 923 -273 915 -290 971 -290 c 2
+ 1053 -290 l 2
+ 1093 -290 1097 -299 1097 -340 c 2
+ 1097 -445 l 2
+ 1097 -494 1091 -500 1043 -500 c 2
+ 559 -500 l 2
+ 502 -500 495 -493 505 -444 c 2
+ 605 8 l 2
+ 613 43 603 60 547 22 c 0
+ 488 -17 416 -40 330 -40 c 0
+ 142 -40 -22 80 -22 380 c 0
+742 640 m 4
+ 742 750.004545361 734 850 665 850 c 0
+ 569 850 436 608 436 360 c 0
+ 436 231.99609381 459 188 513 188 c 0
+ 587 188 742 372 742 640 c 4
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" q.sc
 EndChar
@@ -2703,38 +2769,38 @@ EndChar
 StartChar: r
 Encoding: 114 114 55
 GlifName: r
-Width: 1304
+Width: 1181
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 287 0 basechar 0
-AnchorPoint: "Anchor-0" 764 1040 basechar 0
-AnchorPoint: "Anchor-0" 764 1040 basechar 0
-AnchorPoint: "Anchor-2" 287 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 237 0 basechar 0
+AnchorPoint: "Anchor-0" 714 1040 basechar 0
+AnchorPoint: "Anchor-0" 714 1040 basechar 0
+AnchorPoint: "Anchor-2" 237 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-74 1040 m 2
- 570 1040 l 2
- 623.342537305 1040 648.019297917 1034.02559635 636.599609375 984 c 2
- 621.533333333 918 l 2
- 610.773528349 870.865118958 612.256835938 844.309570312 653 898.643554688 c 0
- 739.056255971 1013.40585592 850.165983659 1086 1014 1086 c 0
- 1192 1086 1324 984 1324 828 c 0
- 1324 644 1202 530 1042 530 c 0
- 914 530 814 628 814 730 c 0
- 814 818 850 836 850 850 c 0
- 850 858 842 860 830 860 c 0
- 756 860 604 664 539 387 c 2
- 466.098191214 70 l 2
- 454.040248666 17.568272288 452.075195312 0 384 0 c 2
- 100 0 l 2
- 43.0400390625 0 31.2928926683 5.58906726388 41.5662650602 50 c 2
- 211.359375 774 l 2
- 222.524414062 822.266601562 220.826927796 830 162 830 c 2
- 86 830 l 2
- 42.3691139098 830 40 837.969726562 40 882 c 2
- 40 999 l 2
- 40 1030.09765625 43.84765625 1040 74 1040 c 2
+37 1040 m 2
+ 520 1040 l 2
+ 571 1040 595 1034 585 984 c 2
+ 576 938 l 2
+ 567 891 562 869 606 919 c 0
+ 704 1034 782 1066 895 1066 c 0
+ 1019 1066 1141 974 1141 838 c 0
+ 1141 674 1029 560 870 560 c 0
+ 752 560 680 648 681 730 c 0
+ 681 768 693 786 693 800 c 0
+ 693 808 688 810 684 810 c 0
+ 653 810 553 664 494 387 c 2
+ 425 70 l 2
+ 414 18 411 0 347 0 c 2
+ 63 0 l 2
+ 6 0 -5 6 5 50 c 2
+ 174 774 l 2
+ 185 822 184 830 125 830 c 2
+ 49 830 l 2
+ 5 830 3 838 3 882 c 2
+ 3 999 l 2
+ 3 1030 7 1040 37 1040 c 2
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" r.sc
 EndChar
@@ -2742,33 +2808,33 @@ EndChar
 StartChar: s
 Encoding: 115 115 56
 GlifName: s
-Width: 1252
+Width: 1050
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 430 0 basechar 0
-AnchorPoint: "Anchor-0" 719 1040 basechar 0
-AnchorPoint: "Anchor-0" 719 1040 basechar 0
-AnchorPoint: "Anchor-2" 430 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 370 0 basechar 0
+AnchorPoint: "Anchor-0" 599 1040 basechar 0
+AnchorPoint: "Anchor-0" 599 1040 basechar 0
+AnchorPoint: "Anchor-2" 370 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-682 260 m 0
- 682 414 206 468 206 760 c 0
- 206 998 436 1084 702 1084 c 0
- 1038 1084 1232 914 1232 782 c 0
- 1232 662 1158 584 1034 584 c 0
- 940 584 848 650 848 740 c 0
- 848 838 890 838 890 862 c 0
- 890 882 816 904 772 904 c 0
- 686 904 618 866 618 812 c 0
- 618 632 1128 604 1128 278 c 0
- 1128 10 828 -44 554 -44 c 0
- 236 -44 -20 72 -20 272 c 0
- -20 418 78 522 208 522 c 0
- 314 522 402 458 402 364 c 0
- 402 258 310 250 310 220 c 0
- 310 182 404 156 498 156 c 0
- 598 156 682 178 682 260 c 0
+534 265 m 4
+ 534 419 41 488 41 740 c 0
+ 41 978 281 1084 531 1084 c 0
+ 865 1084 1017 934 1017 802 c 0
+ 1017 702 943 624 819 624 c 0
+ 732 624 650 689.994444616 650 780 c 4
+ 650 838 671 848 671 872 c 0
+ 671 892 614 904 565 904 c 0
+ 478 904 443 866 443 812 c 4
+ 443 631.988889232 970 594 970 318 c 4
+ 970 50 650 -44 397 -44 c 0
+ 155 -44 -105 62 -105 282 c 0
+ -105 398 -7 492 123 492 c 0
+ 226 492 300 428 300 334 c 4
+ 300 227.995283124 242 218 242 198 c 0
+ 242 180 326 156 411 156 c 0
+ 465 156 534 182.993902666 534 265 c 4
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" s.sc
 EndChar
@@ -2776,47 +2842,47 @@ EndChar
 StartChar: t
 Encoding: 116 116 57
 GlifName: t
-Width: 950
+Width: 906
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 395 0 basechar 0
-AnchorPoint: "Anchor-0" 700 1277 basechar 0
-AnchorPoint: "Anchor-0" 700 1277 basechar 0
-AnchorPoint: "Anchor-1" 859 1153 basechar 0
-AnchorPoint: "Anchor-2" 395 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 345 0 basechar 0
+AnchorPoint: "Anchor-0" 650 1277 basechar 0
+AnchorPoint: "Anchor-0" 650 1277 basechar 0
+AnchorPoint: "Anchor-1" 809 1153 basechar 0
+AnchorPoint: "Anchor-2" 345 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-82 1040 m 6
- 224 1040 l 6
- 263.450968691 1040 259.860534823 1047.69584858 267.186813187 1078 c 6
- 295.165039062 1192 l 6
- 300.783203125 1215.23925781 309.486676841 1221.52132528 336.000008778 1222.82604047 c 4
- 462.171244413 1229.03489901 537.467773438 1265.84375 576 1291.37792969 c 4
- 616.112453927 1317.9590757 609.087500225 1316 673 1316 c 4
- 721.74689129 1316 740.668189969 1314.39718925 731.6953125 1278 c 6
- 683.869140625 1084 l 6
- 674.469726562 1047.96582031 673.203794089 1040 718 1040 c 6
- 866 1040 l 6
- 895.265212659 1040 910 1038.23339844 910 1006 c 6
- 910 884 l 6
- 910 838.10546875 907.79789572 830 862 830 c 6
- 656 830 l 6
- 620.336404919 830 615.03515625 820.135742188 607.6953125 792 c 6
- 486 324 l 6
- 476 286 466 236 514 236 c 4
- 559.341501941 236 603.162403439 284.65921416 656.069828789 377.999970869 c 4
- 671.654944602 405.495667242 681.487304688 421.41015625 714 404.56640625 c 6
- 810 354.65060241 l 6
- 847.07335197 335.443926088 846.200351752 331.226014009 830.254684464 290.000025419 c 4
- 748.525563219 78.6972458624 566.082128276 -40 340 -40 c 4
- 124 -40 30 60 72 252 c 6
- 198.539792388 782 l 6
- 205.647677996 811.770709288 212.669921875 830 170 830 c 6
- 80 830 l 6
- 40.7071421962 830 20 831.66796875 20 875 c 6
- 20 995 l 6
- 20 1038.73730469 42.2195838308 1040 82 1040 c 6
+47 1040 m 6
+ 189 1040 l 6
+ 228 1040 224 1048 231 1078 c 6
+ 258 1192 l 6
+ 264 1215 271 1222 297 1223 c 4
+ 417 1229 488 1265 525 1291 c 4
+ 563 1318 556 1316 617 1316 c 4
+ 666 1316 684 1314 675 1278 c 6
+ 627 1084 l 6
+ 618 1048 616 1040 659 1040 c 6
+ 803 1040 l 6
+ 832 1040 847 1038 847 1006 c 6
+ 847 884 l 6
+ 847 838 845 830 799 830 c 6
+ 599 830 l 6
+ 567 830 562 820 555 792 c 6
+ 439 324 l 6
+ 429 286 420 236 463 236 c 4
+ 504 236 544 285 593 378 c 4
+ 608 405 618 422 651 405 c 6
+ 747 355 l 6
+ 784 336 783 331 767 290 c 4
+ 685 79 508 -40 301 -40 c 4
+ 89 -40 -5 60 37 252 c 6
+ 164 782 l 6
+ 171 812 178 830 135 830 c 6
+ 45 830 l 6
+ 6 830 -15 832 -15 875 c 6
+ -15 995 l 6
+ -15 1039 7 1040 47 1040 c 6
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" t.sc
 Substitution2: "'ss01' Style Set 1 lookup 3 subtable" t.alt
@@ -2825,46 +2891,46 @@ EndChar
 StartChar: u
 Encoding: 117 117 58
 GlifName: u
-Width: 1768
+Width: 1573
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-2" 1442 50 basechar 0
-AnchorPoint: "Anchor-1" 582 0 basechar 0
-AnchorPoint: "Anchor-0" 989 1040 basechar 0
-AnchorPoint: "Anchor-0" 989 1040 basechar 0
-AnchorPoint: "Anchor-2" 582 0 basechar 0
-AnchorPoint: "Anchor-3" 1442 50 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-2" 1352 50 basechar 0
+AnchorPoint: "Anchor-1" 532 0 basechar 0
+AnchorPoint: "Anchor-0" 899 1040 basechar 0
+AnchorPoint: "Anchor-0" 899 1040 basechar 0
+AnchorPoint: "Anchor-2" 532 0 basechar 0
+AnchorPoint: "Anchor-3" 1352 50 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-41.999991511 743.067724952 m 0
- 141.403833456 945.906185047 317.633796095 1080 542 1080 c 0
- 780 1080 846 958 798 790 c 2
- 694 420 l 2
- 656 292 652 214 724 214 c 0
- 824 214 996 462 1056 728 c 2
- 1111.64102564 976 l 2
- 1120.09549798 1013.68279101 1123.9375 1040 1174 1040 c 2
- 1491 1040 l 2
- 1548.87207031 1040 1561.9895253 1039.96095792 1549.65853659 994 c 2
- 1364 302 l 2
- 1356 272 1348 234 1386 234 c 0
- 1425.8933314 234 1471.80359244 277.622739896 1522.42624307 374 c 0
- 1537.08422247 401.906399123 1550.44238281 421.516601562 1584 405.659179688 c 2
- 1671 362.956054688 l 2
- 1708.859375 345.06640625 1728.60686102 334.780464607 1710.00001322 296.336075941 c 0
- 1605.29987626 80.010731563 1430.36447201 -50 1202 -50 c 0
- 1047.20363871 -50 951.501901386 39.03307041 950.229355869 149.999995814 c 2
- 950 170 l 2
- 949.806846148 186.843161015 937.1640625 185.251953125 919 163.9921875 c 0
- 810.194335938 36.64453125 666.450135758 -38 526 -38 c 0
- 368 -38 152 28 264 358 c 1
- 384 730 l 2
- 394 760 400 796 364 796 c 0
- 324.427371311 796 278.383697409 758.791490029 221.504041885 648 c 0
- 201.330484311 608.70548455 201.616490094 608.181218966 160 627.846153846 c 2
- 52 678.879120879 l 2
- 13.1921356086 697.216902954 23.9376499697 706.21062293 41.999991511 743.067724952 c 0
+3 743 m 4
+ 102 946 276 1080 478 1080 c 4
+ 693 1080 751 958 706 790 c 6
+ 608 420 l 6
+ 572 292 550 214 615 214 c 4
+ 705 214 818 462 875 728 c 6
+ 928 976 l 6
+ 936 1014 940 1040 987 1040 c 6
+ 1289 1040 l 6
+ 1347 1040 1360 1040 1348 994 c 6
+ 1168 302 l 6
+ 1160 272 1153 234 1189 234 c 4
+ 1227 234 1269 278 1320 374 c 4
+ 1335 402 1348 422 1382 406 c 6
+ 1469 363 l 6
+ 1507 345 1527 334 1508 296 c 4
+ 1403 80 1231 -50 1014 -50 c 4
+ 867 -50 775 39 774 150 c 6
+ 774 170 l 6
+ 774 187 762 185 745 164 c 4
+ 645 37 550 -38 424 -38 c 4
+ 281 -38 109 28 219 358 c 5
+ 332 730 l 6
+ 341 760 346 796 314 796 c 4
+ 278 796 238 759 183 648 c 4
+ 163 609 163 608 121 628 c 6
+ 13 679 l 6
+ -26 697 -15 706 3 743 c 4
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" u.sc
 EndChar
@@ -2872,9 +2938,9 @@ EndChar
 StartChar: v
 Encoding: 118 118 59
 GlifName: v
-Width: 1312
+Width: 1274
 VWidth: 2310
-Flags: HMW
+Flags: HW
 AnchorPoint: "Anchor-1" 567 0 basechar 0
 AnchorPoint: "Anchor-0" 903 1040 basechar 0
 AnchorPoint: "Anchor-0" 903 1040 basechar 0
@@ -2882,27 +2948,27 @@ AnchorPoint: "Anchor-2" 567 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-870 684 m 4
- 740 684 682 760 682 876 c 4
- 682 996 780 1098 988 1098 c 4
- 1148 1098 1292 980 1292 758 c 4
- 1292 411 939 277 331 -11 c 4
- 292 -29 271 -49 232 -28 c 6
- 115 34 l 6
- 95 45 95 48 102 76 c 4
- 113 119 134 177 134 240 c 4
- 134 434 20 538 20 726 c 4
- 20 919 234 969 465 1069 c 4
- 488 1079 489 1082 500 1059 c 6
- 559 929 l 6
- 569 907 571 908 551 895 c 4
- 511 869 466 827 466 770 c 4
- 466 631 594 633 607 387 c 4
- 608 371 609 361 611 356 c 4
- 616 343 626 356 649 369 c 4
- 888 508 1074 632 1074 746 c 4
- 1074 774 1068 786 1054 786 c 4
- 1012 786 994 684 870 684 c 4
+862 684 m 0
+ 745 684 676 750 677 866 c 0
+ 678 986 768 1098 956 1098 c 0
+ 1118 1098 1231 1000 1231 818 c 0
+ 1231 471 931 277 374 -11 c 0
+ 337 -29 317 -49 280 -28 c 2
+ 170 34 l 2
+ 151 45 151 48 158 76 c 0
+ 169 119 190 177 190 240 c 4
+ 190 434.010309004 0 588 0 776 c 0
+ 0 969 215 1019 439 1119 c 0
+ 460 1129 460 1132 470 1109 c 2
+ 522 979 l 2
+ 531 957 532 958 514 945 c 0
+ 478 919 436 877.008771255 436 820 c 0
+ 436 681 622 633 631 387 c 0
+ 632 371 631.14586836 360.566610623 634 356 c 4
+ 639 348 647 356 668 369 c 0
+ 885 508 994 602 994 716 c 0
+ 994 722 991 725 986 725 c 0
+ 966 725 947 684 862 684 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" v.sc
 EndChar
@@ -2910,47 +2976,47 @@ EndChar
 StartChar: w
 Encoding: 119 119 60
 GlifName: w
-Width: 2160
+Width: 2127
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 957 0 basechar 0
-AnchorPoint: "Anchor-0" 1136 1040 basechar 0
-AnchorPoint: "Anchor-0" 1136 1040 basechar 0
-AnchorPoint: "Anchor-2" 957 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 907 0 basechar 0
+AnchorPoint: "Anchor-0" 1086 1040 basechar 0
+AnchorPoint: "Anchor-0" 1086 1040 basechar 0
+AnchorPoint: "Anchor-2" 907 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-64.9999913737 747.121941997 m 0
- 164.927253573 946.570149906 339.873653693 1078 562 1078 c 0
- 742 1078 836 994 836 892 c 0
- 836 854 827 818 818 788 c 2
- 722 438 l 2
- 684 310 678 232 732 232 c 0
- 831 232 976 448 1032 707 c 2
- 1093.40540541 991 l 2
- 1102.17117688 1031.54169308 1107.97265625 1040 1159 1040 c 2
- 1485 1040 l 2
- 1555.72316199 1040 1551.07128906 1030.29101562 1537.0703125 973 c 2
- 1402 418 l 2
- 1362 250 1338 176 1466 176 c 0
- 1730 176 1884 524 1884 700 c 0
- 1884 712 1882 718 1876 718 c 0
- 1854 718 1866 694 1782 694 c 0
- 1692 694 1626 760 1626 876 c 0
- 1626 976 1704 1068 1852 1068 c 0
- 1968 1068 2120 1000 2120 798 c 0
- 2120 498 1908 -40 1438 -40 c 0
- 1301.45942962 -40 1104.1015625 -5.89453125 1022 171.934570312 c 0
- 995.526367188 229.275390625 976.007925488 224.459437507 923.000006736 162.619529499 c 0
- 806.517786336 26.7294594168 670.518724616 -40 546 -40 c 0
- 388 -40 177 24 284 356 c 2
- 404 728 l 2
- 409 744 412 758 412 766 c 0
- 412 786 402 794 384 794 c 0
- 344.308548016 794 298.107131733 756.567705276 240.99137725 645 c 0
- 219.665705436 603.343257664 217.625406199 608.067115752 175 628.208791209 c 2
- 81 672.626373626 l 2
- 34.5110384305 694.593685137 42.2917656319 701.797824941 64.9999913737 747.121941997 c 0
+23 747 m 0
+ 123 946 298 1078 513 1078 c 0
+ 693 1078 787 994 787 892 c 4
+ 787 853.986844383 778 818 769 788 c 2
+ 673 438 l 2
+ 635 310 630 232 692 232 c 0
+ 810 232 964 448 1017 707 c 2
+ 1074 991 l 2
+ 1082 1032 1089 1040 1138 1040 c 2
+ 1448 1040 l 2
+ 1515 1040 1510 1030 1497 973 c 2
+ 1369 418 l 2
+ 1331 250 1308 176 1430 176 c 0
+ 1681 176 1827 524 1827 700 c 0
+ 1827 712 1825 718 1819 718 c 0
+ 1798 718 1810 694 1730 694 c 0
+ 1644 694 1582 760 1582 876 c 0
+ 1582 976 1655 1068 1796 1068 c 0
+ 1910 1068 2063 1000 2063 798 c 0
+ 2063 498 1851 -40 1403 -40 c 0
+ 1273 -40 1086 -6 1008 172 c 0
+ 983 229 964 225 914 163 c 0
+ 791 27 631 -40 497 -40 c 0
+ 339 -40 132 24 237 356 c 2
+ 355 728 l 2
+ 360 744 363 758 363 766 c 0
+ 363 786 354 794 337 794 c 0
+ 299 794 254 757 199 645 c 0
+ 178 603 176 608 133 628 c 2
+ 39 673 l 2
+ -7 695 0 702 23 747 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" w.sc
 EndChar
@@ -2958,53 +3024,53 @@ EndChar
 StartChar: x
 Encoding: 120 120 61
 GlifName: x
-Width: 1584
+Width: 1430
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 497 2 basechar 0
-AnchorPoint: "Anchor-0" 944 1040 basechar 0
-AnchorPoint: "Anchor-0" 944 1040 basechar 0
-AnchorPoint: "Anchor-2" 497 2 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 467 2 basechar 0
+AnchorPoint: "Anchor-0" 914 1040 basechar 0
+AnchorPoint: "Anchor-0" 914 1040 basechar 0
+AnchorPoint: "Anchor-2" 467 2 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--140 268 m 4
- -140 416 -24 538 96 538 c 4
- 232 538 302 470 302 360 c 4
- 302 236 204 226 204 184 c 4
- 204 164 218 160 242 160 c 4
- 306 160 409 254 499 373 c 4
- 525 408 521 424 510 474 c 4
- 489 566 468 654 442 725 c 4
- 434 746 417 780 384 780 c 4
- 347 780 310 746 265 662 c 4
- 249 632 251 621 219 639 c 6
- 94 710 l 6
- 64 727 74 736 88 768 c 4
- 162 932 310 1084 534 1084 c 4
- 729 1084 822 953 848 857 c 4
- 849 855 849 852 850 850 c 4
- 859 815 871 829 887 850 c 4
- 982 976 1106 1080 1266 1080 c 4
- 1468 1080 1604 952 1604 768 c 4
- 1604 620 1498 518 1378 518 c 4
- 1262 518 1162 576 1162 686 c 4
- 1162 810 1260 820 1260 862 c 4
- 1260 882 1246 886 1222 886 c 4
- 1155 886 1044 778 951 647 c 4
- 926 611 916 600 928 549 c 4
- 946 471 967 391 998 307 c 4
- 1006 286 1027 256 1058 256 c 4
- 1098 256 1143 303 1191 384 c 4
- 1212 420 1210 440 1248 414 c 6
- 1345 349 l 6
- 1372 331 1378 330 1363 296 c 4
- 1289 127 1121 -40 910 -40 c 4
- 722 -40 639 43 600 126 c 4
- 594 140 589 150 585 158 c 4
- 569 189 568 172 532 131 c 4
- 443 31 334 -44 198 -44 c 4
- -4 -44 -140 84 -140 268 c 4
+-105 268 m 0
+ -105 416 11 538 131 538 c 0
+ 257 538 318 470 318 360 c 4
+ 318 235.995967807 228 226 228 184 c 0
+ 228 164 240 160 262 160 c 0
+ 320 160 368 244 451 373 c 0
+ 474 409 471 424 462 474 c 0
+ 444 566 427 654 404 725 c 0
+ 397 746 382 780 352 780 c 0
+ 319 780 285 746 243 662 c 0
+ 228 632 230 621 201 639 c 2
+ 79 710 l 2
+ 49 727 59 736 73 768 c 0
+ 146 932 287 1084 491 1084 c 0
+ 667 1084 750 953 772 857 c 0
+ 773 855 772.56147099 852.192645048 773 850 c 4
+ 780 815 792 829 807 850 c 0
+ 894 976 952 1080 1097 1080 c 0
+ 1290 1080 1427 952 1427 768 c 0
+ 1427 620 1321 518 1201 518 c 0
+ 1088 518 999 575.995454639 999 686 c 4
+ 999 810 1089 820 1089 862 c 0
+ 1089 882 1077 886 1055 886 c 0
+ 995 886 948 798 862 647 c 0
+ 841 610 830 600 840 549 c 0
+ 855 471 874 391 901 307 c 0
+ 908 286 926 256 954 256 c 0
+ 990 256 1032 303 1076 384 c 0
+ 1096 420 1094 440 1131 414 c 2
+ 1228 349 l 2
+ 1255 331 1261 330 1246 296 c 0
+ 1172 127 1007 -40 817 -40 c 0
+ 647 -40 573 43 539 126 c 0
+ 534 140 530 150 526 158 c 0
+ 512 189 511 172 478 131 c 0
+ 397 31 343 -44 220 -44 c 0
+ 32 -44 -105 84 -105 268 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" x.sc
 EndChar
@@ -3012,41 +3078,41 @@ EndChar
 StartChar: y
 Encoding: 121 121 62
 GlifName: y
-Width: 1546
+Width: 1347
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 65 -565 basechar 0
-AnchorPoint: "Anchor-0" 873 1040 basechar 0
-AnchorPoint: "Anchor-0" 873 1040 basechar 0
-AnchorPoint: "Anchor-2" 65 -565 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" -15 -565 basechar 0
+AnchorPoint: "Anchor-0" 793 1040 basechar 0
+AnchorPoint: "Anchor-0" 793 1040 basechar 0
+AnchorPoint: "Anchor-2" -15 -565 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1168 696 m 0
- 1058 696 992 792 992 888 c 0
- 992 1028 1110 1090 1238 1090 c 0
- 1394 1090 1506 962 1506 800 c 0
- 1506 320 890 -530 280 -530 c 0
- -54 -530 -140 -306 -140 -132 c 0
- -140 20 -42 154 116 154 c 0
- 226 154 326 88 326 -34 c 0
- 326 -216 182 -220 182 -270 c 0
- 182 -316 212 -336 278 -336 c 0
- 376.320405455 -336 482.239912942 -299.693179182 587.999988786 -238.717338059 c 0
- 616.346693531 -222.374080443 615.242024247 -222.349071647 599.762886906 -194.000006282 c 0
- 443.880060372 91.4895750333 441.277355902 598.582883354 390 735 c 0
- 382 756 375 780 340 780 c 0
- 294.924884467 780 242.795025738 718.270997038 178.641777491 618.000007283 c 0
- 166.920556562 599.679837131 157.201171875 597.340820312 137 608.426757812 c 2
- 20 678.12195122 l 2
- -2.62943828683 690.540545401 5.74176964003 696.252914469 17 718.118899576 c 0
- 122.923607904 923.846083936 279.2432558 1084 512 1084 c 0
- 727 1084 789 1010 828 895 c 0
- 876.310786642 751.962180727 867.193024733 417.794973309 959.597765929 139.000008656 c 0
- 975.591540999 90.7450825833 976.328393801 92.506458631 1005.20876555 127.999990964 c 0
- 1167.62784019 327.610533655 1280 551.790149319 1280 718 c 0
- 1280 730 1278 736 1272 736 c 0
- 1250 736 1252 696 1168 696 c 0
+968 696 m 0
+ 869 696 802 792 802 888 c 4
+ 802 1028.01464844 920 1090 1036 1090 c 0
+ 1184 1090 1296 962 1296 800 c 0
+ 1296 320 749 -530 198 -530 c 0
+ -112 -530 -198 -306 -198 -132 c 0
+ -198 20 -100 154 57 154 c 0
+ 157 154 246 88 245 -34 c 0
+ 243 -216 113 -220 112 -270 c 0
+ 111 -316 138 -336 198 -336 c 0
+ 286 -336 383 -300 479 -239 c 0
+ 504 -223 503 -222 490 -194 c 0
+ 352 91 356 599 312 735 c 0
+ 305 756 299 780 267 780 c 0
+ 226 780 178 718 117 618 c 0
+ 106 600 96 597 77 608 c 2
+ -38 678 l 2
+ -61 690 -52 696 -41 718 c 0
+ 64 924 212 1084 426 1084 c 0
+ 620 1084 675 1010 709 895 c 0
+ 751 752 722 438 802 159 c 0
+ 816 111 817 112 843 148 c 0
+ 983 348 1070 552 1070 718 c 0
+ 1070 730 1069 736 1063 736 c 0
+ 1043 736 1044 696 968 696 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" y.sc
 EndChar
@@ -3054,47 +3120,47 @@ EndChar
 StartChar: z
 Encoding: 122 122 63
 GlifName: z
-Width: 1350
+Width: 1226
 VWidth: 2310
-Flags: HMW
-AnchorPoint: "Anchor-1" 449 0 basechar 0
-AnchorPoint: "Anchor-0" 727 1040 basechar 0
-AnchorPoint: "Anchor-0" 727 1040 basechar 0
-AnchorPoint: "Anchor-2" 449 0 basechar 0
+Flags: HW
+AnchorPoint: "Anchor-1" 399 0 basechar 0
+AnchorPoint: "Anchor-0" 677 1040 basechar 0
+AnchorPoint: "Anchor-0" 677 1040 basechar 0
+AnchorPoint: "Anchor-2" 399 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--35.0000033241 695.252319554 m 0
- 82.9047682898 824.942564269 315.771305796 1080 484 1080 c 0
- 692 1080 804 942 916 942 c 0
- 999.664396548 942 1113.70957109 1005.79963379 1183.99999778 1051.32028346 c 0
- 1210.11312895 1068.23135872 1210.10590041 1072.2472368 1229.7 1049 c 2
- 1304.71428571 960 l 2
- 1330.10347139 929.877237336 1330.09136447 930.067176075 1298 906.471879287 c 2
- 677 449.879286694 l 2
- 639.672000207 422.433734034 614.274519176 414.983684834 618.06470569 404.999999803 c 0
- 623 392 640.0287485 406.508288456 682.999995695 415.831482968 c 0
- 706.965065333 421.031029648 727.585553332 424 744 424 c 0
- 872 424 890 380 942 380 c 0
- 1019.49514546 380 1064.64775865 427.662679122 1123 508.854263446 c 0
- 1140.90326776 533.764954805 1143.10347962 526.038088189 1166 508.263157895 c 2
- 1269 428.302631579 l 2
- 1292.68092139 409.918758396 1288.01715771 408.423420348 1271.00000451 382.8140468 c 0
- 1172.30423252 234.285273371 959.001955903 -40 716 -40 c 0
- 568 -40 416 78 324 78 c 0
- 241.117380533 78 113.511267513 30.2949402103 39.0000021212 -11.0576750323 c 0
- 9.76480826422 -27.2827614908 10.3674982066 -32.7744119609 -10.7733333333 -8 c 2
- -102.933333333 100 l 2
- -120.295249978 120.345996068 -119.801230954 120.145454102 -98 136.099037139 c 2
- 564 620.533700138 l 2
- 583.251367278 634.621358173 612 646 605.782226562 655 c 4
- 599.702148438 663.801757812 588.614776652 644.592874861 562.000002657 637.505443909 c 0
- 543.681495917 632.627282941 528.034490937 630 516 630 c 0
- 408 630 398 686 306 686 c 0
- 242.143112498 686 183.934011812 646.465492285 129 591.123456288 c 0
- 102.699863459 564.627974615 102.526786525 554.749999418 70 578.102564103 c 2
- -23 644.871794872 l 2
- -53.5827384297 666.828632719 -61.8154926844 665.756419349 -35.0000033241 695.252319554 c 0
+-64 695 m 0
+ 54 825 276 1080 428 1080 c 0
+ 616 1080 715 942 816 942 c 0
+ 892 942 997 1005 1064 1051 c 0
+ 1090 1068 1089 1072 1109 1049 c 2
+ 1184 960 l 2
+ 1209 930 1209 930 1177 906 c 2
+ 594 450 l 2
+ 560 423 538 415 541 405 c 0
+ 545 392 560 407 599 416 c 0
+ 621 421 641 424 655 424 c 0
+ 771 424 786 380 833 380 c 0
+ 902 380 945 428 1002 509 c 0
+ 1020 534 1022 526 1045 508 c 2
+ 1148 428 l 2
+ 1172 410 1167 409 1150 383 c 0
+ 1051 234 844 -40 624 -40 c 0
+ 490 -40 355 78 272 78 c 0
+ 197 78 81 30 9 -11 c 0
+ -20 -27 -19 -33 -40 -8 c 2
+ -132 100 l 2
+ -149 120 -149 120 -127 136 c 2
+ 494 621 l 2
+ 511 635 538 646 533 655 c 0
+ 528 664 517 645 493 638 c 0
+ 477 633 462 630 451 630 c 0
+ 354 630 345 686 262 686 c 0
+ 204 686 151 646 99 591 c 0
+ 73 565 74 555 41 578 c 2
+ -52 645 l 2
+ -83 667 -91 666 -64 695 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" z.sc
 EndChar
@@ -3169,22 +3235,22 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 68
 GlifName: semicolon
-Width: 430
+Width: 650
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1 46 S 1 0 0 1 180 840 2
+Refer: 1 46 N 1 0 0 1 180 840 2
 Refer: 65 44 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: colon
 Encoding: 58 58 69
 GlifName: colon
-Width: 396
+Width: 606
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1 46 S 1 0 0 1 180 840 2
+Refer: 1 46 N 1 0 0 1 180 840 2
 Refer: 1 46 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3712,20 +3778,20 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 85
 GlifName: hyphen
-Width: 920
-Flags: MW
+Width: 820
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-148 890 m 6
- 774 890 l 6
- 797 890 800 886 800 862 c 6
- 800 693 l 2
- 800 669 798 660 772 660 c 2
- 146 660 l 2
- 121 660 120 664 120 690 c 2
- 120 862 l 6
- 120 885 127 890 148 890 c 6
+104 770 m 6
+ 616 770 l 6
+ 647 770 650 763 650 731 c 6
+ 650 581 l 6
+ 650 546 649 540 614 540 c 6
+ 112 540 l 6
+ 76 540 70 545 70 580 c 6
+ 70 729 l 6
+ 70 761 72 770 104 770 c 6
 EndSplineSet
 Substitution2: "Single Substitution lookup 10 subtable" hyphen.sc
 EndChar
@@ -4062,7 +4128,7 @@ StartChar: underscore
 Encoding: 95 95 99
 GlifName: underscore
 Width: 1120
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 85 45 N 1 0 0 1 170 -850 2
@@ -4152,7 +4218,7 @@ Encoding: 162 162 104
 GlifName: cent
 Width: 1096
 VWidth: 2310
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -5097,7 +5163,7 @@ StartChar: periodcentered
 Encoding: 183 183 139
 GlifName: periodcentered
 Width: 640
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1 46 N 1 0 0 1 220 700 2
@@ -5336,7 +5402,7 @@ StartChar: mu
 Encoding: 181 181 149
 GlifName: mu
 Width: 1545
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -5631,7 +5697,7 @@ StartChar: uni03BC
 Encoding: 956 956 161
 GlifName: uni03B_C_
 Width: 1545
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 149 181 N 1 0 0 1 0 0 2
@@ -6055,7 +6121,7 @@ StartChar: bullet
 Encoding: 8226 8226 184
 GlifName: bullet
 Width: 610
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1 46 N 1 0 0 1 185 630 2
@@ -8632,12 +8698,12 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 276
 GlifName: agrave
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 110 768 N 1 0 0 1 134 -460 2
+Refer: 110 768 N 1 0 0 1 8.13248 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" agrave.sc
 EndChar
@@ -8645,12 +8711,12 @@ EndChar
 StartChar: aacute
 Encoding: 225 225 277
 GlifName: aacute
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 276 -460 2
+Refer: 111 769 N 1 0 0 1 150.133 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aacute.sc
 EndChar
@@ -8658,12 +8724,12 @@ EndChar
 StartChar: acircumflex
 Encoding: 226 226 278
 GlifName: acircumflex
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 112 770 N 1 0 0 1 206 -460 2
+Refer: 112 770 N 1 0 0 1 80.1326 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" acircumflex.sc
 EndChar
@@ -8671,12 +8737,12 @@ EndChar
 StartChar: atilde
 Encoding: 227 227 279
 GlifName: atilde
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 131 732 N 1 0 0 1 235 -460 2
+Refer: 131 732 N 1 0 0 1 109.133 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" atilde.sc
 EndChar
@@ -8684,12 +8750,12 @@ EndChar
 StartChar: adieresis
 Encoding: 228 228 280
 GlifName: adieresis
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 133 168 N 1 0 0 1 170 -460 2
+Refer: 133 168 N 1 0 0 1 44.1325 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" adieresis.sc
 EndChar
@@ -8697,12 +8763,12 @@ EndChar
 StartChar: aring
 Encoding: 229 229 281
 GlifName: aring
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 129 730 N 1 0 0 1 201 -460 2
+Refer: 129 730 N 1 0 0 1 75.1326 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aring.sc
 EndChar
@@ -8710,12 +8776,12 @@ EndChar
 StartChar: ccedilla
 Encoding: 231 231 282
 GlifName: ccedilla
-Width: 1382
+Width: 1211
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 135 184 N 1 0 0 1 151 0 2
+Refer: 135 184 N 1 0 0 1 63.0696 0 2
 Refer: 40 99 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ccedilla.sc
 EndChar
@@ -8723,12 +8789,12 @@ EndChar
 StartChar: egrave
 Encoding: 232 232 283
 GlifName: egrave
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 110 768 N 1 0 0 1 -3 -460 2
+Refer: 110 768 N 1 0 0 1 -89.5755 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" egrave.sc
 EndChar
@@ -8736,12 +8802,12 @@ EndChar
 StartChar: eacute
 Encoding: 233 233 284
 GlifName: eacute
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 139 -460 2
+Refer: 111 769 N 1 0 0 1 52.4245 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" eacute.sc
 EndChar
@@ -8749,12 +8815,12 @@ EndChar
 StartChar: ecircumflex
 Encoding: 234 234 285
 GlifName: ecircumflex
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 112 770 N 1 0 0 1 69 -460 2
+Refer: 112 770 N 1 0 0 1 -17.5755 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ecircumflex.sc
 EndChar
@@ -8762,12 +8828,12 @@ EndChar
 StartChar: edieresis
 Encoding: 235 235 286
 GlifName: edieresis
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 133 168 N 1 0 0 1 33 -460 2
+Refer: 133 168 N 1 0 0 1 -53.5755 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" edieresis.sc
 EndChar
@@ -8908,12 +8974,12 @@ EndChar
 StartChar: ntilde
 Encoding: 241 241 293
 GlifName: ntilde
-Width: 1598
+Width: 1446
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 131 732 N 1 0 0 1 94 -460 2
+Refer: 131 732 N 1 0 0 1 20.9798 -460 2
 Refer: 51 110 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ntilde.sc
 EndChar
@@ -8921,12 +8987,12 @@ EndChar
 StartChar: ograve
 Encoding: 242 242 294
 GlifName: ograve
-Width: 1376
+Width: 1298
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 110 768 N 1 0 0 1 -10 -460 2
+Refer: 110 768 N 1 0 0 1 -98.1777 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ograve.sc
 EndChar
@@ -8934,12 +9000,12 @@ EndChar
 StartChar: oacute
 Encoding: 243 243 295
 GlifName: oacute
-Width: 1376
+Width: 1298
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 132 -460 2
+Refer: 111 769 N 1 0 0 1 43.8223 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" oacute.sc
 EndChar
@@ -8947,12 +9013,12 @@ EndChar
 StartChar: ocircumflex
 Encoding: 244 244 296
 GlifName: ocircumflex
-Width: 1376
+Width: 1298
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 112 770 N 1 0 0 1 62 -460 2
+Refer: 112 770 N 1 0 0 1 -26.1777 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ocircumflex.sc
 EndChar
@@ -8960,12 +9026,12 @@ EndChar
 StartChar: otilde
 Encoding: 245 245 297
 GlifName: otilde
-Width: 1376
+Width: 1298
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 131 732 N 1 0 0 1 91 -460 2
+Refer: 131 732 N 1 0 0 1 2.82229 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" otilde.sc
 EndChar
@@ -8973,12 +9039,12 @@ EndChar
 StartChar: odieresis
 Encoding: 246 246 298
 GlifName: odieresis
-Width: 1376
+Width: 1298
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 133 168 N 1 0 0 1 26 -460 2
+Refer: 133 168 N 1 0 0 1 -62.1777 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" odieresis.sc
 EndChar
@@ -8986,21 +9052,21 @@ EndChar
 StartChar: oslash
 Encoding: 248 248 299
 GlifName: oslash
-Width: 1376
+Width: 1298
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-1085 1214.54882812 m 2
- 1198 1214.54882812 l 2
- 1256.29980469 1214.54882812 1239.72851562 1196.82324219 1223.78027344 1173.78710938 c 2
- 299.858398438 -160.767578125 l 2
- 284.159179688 -183.444335938 274.606445312 -189.452148438 227 -189.452148438 c 2
- 137 -189.452148438 l 6
- 67.3583984375 -189.452148438 57.9814453125 -180.900390625 79.4541015625 -150.200195312 c 2
- 1011.82617188 1182.84570312 l 2
- 1027.83691406 1205.73730469 1036.24121094 1214.54882812 1085 1214.54882812 c 2
+996.821289062 1214.54882812 m 2
+ 1109.82128906 1214.54882812 l 2
+ 1168.12109375 1214.54882812 1151.54980469 1196.82324219 1135.6015625 1173.78710938 c 2
+ 211.6796875 -160.767578125 l 2
+ 195.98046875 -183.444335938 186.427734375 -189.452148438 138.821289062 -189.452148438 c 2
+ 48.8212890625 -189.452148438 l 6
+ -20.8203125 -189.452148438 -30.197265625 -180.900390625 -8.724609375 -150.200195312 c 2
+ 923.647460938 1182.84570312 l 2
+ 939.658203125 1205.73730469 948.0625 1214.54882812 996.821289062 1214.54882812 c 2
 EndSplineSet
 Refer: 52 111 N 1 0 0 1 0 0 2
 EndChar
@@ -9008,12 +9074,12 @@ EndChar
 StartChar: ugrave
 Encoding: 249 249 300
 GlifName: ugrave
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 110 768 N 1 0 0 1 212 -460 2
+Refer: 110 768 N 1 0 0 1 88.6069 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ugrave.sc
 EndChar
@@ -9021,12 +9087,12 @@ EndChar
 StartChar: uacute
 Encoding: 250 250 301
 GlifName: uacute
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 354 -460 2
+Refer: 111 769 N 1 0 0 1 230.607 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uacute.sc
 EndChar
@@ -9034,12 +9100,12 @@ EndChar
 StartChar: ucircumflex
 Encoding: 251 251 302
 GlifName: ucircumflex
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 112 770 N 1 0 0 1 284 -460 2
+Refer: 112 770 N 1 0 0 1 160.607 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ucircumflex.sc
 EndChar
@@ -9047,12 +9113,12 @@ EndChar
 StartChar: udieresis
 Encoding: 252 252 303
 GlifName: udieresis
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 133 168 N 1 0 0 1 248 -460 2
+Refer: 133 168 N 1 0 0 1 124.607 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" udieresis.sc
 EndChar
@@ -9060,12 +9126,12 @@ EndChar
 StartChar: yacute
 Encoding: 253 253 304
 GlifName: yacute
-Width: 1546
+Width: 1347
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 238 -460 2
+Refer: 111 769 N 1 0 0 1 110.221 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" yacute.sc
 EndChar
@@ -9110,12 +9176,12 @@ EndChar
 StartChar: ydieresis
 Encoding: 255 255 306
 GlifName: ydieresis
-Width: 1546
+Width: 1347
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 133 168 N 1 0 0 1 132 -460 2
+Refer: 133 168 N 1 0 0 1 4.22113 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ydieresis.sc
 EndChar
@@ -9136,12 +9202,12 @@ EndChar
 StartChar: amacron
 Encoding: 257 257 308
 GlifName: amacron
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 114 772 N 1 0 0 1 205 -460 2
+Refer: 114 772 N 1 0 0 1 79.1326 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" amacron.sc
 EndChar
@@ -9162,12 +9228,12 @@ EndChar
 StartChar: abreve
 Encoding: 259 259 310
 GlifName: abreve
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 127 728 N 1 0 0 1 252 -460 2
+Refer: 127 728 N 1 0 0 1 126.133 -460 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" abreve.sc
 EndChar
@@ -9188,12 +9254,12 @@ EndChar
 StartChar: aogonek
 Encoding: 261 261 312
 GlifName: aogonek
-Width: 1588
+Width: 1444
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 130 731 N 1 0 0 1 766 -17 2
+Refer: 130 731 N 1 0 0 1 640.133 -17 2
 Refer: 38 97 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aogonek.sc
 EndChar
@@ -9214,12 +9280,12 @@ EndChar
 StartChar: cacute
 Encoding: 263 263 314
 GlifName: cacute
-Width: 1382
+Width: 1211
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 165 -460 2
+Refer: 111 769 N 1 0 0 1 77.0696 -460 2
 Refer: 40 99 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" cacute.sc
 EndChar
@@ -9240,12 +9306,12 @@ EndChar
 StartChar: ccircumflex
 Encoding: 265 265 316
 GlifName: ccircumflex
-Width: 1382
+Width: 1211
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 112 770 N 1 0 0 1 95 -460 2
+Refer: 112 770 N 1 0 0 1 7.06964 -460 2
 Refer: 40 99 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ccircumflex.sc
 EndChar
@@ -9266,12 +9332,12 @@ EndChar
 StartChar: cdotaccent
 Encoding: 267 267 318
 GlifName: cdotaccent
-Width: 1382
+Width: 1211
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 128 729 N 1 0 0 1 183 0 2
+Refer: 128 729 N 1 0 0 1 95.0696 0 2
 Refer: 40 99 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" cdotaccent.sc
 EndChar
@@ -9292,12 +9358,12 @@ EndChar
 StartChar: ccaron
 Encoding: 269 269 320
 GlifName: ccaron
-Width: 1382
+Width: 1211
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 120 780 N 1 0 0 1 95 -460 2
+Refer: 120 780 N 1 0 0 1 7.06964 -460 2
 Refer: 40 99 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ccaron.sc
 EndChar
@@ -9352,21 +9418,21 @@ EndChar
 StartChar: dcroat
 Encoding: 273 273 324
 GlifName: dcroat
-Width: 1568
+Width: 1486
 VWidth: 2309
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-863.211914062 1290 m 6
- 1530.94726562 1290 l 6
- 1555.48144531 1290 1558.68066406 1286 1558.68066406 1262 c 6
- 1558.68066406 1093 l 2
- 1558.68066406 1069 1556.54785156 1060 1528.81445312 1060 c 2
- 861.079101562 1060 l 2
- 834.412109375 1060 833.345703125 1064 833.345703125 1090 c 2
- 833.345703125 1262 l 6
- 833.345703125 1285 840.8125 1290 863.211914062 1290 c 6
+771.088867188 1290 m 6
+ 1438.82421875 1290 l 6
+ 1463.35839844 1290 1466.55761719 1286 1466.55761719 1262 c 6
+ 1466.55761719 1093 l 2
+ 1466.55761719 1069 1464.42480469 1060 1436.69140625 1060 c 2
+ 768.956054688 1060 l 2
+ 742.2890625 1060 741.22265625 1064 741.22265625 1090 c 2
+ 741.22265625 1262 l 6
+ 741.22265625 1285 748.689453125 1290 771.088867188 1290 c 6
 EndSplineSet
 Refer: 41 100 N 1 0 0 1 0.344789 0 2
 EndChar
@@ -9387,12 +9453,12 @@ EndChar
 StartChar: emacron
 Encoding: 275 275 326
 GlifName: emacron
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 114 772 N 1 0 0 1 38 -460 2
+Refer: 114 772 N 1 0 0 1 -48.5755 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" emacron.sc
 EndChar
@@ -9413,12 +9479,12 @@ EndChar
 StartChar: ebreve
 Encoding: 277 277 328
 GlifName: ebreve
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 127 728 N 1 0 0 1 85 -460 2
+Refer: 127 728 N 1 0 0 1 -1.5755 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ebreve.sc
 EndChar
@@ -9439,12 +9505,12 @@ EndChar
 StartChar: edotaccent
 Encoding: 279 279 330
 GlifName: edotaccent
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 128 729 N 1 0 0 1 157 0 2
+Refer: 128 729 N 1 0 0 1 70.4245 0 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" edotaccent.sc
 EndChar
@@ -9465,12 +9531,12 @@ EndChar
 StartChar: eogonek
 Encoding: 281 281 332
 GlifName: eogonek
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 130 731 N 1 0 0 1 452 75 2
+Refer: 130 731 N 1 0 0 1 365.424 75 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" eogonek.sc
 EndChar
@@ -9491,12 +9557,12 @@ EndChar
 StartChar: ecaron
 Encoding: 283 283 334
 GlifName: ecaron
-Width: 1320
+Width: 1247
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 120 780 N 1 0 0 1 69 -460 2
+Refer: 120 780 N 1 0 0 1 -17.5755 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ecaron.sc
 EndChar
@@ -9584,23 +9650,23 @@ EndChar
 StartChar: gbreve
 Encoding: 287 287 338
 GlifName: gbreve
-Width: 1318
+Width: 1135
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-559.96484375 1238 m 0
- 371.051757812 1238 329.90234375 1363 372.921875 1577 c 0
- 376.663085938 1594 382.274414062 1596 398.172851562 1596 c 2
- 504.787109375 1596 l 6
- 517.879882812 1596 519.750976562 1593 518.815429688 1580 c 4
- 516.9453125 1540 520.685546875 1498 611.401367188 1498 c 4
- 697.44140625 1498 719.88671875 1536 737.655273438 1567 c 4
- 747.943359375 1585 748.877929688 1596 771.323242188 1596 c 6
- 880.743164062 1596 l 2
- 900.3828125 1596 900.3828125 1592 894.771484375 1572 c 0
- 845.205078125 1362 746.072265625 1238 559.96484375 1238 c 0
+481.549804688 1238 m 0
+ 292.63671875 1238 251.487304688 1363 294.506835938 1577 c 0
+ 298.248046875 1594 303.859375 1596 319.7578125 1596 c 2
+ 426.372070312 1596 l 6
+ 439.46484375 1596 441.3359375 1593 440.400390625 1580 c 4
+ 438.530273438 1540 442.270507812 1498 532.986328125 1498 c 4
+ 619.026367188 1498 641.471679688 1536 659.240234375 1567 c 4
+ 669.528320312 1585 670.462890625 1596 692.908203125 1596 c 6
+ 802.328125 1596 l 2
+ 821.967773438 1596 821.967773438 1592 816.356445312 1572 c 0
+ 766.790039062 1362 667.657226562 1238 481.549804688 1238 c 0
 EndSplineSet
 Refer: 44 103 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" gbreve.sc
@@ -9622,12 +9688,12 @@ EndChar
 StartChar: gdotaccent
 Encoding: 289 289 340
 GlifName: gdotaccent
-Width: 1318
+Width: 1135
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 128 729 S 1 0 0 1 -156 0 2
+Refer: 128 729 S 1 0 0 1 -234.415 0 2
 Refer: 44 103 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" gdotaccent.sc
 EndChar
@@ -9648,12 +9714,12 @@ EndChar
 StartChar: uni0123
 Encoding: 291 291 342
 GlifName: uni0123
-Width: 1318
+Width: 1135
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 122 786 S 1 0 0 1 -28 170 2
+Refer: 122 786 S 1 0 0 1 -106.415 170 2
 Refer: 44 103 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0123.sc
 EndChar
@@ -9682,21 +9748,21 @@ EndChar
 StartChar: hbar
 Encoding: 295 295 344
 GlifName: hbar
-Width: 1568
+Width: 1432
 VWidth: 2309
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-73.162109375 1302 m 6
- 834.803710938 1302 l 6
- 862.787109375 1302 866.436523438 1298 866.436523438 1274 c 6
- 866.436523438 1105 l 2
- 866.436523438 1081 864.00390625 1072 832.370117188 1072 c 2
- 70.728515625 1072 l 2
- 40.3115234375 1072 39.0947265625 1076 39.0947265625 1102 c 2
- 39.0947265625 1274 l 6
- 39.0947265625 1297 47.611328125 1302 73.162109375 1302 c 6
+1.6201171875 1302 m 6
+ 763.26171875 1302 l 6
+ 791.245117188 1302 794.89453125 1298 794.89453125 1274 c 6
+ 794.89453125 1105 l 2
+ 794.89453125 1081 792.461914062 1072 760.828125 1072 c 2
+ -0.8134765625 1072 l 2
+ -31.23046875 1072 -32.447265625 1076 -32.447265625 1102 c 2
+ -32.447265625 1274 l 6
+ -32.447265625 1297 -23.9306640625 1302 1.6201171875 1302 c 6
 EndSplineSet
 Refer: 45 104 N 1 0 0 1 0.0925635 0 2
 EndChar
@@ -9716,27 +9782,27 @@ EndChar
 StartChar: hcircumflex
 Encoding: 293 293 346
 GlifName: hcircumflex
-Width: 1568
+Width: 1432
 VWidth: 2310
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-946.389648438 1175 m 2
- 880.212890625 1245 l 2
- 867.280273438 1258.6796875 870.241210938 1262 884.745117188 1279 c 2
- 1108.65820312 1537 l 2
- 1122.25683594 1553 1134.04101562 1554 1160.33105469 1554 c 2
- 1328.0390625 1554 l 2
- 1351.60839844 1554 1359.76757812 1551 1366.11328125 1537 c 2
- 1481.2421875 1280 l 2
- 1486.26660156 1268.78515625 1483.2421875 1257.72167969 1472.17675781 1245 c 2
- 1407.81347656 1171 l 2
- 1392.76464844 1153.69824219 1390.58886719 1158 1377.89746094 1170 c 2
- 1231.94628906 1315 l 2
- 1218.34863281 1328 1205.65722656 1329 1186.62011719 1316 c 2
- 977.211914062 1169 l 2
- 960.893554688 1158 956.546875 1164.25585938 946.389648438 1175 c 2
+874.84765625 1175 m 2
+ 808.670898438 1245 l 2
+ 795.73828125 1258.6796875 798.69921875 1262 813.203125 1279 c 2
+ 1037.11621094 1537 l 2
+ 1050.71484375 1553 1062.49902344 1554 1088.7890625 1554 c 2
+ 1256.49707031 1554 l 2
+ 1280.06640625 1554 1288.22558594 1551 1294.57128906 1537 c 2
+ 1409.70019531 1280 l 2
+ 1414.72460938 1268.78515625 1411.70019531 1257.72167969 1400.63476562 1245 c 2
+ 1336.27148438 1171 l 2
+ 1321.22265625 1153.69824219 1319.046875 1158 1306.35546875 1170 c 2
+ 1160.40429688 1315 l 2
+ 1146.80664062 1328 1134.11523438 1329 1115.078125 1316 c 2
+ 905.669921875 1169 l 2
+ 889.3515625 1158 885.004882812 1164.25585938 874.84765625 1175 c 2
 EndSplineSet
 Refer: 45 104 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" hcircumflex.sc
@@ -9836,12 +9902,12 @@ EndChar
 StartChar: iogonek
 Encoding: 303 303 354
 GlifName: iogonek
-Width: 932
+Width: 906
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 130 731 N 1 0 0 1 -19 3 2
+Refer: 130 731 N 1 0 0 1 -78.2532 3 2
 Refer: 46 105 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" iogonek.sc
 EndChar
@@ -9955,12 +10021,12 @@ EndChar
 StartChar: uni0137
 Encoding: 311 311 362
 GlifName: uni0137
-Width: 1524
+Width: 1432
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 124 806 N 1 0 0 1 280 0 2
+Refer: 124 806 N 1 0 0 1 172.504 0 2
 Refer: 48 107 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0137.sc
 EndChar
@@ -10036,12 +10102,12 @@ EndChar
 StartChar: lacute
 Encoding: 314 314 365
 GlifName: lacute
-Width: 850
+Width: 815
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 -149 196 2
+Refer: 111 769 N 1 0 0 1 -218.064 196 2
 Refer: 49 108 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" lacute.sc
 EndChar
@@ -10062,12 +10128,12 @@ EndChar
 StartChar: uni013C
 Encoding: 316 316 367
 GlifName: uni013C_
-Width: 850
+Width: 815
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 124 806 N 1 0 0 1 -56 0 2
+Refer: 124 806 N 1 0 0 1 -125.064 0 2
 Refer: 49 108 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni013C.sc
 EndChar
@@ -10146,21 +10212,21 @@ EndChar
 StartChar: lslash
 Encoding: 322 322 373
 GlifName: lslash
-Width: 850
+Width: 815
 VWidth: 2310
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-24 906 m 2
- 818 1179 l 6
- 839.201171875 1188.24707031 851 1192 851 1162 c 6
- 851 953 l 6
- 851 928 849 924 828 911 c 6
- 30 635 l 2
- 10 623 0 624 0 654 c 2
- 0 865 l 2
- 0 895 7 895 24 906 c 2
+-45.064453125 906 m 2
+ 748.935546875 1179 l 6
+ 770.13671875 1188.24707031 781.935546875 1192 781.935546875 1162 c 6
+ 781.935546875 953 l 6
+ 781.935546875 928 779.935546875 924 758.935546875 911 c 6
+ -39.064453125 635 l 2
+ -59.064453125 623 -69.064453125 624 -69.064453125 654 c 2
+ -69.064453125 865 l 2
+ -69.064453125 895 -62.064453125 895 -45.064453125 906 c 2
 EndSplineSet
 Refer: 49 108 N 1 0 0 1 0 0 2
 EndChar
@@ -10181,12 +10247,12 @@ EndChar
 StartChar: nacute
 Encoding: 324 324 375
 GlifName: nacute
-Width: 1598
+Width: 1446
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 135 -460 2
+Refer: 111 769 N 1 0 0 1 61.9798 -460 2
 Refer: 51 110 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" nacute.sc
 EndChar
@@ -10207,12 +10273,12 @@ EndChar
 StartChar: uni0146
 Encoding: 326 326 377
 GlifName: uni0146
-Width: 1598
+Width: 1446
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 124 806 N 1 0 0 1 294 0 2
+Refer: 124 806 N 1 0 0 1 220.98 0 2
 Refer: 51 110 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0146.sc
 EndChar
@@ -10233,12 +10299,12 @@ EndChar
 StartChar: ncaron
 Encoding: 328 328 379
 GlifName: ncaron
-Width: 1598
+Width: 1446
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 120 780 N 1 0 0 1 65 -460 2
+Refer: 120 780 N 1 0 0 1 -8.02021 -460 2
 Refer: 51 110 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ncaron.sc
 EndChar
@@ -10354,12 +10420,12 @@ EndChar
 StartChar: omacron
 Encoding: 333 333 384
 GlifName: omacron
-Width: 1376
+Width: 1298
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 114 772 N 1 0 0 1 31 -460 2
+Refer: 114 772 N 1 0 0 1 -57.1777 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" omacron.sc
 EndChar
@@ -10380,12 +10446,12 @@ EndChar
 StartChar: obreve
 Encoding: 335 335 386
 GlifName: obreve
-Width: 1376
+Width: 1298
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 127 728 N 1 0 0 1 78 -460 2
+Refer: 127 728 N 1 0 0 1 -10.1777 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" obreve.sc
 EndChar
@@ -10406,12 +10472,12 @@ EndChar
 StartChar: ohungarumlaut
 Encoding: 337 337 388
 GlifName: ohungarumlaut
-Width: 1376
+Width: 1298
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 132 733 N 1 0 0 1 93 -460 2
+Refer: 132 733 N 1 0 0 1 4.82229 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ohungarumlaut.sc
 EndChar
@@ -10467,12 +10533,12 @@ EndChar
 StartChar: racute
 Encoding: 341 341 392
 GlifName: racute
-Width: 1304
+Width: 1181
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 129 -460 2
+Refer: 111 769 N 1 0 0 1 41.6578 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" racute.sc
 EndChar
@@ -10493,12 +10559,12 @@ EndChar
 StartChar: uni0157
 Encoding: 343 343 394
 GlifName: uni0157
-Width: 1304
+Width: 1181
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 124 806 N 1 0 0 1 -69 0 2
+Refer: 124 806 N 1 0 0 1 -156.342 0 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0157.sc
 EndChar
@@ -10519,12 +10585,12 @@ EndChar
 StartChar: rcaron
 Encoding: 345 345 396
 GlifName: rcaron
-Width: 1304
+Width: 1181
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 120 780 N 1 0 0 1 59 -460 2
+Refer: 120 780 N 1 0 0 1 -28.3422 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" rcaron.sc
 EndChar
@@ -10545,12 +10611,12 @@ EndChar
 StartChar: sacute
 Encoding: 347 347 398
 GlifName: sacute
-Width: 1252
+Width: 1050
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 84 -460 2
+Refer: 111 769 N 1 0 0 1 -0.0038831 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" sacute.sc
 EndChar
@@ -10571,12 +10637,12 @@ EndChar
 StartChar: scircumflex
 Encoding: 349 349 400
 GlifName: scircumflex
-Width: 1252
+Width: 1050
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 112 770 N 1 0 0 1 14 -460 2
+Refer: 112 770 N 1 0 0 1 -70.0039 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" scircumflex.sc
 EndChar
@@ -10597,12 +10663,12 @@ EndChar
 StartChar: scedilla
 Encoding: 351 351 402
 GlifName: scedilla
-Width: 1252
+Width: 1050
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 135 184 N 1 0 0 1 42 0 2
+Refer: 135 184 N 1 0 0 1 -42.0039 0 2
 Refer: 56 115 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" scedilla.sc
 EndChar
@@ -10623,12 +10689,12 @@ EndChar
 StartChar: scaron
 Encoding: 353 353 404
 GlifName: scaron
-Width: 1252
+Width: 1050
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 120 780 N 1 0 0 1 14 -460 2
+Refer: 120 780 N 1 0 0 1 -70.0039 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" scaron.sc
 EndChar
@@ -10649,12 +10715,12 @@ EndChar
 StartChar: uni0163
 Encoding: 355 355 406
 GlifName: uni0163
-Width: 950
+Width: 906
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 135 184 N 1 0 0 1 7 0 2
+Refer: 135 184 N 1 0 0 1 -66.7133 0 2
 Refer: 57 116 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0163.sc
 EndChar
@@ -10709,21 +10775,21 @@ EndChar
 StartChar: tbar
 Encoding: 359 359 410
 GlifName: tbar
-Width: 950
+Width: 906
 VWidth: 2309
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-11.7763671875 730 m 6
- 815.611328125 730 l 6
- 845.14453125 730 848.997070312 726 848.997070312 702 c 6
- 848.997070312 533 l 2
- 848.997070312 509 846.428710938 500 813.04296875 500 c 2
- 9.208984375 500 l 2
- -22.8935546875 500 -24.177734375 504 -24.177734375 530 c 2
- -24.177734375 702 l 6
- -24.177734375 725 -15.1884765625 730 11.7763671875 730 c 6
+-61.9365234375 730 m 6
+ 741.8984375 730 l 6
+ 771.431640625 730 775.284179688 726 775.284179688 702 c 6
+ 775.284179688 533 l 2
+ 775.284179688 509 772.715820312 500 739.330078125 500 c 2
+ -64.50390625 500 l 2
+ -96.6064453125 500 -97.890625 504 -97.890625 530 c 2
+ -97.890625 702 l 6
+ -97.890625 725 -88.9013671875 730 -61.9365234375 730 c 6
 EndSplineSet
 Refer: 57 116 N 1 0 0 1 0 0 2
 EndChar
@@ -10744,12 +10810,12 @@ EndChar
 StartChar: utilde
 Encoding: 361 361 412
 GlifName: utilde
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 131 732 N 1 0 0 1 313 -460 2
+Refer: 131 732 N 1 0 0 1 189.607 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" utilde.sc
 EndChar
@@ -10770,12 +10836,12 @@ EndChar
 StartChar: umacron
 Encoding: 363 363 414
 GlifName: umacron
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 114 772 N 1 0 0 1 253 -460 2
+Refer: 114 772 N 1 0 0 1 129.607 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" umacron.sc
 EndChar
@@ -10796,12 +10862,12 @@ EndChar
 StartChar: ubreve
 Encoding: 365 365 416
 GlifName: ubreve
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 127 728 N 1 0 0 1 300 -460 2
+Refer: 127 728 N 1 0 0 1 176.607 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ubreve.sc
 EndChar
@@ -10822,12 +10888,12 @@ EndChar
 StartChar: uring
 Encoding: 367 367 418
 GlifName: uring
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 129 730 N 1 0 0 1 279 -460 2
+Refer: 129 730 N 1 0 0 1 155.607 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uring.sc
 EndChar
@@ -10848,12 +10914,12 @@ EndChar
 StartChar: uhungarumlaut
 Encoding: 369 369 420
 GlifName: uhungarumlaut
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 132 733 N 1 0 0 1 315 -460 2
+Refer: 132 733 N 1 0 0 1 191.607 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uhungarumlaut.sc
 EndChar
@@ -10874,12 +10940,12 @@ EndChar
 StartChar: uogonek
 Encoding: 371 371 422
 GlifName: uogonek
-Width: 1768
+Width: 1573
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 130 731 N 1 0 0 1 1021 23 2
+Refer: 130 731 N 1 0 0 1 897.607 23 2
 Refer: 58 117 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uogonek.sc
 EndChar
@@ -10900,12 +10966,12 @@ EndChar
 StartChar: wcircumflex
 Encoding: 373 373 424
 GlifName: wcircumflex
-Width: 2160
+Width: 2127
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 112 770 N 1 0 0 1 431 -460 2
+Refer: 112 770 N 1 0 0 1 348.247 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" wcircumflex.sc
 EndChar
@@ -10926,12 +10992,12 @@ EndChar
 StartChar: ycircumflex
 Encoding: 375 375 426
 GlifName: ycircumflex
-Width: 1546
+Width: 1347
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 112 770 N 1 0 0 1 168 -460 2
+Refer: 112 770 N 1 0 0 1 40.2211 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ycircumflex.sc
 EndChar
@@ -10965,12 +11031,12 @@ EndChar
 StartChar: zacute
 Encoding: 378 378 429
 GlifName: zacute
-Width: 1350
+Width: 1226
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 92 -460 2
+Refer: 111 769 N 1 0 0 1 -26.4533 -460 2
 Refer: 63 122 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" zacute.sc
 EndChar
@@ -10991,12 +11057,12 @@ EndChar
 StartChar: zdotaccent
 Encoding: 380 380 431
 GlifName: zdotaccent
-Width: 1350
+Width: 1226
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 128 729 N 1 0 0 1 110 0 2
+Refer: 128 729 N 1 0 0 1 -8.45331 0 2
 Refer: 63 122 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" zdotaccent.sc
 EndChar
@@ -11017,12 +11083,12 @@ EndChar
 StartChar: zcaron
 Encoding: 382 382 433
 GlifName: zcaron
-Width: 1350
+Width: 1226
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 120 780 N 1 0 0 1 22 -460 2
+Refer: 120 780 N 1 0 0 1 -96.4533 -460 2
 Refer: 63 122 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" zcaron.sc
 EndChar
@@ -11068,12 +11134,12 @@ EndChar
 StartChar: uni0213
 Encoding: 531 531 436
 GlifName: uni0213
-Width: 1304
+Width: 1181
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 121 785 N 1 0 0 1 59 -460 2
+Refer: 121 785 N 1 0 0 1 -28.3422 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0213.sc
 EndChar
@@ -11094,12 +11160,12 @@ EndChar
 StartChar: uni0219
 Encoding: 537 537 438
 GlifName: uni0219
-Width: 1252
+Width: 1050
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 124 806 N 1 0 0 1 74 0 2
+Refer: 124 806 N 1 0 0 1 -10.0039 0 2
 Refer: 56 115 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0219.sc
 EndChar
@@ -11120,12 +11186,12 @@ EndChar
 StartChar: uni021B
 Encoding: 539 539 440
 GlifName: uni021B_
-Width: 950
+Width: 906
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 124 806 N 1 0 0 1 39 0 2
+Refer: 124 806 N 1 0 0 1 -34.7133 0 2
 Refer: 57 116 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni021B.sc
 EndChar
@@ -11146,12 +11212,12 @@ EndChar
 StartChar: wgrave
 Encoding: 7809 7809 442
 GlifName: wgrave
-Width: 2160
+Width: 2127
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 110 768 N 1 0 0 1 359 -460 2
+Refer: 110 768 N 1 0 0 1 276.247 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" wgrave.sc
 EndChar
@@ -11172,12 +11238,12 @@ EndChar
 StartChar: wacute
 Encoding: 7811 7811 444
 GlifName: wacute
-Width: 2160
+Width: 2127
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 111 769 N 1 0 0 1 501 -460 2
+Refer: 111 769 N 1 0 0 1 418.247 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" wacute.sc
 EndChar
@@ -11198,12 +11264,12 @@ EndChar
 StartChar: wdieresis
 Encoding: 7813 7813 446
 GlifName: wdieresis
-Width: 2160
+Width: 2127
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 133 168 N 1 0 0 1 395 -460 2
+Refer: 133 168 N 1 0 0 1 312.247 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" wdieresis.sc
 EndChar
@@ -11224,12 +11290,12 @@ EndChar
 StartChar: uni1E87
 Encoding: 7815 7815 448
 GlifName: uni1E_87
-Width: 2160
+Width: 2127
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 128 729 N 1 0 0 1 519 0 2
+Refer: 128 729 N 1 0 0 1 436.247 0 2
 Refer: 60 119 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni1E87.sc
 EndChar
@@ -11250,12 +11316,12 @@ EndChar
 StartChar: uni1E89
 Encoding: 7817 7817 450
 GlifName: uni1E_89
-Width: 2160
+Width: 2127
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 123 803 N 1 0 0 1 597 0 2
+Refer: 123 803 N 1 0 0 1 514.247 0 2
 Refer: 60 119 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni1E89.sc
 EndChar
@@ -11276,12 +11342,12 @@ EndChar
 StartChar: ygrave
 Encoding: 7923 7923 452
 GlifName: ygrave
-Width: 1546
+Width: 1347
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 110 768 N 1 0 0 1 96 -460 2
+Refer: 110 768 N 1 0 0 1 -31.7789 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ygrave.sc
 EndChar
@@ -13532,6 +13598,121 @@ LayerCount: 2
 Fore
 Refer: 116 775 N 1 0 0 1 19 -136 2
 Refer: 570 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni2116
+Encoding: 8470 8470 574
+Width: 2956
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1838 318 m 6
+ 2564 318 l 6
+ 2587 318 2610 304 2610 280 c 6
+ 2610 131 l 6
+ 2610 107 2588 88 2562 88 c 6
+ 1836 88 l 6
+ 1811 88 1790 102 1790 128 c 6
+ 1790 280 l 6
+ 1790 303 1817 318 1838 318 c 6
+2304.6171875 910 m 0
+ 2256.59667969 702 2269.97460938 630 2357.97460938 630 c 0
+ 2445.97460938 630 2492.59667969 702 2531.3828125 870 c 0
+ 2579.40332031 1078 2566.02539062 1150 2478.02539062 1150 c 0
+ 2390.02539062 1150 2343.40332031 1078 2304.6171875 910 c 0
+1935.3828125 870 m 0
+ 2000.02539062 1150 2234.5078125 1360 2526.5078125 1360 c 0
+ 2818.5078125 1360 2956.02539062 1150 2900.6171875 910 c 0
+ 2835.97460938 630 2601.4921875 420 2309.4921875 420 c 0
+ 2017.4921875 420 1879.97460938 630 1935.3828125 870 c 0
+EndSplineSet
+Refer: 25 78 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2605
+Encoding: 9733 9733 575
+Width: 2000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1062 1500 m 6
+ 1206.92296719 1062 l 6
+ 1225.22547937 1006.68440378 1224.01188578 1000 1300 1000 c 6
+ 1808 1000 l 6
+ 1910.9375 1000 1903.65625 954.564453125 1856 920 c 6
+ 1428 630.517578125 l 6
+ 1371.38378906 589.579101562 1368.96191406 586.366210938 1392.50097656 512 c 6
+ 1570 -4 l 6
+ 1600.25585938 -96.484375 1539.98144531 -104.368164062 1466 -50 c 6
+ 1052 272.197265625 l 6
+ 1006.68652344 305.498046875 1002.41699219 311.944335938 956 278.013671875 c 6
+ 532 -50 l 6
+ 456.529296875 -104.864257812 392.3671875 -97.763671875 428 10 c 6
+ 610.765625 522 l 6
+ 631.938476562 586.029296875 629.032226562 588.923828125 580 624.71484375 c 6
+ 170 904 l 6
+ 119.176757812 940.862304688 103.551757812 1000 218 1000 c 6
+ 718 1000 l 6
+ 785.777871554 1000 779.100415742 1019.21828144 795.019971469 1068 c 6
+ 936 1500 l 6
+ 978.364371447 1629.81561045 1020.7857609 1624.56160037 1062 1500 c 6
+EndSplineSet
+EndChar
+
+StartChar: uni2606
+Encoding: 9734 9734 576
+Width: 2000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1062 1500 m 2
+ 1206.92296719 1062 l 2
+ 1225.22547937 1006.68440378 1224.01188578 1000 1300 1000 c 2
+ 1808 1000 l 2
+ 1910.9375 1000 1903.65625 954.564453125 1856 920 c 2
+ 1428 630.517578125 l 2
+ 1371.38378906 589.579101562 1368.96191406 586.366210938 1392.50097656 512 c 2
+ 1570 -4 l 2
+ 1600.25585938 -96.484375 1539.98144531 -104.368164062 1466 -50 c 2
+ 1052 272.197265625 l 2
+ 1006.68652344 305.498046875 1002.41699219 311.944335938 956 278.013671875 c 2
+ 532 -50 l 2
+ 456.529296875 -104.864257812 392.3671875 -97.763671875 428 10 c 2
+ 610.765625 522 l 2
+ 631.938476562 586.029296875 629.032226562 588.923828125 580 624.71484375 c 2
+ 170 904 l 2
+ 119.176757812 940.862304688 103.551757812 1000 218 1000 c 2
+ 718 1000 l 2
+ 785.777871554 1000 779.100415742 1019.21828144 795.019971469 1068 c 2
+ 936 1500 l 2
+ 978.364371447 1629.81561045 1020.7857609 1624.56160037 1062 1500 c 2
+1462 850.305127429 m 2
+ 1252.59960938 840 l 2
+ 1162 836 1085 871 1068.13867188 944.599609375 c 2
+ 1014.52518702 1176 l 2
+ 996.616848828 1253.29392081 998.061827354 1254.56039147 980.18374767 1176 c 2
+ 928.616210938 949.400390625 l 2
+ 909 863 841 835 757 840 c 2
+ 546 851.405405405 l 2
+ 453.993431141 856.378733452 480.316198644 850.084569421 534 819.412407303 c 2
+ 736 704 l 2
+ 826 652 843 589 800 500 c 2
+ 718.9373297 330 l 2
+ 671.528209058 230.576301281 683.328509362 248.735326433 754 309.948631193 c 2
+ 918 452 l 2
+ 971.318056596 493.763999324 1040.47118789 487.858575917 1104 438 c 2
+ 1274 293.600673323 l 2
+ 1331.1228755 245.080057086 1347.89368904 221.909072935 1305.30115068 306 c 2
+ 1204 506 l 2
+ 1170 573 1184 665 1262 706 c 2
+ 1472 817.702014443 l 2
+ 1528.38805639 847.695631059 1560.63889789 855.159399234 1462 850.305127429 c 2
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
