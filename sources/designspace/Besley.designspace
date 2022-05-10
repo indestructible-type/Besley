@@ -10,6 +10,7 @@
       <map input="800" output="766"/>
       <map input="900" output="900"/>
     </axis>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"></axis>
   </axes>
 
   <sources>
@@ -17,12 +18,28 @@
     <source filename="../ufo/Besley-Book.ufo" name="Besley Regular" familyname="Besley" stylename="Regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </source>
 
     <source filename="../ufo/Besley-Fatface.ufo" name="Besley Black" familyname="Besley" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+
+    <source filename="../ufo/BesleyCondensed-Book.ufo" name="Besley Condensed Regular" familyname="Besley Condensed" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+
+    <source filename="../ufo/BesleyCondensed-Fatface.ufo" name="Besley Condensed Black" familyname="Besley Condensed" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
       </location>
     </source>
 
@@ -33,36 +50,126 @@
     <instance name="Besley Regular" familyname="Besley" stylename="Regular" filename="../instance_ufo/Besley-Regular.ufo" stylemapfamilyname="Besley" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley Medium" familyname="Besley" stylename="Medium" filename="../instance_ufo/Besley-Medium.ufo" stylemapfamilyname="Besley Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="470"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley SemiBold" familyname="Besley" stylename="SemiBold" filename="../instance_ufo/Besley-SemiBold.ufo" stylemapfamilyname="Besley SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="550"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley Bold" familyname="Besley" stylename="Bold" filename="../instance_ufo/Besley-Bold.ufo" stylemapfamilyname="Besley" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley ExtraBold" familyname="Besley" stylename="ExtraBold" filename="../instance_ufo/Besley-ExtraBold.ufo" stylemapfamilyname="Besley ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="766"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley Black" familyname="Besley" stylename="Black" filename="../instance_ufo/Besley-Black.ufo" stylemapfamilyname="Besley Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Regular" familyname="Besley Narrow" stylename="Regular" filename="../instance_ufo/BesleyNarrow-Regular.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Medium" familyname="Besley Narrow" stylename="Medium" filename="../instance_ufo/BesleyNarrow-Medium.ufo" stylemapfamilyname="Besley Narrow Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed SemiBold" familyname="Besley Narrow" stylename="SemiBold" filename="../instance_ufo/BesleyNarrow-SemiBold.ufo" stylemapfamilyname="Besley Narrow SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow Bold" familyname="Besley Narrow" stylename="Bold" filename="../instance_ufo/BesleyNarrow-Bold.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow ExtraBold" familyname="Besley Narrow" stylename="ExtraBold" filename="../instance_ufo/BesleyNarrow-ExtraBold.ufo" stylemapfamilyname="Besley Narrow ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow Black" familyname="Besley Narrow" stylename="Black" filename="../instance_ufo/BesleyNarrow-Black.ufo" stylemapfamilyname="Besley Narrow Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Regular" familyname="Besley Condensed" stylename="Regular" filename="../instance_ufo/BesleyCondensed-Regular.ufo" stylemapfamilyname="Besley Condensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Medium" familyname="Besley Condensed" stylename="Medium" filename="../instance_ufo/BesleyCondensed-Medium.ufo" stylemapfamilyname="Besley Condensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed SemiBold" familyname="Besley Condensed" stylename="SemiBold" filename="../instance_ufo/BesleyCondensed-SemiBold.ufo" stylemapfamilyname="Besley Condensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Bold" familyname="Besley Condensed" stylename="Bold" filename="../instance_ufo/BesleyCondensed-Bold.ufo" stylemapfamilyname="Besley Condensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed ExtraBold" familyname="Besley Condensed" stylename="ExtraBold" filename="../instance_ufo/BesleyCondensed-ExtraBold.ufo" stylemapfamilyname="Besley Condensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Black" familyname="Besley Condensed" stylename="Black" filename="../instance_ufo/BesleyCondensed-Black.ufo" stylemapfamilyname="Besley Condensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
@@ -129,6 +236,38 @@
                 <string>Black</string>
                 <key>value</key>
                 <integer>900</integer>
+              </dict>
+
+            </array>
+          </dict>
+
+          <dict>
+            <key>name</key>
+            <string>Width</string>
+            <key>tag</key>
+            <string>wdth</string>
+            <key>locations</key>
+            <array>
+
+              <dict>
+                <key>name</key>
+                <string>Regular</string>
+                <key>value</key>
+                <integer>100</integer>
+              </dict>
+
+              <dict>
+                <key>name</key>
+                <string>Narrow</string>
+                <key>value</key>
+                <string>87.5</string>
+              </dict>
+
+              <dict>
+                <key>name</key>
+                <string>Condensed</string>
+                <key>value</key>
+                <integer>75</integer>
               </dict>
 
             </array>

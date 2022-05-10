@@ -4,7 +4,7 @@ set -e
 
 fontName="Besley"
 fontName_it="Besley-Italic"
-axes="wght"
+axes="wdth,wght"
 
 ##########################################
 

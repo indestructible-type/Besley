@@ -42,5 +42,6 @@ elif grep -q 'Fatface"' "../designspace/Besley.designspace"; then
   sed -i 's/Heavy/ExtraBold/g' ../designspace/Besley.designspace
   sed -i 's/\/ufo\/Besley-Black/\/ufo\/Besley-Fatface/g' ../designspace/Besley.designspace
   sed -i 's/\/ufo\/Besley-Regular/\/ufo\/Besley-Book/g' ../designspace/Besley.designspace
+  sed -i 's/\/ufo\/BesleyCondensed-Black/\/ufo\/BesleyCondensed-Fatface/g' ../designspace/Besley.designspace
+  sed -i 's/\/ufo\/BesleyCondensed-Regular/\/ufo\/BesleyCondensed-Book/g' ../designspace/Besley.designspace
 fi
-
