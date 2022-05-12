@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1652164681
+ModificationTime: 1652368437
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -655,7 +655,7 @@ StartChar: A
 Encoding: 65 65 12
 GlifName: A_
 Width: 1390
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "Anchor-0" 903 1500 basechar 0
 AnchorPoint: "Anchor-2" 486 0 basechar 0
 AnchorPoint: "Anchor-3" 1056 0 basechar 0
@@ -3168,7 +3168,7 @@ EndChar
 StartChar: space
 Encoding: 32 32 64
 GlifName: space
-Width: 600
+Width: 400
 VWidth: 0
 Flags: HMW
 LayerCount: 2

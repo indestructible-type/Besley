@@ -89,21 +89,21 @@
       </location>
     </instance>
 
-    <instance name="Besley Condensed Regular" familyname="Besley Narrow" stylename="Regular" filename="../instance_ufo/BesleyNarrow-Regular.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="regular">
+    <instance name="Besley Narrow Regular" familyname="Besley Narrow" stylename="Regular" filename="../instance_ufo/BesleyNarrow-Regular.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Medium" familyname="Besley Narrow" stylename="Medium" filename="../instance_ufo/BesleyNarrow-Medium.ufo" stylemapfamilyname="Besley Narrow Medium" stylemapstylename="regular">
+    <instance name="Besley Narrow Medium" familyname="Besley Narrow" stylename="Medium" filename="../instance_ufo/BesleyNarrow-Medium.ufo" stylemapfamilyname="Besley Narrow Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="470"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed SemiBold" familyname="Besley Narrow" stylename="SemiBold" filename="../instance_ufo/BesleyNarrow-SemiBold.ufo" stylemapfamilyname="Besley Narrow SemiBold" stylemapstylename="regular">
+    <instance name="Besley Narrow SemiBold" familyname="Besley Narrow" stylename="SemiBold" filename="../instance_ufo/BesleyNarrow-SemiBold.ufo" stylemapfamilyname="Besley Narrow SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Width" xvalue="87.5"/>
