@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1651999266
+ModificationTime: 1652513391
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -173,7 +173,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 208 16 4
+WinInfo: 32 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3329,8 +3329,8 @@ Width: 703
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1 46 N 1 0 0 1 0 840 2
-Refer: 65 44 S 1 0 0 1 0 0 2
+Refer: 1 46 S 1 0 0 1 0 640 2
+Refer: 65 44 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: colon
@@ -3339,7 +3339,7 @@ Width: 640
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1 46 S 1 0 0 1 0 840 2
+Refer: 1 46 S 1 0 0 1 0 640 2
 Refer: 1 46 N 1 0 0 1 0 0 2
 EndChar
 
@@ -16874,7 +16874,39 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 264 239 N 1 0 0 1 15 0 2
+SplineSet
+733 1230 m 0
+ 627 1230 541 1316 541 1422 c 0
+ 541 1528 627 1614 733 1614 c 0
+ 839 1614 925 1528 925 1422 c 0
+ 925 1316 839 1230 733 1230 c 0
+173 1230 m 0
+ 67 1230 -19 1316 -19 1422 c 0
+ -19 1528 67 1614 173 1614 c 0
+ 279 1614 365 1528 365 1422 c 0
+ 365 1316 279 1230 173 1230 c 0
+231 830 m 2
+ 96 830 l 2
+ 78 830 70 833 70 850 c 2
+ 70 1012 l 2
+ 70 1035 78 1040 100 1040 c 2
+ 645 1040 l 2
+ 664 1040 670 1039 670 1020 c 2
+ 670 235 l 2
+ 670 215 671 210 691 210 c 2
+ 822 210 l 2
+ 845 210 850 209 850 186 c 2
+ 850 31 l 2
+ 850 2 842 0 812 0 c 2
+ 94 0 l 2
+ 74 0 70 4 70 25 c 2
+ 70 181 l 2
+ 70 206 73 210 97 210 c 2
+ 224 210 l 2
+ 245 210 250 211 250 232 c 2
+ 250 804 l 2
+ 250 821 247 830 231 830 c 2
+EndSplineSet
 EndChar
 
 StartChar: uni0458

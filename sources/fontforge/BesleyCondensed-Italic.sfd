@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1652368429
+ModificationTime: 1652426336
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -184,7 +184,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 16 16 4
+WinInfo: 48 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6231,7 +6231,7 @@ EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 138
-Width: 600
+Width: 400
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7275,7 +7275,7 @@ EndChar
 
 StartChar: uni2000
 Encoding: 8192 8192 178
-Width: 1000
+Width: 666
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7283,7 +7283,7 @@ EndChar
 
 StartChar: uni2001
 Encoding: 8193 8193 179
-Width: 2000
+Width: 1333
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7291,7 +7291,7 @@ EndChar
 
 StartChar: uni2002
 Encoding: 8194 8194 180
-Width: 1000
+Width: 666
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7299,7 +7299,7 @@ EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 181
-Width: 2000
+Width: 1333
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7307,7 +7307,7 @@ EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 182
-Width: 666
+Width: 443
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7315,7 +7315,7 @@ EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 183
-Width: 500
+Width: 333
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7323,7 +7323,7 @@ EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 184
-Width: 333
+Width: 221
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7331,7 +7331,7 @@ EndChar
 
 StartChar: uni2007
 Encoding: 8199 8199 185
-Width: 1160
+Width: 773
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7339,7 +7339,7 @@ EndChar
 
 StartChar: uni2008
 Encoding: 8200 8200 186
-Width: 399
+Width: 265
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7347,7 +7347,7 @@ EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 187
-Width: 333
+Width: 221
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -7355,7 +7355,7 @@ EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 188
-Width: 200
+Width: 133
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -8958,7 +8958,7 @@ EndChar
 
 StartChar: uni0000
 Encoding: 0 0 243
-Width: 600
+Width: 400
 VWidth: 0
 Flags: HMW
 LayerCount: 2

@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1652351076
+ModificationTime: 1652426404
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 3
@@ -173,7 +173,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 64 16 4
+WinInfo: 8176 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5672,7 +5672,7 @@ EndChar
 
 StartChar: uni2000
 Encoding: 8192 8192 140
-Width: 1000
+Width: 666
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5680,7 +5680,7 @@ EndChar
 
 StartChar: uni2001
 Encoding: 8193 8193 141
-Width: 2000
+Width: 1333
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5688,7 +5688,7 @@ EndChar
 
 StartChar: uni2002
 Encoding: 8194 8194 142
-Width: 1000
+Width: 666
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5696,7 +5696,7 @@ EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 143
-Width: 2000
+Width: 1333
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5704,7 +5704,7 @@ EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 144
-Width: 666
+Width: 443
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5712,7 +5712,7 @@ EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 145
-Width: 500
+Width: 333
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5720,7 +5720,7 @@ EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 146
-Width: 333
+Width: 221
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5728,7 +5728,7 @@ EndChar
 
 StartChar: uni2007
 Encoding: 8199 8199 147
-Width: 1160
+Width: 773
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5736,7 +5736,7 @@ EndChar
 
 StartChar: uni2008
 Encoding: 8200 8200 148
-Width: 399
+Width: 265
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5744,7 +5744,7 @@ EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 149
-Width: 333
+Width: 221
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -5752,7 +5752,7 @@ EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 150
-Width: 200
+Width: 133
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -6504,7 +6504,7 @@ EndChar
 
 StartChar: uni0000
 Encoding: 0 0 184
-Width: 600
+Width: 400
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -6520,7 +6520,7 @@ EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 186
-Width: 600
+Width: 400
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -17090,7 +17090,39 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 276 239 N 1 0 0 1 15 0 2
+SplineSet
+383 1230 m 256
+ 330 1230 287 1273 287 1326 c 256
+ 287 1379 330 1423 383 1423 c 256
+ 436 1423 479 1379 479 1326 c 256
+ 479 1273 436 1230 383 1230 c 256
+63 1230 m 256
+ 10 1230 -33 1273 -33 1326 c 256
+ -33 1379 10 1423 63 1423 c 256
+ 116 1423 159 1379 159 1326 c 256
+ 159 1273 116 1230 63 1230 c 256
+121 930 m 2
+ 86 930 l 2
+ 66 930 65 934 65 954 c 2
+ 65 1014 l 2
+ 65 1034 70 1040 89 1040 c 2
+ 306 1040 l 2
+ 322 1040 325 1036 325 1019 c 2
+ 325 134 l 2
+ 325 117 330 110 346 110 c 2
+ 381 110 l 2
+ 400 110 405 109 405 90 c 2
+ 405 24 l 2
+ 405 5 405 0 386 0 c 2
+ 96 0 l 2
+ 73 0 65 2 65 24 c 2
+ 65 80 l 2
+ 65 106 74 110 98 110 c 2
+ 122 110 l 2
+ 144 110 145 116 145 138 c 2
+ 145 906 l 2
+ 145 926 139 930 121 930 c 2
+EndSplineSet
 EndChar
 
 StartChar: uni0458
