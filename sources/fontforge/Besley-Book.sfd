@@ -4,7 +4,7 @@ FullName: Besley Regular
 FamilyName: Besley
 Weight: Regular
 Copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type)
-Version: 002.100
+Version: 003.000
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1652425536
+ModificationTime: 1652782181
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -173,7 +173,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1088 16 4
+WinInfo: 48 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
