@@ -10,6 +10,7 @@
       <map input="800" output="766"/>
       <map input="900" output="900"/>
     </axis>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"></axis>
   </axes>
 
   <sources>
@@ -17,12 +18,28 @@
     <source filename="../ufo/Besley-Italic.ufo" name="Besley Italic" familyname="Besley" stylename="Italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </source>
 
     <source filename="../ufo/Besley-FatfaceItalic.ufo" name="Besley Black Italic" familyname="Besley" stylename="Black Italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+
+    <source filename="../ufo/BesleyCondensed-Italic.ufo" name="Besley Condensed Italic" familyname="Besley Condensed" stylename="Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+
+    <source filename="../ufo/BesleyCondensed-FatfaceItalic.ufo" name="Besley Condensed Black Italic" familyname="Besley Condensed" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
       </location>
     </source>
 
@@ -33,36 +50,126 @@
     <instance name="Besley Italic" familyname="Besley" stylename="Italic" filename="../instance_ufo/Besley-Italic.ufo" stylemapfamilyname="Besley" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley Medium Italic" familyname="Besley" stylename="Medium Italic" filename="../instance_ufo/Besley-MediumItalic.ufo" stylemapfamilyname="Besley Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="470"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley SemiBold Italic" familyname="Besley" stylename="SemiBold Italic" filename="../instance_ufo/Besley-SemiBoldItalic.ufo" stylemapfamilyname="Besley SemiBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="550"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley Bold Italic" familyname="Besley" stylename="Bold Italic" filename="../instance_ufo/Besley-BoldItalic.ufo" stylemapfamilyname="Besley" stylemapstylename="bold italic">
       <location>
         <dimension name="Weight" xvalue="650"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley ExtraBold Italic" familyname="Besley" stylename="ExtraBold Italic" filename="../instance_ufo/Besley-ExtraBoldItalic.ufo" stylemapfamilyname="Besley ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="766"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
     <instance name="Besley Black Italic" familyname="Besley" stylename="Black Italic" filename="../instance_ufo/Besley-BlackItalic.ufo" stylemapfamilyname="Besley Black" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow Italic" familyname="Besley Narrow" stylename="Italic" filename="../instance_ufo/BesleyNarrow-Italic.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow Medium Italic" familyname="Besley Narrow" stylename="Medium Italic" filename="../instance_ufo/BesleyNarrow-MediumItalic.ufo" stylemapfamilyname="Besley Narrow Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow SemiBold Italic" familyname="Besley Narrow" stylename="SemiBold Italic" filename="../instance_ufo/BesleyNarrow-SemiBoldItalic.ufo" stylemapfamilyname="Besley Narrow SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow Bold Italic" familyname="Besley Narrow" stylename="Bold Italic" filename="../instance_ufo/BesleyNarrow-BoldItalic.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow ExtraBold Italic" familyname="Besley Narrow" stylename="ExtraBold Italic" filename="../instance_ufo/BesleyNarrow-ExtraBoldItalic.ufo" stylemapfamilyname="Besley Narrow ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Narrow Black Italic" familyname="Besley Narrow" stylename="Black Italic" filename="../instance_ufo/BesleyNarrow-BlackItalic.ufo" stylemapfamilyname="Besley Narrow Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="87.5"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Italic" familyname="Besley Condensed" stylename="Italic" filename="../instance_ufo/BesleyCondensed-Italic.ufo" stylemapfamilyname="Besley Condensed" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Medium Italic" familyname="Besley Condensed" stylename="Medium Italic" filename="../instance_ufo/BesleyCondensed-MediumItalic.ufo" stylemapfamilyname="Besley Condensed Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed SemiBold Italic" familyname="Besley Condensed" stylename="SemiBold Italic" filename="../instance_ufo/BesleyCondensed-SemiBoldItalic.ufo" stylemapfamilyname="Besley Condensed SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Bold Italic" familyname="Besley Condensed" stylename="Bold Italic" filename="../instance_ufo/BesleyCondensed-BoldItalic.ufo" stylemapfamilyname="Besley Condensed" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed ExtraBold Italic" familyname="Besley Condensed" stylename="ExtraBold Italic" filename="../instance_ufo/BesleyCondensed-ExtraBoldItalic.ufo" stylemapfamilyname="Besley Condensed ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+
+    <instance name="Besley Condensed Black Italic" familyname="Besley Condensed" stylename="Black Italic" filename="../instance_ufo/BesleyCondensed-BlackItalic.ufo" stylemapfamilyname="Besley Condensed Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
@@ -129,6 +236,38 @@
                 <string>Black</string>
                 <key>value</key>
                 <integer>900</integer>
+              </dict>
+
+            </array>
+          </dict>
+
+          <dict>
+            <key>name</key>
+            <string>Width</string>
+            <key>tag</key>
+            <string>wdth</string>
+            <key>locations</key>
+            <array>
+
+              <dict>
+                <key>name</key>
+                <string>Regular</string>
+                <key>value</key>
+                <integer>100</integer>
+              </dict>
+
+              <dict>
+                <key>name</key>
+                <string>Narrow</string>
+                <key>value</key>
+                <string>87.5</string>
+              </dict>
+
+              <dict>
+                <key>name</key>
+                <string>Condensed</string>
+                <key>value</key>
+                <integer>75</integer>
               </dict>
 
             </array>
