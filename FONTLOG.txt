@@ -13,6 +13,8 @@ Added the Fatface weight. Corrected kerning.
 Redrew to make interpolatable
 2.01
 Added small caps designed by Fredrick Brennan
+3.0
+Added a Narrow and Condesed version of the font. Added Cyrillic. Added dingbats.
 
 Contact
 -------

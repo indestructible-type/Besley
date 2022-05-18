@@ -27,7 +27,9 @@ Added the Fatface weight. Corrected kerning.<br>
 <b>v2.0</b>
 Redrew letterforms to enable variable font versions. Improved language support. Added options for old-style and tabular numbers. Improved kerning and various other improvements.<br>
 <b>v2.01</b>
-Added small caps designed by [Fredrick Brennan](https://github.com/ctrlcctrlv/)
+Added small caps designed by [Fredrick Brennan](https://github.com/ctrlcctrlv/)<br>
+<b>v3.0</b>
+Added a Narrow and Condesed version of the font. Added Cyrillic. Added dingbats.
 
 Building
 --------
