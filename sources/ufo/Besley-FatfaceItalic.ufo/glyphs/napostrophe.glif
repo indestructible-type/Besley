@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="napostrophe" format="2">
-  <advance height="2309" width="1984"/>
-  <unicode hex="0149"/>
-  <outline>
-    <component base="comma" xOffset="75.0" yOffset="1303.0"/>
-    <component base="n" xOffset="386.0"/>
-  </outline>
-</glyph>

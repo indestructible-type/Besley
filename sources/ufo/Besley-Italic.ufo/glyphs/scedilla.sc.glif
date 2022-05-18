@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="scedilla.sc" format="2">
-  <advance width="1002"/>
-  <outline>
-    <component base="s.sc"/>
-    <component base="uni0327" xOffset="87.0" yOffset="6.0"/>
-  </outline>
-</glyph>

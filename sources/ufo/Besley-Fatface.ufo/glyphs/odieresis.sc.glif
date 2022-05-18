@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="odieresis.sc" format="2">
-  <advance width="1471"/>
-  <outline>
-    <component base="o.sc"/>
-    <component base="uni0308" xOffset="232.0" yOffset="-464.0"/>
-  </outline>
-</glyph>

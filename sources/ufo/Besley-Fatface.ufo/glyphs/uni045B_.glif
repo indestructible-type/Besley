@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni045B" format="2">
-  <advance height="2309" width="1510"/>
-  <unicode hex="045B"/>
-  <outline>
-    <component base="hbar" xOffset="5.0"/>
-  </outline>
-</glyph>
