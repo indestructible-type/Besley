@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kcommaaccent.sc" format="2">
+  <advance width="1288"/>
+  <anchor x="649" y="1040" name="Anchor-0"/>
+  <anchor x="666" y="0" name="Anchor-1"/>
+  <outline>
+    <component base="k.sc"/>
+    <component base="commaaccentcomb" xOffset="170"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

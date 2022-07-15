@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="agrave.sc" format="2">
+  <advance width="1446"/>
+  <anchor x="772" y="1033" name="Anchor-0"/>
+  <anchor x="656" y="0" name="Anchor-1"/>
+  <anchor x="1154" y="0" name="Anchor-2"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="gravecomb" xOffset="201" yOffset="-467"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

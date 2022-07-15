@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="edieresis" format="2">
+  <advance width="1126"/>
+  <unicode hex="00EB"/>
+  <anchor x="580" y="1040" name="Anchor-0"/>
+  <anchor x="602" y="0" name="Anchor-1"/>
+  <anchor x="602" y="0" name="Anchor-2"/>
+  <anchor x="833" y="102" name="Anchor-3"/>
+  <outline>
+    <component base="e"/>
+    <component base="dieresis" xOffset="89" yOffset="-460"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

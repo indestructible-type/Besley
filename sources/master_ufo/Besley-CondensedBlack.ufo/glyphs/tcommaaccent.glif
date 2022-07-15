@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcommaaccent" format="2">
+  <advance width="717"/>
+  <unicode hex="021B"/>
+  <anchor x="416.853" y="1277.0" name="Anchor-0"/>
+  <anchor x="606.853" y="1153.0" name="Anchor-1"/>
+  <anchor x="429.853" y="0.0" name="Anchor-2"/>
+  <anchor x="606.853" y="1153.0" name="Anchor-3"/>
+  <outline>
+    <component base="t"/>
+    <component base="commaaccentcomb" xOffset="-66.148"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

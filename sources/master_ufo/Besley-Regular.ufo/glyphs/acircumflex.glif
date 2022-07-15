@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acircumflex" format="2">
+  <advance width="1142"/>
+  <unicode hex="00E2"/>
+  <anchor x="587" y="1040" name="Anchor-0"/>
+  <anchor x="610" y="0" name="Anchor-1"/>
+  <anchor x="610" y="0" name="Anchor-2"/>
+  <anchor x="1000" y="10" name="Anchor-3"/>
+  <outline>
+    <component base="a"/>
+    <component base="circumflexcomb" xOffset="98" yOffset="-460"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

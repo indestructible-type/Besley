@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uacute.sc" format="2">
+  <advance width="1244"/>
+  <anchor x="656" y="1040" name="Anchor-0"/>
+  <anchor x="642" y="8" name="Anchor-1"/>
+  <anchor x="729" y="8" name="Anchor-2"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="acutecomb" xOffset="227" yOffset="-460"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

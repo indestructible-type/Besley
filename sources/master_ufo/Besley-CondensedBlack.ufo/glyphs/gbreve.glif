@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gbreve" format="2">
+  <advance width="879"/>
+  <unicode hex="011F"/>
+  <anchor x="582" y="1040" name="Anchor-0"/>
+  <anchor x="506" y="-565" name="Anchor-1"/>
+  <anchor x="506" y="-565" name="Anchor-2"/>
+  <outline>
+    <component base="g"/>
+    <component base="breve" xOffset="-47" yOffset="-170"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

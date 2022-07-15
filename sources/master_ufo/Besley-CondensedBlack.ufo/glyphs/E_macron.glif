@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Emacron" format="2">
+  <advance width="1170"/>
+  <unicode hex="0112"/>
+  <anchor x="703.835" y="1500.0" name="Anchor-0"/>
+  <anchor x="675.835" y="0.0" name="Anchor-1"/>
+  <anchor x="675.835" y="0.0" name="Anchor-2"/>
+  <anchor x="985.835" y="50.0" name="Anchor-3"/>
+  <outline>
+    <component base="E"/>
+    <component base="macroncomb" xOffset="93.834"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

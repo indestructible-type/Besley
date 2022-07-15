@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="900" default="400">
+      <map input="400" output="400"/>
+      <map input="500" output="470"/>
+      <map input="600" output="550"/>
+      <map input="700" output="650"/>
+      <map input="800" output="766"/>
+      <map input="900" output="900"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
+  </axes>
+  <sources>
+    <source filename="Besley-Regular.ufo" name="Besley Regular" familyname="Besley" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Besley-Black.ufo" name="Besley Black" familyname="Besley" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Besley-CondensedRegular.ufo" name="Besley Condensed Regular" familyname="Besley" stylename="Condensed Regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="Besley-CondensedBlack.ufo" name="Besley Condensed Black" familyname="Besley" stylename="Condensed Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Besley Regular" familyname="Besley" stylename="Regular" filename="../instance_ufo/Besley-Regular.ufo" stylemapfamilyname="Besley" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance name="Besley Medium" familyname="Besley" stylename="Medium" filename="../instance_ufo/Besley-Medium.ufo" stylemapfamilyname="Besley Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance name="Besley SemiBold" familyname="Besley" stylename="SemiBold" filename="../instance_ufo/Besley-SemiBold.ufo" stylemapfamilyname="Besley SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance name="Besley Bold" familyname="Besley" stylename="Bold" filename="../instance_ufo/Besley-Bold.ufo" stylemapfamilyname="Besley" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance name="Besley ExtraBold" familyname="Besley" stylename="ExtraBold" filename="../instance_ufo/Besley-ExtraBold.ufo" stylemapfamilyname="Besley ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance name="Besley Black" familyname="Besley" stylename="Black" filename="../instance_ufo/Besley-Black.ufo" stylemapfamilyname="Besley Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

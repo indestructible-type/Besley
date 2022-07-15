@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I-cy" format="2">
+  <advance width="770"/>
+  <unicode hex="0406"/>
+  <anchor x="382" y="1500" name="Anchor-0"/>
+  <anchor x="378" y="0" name="Anchor-1"/>
+  <anchor x="378" y="0" name="Anchor-2"/>
+  <anchor x="378" y="0" name="Anchor-3"/>
+  <outline>
+    <component base="I"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

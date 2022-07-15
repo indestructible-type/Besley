@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gcommaaccent" format="2">
+  <advance width="879"/>
+  <unicode hex="0123"/>
+  <anchor x="582" y="1040" name="Anchor-0"/>
+  <anchor x="506" y="-565" name="Anchor-1"/>
+  <anchor x="506" y="-565" name="Anchor-2"/>
+  <outline>
+    <component base="g"/>
+    <component base="commaturnedabovecomb" xOffset="-85" yOffset="290"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

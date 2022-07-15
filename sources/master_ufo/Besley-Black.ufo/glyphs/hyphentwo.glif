@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphentwo" format="2">
+  <advance width="920"/>
+  <unicode hex="2010"/>
+  <outline>
+    <contour>
+      <point x="154" y="890" type="curve" smooth="yes"/>
+      <point x="766" y="890" type="line" smooth="yes"/>
+      <point x="797" y="890"/>
+      <point x="800" y="883"/>
+      <point x="800" y="851" type="curve" smooth="yes"/>
+      <point x="800" y="701" type="line" smooth="yes"/>
+      <point x="800" y="666"/>
+      <point x="799" y="660"/>
+      <point x="764" y="660" type="curve" smooth="yes"/>
+      <point x="162" y="660" type="line" smooth="yes"/>
+      <point x="126" y="660"/>
+      <point x="120" y="665"/>
+      <point x="120" y="700" type="curve" smooth="yes"/>
+      <point x="120" y="849" type="line" smooth="yes"/>
+      <point x="120" y="881"/>
+      <point x="122" y="890"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onequarter" format="2">
+  <advance width="1196"/>
+  <unicode hex="00BC"/>
+  <outline>
+    <contour>
+      <point x="910" y="1440" type="line"/>
+      <point x="1008" y="1440" type="line"/>
+      <point x="286" y="-60" type="line"/>
+      <point x="178" y="-60" type="line"/>
+    </contour>
+    <component base="one" xScale="0.6" yScale="0.6" xOffset="12.0" yOffset="632.0"/>
+    <component base="four" xScale="0.6" yScale="0.6" xOffset="628.0" yOffset="4.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

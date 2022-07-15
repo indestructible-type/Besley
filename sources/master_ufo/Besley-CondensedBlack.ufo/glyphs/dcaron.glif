@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcaron" format="2">
+  <advance width="1594"/>
+  <unicode hex="010F"/>
+  <anchor x="401" y="1040" name="Anchor-0"/>
+  <anchor x="1289" y="1040" name="Anchor-1"/>
+  <anchor x="522" y="0" name="Anchor-2"/>
+  <anchor x="1289" y="1040" name="Anchor-3"/>
+  <outline>
+    <component base="d"/>
+    <component base="comma" xOffset="971" yOffset="1344"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

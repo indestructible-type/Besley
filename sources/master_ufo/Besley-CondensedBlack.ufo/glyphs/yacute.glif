@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yacute" format="2">
+  <advance width="1025"/>
+  <unicode hex="00FD"/>
+  <anchor x="659" y="1045" name="Anchor-0"/>
+  <anchor x="301" y="-560" name="Anchor-1"/>
+  <anchor x="301" y="-560" name="Anchor-2"/>
+  <outline>
+    <component base="y" yOffset="5"/>
+    <component base="acutecomb" xOffset="54" yOffset="-460"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

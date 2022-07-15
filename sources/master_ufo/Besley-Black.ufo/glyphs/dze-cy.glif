@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dze-cy" format="2">
+  <advance height="2310" width="1160"/>
+  <unicode hex="0455"/>
+  <anchor x="600" y="1040" name="Anchor-0"/>
+  <anchor x="570" y="0" name="Anchor-1"/>
+  <anchor x="570" y="0" name="Anchor-2"/>
+  <outline>
+    <component base="s"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

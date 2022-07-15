@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gje-cy" format="2">
+  <advance height="2234" width="693"/>
+  <unicode hex="0453"/>
+  <outline>
+    <component base="ge-cy" xOffset="5"/>
+    <component base="acutecomb" xOffset="-76" yOffset="-460"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

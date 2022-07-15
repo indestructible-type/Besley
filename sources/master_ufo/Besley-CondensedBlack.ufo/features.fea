@@ -1,0 +1,427 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn CAT;
+
+
+feature aalt {
+# automatic
+feature locl;
+feature frac;
+feature ordn;
+feature c2sc;
+feature smcp;
+feature lnum;
+feature pnum;
+feature tnum;
+feature onum;
+feature case;
+
+} aalt;
+
+feature ccmp {
+# automatic
+lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+
+} ccmp;
+
+feature locl {
+# automatic
+lookup locl_latn_0 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_0;
+
+} locl;
+
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+
+} ordn;
+
+feature lnum {
+# automatic
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+
+} lnum;
+
+feature pnum {
+# automatic
+sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+sub zero.tosf by zero.osf;
+sub one.tosf by one.osf;
+sub two.tosf by two.osf;
+sub three.tosf by three.osf;
+sub four.tosf by four.osf;
+sub five.tosf by five.osf;
+sub six.tosf by six.osf;
+sub seven.tosf by seven.osf;
+sub eight.tosf by eight.osf;
+sub nine.tosf by nine.osf;
+
+} pnum;
+
+feature tnum {
+# automatic
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+sub zero.osf by zero.tosf;
+sub one.osf by one.tosf;
+sub two.osf by two.tosf;
+sub three.osf by three.tosf;
+sub four.osf by four.tosf;
+sub five.osf by five.tosf;
+sub six.osf by six.tosf;
+sub seven.osf by seven.tosf;
+sub eight.osf by eight.tosf;
+sub nine.osf by nine.tosf;
+
+} tnum;
+
+feature onum {
+# automatic
+sub zero.tf by zero.tosf;
+sub one.tf by one.tosf;
+sub two.tf by two.tosf;
+sub three.tf by three.tosf;
+sub four.tf by four.tosf;
+sub five.tf by five.tosf;
+sub six.tf by six.tosf;
+sub seven.tf by seven.tosf;
+sub eight.tf by eight.tosf;
+sub nine.tf by nine.tosf;
+sub zero by zero.osf;
+sub one by one.osf;
+sub two by two.osf;
+sub three by three.osf;
+sub four by four.osf;
+sub five by five.osf;
+sub six by six.osf;
+sub seven by seven.osf;
+sub eight by eight.osf;
+sub nine by nine.osf;
+
+} onum;
+
+feature c2sc {
+# automatic
+sub A by a.sc;
+sub Aacute by aacute.sc;
+sub Abreve by abreve.sc;
+sub Acircumflex by acircumflex.sc;
+sub Adieresis by adieresis.sc;
+sub Agrave by agrave.sc;
+sub Amacron by amacron.sc;
+sub Aogonek by aogonek.sc;
+sub Aring by aring.sc;
+sub Atilde by atilde.sc;
+sub B by b.sc;
+sub C by c.sc;
+sub Cacute by cacute.sc;
+sub Ccaron by ccaron.sc;
+sub Ccedilla by ccedilla.sc;
+sub Ccircumflex by ccircumflex.sc;
+sub Cdotaccent by cdotaccent.sc;
+sub D by d.sc;
+sub Dcaron by dcaron.sc;
+sub E by e.sc;
+sub Eacute by eacute.sc;
+sub Ebreve by ebreve.sc;
+sub Ecaron by ecaron.sc;
+sub Ecircumflex by ecircumflex.sc;
+sub Edieresis by edieresis.sc;
+sub Edotaccent by edotaccent.sc;
+sub Egrave by egrave.sc;
+sub Emacron by emacron.sc;
+sub Eogonek by eogonek.sc;
+sub F by f.sc;
+sub G by g.sc;
+sub Gbreve by gbreve.sc;
+sub Gcircumflex by gcircumflex.sc;
+sub Gdotaccent by gdotaccent.sc;
+sub H by h.sc;
+sub Hcircumflex by hcircumflex.sc;
+sub I by i.sc;
+sub Iacute by iacute.sc;
+sub Ibreve by ibreve.sc;
+sub Icircumflex by icircumflex.sc;
+sub Idieresis by idieresis.sc;
+sub Idotaccent by idotaccent.sc;
+sub Igrave by igrave.sc;
+sub Imacron by imacron.sc;
+sub Iogonek by iogonek.sc;
+sub Itilde by itilde.sc;
+sub J by j.sc;
+sub Jcircumflex by jcircumflex.sc;
+sub K by k.sc;
+sub L by l.sc;
+sub Lacute by lacute.sc;
+sub Lcaron by lcaron.sc;
+sub M by m.sc;
+sub N by n.sc;
+sub Nacute by nacute.sc;
+sub Ncaron by ncaron.sc;
+sub Ntilde by ntilde.sc;
+sub O by o.sc;
+sub Oacute by oacute.sc;
+sub Obreve by obreve.sc;
+sub Ocircumflex by ocircumflex.sc;
+sub Odieresis by odieresis.sc;
+sub Ograve by ograve.sc;
+sub Ohungarumlaut by ohungarumlaut.sc;
+sub Omacron by omacron.sc;
+sub Otilde by otilde.sc;
+sub P by p.sc;
+sub Q by q.sc;
+sub R by r.sc;
+sub Racute by racute.sc;
+sub Rcaron by rcaron.sc;
+sub S by s.sc;
+sub Sacute by sacute.sc;
+sub Scaron by scaron.sc;
+sub Scedilla by scedilla.sc;
+sub Scircumflex by scircumflex.sc;
+sub T by t.sc;
+sub Tcaron by tcaron.sc;
+sub U by u.sc;
+sub Uacute by uacute.sc;
+sub Ubreve by ubreve.sc;
+sub Ucircumflex by ucircumflex.sc;
+sub Udieresis by udieresis.sc;
+sub Ugrave by ugrave.sc;
+sub Uhungarumlaut by uhungarumlaut.sc;
+sub Umacron by umacron.sc;
+sub Uogonek by uogonek.sc;
+sub Uring by uring.sc;
+sub Utilde by utilde.sc;
+sub V by v.sc;
+sub W by w.sc;
+sub Wacute by wacute.sc;
+sub Wcircumflex by wcircumflex.sc;
+sub Wdieresis by wdieresis.sc;
+sub Wgrave by wgrave.sc;
+sub X by x.sc;
+sub Y by y.sc;
+sub Yacute by yacute.sc;
+sub Ycircumflex by ycircumflex.sc;
+sub Ydieresis by ydieresis.sc;
+sub Ygrave by ygrave.sc;
+sub Z by z.sc;
+sub Zacute by zacute.sc;
+sub Zcaron by zcaron.sc;
+sub Zdotaccent by zdotaccent.sc;
+sub hyphen by hyphen.sc;
+
+} c2sc;
+
+feature smcp {
+# automatic
+sub a by a.sc;
+sub aacute by aacute.sc;
+sub abreve by abreve.sc;
+sub acircumflex by acircumflex.sc;
+sub adieresis by adieresis.sc;
+sub agrave by agrave.sc;
+sub amacron by amacron.sc;
+sub aogonek by aogonek.sc;
+sub aring by aring.sc;
+sub atilde by atilde.sc;
+sub b by b.sc;
+sub c by c.sc;
+sub cacute by cacute.sc;
+sub ccaron by ccaron.sc;
+sub ccedilla by ccedilla.sc;
+sub ccircumflex by ccircumflex.sc;
+sub cdotaccent by cdotaccent.sc;
+sub d by d.sc;
+sub dcaron by dcaron.sc;
+sub e by e.sc;
+sub eacute by eacute.sc;
+sub ebreve by ebreve.sc;
+sub ecaron by ecaron.sc;
+sub ecircumflex by ecircumflex.sc;
+sub edieresis by edieresis.sc;
+sub edotaccent by edotaccent.sc;
+sub egrave by egrave.sc;
+sub emacron by emacron.sc;
+sub eogonek by eogonek.sc;
+sub f by f.sc;
+sub g by g.sc;
+sub gbreve by gbreve.sc;
+sub gcircumflex by gcircumflex.sc;
+sub gdotaccent by gdotaccent.sc;
+sub h by h.sc;
+sub hcircumflex by hcircumflex.sc;
+sub i by i.sc;
+sub iacute by iacute.sc;
+sub ibreve by ibreve.sc;
+sub icircumflex by icircumflex.sc;
+sub idieresis by idieresis.sc;
+sub igrave by igrave.sc;
+sub imacron by imacron.sc;
+sub iogonek by iogonek.sc;
+sub itilde by itilde.sc;
+sub j by j.sc;
+sub jcircumflex by jcircumflex.sc;
+sub k by k.sc;
+sub l by l.sc;
+sub lacute by lacute.sc;
+sub lcaron by lcaron.sc;
+sub m by m.sc;
+sub n by n.sc;
+sub nacute by nacute.sc;
+sub ncaron by ncaron.sc;
+sub ntilde by ntilde.sc;
+sub o by o.sc;
+sub oacute by oacute.sc;
+sub obreve by obreve.sc;
+sub ocircumflex by ocircumflex.sc;
+sub odieresis by odieresis.sc;
+sub ograve by ograve.sc;
+sub ohungarumlaut by ohungarumlaut.sc;
+sub omacron by omacron.sc;
+sub otilde by otilde.sc;
+sub p by p.sc;
+sub q by q.sc;
+sub r by r.sc;
+sub racute by racute.sc;
+sub rcaron by rcaron.sc;
+sub s by s.sc;
+sub sacute by sacute.sc;
+sub scaron by scaron.sc;
+sub scedilla by scedilla.sc;
+sub scircumflex by scircumflex.sc;
+sub t by t.sc;
+sub tcaron by tcaron.sc;
+sub u by u.sc;
+sub uacute by uacute.sc;
+sub ubreve by ubreve.sc;
+sub ucircumflex by ucircumflex.sc;
+sub udieresis by udieresis.sc;
+sub ugrave by ugrave.sc;
+sub uhungarumlaut by uhungarumlaut.sc;
+sub umacron by umacron.sc;
+sub uni0123 by uni0123.sc;
+sub uni0137 by uni0137.sc;
+sub uni013C by uni013C.sc;
+sub uni0146 by uni0146.sc;
+sub uni0157 by uni0157.sc;
+sub uni0163 by uni0163.sc;
+sub uni0213 by uni0213.sc;
+sub uni0219 by uni0219.sc;
+sub uni021B by uni021B.sc;
+sub uni1E87 by uni1E87.sc;
+sub uni1E89 by uni1E89.sc;
+sub uogonek by uogonek.sc;
+sub uring by uring.sc;
+sub utilde by utilde.sc;
+sub v by v.sc;
+sub w by w.sc;
+sub wacute by wacute.sc;
+sub wcircumflex by wcircumflex.sc;
+sub wdieresis by wdieresis.sc;
+sub wgrave by wgrave.sc;
+sub x by x.sc;
+sub y by y.sc;
+sub yacute by yacute.sc;
+sub ycircumflex by ycircumflex.sc;
+sub ydieresis by ydieresis.sc;
+sub ygrave by ygrave.sc;
+sub z by z.sc;
+sub zacute by zacute.sc;
+sub zcaron by zcaron.sc;
+sub zdotaccent by zdotaccent.sc;
+sub hyphen by hyphen.sc;
+
+} smcp;
+
+feature case {
+# automatic
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+sub zero.tosf by zero;
+sub one.tosf by one;
+sub two.tosf by two;
+sub three.tosf by three;
+sub four.tosf by four;
+sub five.tosf by five;
+sub six.tosf by six;
+sub seven.tosf by seven;
+sub eight.tosf by eight;
+sub nine.tosf by nine;
+
+} case;
+
+feature liga {
+# automatic
+lookupflag IgnoreMarks;
+sub f f i by f_f_i.liga;
+sub f f l by f_f_l.liga;
+sub f f by f_f.liga;
+sub f i by fi;
+sub f l by fl;
+
+} liga;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Q R Racute Rcaron Rcommaaccent Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve gcircumflex gcommaaccent gdotaccent h hbar hcircumflex i dotlessi iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j jdotless jcircumflex k kcommaaccent l lacute lcaron lcommaaccent ldot lslash m n nacute napostrophe ncaron ncommaaccent ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde oe p thorn q r racute rcaron rcommaaccent rinvertedbreve s sacute scaron scedilla scircumflex scommaaccent t tbar tcaron tcedilla tcommaaccent u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wdotaccent wdotbelow wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent a.sc aacute.sc abreve.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc b.sc c.sc cacute.sc ccaron.sc ccedilla.sc ccircumflex.sc cdotaccent.sc d.sc dcaron.sc e.sc eacute.sc ebreve.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc f.sc g.sc gbreve.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc h.sc hcircumflex.sc i.sc iacute.sc ibreve.sc icircumflex.sc idieresis.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc itilde.sc j.sc jcircumflex.sc k.sc kcommaaccent.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc m.sc n.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc o.sc oacute.sc obreve.sc ocircumflex.sc odieresis.sc ograve.sc ohungarumlaut.sc omacron.sc otilde.sc p.sc q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rinvertedbreve.sc s.sc sacute.sc scaron.sc scedilla.sc scircumflex.sc scommaaccent.sc t.sc tcaron.sc tcedilla.sc tcommaaccent.sc u.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc ugrave.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc v.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wdotaccent.sc wdotbelow.sc wgrave.sc x.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc z.sc zacute.sc zcaron.sc zdotaccent.sc A-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Ie-cy Iegrave-cy Io-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Ya-cy Dje-cy a-cy be-cy ie-cy iegrave-cy io-cy o-cy er-cy es-cy u-cy ushort-cy ha-cy dze-cy i-cy je-cy tshe-cy copyright registered numero cent yen mu], # Base
+    , # Liga
+    [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb breveinvertedcomb commaturnedabovecomb dotbelowcomb commaaccentcomb cedillacomb ogonekcomb], # Mark
+    ;
+} GDEF;

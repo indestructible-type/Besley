@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="IJ" format="2">
+  <advance width="1987"/>
+  <unicode hex="0132"/>
+  <anchor x="1546" y="1500" name="Anchor-0_1"/>
+  <anchor x="406" y="1500" name="Anchor-0_2"/>
+  <anchor x="1258" y="0" name="Anchor-1_1"/>
+  <anchor x="402" y="0" name="Anchor-1_2"/>
+  <anchor x="1258" y="0" name="Anchor-2_1"/>
+  <anchor x="402" y="0" name="Anchor-2_2"/>
+  <anchor x="402" y="0" name="Anchor-3"/>
+  <outline>
+    <component base="J" xOffset="810"/>
+    <component base="I"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

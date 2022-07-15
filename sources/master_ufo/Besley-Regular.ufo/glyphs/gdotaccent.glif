@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gdotaccent" format="2">
+  <advance width="1229"/>
+  <unicode hex="0121"/>
+  <anchor x="647" y="1040" name="Anchor-0"/>
+  <anchor x="631" y="-565" name="Anchor-1"/>
+  <anchor x="631" y="-565" name="Anchor-2"/>
+  <outline>
+    <component base="g"/>
+    <component base="dotaccent" xOffset="160"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

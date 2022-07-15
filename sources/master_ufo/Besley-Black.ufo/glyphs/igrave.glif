@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="igrave" format="2">
+  <advance width="865"/>
+  <unicode hex="00EC"/>
+  <anchor x="439" y="1040" name="Anchor-0"/>
+  <anchor x="437" y="0" name="Anchor-1"/>
+  <anchor x="437" y="0" name="Anchor-2"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="gravecomb" xOffset="-132" yOffset="-460"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="imacron.sc" format="2">
+  <advance width="970"/>
+  <anchor x="473" y="1040" name="Anchor-0"/>
+  <anchor x="470" y="0" name="Anchor-1"/>
+  <anchor x="470" y="0" name="Anchor-2"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="macroncomb" xOffset="-27" yOffset="-460"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

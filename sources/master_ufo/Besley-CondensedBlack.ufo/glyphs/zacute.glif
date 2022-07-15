@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zacute" format="2">
+  <advance width="900"/>
+  <unicode hex="017A"/>
+  <anchor x="568" y="1040" name="Anchor-0"/>
+  <anchor x="549" y="0" name="Anchor-1"/>
+  <anchor x="549" y="0" name="Anchor-2"/>
+  <outline>
+    <component base="z"/>
+    <component base="acutecomb" xOffset="-21" yOffset="-460"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>

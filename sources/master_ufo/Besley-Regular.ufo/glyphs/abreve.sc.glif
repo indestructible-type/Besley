@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abreve.sc" format="2">
+  <advance width="1304"/>
+  <anchor x="589" y="1039" name="Anchor-0"/>
+  <anchor x="552" y="0" name="Anchor-1"/>
+  <anchor x="967" y="0" name="Anchor-2"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="brevecomb" xOffset="150" yOffset="-461"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>2500</integer>
+    </dict>
+  </lib>
+</glyph>
