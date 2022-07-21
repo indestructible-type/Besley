@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="be-cy" format="2">
+	<advance width="846" height="2310"/>
+	<unicode hex="0431"/>
+	<anchor x="295" y="0" name="Anchor-1"/>
+	<anchor x="295" y="0" name="Anchor-2"/>
+	<outline>
+		<contour>
+			<point x="250" y="540" type="curve" smooth="yes"/>
+			<point x="195" y="292"/>
+			<point x="176" y="70"/>
+			<point x="314" y="70" type="curve" smooth="yes"/>
+			<point x="452" y="70"/>
+			<point x="531" y="292"/>
+			<point x="577" y="500" type="curve" smooth="yes"/>
+			<point x="632" y="748"/>
+			<point x="651" y="970"/>
+			<point x="513" y="970" type="curve" smooth="yes"/>
+			<point x="375" y="970"/>
+			<point x="296" y="748"/>
+		</contour>
+		<contour>
+			<point x="1023" y="1565" type="curve" smooth="yes"/>
+			<point x="977" y="1343"/>
+			<point x="855" y="1290"/>
+			<point x="682" y="1290" type="curve" smooth="yes"/>
+			<point x="545" y="1290"/>
+			<point x="371" y="1312"/>
+			<point x="215" y="895" type="curve" smooth="yes"/>
+			<point x="191" y="831"/>
+			<point x="204.304" y="805.906"/>
+			<point x="248" y="868" type="curve" smooth="yes"/>
+			<point x="343" y="1003"/>
+			<point x="422" y="1060"/>
+			<point x="553" y="1060" type="curve" smooth="yes"/>
+			<point x="775" y="1060"/>
+			<point x="860" y="880"/>
+			<point x="776" y="500" type="curve" smooth="yes"/>
+			<point x="683" y="80"/>
+			<point x="536" y="-20"/>
+			<point x="314" y="-20" type="curve" smooth="yes"/>
+			<point x="22" y="-20"/>
+			<point x="-51" y="180"/>
+			<point x="47" y="620" type="curve" smooth="yes"/>
+			<point x="187" y="1252"/>
+			<point x="352" y="1471"/>
+			<point x="744" y="1471" type="curve" smooth="yes"/>
+			<point x="861" y="1471"/>
+			<point x="901" y="1475"/>
+			<point x="928" y="1567" type="curve" smooth="yes"/>
+			<point x="936" y="1590"/>
+			<point x="936" y="1594"/>
+			<point x="962" y="1594" type="curve" smooth="yes"/>
+			<point x="1003" y="1594" type="line" smooth="yes"/>
+			<point x="1026" y="1594"/>
+			<point x="1028" y="1589"/>
+		</contour>
+	</outline>
+</glyph>

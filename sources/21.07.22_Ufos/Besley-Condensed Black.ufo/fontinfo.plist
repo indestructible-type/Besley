@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>1600</integer>
+	<key>capHeight</key>
+	<integer>1500</integer>
+	<key>copyright</key>
+	<string>Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type)</string>
+	<key>descender</key>
+	<integer>-400</integer>
+	<key>familyName</key>
+	<string>Besley</string>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>y</key>
+			<integer>-300</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Decenders</string>
+			<key>y</key>
+			<integer>-500</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LOWER CASE</string>
+			<key>y</key>
+			<integer>1040</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Overflow</string>
+			<key>y</key>
+			<integer>-20</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CAPITAL HIGHT</string>
+			<key>y</key>
+			<integer>1500</integer>
+		</dict>
+	</array>
+	<key>openTypeHeadCreated</key>
+	<string>2016/04/15 23:15:50</string>
+	<key>openTypeHheaAscender</key>
+	<integer>2500</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-850</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Owen Earl</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>https://ewonrael.github.io</string>
+	<key>openTypeNameLicense</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>https://scripts.sil.org/OFL</string>
+	<key>openTypeNameManufacturer</key>
+	<string>indestructible type*</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>https://indestructibletype.com/Home.html</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Black</string>
+	<key>openTypeOS2Type</key>
+	<array/>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>2500</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-850</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>it* </string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>900</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>3</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>2500</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>850</integer>
+	<key>postscriptBlueValues</key>
+	<array/>
+	<key>postscriptFontName</key>
+	<string>BesleyCondensed-Black</string>
+	<key>postscriptOtherBlues</key>
+	<array/>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-150</integer>
+	<key>postscriptUnderlineThickness</key>
+	<integer>100</integer>
+	<key>styleMapFamilyName</key>
+	<string>Besley Condensed Black</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Black</string>
+	<key>unitsPerEm</key>
+	<integer>2000</integer>
+	<key>versionMajor</key>
+	<integer>3</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>1040</integer>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iishort-cy" format="2">
+	<advance width="1580" height="2310"/>
+	<unicode hex="0439"/>
+	<outline>
+		<contour>
+			<point x="1048" y="1611" type="curve" smooth="yes"/>
+			<point x="1169" y="1611"/>
+			<point x="1261" y="1522"/>
+			<point x="1261" y="1411" type="curve" smooth="yes"/>
+			<point x="1261" y="1236"/>
+			<point x="1096" y="1137"/>
+			<point x="814" y="1137" type="curve" smooth="yes"/>
+			<point x="530" y="1137"/>
+			<point x="366" y="1236"/>
+			<point x="366" y="1413" type="curve" smooth="yes"/>
+			<point x="366" y="1522"/>
+			<point x="458" y="1611"/>
+			<point x="579" y="1611" type="curve" smooth="yes"/>
+			<point x="679" y="1611"/>
+			<point x="745" y="1540"/>
+			<point x="745" y="1456" type="curve" smooth="yes"/>
+			<point x="745" y="1357"/>
+			<point x="628" y="1359"/>
+			<point x="628" y="1327" type="curve" smooth="yes"/>
+			<point x="628" y="1294"/>
+			<point x="695" y="1280"/>
+			<point x="822" y="1280" type="curve" smooth="yes"/>
+			<point x="936" y="1280"/>
+			<point x="999" y="1296"/>
+			<point x="999" y="1327" type="curve" smooth="yes"/>
+			<point x="999" y="1360"/>
+			<point x="882" y="1356"/>
+			<point x="882" y="1456" type="curve" smooth="yes"/>
+			<point x="882" y="1540"/>
+			<point x="948" y="1611"/>
+		</contour>
+		<component base="ii-cy" xOffset="5"/>
+	</outline>
+</glyph>

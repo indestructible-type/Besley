@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oacute" format="2">
+	<advance width="1296" height="0"/>
+	<anchor x="648" y="1040" name="Anchor-0"/>
+	<anchor x="645" y="0" name="Anchor-1"/>
+	<anchor x="645" y="0" name="Anchor-2"/>
+	<outline>
+		<contour>
+			<point x="500" y="540" type="curve" smooth="yes"/>
+			<point x="500" y="332"/>
+			<point x="530" y="160"/>
+			<point x="648" y="160" type="curve" smooth="yes"/>
+			<point x="766" y="160"/>
+			<point x="796" y="332"/>
+			<point x="796" y="500" type="curve" smooth="yes"/>
+			<point x="796" y="708"/>
+			<point x="766" y="880"/>
+			<point x="648" y="880" type="curve" smooth="yes"/>
+			<point x="530" y="880"/>
+			<point x="500" y="708"/>
+		</contour>
+		<contour>
+			<point x="50" y="490" type="curve" smooth="yes"/>
+			<point x="50" y="810"/>
+			<point x="266" y="1080"/>
+			<point x="648" y="1080" type="curve" smooth="yes"/>
+			<point x="1030" y="1080"/>
+			<point x="1246" y="820"/>
+			<point x="1246" y="540" type="curve" smooth="yes"/>
+			<point x="1246" y="220"/>
+			<point x="1030" y="-40"/>
+			<point x="648" y="-40" type="curve" smooth="yes"/>
+			<point x="266" y="-40"/>
+			<point x="50" y="210"/>
+		</contour>
+		<contour>
+			<point x="629" y="1165" type="curve" smooth="yes"/>
+			<point x="516" y="1281" type="line" smooth="yes"/>
+			<point x="503" y="1295"/>
+			<point x="504" y="1304"/>
+			<point x="517" y="1317" type="curve" smooth="yes"/>
+			<point x="751" y="1606" type="line" smooth="yes"/>
+			<point x="807" y="1676"/>
+			<point x="968" y="1680"/>
+			<point x="1033" y="1600" type="curve" smooth="yes"/>
+			<point x="1113" y="1501"/>
+			<point x="1086" y="1385"/>
+			<point x="996" y="1337" type="curve" smooth="yes"/>
+			<point x="660" y="1159" type="line" smooth="yes"/>
+			<point x="645" y="1150"/>
+			<point x="640" y="1153"/>
+		</contour>
+	</outline>
+</glyph>

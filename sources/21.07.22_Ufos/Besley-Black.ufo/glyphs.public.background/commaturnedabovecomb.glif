@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaturnedabovecomb" format="2">
+	<advance width="0" height="0"/>
+	<anchor x="497" y="920" name="_Anchor-0"/>
+	<outline>
+		<contour>
+			<point x="712" y="1259" type="curve" smooth="yes"/>
+			<point x="712" y="1142"/>
+			<point x="610" y="1068"/>
+			<point x="501" y="1068" type="curve" smooth="yes"/>
+			<point x="367" y="1068"/>
+			<point x="277" y="1157"/>
+			<point x="277" y="1330" type="curve" smooth="yes"/>
+			<point x="277" y="1554"/>
+			<point x="506" y="1709"/>
+			<point x="653" y="1728" type="curve" smooth="yes"/>
+			<point x="676" y="1731"/>
+			<point x="683" y="1728"/>
+			<point x="683" y="1702" type="curve" smooth="yes"/>
+			<point x="683" y="1607" type="line" smooth="yes"/>
+			<point x="683" y="1591"/>
+			<point x="677" y="1588"/>
+			<point x="663" y="1586" type="curve" smooth="yes"/>
+			<point x="567" y="1576"/>
+			<point x="470" y="1498"/>
+			<point x="437" y="1443" type="curve" smooth="yes"/>
+			<point x="433" y="1437"/>
+			<point x="439" y="1431"/>
+			<point x="449" y="1435" type="curve" smooth="yes"/>
+			<point x="467" y="1443"/>
+			<point x="496" y="1449"/>
+			<point x="531" y="1449" type="curve" smooth="yes"/>
+			<point x="640" y="1449"/>
+			<point x="712" y="1376"/>
+		</contour>
+	</outline>
+</glyph>
