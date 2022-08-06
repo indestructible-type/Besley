@@ -29,14 +29,14 @@
       </location>
     </source>
 
-    <source filename="../ufo/BesleyCondensed-Book.ufo" name="Besley Condensed Regular" familyname="Besley Condensed" stylename="Regular">
+    <source filename="../ufo/BesleyCondensed-Book.ufo" name="Besley Condensed Regular" familyname="Besley" stylename="Condensed Regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </source>
 
-    <source filename="../ufo/BesleyCondensed-Fatface.ufo" name="Besley Condensed Black" familyname="Besley Condensed" stylename="Black">
+    <source filename="../ufo/BesleyCondensed-Fatface.ufo" name="Besley Condensed Black" familyname="Besley" stylename="Condensed Black">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Width" xvalue="75"/>
@@ -47,126 +47,126 @@
 
   <instances>
 
-    <instance name="Besley Regular" familyname="Besley" stylename="Regular" filename="../instance_ufo/Besley-Regular.ufo" stylemapfamilyname="Besley" stylemapstylename="regular">
+    <instance postscriptfontname="Besley-Regular" familyname="Besley" name="Besley Regular" stylemapfamilyname="Besley" stylemapstylename="regular" stylename="Regular" filename="../instance_ufo/Besley-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley Medium" familyname="Besley" stylename="Medium" filename="../instance_ufo/Besley-Medium.ufo" stylemapfamilyname="Besley Medium" stylemapstylename="regular">
+    <instance postscriptfontname="Besley-Medium" familyname="Besley" name="Besley Medium" stylemapfamilyname="Besley Medium" stylemapstylename="regular" stylename="Medium" filename="../instance_ufo/Besley-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="470"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley SemiBold" familyname="Besley" stylename="SemiBold" filename="../instance_ufo/Besley-SemiBold.ufo" stylemapfamilyname="Besley SemiBold" stylemapstylename="regular">
+    <instance postscriptfontname="Besley-SemiBold" familyname="Besley" name="Besley SemiBold" stylemapfamilyname="Besley SemiBold" stylemapstylename="regular" stylename="SemiBold" filename="../instance_ufo/Besley-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley Bold" familyname="Besley" stylename="Bold" filename="../instance_ufo/Besley-Bold.ufo" stylemapfamilyname="Besley" stylemapstylename="bold">
+    <instance postscriptfontname="Besley-Bold" familyname="Besley" name="Besley Bold" stylemapfamilyname="Besley" stylemapstylename="bold" stylename="Bold" filename="../instance_ufo/Besley-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley ExtraBold" familyname="Besley" stylename="ExtraBold" filename="../instance_ufo/Besley-ExtraBold.ufo" stylemapfamilyname="Besley ExtraBold" stylemapstylename="regular">
+    <instance postscriptfontname="Besley-ExtraBold" familyname="Besley" name="Besley ExtraBold" stylemapfamilyname="Besley ExtraBold" stylemapstylename="regular" stylename="ExtraBold" filename="../instance_ufo/Besley-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="766"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley Black" familyname="Besley" stylename="Black" filename="../instance_ufo/Besley-Black.ufo" stylemapfamilyname="Besley Black" stylemapstylename="regular">
+    <instance postscriptfontname="Besley-Black" familyname="Besley" name="Besley Black" stylemapfamilyname="Besley Black" stylemapstylename="regular" stylename="Black" filename="../instance_ufo/Besley-Black.ufo">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow Regular" familyname="Besley Narrow" stylename="Regular" filename="../instance_ufo/BesleyNarrow-Regular.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyNarrow-Regular" familyname="Besley" name="Besley Narrow Regular" stylemapfamilyname="Besley Narrow" stylemapstylename="regular" stylename="Narrow Regular" filename="../instance_ufo/BesleyNarrow-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow Medium" familyname="Besley Narrow" stylename="Medium" filename="../instance_ufo/BesleyNarrow-Medium.ufo" stylemapfamilyname="Besley Narrow Medium" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyNarrow-Medium" familyname="Besley" name="Besley Narrow Medium" stylemapfamilyname="Besley Narrow Medium" stylemapstylename="regular" stylename="Narrow Medium" filename="../instance_ufo/BesleyNarrow-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="470"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow SemiBold" familyname="Besley Narrow" stylename="SemiBold" filename="../instance_ufo/BesleyNarrow-SemiBold.ufo" stylemapfamilyname="Besley Narrow SemiBold" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyNarrow-SemiBold" familyname="Besley" name="Besley Narrow SemiBold" stylemapfamilyname="Besley Narrow SemiBold" stylemapstylename="regular" stylename="Narrow SemiBold" filename="../instance_ufo/BesleyNarrow-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow Bold" familyname="Besley Narrow" stylename="Bold" filename="../instance_ufo/BesleyNarrow-Bold.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="bold">
+    <instance postscriptfontname="BesleyNarrow-Bold" familyname="Besley" name="Besley Narrow Bold" stylemapfamilyname="Besley Narrow" stylemapstylename="bold" stylename="Narrow Bold" filename="../instance_ufo/BesleyNarrow-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow ExtraBold" familyname="Besley Narrow" stylename="ExtraBold" filename="../instance_ufo/BesleyNarrow-ExtraBold.ufo" stylemapfamilyname="Besley Narrow ExtraBold" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyNarrow-ExtraBold" familyname="Besley" name="Besley Narrow ExtraBold" stylemapfamilyname="Besley Narrow ExtraBold" stylemapstylename="regular" stylename="Narrow ExtraBold" filename="../instance_ufo/BesleyNarrow-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="766"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow Black" familyname="Besley Narrow" stylename="Black" filename="../instance_ufo/BesleyNarrow-Black.ufo" stylemapfamilyname="Besley Narrow Black" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyNarrow-Black" familyname="Besley" name="Besley Narrow Black" stylemapfamilyname="Besley Narrow Black" stylemapstylename="regular" stylename="Narrow Black" filename="../instance_ufo/BesleyNarrow-Black.ufo">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Regular" familyname="Besley Condensed" stylename="Regular" filename="../instance_ufo/BesleyCondensed-Regular.ufo" stylemapfamilyname="Besley Condensed" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyCondensed-Regular" familyname="Besley" name="Besley Condensed Regular" stylemapfamilyname="Besley Condensed" stylemapstylename="regular" stylename="Condensed Regular" filename="../instance_ufo/BesleyCondensed-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Medium" familyname="Besley Condensed" stylename="Medium" filename="../instance_ufo/BesleyCondensed-Medium.ufo" stylemapfamilyname="Besley Condensed Medium" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyCondensed-Medium" familyname="Besley" name="Besley Condensed Medium" stylemapfamilyname="Besley Condensed Medium" stylemapstylename="regular" stylename="Condensed Medium" filename="../instance_ufo/BesleyCondensed-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="470"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed SemiBold" familyname="Besley Condensed" stylename="SemiBold" filename="../instance_ufo/BesleyCondensed-SemiBold.ufo" stylemapfamilyname="Besley Condensed SemiBold" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyCondensed-SemiBold" familyname="Besley" name="Besley Condensed SemiBold" stylemapfamilyname="Besley Condensed SemiBold" stylemapstylename="regular" stylename="Condensed SemiBold" filename="../instance_ufo/BesleyCondensed-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Bold" familyname="Besley Condensed" stylename="Bold" filename="../instance_ufo/BesleyCondensed-Bold.ufo" stylemapfamilyname="Besley Condensed" stylemapstylename="bold">
+    <instance postscriptfontname="BesleyCondensed-Bold" familyname="Besley" name="Besley Condensed Bold" stylemapfamilyname="Besley Condensed" stylemapstylename="bold" stylename="Condensed Bold" filename="../instance_ufo/BesleyCondensed-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed ExtraBold" familyname="Besley Condensed" stylename="ExtraBold" filename="../instance_ufo/BesleyCondensed-ExtraBold.ufo" stylemapfamilyname="Besley Condensed ExtraBold" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyCondensed-ExtraBold" familyname="Besley" name="Besley Condensed ExtraBold" stylemapfamilyname="Besley Condensed ExtraBold" stylemapstylename="regular" stylename="Condensed ExtraBold" filename="../instance_ufo/BesleyCondensed-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="766"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Black" familyname="Besley Condensed" stylename="Black" filename="../instance_ufo/BesleyCondensed-Black.ufo" stylemapfamilyname="Besley Condensed Black" stylemapstylename="regular">
+    <instance postscriptfontname="BesleyCondensed-Black" familyname="Besley" name="Besley Condensed Black" stylemapfamilyname="Besley Condensed Black" stylemapstylename="regular" stylename="Condensed Black" filename="../instance_ufo/BesleyCondensed-Black.ufo">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Width" xvalue="75"/>
