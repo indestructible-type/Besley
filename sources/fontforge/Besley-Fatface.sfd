@@ -287,7 +287,6 @@ EndChar
 StartChar: one
 Encoding: 49 49 3
 Width: 1200
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -322,7 +321,6 @@ EndChar
 StartChar: two
 Encoding: 50 50 4
 Width: 1425
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -360,7 +358,6 @@ EndChar
 StartChar: three
 Encoding: 51 51 5
 Width: 1235
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -396,7 +393,6 @@ EndChar
 StartChar: four
 Encoding: 52 52 6
 Width: 1310
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -449,7 +445,6 @@ EndChar
 StartChar: five
 Encoding: 53 53 7
 Width: 1300
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -490,7 +485,6 @@ EndChar
 StartChar: six
 Encoding: 54 54 8
 Width: 1330
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -520,7 +514,6 @@ EndChar
 StartChar: seven
 Encoding: 55 55 9
 Width: 1303
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -554,7 +547,6 @@ EndChar
 StartChar: eight
 Encoding: 56 56 10
 Width: 1290
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -588,7 +580,6 @@ EndChar
 StartChar: nine
 Encoding: 57 57 11
 Width: 1330
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -1904,7 +1895,6 @@ EndChar
 StartChar: a
 Encoding: 97 97 38
 Width: 1344
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 672 1040 basechar 0
 AnchorPoint: "Anchor-1" 685 0 basechar 0
@@ -1950,7 +1940,6 @@ EndChar
 StartChar: b
 Encoding: 98 98 39
 Width: 1471
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 972 1040 basechar 0
 AnchorPoint: "Anchor-1" 685 0 basechar 0
@@ -1993,7 +1982,6 @@ EndChar
 StartChar: c
 Encoding: 99 99 40
 Width: 1268
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 686 1040 basechar 0
 AnchorPoint: "Anchor-1" 684 0 basechar 0
@@ -2022,7 +2010,6 @@ EndChar
 StartChar: d
 Encoding: 100 100 41
 Width: 1471
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 521 1040 basechar 0
 AnchorPoint: "Anchor-1" 1509 1040 basechar 0
@@ -2066,7 +2053,6 @@ EndChar
 StartChar: e
 Encoding: 101 101 42
 Width: 1253
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 655 1040 basechar 0
 AnchorPoint: "Anchor-1" 687 0 basechar 0
@@ -2100,7 +2086,6 @@ EndChar
 StartChar: f
 Encoding: 102 102 43
 Width: 920
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 819 1692 basechar 0
 AnchorPoint: "Anchor-1" 441 0 basechar 0
@@ -2151,7 +2136,6 @@ EndChar
 StartChar: g
 Encoding: 103 103 44
 Width: 1379
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 702 1040 basechar 0
 AnchorPoint: "Anchor-1" 526 -565 basechar 0
@@ -2206,7 +2190,6 @@ EndChar
 StartChar: h
 Encoding: 104 104 45
 Width: 1505
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 1068 1039 basechar 0
 AnchorPoint: "Anchor-1" 739 0 basechar 0
@@ -2260,7 +2243,6 @@ EndChar
 StartChar: i
 Encoding: 105 105 46
 Width: 865
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-1" 437 0 basechar 0
 AnchorPoint: "Anchor-2" 437 0 basechar 0
@@ -2299,7 +2281,6 @@ EndChar
 StartChar: j
 Encoding: 106 106 47
 Width: 800
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-1" 142 -565 basechar 0
 AnchorPoint: "Anchor-2" 142 -565 basechar 0
@@ -2334,7 +2315,6 @@ EndChar
 StartChar: k
 Encoding: 107 107 48
 Width: 1567
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 1150 1040 basechar 0
 AnchorPoint: "Anchor-1" 776 0 basechar 0
@@ -2399,7 +2379,6 @@ EndChar
 StartChar: l
 Encoding: 108 108 49
 Width: 870
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 433 1696 basechar 0
 AnchorPoint: "Anchor-1" 896 1040 basechar 0
@@ -2435,7 +2414,6 @@ EndChar
 StartChar: m
 Encoding: 109 109 50
 Width: 2185
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 1149 1040 basechar 0
 AnchorPoint: "Anchor-1" 1090 0 basechar 0
@@ -2507,7 +2485,6 @@ EndChar
 StartChar: n
 Encoding: 110 110 51
 Width: 1555
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 801 1040 basechar 0
 AnchorPoint: "Anchor-1" 790 0 basechar 0
@@ -2561,7 +2538,6 @@ EndChar
 StartChar: o
 Encoding: 111 111 52
 Width: 1296
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 648 1040 basechar 0
 AnchorPoint: "Anchor-1" 645 0 basechar 0
@@ -2585,7 +2561,6 @@ EndChar
 StartChar: p
 Encoding: 112 112 53
 Width: 1471
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 888 1040 basechar 0
 AnchorPoint: "Anchor-1" 927 0 basechar 0
@@ -2632,7 +2607,6 @@ EndChar
 StartChar: q
 Encoding: 113 113 54
 Width: 1446
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 606 1040 basechar 0
 AnchorPoint: "Anchor-1" 515 0 basechar 0
@@ -2679,7 +2653,6 @@ EndChar
 StartChar: r
 Encoding: 114 114 55
 Width: 1316
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 645 1040 basechar 0
 AnchorPoint: "Anchor-1" 427 0 basechar 0
@@ -2723,7 +2696,6 @@ EndChar
 StartChar: s
 Encoding: 115 115 56
 Width: 1160
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 600 1040 basechar 0
 AnchorPoint: "Anchor-1" 570 0 basechar 0
@@ -2766,7 +2738,6 @@ EndChar
 StartChar: t
 Encoding: 116 116 57
 Width: 968
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 522 1277 basechar 0
 AnchorPoint: "Anchor-1" 712 1153 basechar 0
@@ -2808,7 +2779,6 @@ EndChar
 StartChar: u
 Encoding: 117 117 58
 Width: 1545
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 740 1040 basechar 0
 AnchorPoint: "Anchor-1" 722 0 basechar 0
@@ -2855,7 +2825,6 @@ EndChar
 StartChar: v
 Encoding: 118 118 59
 Width: 1358
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 784 1040 basechar 0
 AnchorPoint: "Anchor-1" 707 0 basechar 0
@@ -2901,7 +2870,6 @@ EndChar
 StartChar: w
 Encoding: 119 119 60
 Width: 1890
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 1017 1040 basechar 0
 AnchorPoint: "Anchor-1" 957 0 basechar 0
@@ -2961,7 +2929,6 @@ EndChar
 StartChar: x
 Encoding: 120 120 61
 Width: 1448
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 825 1040 basechar 0
 AnchorPoint: "Anchor-1" 637 2 basechar 0
@@ -3036,7 +3003,6 @@ EndChar
 StartChar: y
 Encoding: 121 121 62
 Width: 1430
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 754 1040 basechar 0
 AnchorPoint: "Anchor-1" 346 -565 basechar 0
@@ -3088,7 +3054,6 @@ EndChar
 StartChar: z
 Encoding: 122 122 63
 Width: 1175
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 608 1040 basechar 0
 AnchorPoint: "Anchor-1" 589 0 basechar 0
@@ -3129,7 +3094,6 @@ EndChar
 StartChar: space
 Encoding: 32 32 64
 Width: 600
-VWidth: 0
 Flags: MW
 EndChar
 
@@ -3395,7 +3359,6 @@ EndChar
 StartChar: asterisk
 Encoding: 42 42 78
 Width: 1270
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -3436,7 +3399,6 @@ EndChar
 StartChar: at
 Encoding: 64 64 79
 Width: 2300
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -3828,7 +3790,6 @@ EndChar
 StartChar: braceleft
 Encoding: 123 123 92
 Width: 744
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -3888,7 +3849,6 @@ EndChar
 StartChar: braceright
 Encoding: 125 125 94
 Width: 704
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -3922,7 +3882,6 @@ EndChar
 StartChar: bar
 Encoding: 124 124 95
 Width: 600
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -3941,7 +3900,6 @@ EndChar
 StartChar: asciitilde
 Encoding: 126 126 96
 Width: 1376
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4236,7 +4194,6 @@ EndChar
 StartChar: uniFB00
 Encoding: 64256 64256 108
 Width: 1730
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4315,7 +4272,6 @@ EndChar
 StartChar: uniFB01
 Encoding: 64257 64257 109
 Width: 1630
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4376,7 +4332,6 @@ EndChar
 StartChar: uniFB02
 Encoding: 64258 64258 110
 Width: 1660
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4441,7 +4396,6 @@ EndChar
 StartChar: uniFB03
 Encoding: 64259 64259 111
 Width: 2430
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4531,7 +4485,6 @@ EndChar
 StartChar: uniFB04
 Encoding: 64260 64260 112
 Width: 2460
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4694,7 +4647,6 @@ EndChar
 StartChar: one.oldstyle
 Encoding: 65538 -1 115
 Width: 1070
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4728,7 +4680,6 @@ EndChar
 StartChar: two.oldstyle
 Encoding: 65539 -1 116
 Width: 1313
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4765,7 +4716,6 @@ EndChar
 StartChar: three.oldstyle
 Encoding: 65540 -1 117
 Width: 1235
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4800,7 +4750,6 @@ EndChar
 StartChar: four.oldstyle
 Encoding: 65541 -1 118
 Width: 1310
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4852,7 +4801,6 @@ EndChar
 StartChar: five.oldstyle
 Encoding: 65542 -1 119
 Width: 1300
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4892,7 +4840,6 @@ EndChar
 StartChar: seven.oldstyle
 Encoding: 65543 -1 120
 Width: 1303
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4925,7 +4872,6 @@ EndChar
 StartChar: nine.oldstyle
 Encoding: 65544 -1 121
 Width: 1330
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -4974,7 +4920,6 @@ EndChar
 StartChar: one.oldtab
 Encoding: 65546 -1 123
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5007,7 +4952,6 @@ EndChar
 StartChar: two.oldtab
 Encoding: 65547 -1 124
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5043,7 +4987,6 @@ EndChar
 StartChar: three.oldtab
 Encoding: 65548 -1 125
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5077,7 +5020,6 @@ EndChar
 StartChar: four.oldtab
 Encoding: 65549 -1 126
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5128,7 +5070,6 @@ EndChar
 StartChar: five.oldtab
 Encoding: 65550 -1 127
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5167,7 +5108,6 @@ EndChar
 StartChar: seven.oldtab
 Encoding: 65551 -1 128
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5199,7 +5139,6 @@ EndChar
 StartChar: nine.oldtab
 Encoding: 65552 -1 129
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5247,7 +5186,6 @@ EndChar
 StartChar: uniFF11
 Encoding: 65297 65297 131
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 Refer: 3 49 N 1 0 0 1 100 0 2
@@ -5256,7 +5194,6 @@ EndChar
 StartChar: uniFF12
 Encoding: 65298 65298 132
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 Refer: 4 50 N 1 0 0 1 -12 0 2
@@ -5265,7 +5202,6 @@ EndChar
 StartChar: uniFF13
 Encoding: 65299 65299 133
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 Refer: 5 51 N 1 0 0 1 82 0 2
@@ -5274,7 +5210,6 @@ EndChar
 StartChar: uniFF14
 Encoding: 65300 65300 134
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 Refer: 6 52 N 1 0 0 1 45 0 2
@@ -5283,7 +5218,6 @@ EndChar
 StartChar: uniFF15
 Encoding: 65301 65301 135
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 Refer: 7 53 N 1 0 0 1 50 0 2
@@ -5292,7 +5226,6 @@ EndChar
 StartChar: uniFF16
 Encoding: 65302 65302 136
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 Refer: 8 54 N 1 0 0 1 35 0 2
@@ -5301,7 +5234,6 @@ EndChar
 StartChar: uniFF17
 Encoding: 65303 65303 137
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 Refer: 9 55 N 1 0 0 1 38 0 2
@@ -5310,7 +5242,6 @@ EndChar
 StartChar: uniFF18
 Encoding: 65304 65304 138
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 Refer: 10 56 N 1 0 0 1 55 0 2
@@ -5319,7 +5250,6 @@ EndChar
 StartChar: uniFF19
 Encoding: 65305 65305 139
 Width: 1400
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5348,84 +5278,72 @@ EndChar
 StartChar: uni2000
 Encoding: 8192 8192 140
 Width: 1000
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2001
 Encoding: 8193 8193 141
 Width: 2000
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2002
 Encoding: 8194 8194 142
 Width: 1000
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 143
 Width: 2000
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 144
 Width: 666
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 145
 Width: 500
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 146
 Width: 333
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2007
 Encoding: 8199 8199 147
 Width: 1160
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2008
 Encoding: 8200 8200 148
 Width: 399
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 149
 Width: 333
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 150
 Width: 200
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni200B
 Encoding: 8203 8203 151
 Width: 0
-VWidth: 0
 Flags: MW
 EndChar
 
@@ -5549,21 +5467,18 @@ EndChar
 StartChar: uni0000
 Encoding: 0 0 156
 Width: 600
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni000D
 Encoding: 13 13 157
 Width: 600
-VWidth: 0
 Flags: MW
 EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 158
 Width: 600
-VWidth: 0
 Flags: MW
 EndChar
 
@@ -5594,7 +5509,6 @@ EndChar
 StartChar: cent
 Encoding: 162 162 160
 Width: 1250
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5614,7 +5528,6 @@ EndChar
 StartChar: sterling
 Encoding: 163 163 161
 Width: 1415
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5771,7 +5684,6 @@ EndChar
 StartChar: section
 Encoding: 167 167 167
 Width: 1188
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5807,7 +5719,6 @@ EndChar
 StartChar: uni00B2
 Encoding: 178 178 168
 Width: 859
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5843,7 +5754,6 @@ EndChar
 StartChar: uni00B3
 Encoding: 179 179 169
 Width: 776
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5877,7 +5787,6 @@ EndChar
 StartChar: ordfeminine
 Encoding: 170 170 170
 Width: 907
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5918,7 +5827,6 @@ EndChar
 StartChar: uni00B9
 Encoding: 185 185 171
 Width: 740
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -5951,7 +5859,6 @@ EndChar
 StartChar: ordmasculine
 Encoding: 186 186 172
 Width: 798
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -6642,7 +6549,6 @@ EndChar
 StartChar: Odieresis
 Encoding: 214 214 205
 Width: 1820
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 410 -30 2
@@ -6835,7 +6741,6 @@ EndChar
 StartChar: Ccedilla
 Encoding: 199 199 215
 Width: 1702
-VWidth: 0
 Flags: M
 Fore
 Refer: 213 184 N 1 0 0 1 395 -33 2
@@ -6846,7 +6751,6 @@ EndChar
 StartChar: Agrave
 Encoding: 192 192 216
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 393 0 2
@@ -6857,7 +6761,6 @@ EndChar
 StartChar: Aacute
 Encoding: 193 193 217
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 535 0 2
@@ -6868,7 +6771,6 @@ EndChar
 StartChar: Acircumflex
 Encoding: 194 194 218
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 465 0 2
@@ -6879,7 +6781,6 @@ EndChar
 StartChar: Atilde
 Encoding: 195 195 219
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 210 732 N 1 0 0 1 468 0 2
@@ -6890,7 +6791,6 @@ EndChar
 StartChar: Adieresis
 Encoding: 196 196 220
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 463 0 2
@@ -6901,7 +6801,6 @@ EndChar
 StartChar: Aring
 Encoding: 197 197 221
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 208 730 N 1 0 0 1 464 -190 2
@@ -6912,7 +6811,6 @@ EndChar
 StartChar: Egrave
 Encoding: 200 200 222
 Width: 1679
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 273 0 2
@@ -6923,7 +6821,6 @@ EndChar
 StartChar: Eacute
 Encoding: 201 201 223
 Width: 1679
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 415 0 2
@@ -6934,7 +6831,6 @@ EndChar
 StartChar: Ecircumflex
 Encoding: 202 202 224
 Width: 1679
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 345 0 2
@@ -6945,7 +6841,6 @@ EndChar
 StartChar: Edieresis
 Encoding: 203 203 225
 Width: 1679
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 343 0 2
@@ -6956,7 +6851,6 @@ EndChar
 StartChar: Igrave
 Encoding: 204 204 226
 Width: 1120
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 -24 0 2
@@ -6967,7 +6861,6 @@ EndChar
 StartChar: Iacute
 Encoding: 205 205 227
 Width: 1120
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 118 0 2
@@ -6978,7 +6871,6 @@ EndChar
 StartChar: Icircumflex
 Encoding: 206 206 228
 Width: 1120
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 48 0 2
@@ -6989,7 +6881,6 @@ EndChar
 StartChar: Idieresis
 Encoding: 207 207 229
 Width: 1120
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 46 0 2
@@ -7000,7 +6891,6 @@ EndChar
 StartChar: Ntilde
 Encoding: 209 209 230
 Width: 1910
-VWidth: 0
 Flags: M
 Fore
 Refer: 210 732 N 1 0 0 1 450 0 2
@@ -7011,7 +6901,6 @@ EndChar
 StartChar: Ograve
 Encoding: 210 210 231
 Width: 1820
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 335 0 2
@@ -7022,7 +6911,6 @@ EndChar
 StartChar: Oacute
 Encoding: 211 211 232
 Width: 1820
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 477 0 2
@@ -7033,7 +6921,6 @@ EndChar
 StartChar: Ocircumflex
 Encoding: 212 212 233
 Width: 1820
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 407 0 2
@@ -7044,7 +6931,6 @@ EndChar
 StartChar: Otilde
 Encoding: 213 213 234
 Width: 1820
-VWidth: 0
 Flags: M
 Fore
 Refer: 210 732 N 1 0 0 1 440 0 2
@@ -7089,7 +6975,6 @@ EndChar
 StartChar: Ugrave
 Encoding: 217 217 236
 Width: 1870
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 425 0 2
@@ -7100,7 +6985,6 @@ EndChar
 StartChar: Uacute
 Encoding: 218 218 237
 Width: 1870
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 567 0 2
@@ -7111,7 +6995,6 @@ EndChar
 StartChar: Ucircumflex
 Encoding: 219 219 238
 Width: 1870
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 497 0 2
@@ -7122,7 +7005,6 @@ EndChar
 StartChar: Udieresis
 Encoding: 220 220 239
 Width: 1870
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 495 0 2
@@ -7133,7 +7015,6 @@ EndChar
 StartChar: Yacute
 Encoding: 221 221 240
 Width: 1770
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 557 0 2
@@ -7144,7 +7025,6 @@ EndChar
 StartChar: germandbls
 Encoding: 223 223 241
 Width: 1753
-VWidth: 2309
 Flags: MW
 Fore
 SplineSet
@@ -7270,7 +7150,6 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 244
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 188 768 N 1 0 0 1 101 -460 2
@@ -7281,7 +7160,6 @@ EndChar
 StartChar: aacute
 Encoding: 225 225 245
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 189 769 N 1 0 0 1 243 -460 2
@@ -7292,7 +7170,6 @@ EndChar
 StartChar: acircumflex
 Encoding: 226 226 246
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 190 770 N 1 0 0 1 173 -460 2
@@ -7303,7 +7180,6 @@ EndChar
 StartChar: atilde
 Encoding: 227 227 247
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 210 732 N 1 0 0 1 206 -460 2
@@ -7314,7 +7190,6 @@ EndChar
 StartChar: adieresis
 Encoding: 228 228 248
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 212 168 N 1 0 0 1 171 -460 2
@@ -7325,7 +7200,6 @@ EndChar
 StartChar: aring
 Encoding: 229 229 249
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 208 730 N 1 0 0 1 172 -460 2
@@ -7336,7 +7210,6 @@ EndChar
 StartChar: ae
 Encoding: 230 230 250
 Width: 1921
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -7406,7 +7279,6 @@ EndChar
 StartChar: ccedilla
 Encoding: 231 231 252
 Width: 1268
-VWidth: 0
 Flags: MW
 Fore
 Refer: 213 184 N 1 0 0 1 121 -33 2
@@ -7417,7 +7289,6 @@ EndChar
 StartChar: egrave
 Encoding: 232 232 253
 Width: 1253
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 84 -460 2
@@ -7428,7 +7299,6 @@ EndChar
 StartChar: eacute
 Encoding: 233 233 254
 Width: 1253
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 226 -460 2
@@ -7439,7 +7309,6 @@ EndChar
 StartChar: ecircumflex
 Encoding: 234 234 255
 Width: 1253
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 156 -460 2
@@ -7450,7 +7319,6 @@ EndChar
 StartChar: edieresis
 Encoding: 235 235 256
 Width: 1253
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 154 -460 2
@@ -7461,7 +7329,6 @@ EndChar
 StartChar: dotlessi
 Encoding: 305 305 257
 Width: 865
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 439 1040 basechar 0
 AnchorPoint: "Anchor-1" 437 0 basechar 0
@@ -7514,7 +7381,6 @@ EndChar
 StartChar: yacute
 Encoding: 253 253 259
 Width: 1430
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 245 -460 2
@@ -7525,7 +7391,6 @@ EndChar
 StartChar: thorn
 Encoding: 254 254 260
 Width: 1471
-VWidth: 2310
 Flags: MW
 AnchorPoint: "Anchor-0" 888 1040 basechar 0
 AnchorPoint: "Anchor-1" 927 0 basechar 0
@@ -7571,7 +7436,6 @@ EndChar
 StartChar: igrave
 Encoding: 236 236 261
 Width: 865
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 -132 -460 2
@@ -7582,7 +7446,6 @@ EndChar
 StartChar: iacute
 Encoding: 237 237 262
 Width: 865
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 10 -460 2
@@ -7593,7 +7456,6 @@ EndChar
 StartChar: icircumflex
 Encoding: 238 238 263
 Width: 865
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 -60 -460 2
@@ -7604,7 +7466,6 @@ EndChar
 StartChar: idieresis
 Encoding: 239 239 264
 Width: 865
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 -62 -460 2
@@ -7615,7 +7476,6 @@ EndChar
 StartChar: ntilde
 Encoding: 241 241 265
 Width: 1555
-VWidth: 0
 Flags: M
 Fore
 Refer: 210 732 N 1 0 0 1 335 -460 2
@@ -7626,7 +7486,6 @@ EndChar
 StartChar: ograve
 Encoding: 242 242 266
 Width: 1296
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 77 -460 2
@@ -7637,7 +7496,6 @@ EndChar
 StartChar: oacute
 Encoding: 243 243 267
 Width: 1296
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 219 -460 2
@@ -7648,7 +7506,6 @@ EndChar
 StartChar: ocircumflex
 Encoding: 244 244 268
 Width: 1296
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 149 -460 2
@@ -7659,7 +7516,6 @@ EndChar
 StartChar: otilde
 Encoding: 245 245 269
 Width: 1296
-VWidth: 0
 Flags: M
 Fore
 Refer: 210 732 N 1 0 0 1 182 -460 2
@@ -7670,7 +7526,6 @@ EndChar
 StartChar: odieresis
 Encoding: 246 246 270
 Width: 1296
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 147 -460 2
@@ -7681,7 +7536,6 @@ EndChar
 StartChar: eth
 Encoding: 240 240 271
 Width: 1340
-VWidth: 2310
 Flags: MW
 Fore
 SplineSet
@@ -7745,7 +7599,6 @@ EndChar
 StartChar: oslash
 Encoding: 248 248 273
 Width: 1296
-VWidth: 0
 Flags: MW
 Fore
 SplineSet
@@ -7765,7 +7618,6 @@ EndChar
 StartChar: ugrave
 Encoding: 249 249 274
 Width: 1545
-VWidth: 0
 Flags: M
 Fore
 Refer: 188 768 N 1 0 0 1 169 -460 2
@@ -7776,7 +7628,6 @@ EndChar
 StartChar: uacute
 Encoding: 250 250 275
 Width: 1545
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 311 -460 2
@@ -7787,7 +7638,6 @@ EndChar
 StartChar: ucircumflex
 Encoding: 251 251 276
 Width: 1545
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 241 -460 2
@@ -7798,7 +7648,6 @@ EndChar
 StartChar: udieresis
 Encoding: 252 252 277
 Width: 1545
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 239 -460 2
@@ -7809,7 +7658,6 @@ EndChar
 StartChar: ydieresis
 Encoding: 255 255 278
 Width: 1430
-VWidth: 0
 Flags: M
 Fore
 Refer: 212 168 N 1 0 0 1 253 -460 2
@@ -7820,7 +7668,6 @@ EndChar
 StartChar: Amacron
 Encoding: 256 256 279
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 192 772 N 1 0 0 1 464 0 2
@@ -7831,7 +7678,6 @@ EndChar
 StartChar: amacron
 Encoding: 257 257 280
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 192 772 N 1 0 0 1 172 -460 2
@@ -7842,7 +7688,6 @@ EndChar
 StartChar: Abreve
 Encoding: 258 258 281
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 206 728 N 1 0 0 1 465 0 2
@@ -7853,7 +7698,6 @@ EndChar
 StartChar: abreve
 Encoding: 259 259 282
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 206 728 N 1 0 0 1 173 -460 2
@@ -7864,7 +7708,6 @@ EndChar
 StartChar: Aogonek
 Encoding: 260 260 283
 Width: 1900
-VWidth: 0
 Flags: M
 Fore
 Refer: 209 731 N 1 0 0 1 975 -47 2
@@ -7875,7 +7718,6 @@ EndChar
 StartChar: aogonek
 Encoding: 261 261 284
 Width: 1344
-VWidth: 0
 Flags: MW
 Fore
 Refer: 209 731 N 1 0 0 1 694 43 2
@@ -7886,7 +7728,6 @@ EndChar
 StartChar: Cacute
 Encoding: 262 262 285
 Width: 1702
-VWidth: 0
 Flags: M
 Fore
 Refer: 189 769 N 1 0 0 1 487 0 2
@@ -7897,7 +7738,6 @@ EndChar
 StartChar: cacute
 Encoding: 263 263 286
 Width: 1268
-VWidth: 0
 Flags: MW
 Fore
 Refer: 189 769 N 1 0 0 1 252 -460 2
@@ -7908,7 +7748,6 @@ EndChar
 StartChar: Ccircumflex
 Encoding: 264 264 287
 Width: 1702
-VWidth: 0
 Flags: M
 Fore
 Refer: 190 770 N 1 0 0 1 417 0 2
@@ -7919,7 +7758,6 @@ EndChar
 StartChar: ccircumflex
 Encoding: 265 265 288
 Width: 1268
-VWidth: 0
 Flags: MW
 Fore
 Refer: 190 770 N 1 0 0 1 182 -460 2
@@ -7930,7 +7768,6 @@ EndChar
 StartChar: Cdotaccent
 Encoding: 266 266 289
 Width: 1702
-VWidth: 0
 Flags: M
 Fore
 Refer: 207 729 N 1 0 0 1 419 460 2
@@ -7941,7 +7778,6 @@ EndChar
 StartChar: cdotaccent
 Encoding: 267 267 290
 Width: 1268
-VWidth: 0
 Flags: MW
 Fore
 Refer: 207 729 N 1 0 0 1 184 0 2
@@ -7952,7 +7788,6 @@ EndChar
 StartChar: Ccaron
 Encoding: 268 268 291
 Width: 1702
-VWidth: 0
 Flags: M
 Fore
 Refer: 198 780 N 1 0 0 1 417 0 2
@@ -7963,7 +7798,6 @@ EndChar
 StartChar: ccaron
 Encoding: 269 269 292
 Width: 1268
-VWidth: 0
 Flags: MW
 Fore
 Refer: 198 780 N 1 0 0 1 182 -460 2
@@ -7974,7 +7808,6 @@ EndChar
 StartChar: Dcaron
 Encoding: 270 270 293
 Width: 1840
-VWidth: 0
 Flags: M
 Fore
 Refer: 198 780 N 1 0 0 1 435 0 2
@@ -7985,7 +7818,6 @@ EndChar
 StartChar: dcaron
 Encoding: 271 271 294
 Width: 1934
-VWidth: 0
 Flags: MW
 Fore
 Refer: 65 44 N 1 0 0 1 1301 1344 2
@@ -7996,7 +7828,6 @@ EndChar
 StartChar: Emacron
 Encoding: 274 274 295
 Width: 1679
-VWidth: 0
 Fore
 Refer: 192 772 N 1 0 0 1 344 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
@@ -8006,7 +7837,6 @@ EndChar
 StartChar: emacron
 Encoding: 275 275 296
 Width: 1253
-VWidth: 0
 Fore
 Refer: 192 772 N 1 0 0 1 155 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
@@ -8016,7 +7846,6 @@ EndChar
 StartChar: Ebreve
 Encoding: 276 276 297
 Width: 1679
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 345 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
@@ -8026,7 +7855,6 @@ EndChar
 StartChar: ebreve
 Encoding: 277 277 298
 Width: 1253
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 156 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
@@ -8036,7 +7864,6 @@ EndChar
 StartChar: Edotaccent
 Encoding: 278 278 299
 Width: 1679
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 347 460 2
 Refer: 16 69 N 1 0 0 1 0 0 3
@@ -8046,7 +7873,6 @@ EndChar
 StartChar: edotaccent
 Encoding: 279 279 300
 Width: 1253
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 158 0 2
 Refer: 42 101 N 1 0 0 1 0 0 3
@@ -8056,7 +7882,6 @@ EndChar
 StartChar: Eogonek
 Encoding: 280 280 301
 Width: 1679
-VWidth: 0
 Fore
 Refer: 209 731 N 1 0 0 1 915 3 2
 Refer: 16 69 N 1 0 0 1 0 0 3
@@ -8066,7 +7891,6 @@ EndChar
 StartChar: eogonek
 Encoding: 281 281 302
 Width: 1253
-VWidth: 0
 Fore
 Refer: 209 731 N 1 0 0 1 407 55 2
 Refer: 42 101 N 1 0 0 1 0 0 3
@@ -8076,7 +7900,6 @@ EndChar
 StartChar: Ecaron
 Encoding: 282 282 303
 Width: 1679
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 345 0 2
 Refer: 16 69 N 1 0 0 1 0 0 3
@@ -8105,7 +7928,6 @@ EndChar
 StartChar: dcroat
 Encoding: 273 273 305
 Width: 1473
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -8125,7 +7947,6 @@ EndChar
 StartChar: ecaron
 Encoding: 283 283 306
 Width: 1253
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 156 -460 2
 Refer: 42 101 N 1 0 0 1 0 0 3
@@ -8135,7 +7956,6 @@ EndChar
 StartChar: Gcircumflex
 Encoding: 284 284 307
 Width: 1890
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 417 0 2
 Refer: 18 71 N 1 0 0 1 0 0 3
@@ -8145,7 +7965,6 @@ EndChar
 StartChar: gcircumflex
 Encoding: 285 285 308
 Width: 1379
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 203 -460 2
 Refer: 44 103 N 1 0 0 1 0 0 3
@@ -8155,7 +7974,6 @@ EndChar
 StartChar: Gbreve
 Encoding: 286 286 309
 Width: 1890
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 417 0 2
 Refer: 18 71 N 1 0 0 1 0 0 3
@@ -8165,7 +7983,6 @@ EndChar
 StartChar: gbreve
 Encoding: 287 287 310
 Width: 1379
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 203 -460 2
 Refer: 44 103 N 1 0 0 1 0 0 3
@@ -8175,7 +7992,6 @@ EndChar
 StartChar: Gdotaccent
 Encoding: 288 288 311
 Width: 1890
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 419 460 2
 Refer: 18 71 N 1 0 0 1 0 0 3
@@ -8185,7 +8001,6 @@ EndChar
 StartChar: gdotaccent
 Encoding: 289 289 312
 Width: 1379
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 205 0 2
 Refer: 44 103 N 1 0 0 1 0 0 3
@@ -8195,7 +8010,6 @@ EndChar
 StartChar: uni0122
 Encoding: 290 290 313
 Width: 1890
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 391 0 2
 Refer: 18 71 N 1 0 0 1 0 0 3
@@ -8205,7 +8019,6 @@ EndChar
 StartChar: uni0123
 Encoding: 291 291 314
 Width: 1379
-VWidth: 0
 Fore
 Refer: 200 786 N 1 0 0 1 205 120 2
 Refer: 44 103 N 1 0 0 1 0 0 3
@@ -8215,7 +8028,6 @@ EndChar
 StartChar: Hcircumflex
 Encoding: 292 292 315
 Width: 2020
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 512 0 2
 Refer: 19 72 N 1 0 0 1 0 0 3
@@ -8225,7 +8037,6 @@ EndChar
 StartChar: hcircumflex
 Encoding: 293 293 316
 Width: 1505
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 569 -461 2
 Refer: 45 104 N 1 0 0 1 0 0 3
@@ -8254,7 +8065,6 @@ EndChar
 StartChar: hbar
 Encoding: 295 295 318
 Width: 1315
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -8274,7 +8084,6 @@ EndChar
 StartChar: Itilde
 Encoding: 296 296 319
 Width: 1120
-VWidth: 0
 Fore
 Refer: 210 732 N 1 0 0 1 81 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
@@ -8284,7 +8093,6 @@ EndChar
 StartChar: itilde
 Encoding: 297 297 320
 Width: 865
-VWidth: 0
 Fore
 Refer: 210 732 N 1 0 0 1 -27 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
@@ -8294,7 +8102,6 @@ EndChar
 StartChar: Imacron
 Encoding: 298 298 321
 Width: 1120
-VWidth: 0
 Fore
 Refer: 192 772 N 1 0 0 1 47 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
@@ -8304,7 +8111,6 @@ EndChar
 StartChar: imacron
 Encoding: 299 299 322
 Width: 865
-VWidth: 0
 Fore
 Refer: 192 772 N 1 0 0 1 -61 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
@@ -8314,7 +8120,6 @@ EndChar
 StartChar: Ibreve
 Encoding: 300 300 323
 Width: 1120
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 48 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
@@ -8324,7 +8129,6 @@ EndChar
 StartChar: ibreve
 Encoding: 301 301 324
 Width: 865
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 -60 -460 2
 Refer: 257 305 N 1 0 0 1 0 0 3
@@ -8334,7 +8138,6 @@ EndChar
 StartChar: Iogonek
 Encoding: 302 302 325
 Width: 1120
-VWidth: 0
 Fore
 Refer: 209 731 N 1 0 0 1 32 -47 2
 Refer: 20 73 N 1 0 0 1 0 0 3
@@ -8344,7 +8147,6 @@ EndChar
 StartChar: iogonek
 Encoding: 303 303 326
 Width: 865
-VWidth: 0
 Fore
 Refer: 209 731 N 1 0 0 1 -104 -87 2
 Refer: 46 105 N 1 0 0 1 0 0 3
@@ -8354,7 +8156,6 @@ EndChar
 StartChar: Idotaccent
 Encoding: 304 304 327
 Width: 1120
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 50 460 2
 Refer: 20 73 N 1 0 0 1 0 0 3
@@ -8373,7 +8174,6 @@ EndChar
 StartChar: ij
 Encoding: 307 307 329
 Width: 1680
-VWidth: 2310
 Flags: W
 Fore
 Refer: 46 105 N 1 0 0 1 0 0 2
@@ -8383,7 +8183,6 @@ EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 330
 Width: 1432
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 337 0 2
 Refer: 21 74 N 1 0 0 1 0 0 3
@@ -8393,7 +8192,6 @@ EndChar
 StartChar: jcircumflex
 Encoding: 309 309 331
 Width: 800
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 -77 -460 2
 Refer: 332 567 N 1 0 0 1 0 0 3
@@ -8403,7 +8201,6 @@ EndChar
 StartChar: uni0237
 Encoding: 567 567 332
 Width: 800
-VWidth: 2310
 Flags: W
 AnchorPoint: "Anchor-0" 422 1040 basechar 0
 AnchorPoint: "Anchor-1" 142 -565 basechar 0
@@ -8433,7 +8230,6 @@ EndChar
 StartChar: uni0136
 Encoding: 310 310 333
 Width: 1940
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 504 0 2
 Refer: 22 75 N 1 0 0 1 0 0 3
@@ -8443,7 +8239,6 @@ EndChar
 StartChar: uni0137
 Encoding: 311 311 334
 Width: 1567
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 280 0 2
 Refer: 48 107 N 1 0 0 1 0 0 3
@@ -8453,7 +8248,6 @@ EndChar
 StartChar: kgreenlandic
 Encoding: 312 312 335
 Width: 1567
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -8514,7 +8308,6 @@ EndChar
 StartChar: Lacute
 Encoding: 313 313 336
 Width: 1560
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 15 0 2
 Refer: 23 76 N 1 0 0 1 0 0 3
@@ -8524,7 +8317,6 @@ EndChar
 StartChar: lacute
 Encoding: 314 314 337
 Width: 870
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 4 196 2
 Refer: 49 108 N 1 0 0 1 0 0 3
@@ -8534,7 +8326,6 @@ EndChar
 StartChar: uni013B
 Encoding: 315 315 338
 Width: 1560
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 290 0 2
 Refer: 23 76 N 1 0 0 1 0 0 3
@@ -8544,7 +8335,6 @@ EndChar
 StartChar: uni013C
 Encoding: 316 316 339
 Width: 870
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 -56 0 2
 Refer: 49 108 N 1 0 0 1 0 0 3
@@ -8554,7 +8344,6 @@ EndChar
 StartChar: Lcaron
 Encoding: 317 317 340
 Width: 1683
-VWidth: 0
 Flags: W
 Fore
 Refer: 65 44 N 1 0 0 1 1000 1304 2
@@ -8565,7 +8354,6 @@ EndChar
 StartChar: lcaron
 Encoding: 318 318 341
 Width: 1302
-VWidth: 0
 Flags: W
 Fore
 Refer: 65 44 N 1 0 0 1 669 1344 2
@@ -8585,7 +8373,6 @@ EndChar
 StartChar: ldot
 Encoding: 320 320 343
 Width: 1244
-VWidth: 0
 Flags: W
 Fore
 Refer: 1 46 N 1 0 0 1 674 750 2
@@ -8614,7 +8401,6 @@ EndChar
 StartChar: lslash
 Encoding: 322 322 345
 Width: 870
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -8634,7 +8420,6 @@ EndChar
 StartChar: Nacute
 Encoding: 323 323 346
 Width: 1910
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 517 0 2
 Refer: 25 78 N 1 0 0 1 0 0 3
@@ -8644,7 +8429,6 @@ EndChar
 StartChar: nacute
 Encoding: 324 324 347
 Width: 1555
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 372 -460 2
 Refer: 51 110 N 1 0 0 1 0 0 3
@@ -8654,7 +8438,6 @@ EndChar
 StartChar: uni0145
 Encoding: 325 325 348
 Width: 1910
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 410 0 2
 Refer: 25 78 N 1 0 0 1 0 0 3
@@ -8664,7 +8447,6 @@ EndChar
 StartChar: uni0146
 Encoding: 326 326 349
 Width: 1555
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 294 0 2
 Refer: 51 110 N 1 0 0 1 0 0 3
@@ -8674,7 +8456,6 @@ EndChar
 StartChar: Ncaron
 Encoding: 327 327 350
 Width: 1910
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 447 0 2
 Refer: 25 78 N 1 0 0 1 0 0 3
@@ -8684,7 +8465,6 @@ EndChar
 StartChar: ncaron
 Encoding: 328 328 351
 Width: 1555
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 302 -460 2
 Refer: 51 110 N 1 0 0 1 0 0 3
@@ -8694,7 +8474,6 @@ EndChar
 StartChar: napostrophe
 Encoding: 329 329 352
 Width: 2121
-VWidth: 2309
 Flags: W
 Fore
 Refer: 51 110 N 1 0 0 1 566 0 2
@@ -8704,7 +8483,6 @@ EndChar
 StartChar: eng
 Encoding: 331 331 353
 Width: 1555
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -8750,7 +8528,6 @@ EndChar
 StartChar: Eng
 Encoding: 330 330 354
 Width: 1889
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -8796,7 +8573,6 @@ EndChar
 StartChar: Omacron
 Encoding: 332 332 355
 Width: 1820
-VWidth: 0
 Fore
 Refer: 192 772 N 1 0 0 1 406 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
@@ -8806,7 +8582,6 @@ EndChar
 StartChar: omacron
 Encoding: 333 333 356
 Width: 1296
-VWidth: 0
 Fore
 Refer: 192 772 N 1 0 0 1 148 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
@@ -8816,7 +8591,6 @@ EndChar
 StartChar: Obreve
 Encoding: 334 334 357
 Width: 1820
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 407 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
@@ -8826,7 +8600,6 @@ EndChar
 StartChar: obreve
 Encoding: 335 335 358
 Width: 1296
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 149 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
@@ -8836,7 +8609,6 @@ EndChar
 StartChar: Ohungarumlaut
 Encoding: 336 336 359
 Width: 1820
-VWidth: 0
 Fore
 Refer: 211 733 N 1 0 0 1 482 0 2
 Refer: 26 79 N 1 0 0 1 0 0 3
@@ -8846,7 +8618,6 @@ EndChar
 StartChar: ohungarumlaut
 Encoding: 337 337 360
 Width: 1296
-VWidth: 0
 Fore
 Refer: 211 733 N 1 0 0 1 224 -460 2
 Refer: 52 111 N 1 0 0 1 0 0 3
@@ -8877,7 +8648,6 @@ EndChar
 StartChar: oe
 Encoding: 339 339 362
 Width: 2054
-VWidth: 2309
 Flags: W
 Fore
 Refer: 52 111 N 1 0 0 1 0 0 2
@@ -8887,7 +8657,6 @@ EndChar
 StartChar: Racute
 Encoding: 340 340 363
 Width: 1901
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 397 0 2
 Refer: 29 82 N 1 0 0 1 0 0 3
@@ -8897,7 +8666,6 @@ EndChar
 StartChar: racute
 Encoding: 341 341 364
 Width: 1316
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 216 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
@@ -8907,7 +8675,6 @@ EndChar
 StartChar: uni0156
 Encoding: 342 342 365
 Width: 1901
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 420 0 2
 Refer: 29 82 N 1 0 0 1 0 0 3
@@ -8917,7 +8684,6 @@ EndChar
 StartChar: uni0157
 Encoding: 343 343 366
 Width: 1316
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 -69 0 2
 Refer: 55 114 N 1 0 0 1 0 0 3
@@ -8927,7 +8693,6 @@ EndChar
 StartChar: Rcaron
 Encoding: 344 344 367
 Width: 1901
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 327 0 2
 Refer: 29 82 N 1 0 0 1 0 0 3
@@ -8937,7 +8702,6 @@ EndChar
 StartChar: rcaron
 Encoding: 345 345 368
 Width: 1316
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 146 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
@@ -8947,7 +8711,6 @@ EndChar
 StartChar: Sacute
 Encoding: 346 346 369
 Width: 1480
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 367 0 2
 Refer: 30 83 N 1 0 0 1 0 0 3
@@ -8957,7 +8720,6 @@ EndChar
 StartChar: sacute
 Encoding: 347 347 370
 Width: 1160
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 171 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
@@ -8967,7 +8729,6 @@ EndChar
 StartChar: Scircumflex
 Encoding: 348 348 371
 Width: 1480
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 297 0 2
 Refer: 30 83 N 1 0 0 1 0 0 3
@@ -8977,7 +8738,6 @@ EndChar
 StartChar: scircumflex
 Encoding: 349 349 372
 Width: 1160
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 101 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
@@ -8987,7 +8747,6 @@ EndChar
 StartChar: Scedilla
 Encoding: 350 350 373
 Width: 1480
-VWidth: 0
 Fore
 Refer: 213 184 N 1 0 0 1 275 -33 2
 Refer: 30 83 N 1 0 0 1 0 0 3
@@ -8997,7 +8756,6 @@ EndChar
 StartChar: scedilla
 Encoding: 351 351 374
 Width: 1160
-VWidth: 0
 Fore
 Refer: 213 184 N 1 0 0 1 111 -37 2
 Refer: 56 115 N 1 0 0 1 0 0 3
@@ -9007,7 +8765,6 @@ EndChar
 StartChar: Scaron
 Encoding: 352 352 375
 Width: 1480
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 297 0 2
 Refer: 30 83 N 1 0 0 1 0 0 3
@@ -9017,7 +8774,6 @@ EndChar
 StartChar: scaron
 Encoding: 353 353 376
 Width: 1160
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 101 -460 2
 Refer: 56 115 N 1 0 0 1 0 0 3
@@ -9027,7 +8783,6 @@ EndChar
 StartChar: uni0162
 Encoding: 354 354 377
 Width: 1620
-VWidth: 0
 Fore
 Refer: 213 184 N 1 0 0 1 284 7 2
 Refer: 31 84 N 1 0 0 1 0 0 3
@@ -9037,7 +8792,6 @@ EndChar
 StartChar: uni0163
 Encoding: 355 355 378
 Width: 968
-VWidth: 0
 Fore
 Refer: 213 184 N 1 0 0 1 6 -27 2
 Refer: 57 116 N 1 0 0 1 0 0 3
@@ -9047,7 +8801,6 @@ EndChar
 StartChar: Tcaron
 Encoding: 356 356 379
 Width: 1620
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 306 0 2
 Refer: 31 84 N 1 0 0 1 0 0 3
@@ -9057,7 +8810,6 @@ EndChar
 StartChar: tcaron
 Encoding: 357 357 380
 Width: 1533
-VWidth: 0
 Flags: W
 Fore
 Refer: 65 44 N 1 0 0 1 860 1082 2
@@ -9087,7 +8839,6 @@ EndChar
 StartChar: tbar
 Encoding: 359 359 382
 Width: 966
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -9107,7 +8858,6 @@ EndChar
 StartChar: Utilde
 Encoding: 360 360 383
 Width: 1870
-VWidth: 0
 Fore
 Refer: 210 732 N 1 0 0 1 530 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
@@ -9117,7 +8867,6 @@ EndChar
 StartChar: utilde
 Encoding: 361 361 384
 Width: 1545
-VWidth: 0
 Fore
 Refer: 210 732 N 1 0 0 1 274 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
@@ -9127,7 +8876,6 @@ EndChar
 StartChar: Umacron
 Encoding: 362 362 385
 Width: 1870
-VWidth: 0
 Fore
 Refer: 192 772 N 1 0 0 1 496 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
@@ -9137,7 +8885,6 @@ EndChar
 StartChar: umacron
 Encoding: 363 363 386
 Width: 1545
-VWidth: 0
 Fore
 Refer: 192 772 N 1 0 0 1 240 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
@@ -9147,7 +8894,6 @@ EndChar
 StartChar: Ubreve
 Encoding: 364 364 387
 Width: 1870
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 497 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
@@ -9157,7 +8903,6 @@ EndChar
 StartChar: ubreve
 Encoding: 365 365 388
 Width: 1545
-VWidth: 0
 Fore
 Refer: 206 728 N 1 0 0 1 241 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
@@ -9167,7 +8912,6 @@ EndChar
 StartChar: Uring
 Encoding: 366 366 389
 Width: 1870
-VWidth: 0
 Fore
 Refer: 208 730 N 1 0 0 1 496 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
@@ -9177,7 +8921,6 @@ EndChar
 StartChar: uring
 Encoding: 367 367 390
 Width: 1545
-VWidth: 0
 Fore
 Refer: 208 730 N 1 0 0 1 240 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
@@ -9187,7 +8930,6 @@ EndChar
 StartChar: Uhungarumlaut
 Encoding: 368 368 391
 Width: 1870
-VWidth: 0
 Fore
 Refer: 211 733 N 1 0 0 1 572 0 2
 Refer: 32 85 N 1 0 0 1 0 0 3
@@ -9197,7 +8939,6 @@ EndChar
 StartChar: uhungarumlaut
 Encoding: 369 369 392
 Width: 1545
-VWidth: 0
 Fore
 Refer: 211 733 N 1 0 0 1 316 -460 2
 Refer: 58 117 N 1 0 0 1 0 0 3
@@ -9207,7 +8948,6 @@ EndChar
 StartChar: Uogonek
 Encoding: 370 370 393
 Width: 1870
-VWidth: 0
 Fore
 Refer: 209 731 N 1 0 0 1 860 143 2
 Refer: 32 85 N 1 0 0 1 0 0 3
@@ -9217,7 +8957,6 @@ EndChar
 StartChar: uogonek
 Encoding: 371 371 394
 Width: 1545
-VWidth: 0
 Fore
 Refer: 209 731 N 1 0 0 1 711 -7 2
 Refer: 58 117 N 1 0 0 1 0 0 3
@@ -9227,7 +8966,6 @@ EndChar
 StartChar: Wcircumflex
 Encoding: 372 372 395
 Width: 2580
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 897 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
@@ -9237,7 +8975,6 @@ EndChar
 StartChar: wcircumflex
 Encoding: 373 373 396
 Width: 1890
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 518 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
@@ -9247,7 +8984,6 @@ EndChar
 StartChar: Ycircumflex
 Encoding: 374 374 397
 Width: 1770
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 487 0 2
 Refer: 36 89 N 1 0 0 1 0 0 3
@@ -9257,7 +8993,6 @@ EndChar
 StartChar: ycircumflex
 Encoding: 375 375 398
 Width: 1430
-VWidth: 0
 Fore
 Refer: 190 770 N 1 0 0 1 255 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
@@ -9267,7 +9002,6 @@ EndChar
 StartChar: Ydieresis
 Encoding: 376 376 399
 Width: 1770
-VWidth: 0
 Fore
 Refer: 212 168 N 1 0 0 1 485 0 2
 Refer: 36 89 N 1 0 0 1 0 0 3
@@ -9277,7 +9011,6 @@ EndChar
 StartChar: Zacute
 Encoding: 377 377 400
 Width: 1615
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 367 0 2
 Refer: 37 90 N 1 0 0 1 0 0 3
@@ -9287,7 +9020,6 @@ EndChar
 StartChar: zacute
 Encoding: 378 378 401
 Width: 1175
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 179 -460 2
 Refer: 63 122 N 1 0 0 1 0 0 3
@@ -9297,7 +9029,6 @@ EndChar
 StartChar: Zdotaccent
 Encoding: 379 379 402
 Width: 1615
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 299 460 2
 Refer: 37 90 N 1 0 0 1 0 0 3
@@ -9307,7 +9038,6 @@ EndChar
 StartChar: zdotaccent
 Encoding: 380 380 403
 Width: 1175
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 111 0 2
 Refer: 63 122 N 1 0 0 1 0 0 3
@@ -9317,7 +9047,6 @@ EndChar
 StartChar: Zcaron
 Encoding: 381 381 404
 Width: 1615
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 297 0 2
 Refer: 37 90 N 1 0 0 1 0 0 3
@@ -9327,7 +9056,6 @@ EndChar
 StartChar: zcaron
 Encoding: 382 382 405
 Width: 1175
-VWidth: 0
 Fore
 Refer: 198 780 N 1 0 0 1 109 -460 2
 Refer: 63 122 N 1 0 0 1 0 0 3
@@ -9337,7 +9065,6 @@ EndChar
 StartChar: longs
 Encoding: 383 383 406
 Width: 920
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -9368,7 +9095,6 @@ EndChar
 StartChar: uni0212
 Encoding: 530 530 407
 Width: 1901
-VWidth: 0
 Fore
 Refer: 199 785 N 1 0 0 1 327 0 2
 Refer: 29 82 N 1 0 0 1 0 0 3
@@ -9378,7 +9104,6 @@ EndChar
 StartChar: uni0213
 Encoding: 531 531 408
 Width: 1316
-VWidth: 0
 Fore
 Refer: 199 785 N 1 0 0 1 146 -460 2
 Refer: 55 114 N 1 0 0 1 0 0 3
@@ -9388,7 +9113,6 @@ EndChar
 StartChar: uni0218
 Encoding: 536 536 409
 Width: 1480
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 289 0 2
 Refer: 30 83 N 1 0 0 1 0 0 3
@@ -9398,7 +9122,6 @@ EndChar
 StartChar: uni0219
 Encoding: 537 537 410
 Width: 1160
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 74 0 2
 Refer: 56 115 N 1 0 0 1 0 0 3
@@ -9408,7 +9131,6 @@ EndChar
 StartChar: uni021A
 Encoding: 538 538 411
 Width: 1620
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 310 0 2
 Refer: 31 84 N 1 0 0 1 0 0 3
@@ -9418,7 +9140,6 @@ EndChar
 StartChar: uni021B
 Encoding: 539 539 412
 Width: 968
-VWidth: 0
 Fore
 Refer: 202 806 N 1 0 0 1 39 0 2
 Refer: 57 116 N 1 0 0 1 0 0 3
@@ -9493,7 +9214,6 @@ EndChar
 StartChar: Wgrave
 Encoding: 7808 7808 416
 Width: 2580
-VWidth: 0
 Fore
 Refer: 188 768 N 1 0 0 1 825 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
@@ -9503,7 +9223,6 @@ EndChar
 StartChar: wgrave
 Encoding: 7809 7809 417
 Width: 1890
-VWidth: 0
 Fore
 Refer: 188 768 N 1 0 0 1 446 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
@@ -9513,7 +9232,6 @@ EndChar
 StartChar: Wacute
 Encoding: 7810 7810 418
 Width: 2580
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 967 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
@@ -9523,7 +9241,6 @@ EndChar
 StartChar: wacute
 Encoding: 7811 7811 419
 Width: 1890
-VWidth: 0
 Fore
 Refer: 189 769 N 1 0 0 1 588 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
@@ -9533,7 +9250,6 @@ EndChar
 StartChar: Wdieresis
 Encoding: 7812 7812 420
 Width: 2580
-VWidth: 0
 Fore
 Refer: 212 168 N 1 0 0 1 895 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
@@ -9543,7 +9259,6 @@ EndChar
 StartChar: wdieresis
 Encoding: 7813 7813 421
 Width: 1890
-VWidth: 0
 Fore
 Refer: 212 168 N 1 0 0 1 516 -460 2
 Refer: 60 119 N 1 0 0 1 0 0 3
@@ -9553,7 +9268,6 @@ EndChar
 StartChar: uni1E86
 Encoding: 7814 7814 422
 Width: 2580
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 899 460 2
 Refer: 34 87 N 1 0 0 1 0 0 3
@@ -9563,7 +9277,6 @@ EndChar
 StartChar: uni1E87
 Encoding: 7815 7815 423
 Width: 1890
-VWidth: 0
 Fore
 Refer: 207 729 N 1 0 0 1 520 0 2
 Refer: 60 119 N 1 0 0 1 0 0 3
@@ -9573,7 +9286,6 @@ EndChar
 StartChar: uni1E88
 Encoding: 7816 7816 424
 Width: 2580
-VWidth: 0
 Fore
 Refer: 201 803 N 1 0 0 1 806 0 2
 Refer: 34 87 N 1 0 0 1 0 0 3
@@ -9583,7 +9295,6 @@ EndChar
 StartChar: uni1E89
 Encoding: 7817 7817 425
 Width: 1890
-VWidth: 0
 Fore
 Refer: 201 803 N 1 0 0 1 457 0 2
 Refer: 60 119 N 1 0 0 1 0 0 3
@@ -9593,7 +9304,6 @@ EndChar
 StartChar: uni1E9E
 Encoding: 7838 7838 426
 Width: 2172
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -9632,7 +9342,6 @@ EndChar
 StartChar: Ygrave
 Encoding: 7922 7922 427
 Width: 1770
-VWidth: 0
 Fore
 Refer: 188 768 N 1 0 0 1 415 0 2
 Refer: 36 89 N 1 0 0 1 0 0 3
@@ -9642,7 +9351,6 @@ EndChar
 StartChar: ygrave
 Encoding: 7923 7923 428
 Width: 1430
-VWidth: 0
 Fore
 Refer: 188 768 N 1 0 0 1 183 -460 2
 Refer: 62 121 N 1 0 0 1 0 0 3
@@ -9686,7 +9394,6 @@ EndChar
 StartChar: uni2074
 Encoding: 8308 8308 431
 Width: 860
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -9762,7 +9469,6 @@ EndChar
 StartChar: partialdiff
 Encoding: 8706 8706 433
 Width: 1330
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -9791,7 +9497,6 @@ EndChar
 StartChar: emptyset
 Encoding: 8709 8709 434
 Width: 1140
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -9952,7 +9657,6 @@ EndChar
 StartChar: infinity
 Encoding: 8734 8734 441
 Width: 1913
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -9985,7 +9689,6 @@ EndChar
 StartChar: integral
 Encoding: 8747 8747 442
 Width: 920
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -10012,7 +9715,6 @@ EndChar
 StartChar: approxequal
 Encoding: 8776 8776 443
 Width: 1200
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -10168,7 +9870,6 @@ EndChar
 StartChar: lozenge
 Encoding: 9674 9674 447
 Width: 1200
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -10381,7 +10082,6 @@ EndChar
 StartChar: pi
 Encoding: 960 960 451
 Width: 1231
-VWidth: 2309
 Flags: W
 Fore
 SplineSet
@@ -12636,7 +12336,6 @@ EndChar
 StartChar: uni2605
 Encoding: 9733 9733 573
 Width: 2000
-VWidth: 0
 Fore
 SplineSet
 1062 1500 m 2
@@ -12666,7 +12365,6 @@ EndChar
 StartChar: uni2606
 Encoding: 9734 9734 574
 Width: 2000
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -13285,7 +12983,6 @@ EndChar
 StartChar: uni0414
 Encoding: 1044 1044 596
 Width: 1815
-VWidth: 2080
 Flags: W
 Fore
 SplineSet
@@ -13419,7 +13116,6 @@ EndChar
 StartChar: uni0417
 Encoding: 1047 1047 599
 Width: 1466
-VWidth: 2080
 Flags: W
 Fore
 SplineSet
@@ -13807,7 +13503,6 @@ EndChar
 StartChar: uni0424
 Encoding: 1060 1060 612
 Width: 2050
-VWidth: 2080
 Flags: W
 Fore
 SplineSet
@@ -13985,7 +13680,6 @@ EndChar
 StartChar: uni0428
 Encoding: 1064 1064 616
 Width: 2730
-VWidth: 2080
 Flags: W
 AnchorPoint: "Anchor-0" 1331 1500 basechar 0
 AnchorPoint: "Anchor-1" 1327 0 basechar 0
@@ -14056,7 +13750,6 @@ EndChar
 StartChar: uni0429
 Encoding: 1065 1065 617
 Width: 2735
-VWidth: 2080
 Flags: W
 AnchorPoint: "Anchor-0" 1346 1500 basechar 0
 AnchorPoint: "Anchor-1" 1342 0 basechar 0
@@ -14426,7 +14119,6 @@ EndChar
 StartChar: uni0430
 Encoding: 1072 1072 624
 Width: 1344
-VWidth: 2310
 Flags: W
 Fore
 Refer: 38 97 N 1 0 0 1 0 0 2
@@ -14435,7 +14127,6 @@ EndChar
 StartChar: uni0431
 Encoding: 1073 1073 625
 Width: 1306
-VWidth: 2310
 Flags: W
 AnchorPoint: "Anchor-1" 655 0 basechar 0
 AnchorPoint: "Anchor-2" 655 0 basechar 0
@@ -14465,7 +14156,6 @@ EndChar
 StartChar: uni0432
 Encoding: 1074 1074 626
 Width: 1380
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -14510,7 +14200,6 @@ EndChar
 StartChar: uni0433
 Encoding: 1075 1075 627
 Width: 1200
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -14548,7 +14237,6 @@ EndChar
 StartChar: uni0434
 Encoding: 1076 1076 628
 Width: 1405
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -14596,7 +14284,6 @@ EndChar
 StartChar: uni0435
 Encoding: 1077 1077 629
 Width: 1253
-VWidth: 2310
 Flags: W
 Fore
 Refer: 42 101 N 1 0 0 1 0 0 2
@@ -14683,7 +14370,6 @@ EndChar
 StartChar: uni0437
 Encoding: 1079 1079 631
 Width: 1133
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -14726,7 +14412,6 @@ EndChar
 StartChar: uni0438
 Encoding: 1080 1080 632
 Width: 1580
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -14791,7 +14476,6 @@ EndChar
 StartChar: uni0439
 Encoding: 1081 1081 633
 Width: 1580
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -14913,7 +14597,6 @@ EndChar
 StartChar: uni043C
 Encoding: 1084 1084 636
 Width: 1810
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -14977,7 +14660,6 @@ EndChar
 StartChar: uni043D
 Encoding: 1085 1085 637
 Width: 1580
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15044,7 +14726,6 @@ EndChar
 StartChar: uni043E
 Encoding: 1086 1086 638
 Width: 1296
-VWidth: 2310
 Flags: W
 Fore
 Refer: 52 111 N 1 0 0 1 0 0 2
@@ -15053,7 +14734,6 @@ EndChar
 StartChar: uni043F
 Encoding: 1087 1087 639
 Width: 1580
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15104,7 +14784,6 @@ EndChar
 StartChar: uni0440
 Encoding: 1088 1088 640
 Width: 1471
-VWidth: 2310
 Flags: W
 Fore
 Refer: 53 112 N 1 0 0 1 0 0 2
@@ -15113,7 +14792,6 @@ EndChar
 StartChar: uni0441
 Encoding: 1089 1089 641
 Width: 1268
-VWidth: 2310
 Flags: W
 Fore
 Refer: 40 99 N 1 0 0 1 0 0 2
@@ -15122,7 +14800,6 @@ EndChar
 StartChar: uni0442
 Encoding: 1090 1090 642
 Width: 1480
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -15163,7 +14840,6 @@ EndChar
 StartChar: uni0443
 Encoding: 1091 1091 643
 Width: 1430
-VWidth: 2310
 Flags: W
 Fore
 Refer: 62 121 N 1 0 0 1 0 0 2
@@ -15172,7 +14848,6 @@ EndChar
 StartChar: uni0444
 Encoding: 1092 1092 644
 Width: 1929
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15227,7 +14902,6 @@ EndChar
 StartChar: uni0445
 Encoding: 1093 1093 645
 Width: 1448
-VWidth: 2310
 Flags: W
 Fore
 Refer: 61 120 N 1 0 0 1 0 0 2
@@ -15236,7 +14910,6 @@ EndChar
 StartChar: uni0446
 Encoding: 1094 1094 646
 Width: 1555
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15290,7 +14963,6 @@ EndChar
 StartChar: uni0447
 Encoding: 1095 1095 647
 Width: 1550
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15345,7 +15017,6 @@ EndChar
 StartChar: uni0448
 Encoding: 1096 1096 648
 Width: 2270
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15412,7 +15083,6 @@ EndChar
 StartChar: uni0449
 Encoding: 1097 1097 649
 Width: 2245
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15482,7 +15152,6 @@ EndChar
 StartChar: uni044A
 Encoding: 1098 1098 650
 Width: 1670
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -15527,7 +15196,6 @@ EndChar
 StartChar: uni044B
 Encoding: 1099 1099 651
 Width: 2213
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -15594,7 +15262,6 @@ EndChar
 StartChar: uni044C
 Encoding: 1100 1100 652
 Width: 1338
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -15636,7 +15303,6 @@ EndChar
 StartChar: uni044D
 Encoding: 1101 1101 653
 Width: 1268
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15674,7 +15340,6 @@ EndChar
 StartChar: uni044E
 Encoding: 1102 1102 654
 Width: 2113
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15725,7 +15390,6 @@ EndChar
 StartChar: uni044F
 Encoding: 1103 1103 655
 Width: 1524
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -15775,7 +15439,6 @@ EndChar
 StartChar: uni0450
 Encoding: 1104 1104 656
 Width: 1253
-VWidth: 2310
 Flags: W
 Fore
 Refer: 188 768 N 1 0 0 1 84 -460 2
@@ -15785,7 +15448,6 @@ EndChar
 StartChar: uni0451
 Encoding: 1105 1105 657
 Width: 1253
-VWidth: 2310
 Flags: W
 Fore
 Refer: 212 168 N 1 0 0 1 154 -460 2
@@ -15795,7 +15457,6 @@ EndChar
 StartChar: uni0452
 Encoding: 1106 1106 658
 Width: 1555
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15850,7 +15511,6 @@ EndChar
 StartChar: uni0453
 Encoding: 1107 1107 659
 Width: 1200
-VWidth: 2234
 Flags: W
 Fore
 Refer: 189 769 N 1 0 0 1 76 -460 2
@@ -15860,7 +15520,6 @@ EndChar
 StartChar: uni0454
 Encoding: 1108 1108 660
 Width: 1268
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -15892,7 +15551,6 @@ EndChar
 StartChar: uni0455
 Encoding: 1109 1109 661
 Width: 1160
-VWidth: 2310
 Flags: W
 Fore
 Refer: 56 115 N 1 0 0 1 0 0 2
@@ -15901,7 +15559,6 @@ EndChar
 StartChar: uni0456
 Encoding: 1110 1110 662
 Width: 865
-VWidth: 2310
 Flags: W
 Fore
 Refer: 46 105 N 1 0 0 1 0 0 2
@@ -15910,7 +15567,6 @@ EndChar
 StartChar: uni0457
 Encoding: 1111 1111 663
 Width: 905
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -15951,7 +15607,6 @@ EndChar
 StartChar: uni0458
 Encoding: 1112 1112 664
 Width: 800
-VWidth: 2310
 Flags: W
 Fore
 Refer: 47 106 N 1 0 0 1 0 0 2
@@ -16011,7 +15666,6 @@ EndChar
 StartChar: uni045A
 Encoding: 1114 1114 666
 Width: 2028
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -16085,7 +15739,6 @@ EndChar
 StartChar: uni045B
 Encoding: 1115 1115 667
 Width: 1510
-VWidth: 2309
 Flags: W
 Fore
 Refer: 318 295 N 1 0 0 1 5 0 2
@@ -16094,7 +15747,6 @@ EndChar
 StartChar: uni045C
 Encoding: 1116 1116 668
 Width: 1528
-VWidth: 2234
 Flags: W
 Fore
 Refer: 189 769 N 1 0 0 1 248 -460 2
@@ -16104,7 +15756,6 @@ EndChar
 StartChar: uni045D
 Encoding: 1117 1117 669
 Width: 1580
-VWidth: 2310
 Flags: W
 Fore
 Refer: 188 768 N 1 0 0 1 273 -460 2
@@ -16114,7 +15765,6 @@ EndChar
 StartChar: uni045E
 Encoding: 1118 1118 670
 Width: 1430
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -16136,7 +15786,6 @@ EndChar
 StartChar: uni045F
 Encoding: 1119 1119 671
 Width: 1410
-VWidth: 2310
 Flags: W
 Fore
 SplineSet
@@ -16212,7 +15861,6 @@ EndChar
 StartChar: uni0463
 Encoding: 1123 1123 673
 Width: 1338
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -16303,7 +15951,6 @@ EndChar
 StartChar: uni0491
 Encoding: 1169 1169 675
 Width: 1120
-VWidth: 2234
 Flags: W
 Fore
 SplineSet
@@ -16341,7 +15988,6 @@ EndChar
 StartChar: uni262D
 Encoding: 9773 9773 676
 Width: 2000
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16392,7 +16038,6 @@ EndChar
 StartChar: uni261E
 Encoding: 9758 9758 677
 Width: 2028
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16494,7 +16139,6 @@ EndChar
 StartChar: uni261B
 Encoding: 9755 9755 678
 Width: 2028
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16540,7 +16184,6 @@ EndChar
 StartChar: uni261A
 Encoding: 9754 9754 679
 Width: 2028
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16586,7 +16229,6 @@ EndChar
 StartChar: uni261C
 Encoding: 9756 9756 680
 Width: 2028
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16668,7 +16310,6 @@ EndChar
 StartChar: uni260E
 Encoding: 9742 9742 681
 Width: 1400
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16785,7 +16426,6 @@ EndChar
 StartChar: uni2619
 Encoding: 9753 9753 682
 Width: 1654
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16826,7 +16466,6 @@ EndChar
 StartChar: uni2766
 Encoding: 10086 10086 683
 Width: 1374
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16867,7 +16506,6 @@ EndChar
 StartChar: uni2767
 Encoding: 10087 10087 684
 Width: 1654
-VWidth: 0
 Flags: W
 Fore
 SplineSet
@@ -16908,7 +16546,6 @@ EndChar
 StartChar: uni260F
 Encoding: 9743 9743 685
 Width: 1400
-VWidth: 0
 Flags: W
 Fore
 SplineSet
