@@ -29,14 +29,14 @@
       </location>
     </source>
 
-    <source filename="../ufo/BesleyCondensed-Italic.ufo" name="Besley Condensed Italic" familyname="Besley Condensed" stylename="Italic">
+    <source filename="../ufo/BesleyCondensed-Italic.ufo" name="Besley Condensed Italic" familyname="Besley" stylename="Condensed Italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </source>
 
-    <source filename="../ufo/BesleyCondensed-FatfaceItalic.ufo" name="Besley Condensed Black Italic" familyname="Besley Condensed" stylename="Black Italic">
+    <source filename="../ufo/BesleyCondensed-FatfaceItalic.ufo" name="Besley Condensed Black Italic" familyname="Besley" stylename="Condensed Black Italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Width" xvalue="75"/>
@@ -47,126 +47,126 @@
 
   <instances>
 
-    <instance name="Besley Italic" familyname="Besley" stylename="Italic" filename="../instance_ufo/Besley-Italic.ufo" stylemapfamilyname="Besley" stylemapstylename="italic">
+    <instance postscriptfontname="Besley-Italic" familyname="Besley" name="Besley Italic" stylemapfamilyname="Besley" stylemapstylename="italic" stylename="Italic" filename="../instance_ufo/Besley-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley Medium Italic" familyname="Besley" stylename="Medium Italic" filename="../instance_ufo/Besley-MediumItalic.ufo" stylemapfamilyname="Besley Medium" stylemapstylename="italic">
+    <instance postscriptfontname="Besley-MediumItalic" familyname="Besley" name="Besley Medium Italic" stylemapfamilyname="Besley Medium" stylemapstylename="italic" stylename="Medium Italic" filename="../instance_ufo/Besley-MediumItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="470"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley SemiBold Italic" familyname="Besley" stylename="SemiBold Italic" filename="../instance_ufo/Besley-SemiBoldItalic.ufo" stylemapfamilyname="Besley SemiBold" stylemapstylename="italic">
+    <instance postscriptfontname="Besley-SemiBoldItalic" familyname="Besley" name="Besley SemiBold Italic" stylemapfamilyname="Besley SemiBold" stylemapstylename="italic" stylename="SemiBold Italic" filename="../instance_ufo/Besley-SemiBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley Bold Italic" familyname="Besley" stylename="Bold Italic" filename="../instance_ufo/Besley-BoldItalic.ufo" stylemapfamilyname="Besley" stylemapstylename="bold italic">
+    <instance postscriptfontname="Besley-BoldItalic" familyname="Besley" name="Besley Bold Italic" stylemapfamilyname="Besley" stylemapstylename="bold italic" stylename="Bold Italic" filename="../instance_ufo/Besley-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley ExtraBold Italic" familyname="Besley" stylename="ExtraBold Italic" filename="../instance_ufo/Besley-ExtraBoldItalic.ufo" stylemapfamilyname="Besley ExtraBold" stylemapstylename="italic">
+    <instance postscriptfontname="Besley-ExtraBoldItalic" familyname="Besley" name="Besley ExtraBold Italic" stylemapfamilyname="Besley ExtraBold" stylemapstylename="italic" stylename="ExtraBold Italic" filename="../instance_ufo/Besley-ExtraBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="766"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley Black Italic" familyname="Besley" stylename="Black Italic" filename="../instance_ufo/Besley-BlackItalic.ufo" stylemapfamilyname="Besley Black" stylemapstylename="italic">
+    <instance postscriptfontname="Besley-BlackItalic" familyname="Besley" name="Besley Black Italic" stylemapfamilyname="Besley Black" stylemapstylename="italic" stylename="Black Italic" filename="../instance_ufo/Besley-BlackItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow Italic" familyname="Besley Narrow" stylename="Italic" filename="../instance_ufo/BesleyNarrow-Italic.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyNarrow-Italic" familyname="Besley" name="Besley Narrow Italic" stylemapfamilyname="Besley Narrow" stylemapstylename="italic" stylename="Narrow Italic" filename="../instance_ufo/BesleyNarrow-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow Medium Italic" familyname="Besley Narrow" stylename="Medium Italic" filename="../instance_ufo/BesleyNarrow-MediumItalic.ufo" stylemapfamilyname="Besley Narrow Medium" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyNarrow-MediumItalic" familyname="Besley" name="Besley Narrow Medium Italic" stylemapfamilyname="Besley Narrow Medium" stylemapstylename="italic" stylename="Narrow Medium Italic" filename="../instance_ufo/BesleyNarrow-MediumItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="470"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow SemiBold Italic" familyname="Besley Narrow" stylename="SemiBold Italic" filename="../instance_ufo/BesleyNarrow-SemiBoldItalic.ufo" stylemapfamilyname="Besley Narrow SemiBold" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyNarrow-SemiBoldItalic" familyname="Besley" name="Besley Narrow SemiBold Italic" stylemapfamilyname="Besley Narrow SemiBold" stylemapstylename="italic" stylename="Narrow SemiBold Italic" filename="../instance_ufo/BesleyNarrow-SemiBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow Bold Italic" familyname="Besley Narrow" stylename="Bold Italic" filename="../instance_ufo/BesleyNarrow-BoldItalic.ufo" stylemapfamilyname="Besley Narrow" stylemapstylename="bold italic">
+    <instance postscriptfontname="BesleyNarrow-BoldItalic" familyname="Besley" name="Besley Narrow Bold Italic" stylemapfamilyname="Besley Narrow" stylemapstylename="bold italic" stylename="Narrow Bold Italic" filename="../instance_ufo/BesleyNarrow-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow ExtraBold Italic" familyname="Besley Narrow" stylename="ExtraBold Italic" filename="../instance_ufo/BesleyNarrow-ExtraBoldItalic.ufo" stylemapfamilyname="Besley Narrow ExtraBold" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyNarrow-ExtraBoldItalic" familyname="Besley" name="Besley Narrow ExtraBold Italic" stylemapfamilyname="Besley Narrow ExtraBold" stylemapstylename="italic" stylename="Narrow ExtraBold Italic" filename="../instance_ufo/BesleyNarrow-ExtraBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="766"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Narrow Black Italic" familyname="Besley Narrow" stylename="Black Italic" filename="../instance_ufo/BesleyNarrow-BlackItalic.ufo" stylemapfamilyname="Besley Narrow Black" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyNarrow-BlackItalic" familyname="Besley" name="Besley Narrow Black Italic" stylemapfamilyname="Besley Narrow Black" stylemapstylename="italic" stylename="Narrow Black Italic" filename="../instance_ufo/BesleyNarrow-BlackItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Width" xvalue="87.5"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Italic" familyname="Besley Condensed" stylename="Italic" filename="../instance_ufo/BesleyCondensed-Italic.ufo" stylemapfamilyname="Besley Condensed" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyCondensed-Italic" familyname="Besley" name="Besley Condensed Italic" stylemapfamilyname="Besley Condensed" stylemapstylename="italic" stylename="Condensed Italic" filename="../instance_ufo/BesleyCondensed-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Medium Italic" familyname="Besley Condensed" stylename="Medium Italic" filename="../instance_ufo/BesleyCondensed-MediumItalic.ufo" stylemapfamilyname="Besley Condensed Medium" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyCondensed-MediumItalic" familyname="Besley" name="Besley Condensed Medium Italic" stylemapfamilyname="Besley Condensed Medium" stylemapstylename="italic" stylename="Condensed Medium Italic" filename="../instance_ufo/BesleyCondensed-MediumItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="470"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed SemiBold Italic" familyname="Besley Condensed" stylename="SemiBold Italic" filename="../instance_ufo/BesleyCondensed-SemiBoldItalic.ufo" stylemapfamilyname="Besley Condensed SemiBold" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyCondensed-SemiBoldItalic" familyname="Besley" name="Besley Condensed SemiBold Italic" stylemapfamilyname="Besley Condensed SemiBold" stylemapstylename="italic" stylename="Condensed SemiBold Italic" filename="../instance_ufo/BesleyCondensed-SemiBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Bold Italic" familyname="Besley Condensed" stylename="Bold Italic" filename="../instance_ufo/BesleyCondensed-BoldItalic.ufo" stylemapfamilyname="Besley Condensed" stylemapstylename="bold italic">
+    <instance postscriptfontname="BesleyCondensed-BoldItalic" familyname="Besley" name="Besley Condensed Bold Italic" stylemapfamilyname="Besley Condensed" stylemapstylename="bold italic" stylename="Condensed Bold Italic" filename="../instance_ufo/BesleyCondensed-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed ExtraBold Italic" familyname="Besley Condensed" stylename="ExtraBold Italic" filename="../instance_ufo/BesleyCondensed-ExtraBoldItalic.ufo" stylemapfamilyname="Besley Condensed ExtraBold" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyCondensed-ExtraBoldItalic" familyname="Besley" name="Besley Condensed ExtraBold Italic" stylemapfamilyname="Besley Condensed ExtraBold" stylemapstylename="italic" stylename="Condensed ExtraBold Italic" filename="../instance_ufo/BesleyCondensed-ExtraBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="766"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </instance>
 
-    <instance name="Besley Condensed Black Italic" familyname="Besley Condensed" stylename="Black Italic" filename="../instance_ufo/BesleyCondensed-BlackItalic.ufo" stylemapfamilyname="Besley Condensed Black" stylemapstylename="italic">
+    <instance postscriptfontname="BesleyCondensed-BlackItalic" familyname="Besley" name="Besley Condensed Black Italic" stylemapfamilyname="Besley Condensed Black" stylemapstylename="italic" stylename="Condensed Black Italic" filename="../instance_ufo/BesleyCondensed-BlackItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Width" xvalue="75"/>
