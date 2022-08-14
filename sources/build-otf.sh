@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 #source ../env/bin/activate
 
@@ -35,8 +35,9 @@ TT_DIR=../fonts/otf
 rm -rf $TT_DIR
 mkdir -p $TT_DIR
 
-fontmake -m designspace/$fontName.designspace -i -o otf --output-dir $TT_DIR
-fontmake -m designspace/$fontName_it.designspace -i -o otf --output-dir $TT_DIR
+parallel --bar bash -c < \
+<(echo fontmake -m designspace/$fontName.designspace -i -o otf --output-dir $TT_DIR;
+echo fontmake -m designspace/$fontName_it.designspace -i -o otf --output-dir $TT_DIR)
 
 ##########################################
 

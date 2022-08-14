@@ -1,9 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
-fontName="Besley"
-fontName_it="Besley-Italic"
-axes="wdth,wght"
+FONTNAMES=("Besley" "Besley-Italic")
+AXES="wdth,wght"
 
 ##########################################
 
@@ -29,30 +28,51 @@ fi
 ##########################################
 
 echo ".
-GENERATING VARIABLE
+CLEANING UP IF NEEDED
 ."
 VF_DIR=../fonts/variable
-rm -rf $VF_DIR
-mkdir -p $VF_DIR
+mkdir -p ./"$VF_DIR" || true
+for f in `find "$VF_DIR" -iname '*.ttf' -or -iname '*.otf' -type f`; do
+	rm "$f"
+	echo "Deleted $f"
+done
 
-fontmake -m designspace/$fontName.designspace -o variable --output-path $VF_DIR/$fontName[$axes].ttf
-fontmake -m designspace/$fontName_it.designspace -o variable --output-path $VF_DIR/$fontName_it[$axes].ttf
+echo ".
+GENERATING VARIABLE
+."
+FONTS_GLYF=()
+FONTS_CFF2=()
+
+for fontName in "${FONTNAMES[@]}"; do 
+	FONTS_GLYF+=("${VF_DIR}/${fontName}[${AXES}].ttf")
+	FONTS_CFF2+=("${VF_DIR}/${fontName}[${AXES}].otf")
+done
+
+parallel bash -c < \
+<(i=-1; for font in "${FONTS_GLYF[@]}"; do i=$i+1;
+	echo fontmake -m designspace/"${FONTNAMES[$i]}".designspace -o variable --output-path "${font@Q}"
+done
+
+i=-1; for font in "${FONTS_CFF2[@]}"; do i=$i+1;
+	echo fontmake -m designspace/"${FONTNAMES[$i]}".designspace -o variable-cff2 --output-path "${font@Q}"
+done)
 
 ##########################################
 
 echo ".
 POST-PROCESSING VF
 ."
-vfs=$(ls $VF_DIR/*.ttf)
-for font in $vfs
+for font in "${FONTS_GLYF[@]}"
 do
-	gftools fix-nonhinting $font $font.fix
-	mv $font.fix $font
-	gftools fix-unwanted-tables --tables MVAR $font
+	TMPFILE=$(mktemp)
+	gftools fix-nonhinting "$font" "$TMPFILE"
+	gftools fix-unwanted-tables --tables MVAR "$TMPFILE"
+	mv "$TMPFILE" "$font"
 done
 
-statmake --designspace designspace/$fontName.designspace $VF_DIR/$fontName[$axes].ttf
-statmake --designspace designspace/$fontName_it.designspace $VF_DIR/$fontName_it[$axes].ttf
+for font in "${FONTS_GLYF[@]}" "${FONTS_CFF2[@]}"; do
+	statmake --designspace designspace/$fontName.designspace $font
+done
 
 rm $VF_DIR/*gasp*
 
