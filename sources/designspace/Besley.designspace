@@ -251,14 +251,18 @@
 
               <dict>
                 <key>name</key>
-                <string>Regular</string>
+                <string>Normal</string>
                 <key>value</key>
                 <integer>100</integer>
+                <key>flags</key>
+                <array>
+                  <string>ElidableAxisValueName</string>
+                </array>
               </dict>
 
               <dict>
                 <key>name</key>
-                <string>Narrow</string>
+                <string>SemiCondensed</string>
                 <key>value</key>
                 <string>87.5</string>
               </dict>
@@ -270,6 +274,12 @@
                 <integer>75</integer>
               </dict>
 
+              <dict>
+                <key>name</key>
+                <string>Extended</string>
+                <key>value</key>
+                <integer>125</integer>
+              </dict>
             </array>
           </dict>
 

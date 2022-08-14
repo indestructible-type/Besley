@@ -1,5 +1,5 @@
 #!/bin/bash
-PYTHON_HOME="$PYTHON_HOME:$PWD/misc/sfdnormalize:$PWD/misc/sfd2ufo/Lib/sfdLib:$PWD/misc/sfd2ufo/Lib"
+PYTHON_HOME="$PWD/misc/sfdnormalize:$PWD/misc/sfd2ufo/Lib/sfdLib:$PWD/misc/sfd2ufo/Lib:$PYTHON_HOME"
 
 echo ".
 GENERATING UFO SOURCES
@@ -13,7 +13,7 @@ for source in $sfds
 do
 	base=${source##*/}
 	italic="Italic"
-	python3 -m sfdnormalize -k Copyright ./"$source" "$source"_out
+	sfdnormalize ./"$source" "$source"_out -k Copyright -D VWidth
 	mv ./"$source"_out ./"$source"
 	python3 misc/sfd2ufo/Lib/sfdLib/__main__.py --ufo-kerning --ufo-anchors $source $UFO_DIR/${base%.*}.ufo
 	if test "${base#*$italic}" != "$base"
