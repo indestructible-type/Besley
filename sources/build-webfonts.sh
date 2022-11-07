@@ -1,4 +1,5 @@
 #!/bin/bash
+. misc/init.sh
 
 if [[ ! -d ../fonts/webfonts ]]; then
     mkdir ../fonts/webfonts

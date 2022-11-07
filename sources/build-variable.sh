@@ -1,4 +1,5 @@
 #!/bin/bash
+. misc/init.sh
 set -e
 
 fontName="Besley"

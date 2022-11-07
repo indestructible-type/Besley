@@ -1,5 +1,5 @@
 #!/bin/bash
-PYTHON_HOME="$PYTHON_HOME:$PWD/misc/sfdnormalize:$PWD/misc/sfd2ufo/Lib/sfdLib:$PWD/misc/sfd2ufo/Lib"
+. misc/init.sh
 
 echo ".
 GENERATING UFO SOURCES

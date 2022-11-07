@@ -1,6 +1,0 @@
-[submodule "sources/misc/sfdnormalize"]
-	path = sources/misc/sfdnormalize
-	url = https://github.com/ctrlcctrlv/sfdnormalize
-[submodule "sources/misc/sfd2ufo"]
-	path = sources/misc/sfd2ufo
-	url = https://github.com/ctrlcctrlv/sfd2ufo
