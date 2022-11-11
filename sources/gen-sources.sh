@@ -15,7 +15,7 @@ do
 	italic="Italic"
 	python3 -m sfdnormalize -k Copyright ./"$source" "$source"_out
 	mv ./"$source"_out ./"$source"
-	python3 -m sfdlib --ufo-kerning --ufo-anchors $source $UFO_DIR/${base%.*}.ufo
+	python3 -m sfdLib --ufo-kerning --ufo-anchors $source $UFO_DIR/${base%.*}.ufo
 	if test "${base#*$italic}" != "$base"
 	then
 		cp misc/features${italic}.fea $UFO_DIR/${base%.*}.ufo/features.fea
