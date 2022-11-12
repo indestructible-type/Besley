@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="emacron.sc" format="2">
-  <advance width="1244"/>
-  <outline>
-    <component base="e.sc"/>
-    <component base="uni0304" xOffset="-21.0" yOffset="-460.0"/>
-  </outline>
-</glyph>

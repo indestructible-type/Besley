@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="obreve.sc" format="2">
-  <advance width="1247"/>
-  <outline>
-    <component base="o.sc"/>
-    <component base="uni0306" xOffset="73.0" yOffset="-454.0"/>
-  </outline>
-</glyph>
