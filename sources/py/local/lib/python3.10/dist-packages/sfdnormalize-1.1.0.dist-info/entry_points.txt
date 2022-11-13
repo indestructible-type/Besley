@@ -1,0 +1,3 @@
+[console_scripts]
+sfdnormalize = sfdnormalize.__main__:main
+

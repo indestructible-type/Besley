@@ -7,5 +7,5 @@ if test $SUBMODULE_INIT -gt 0; then
   git submodule update --recursive
 fi
 if [ ! -d py ]; then
-  pip install --prefix=py git+https://github.com/ctrlcctrlv/sfdnormalize git+https://github.com/MFEK/sfdLib.py
+  pip install -U --prefix=py git+https://github.com/ctrlcctrlv/sfdnormalize git+https://github.com/MFEK/sfdLib.py
 fi

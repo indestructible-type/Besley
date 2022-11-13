@@ -1,0 +1,3 @@
+[console_scripts]
+sfd2ufo = sfdLib.__main__:main
+

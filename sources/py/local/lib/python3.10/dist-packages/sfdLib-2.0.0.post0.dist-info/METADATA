@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: sfdLib
+Version: 2.0.0.post0
+Summary: A simple, quick and dirty, SFD to UFO converter.
+Home-page: https://github.com/MFEK/sfdLib.py
+Author: Maintained by MFEK (Fredrick Brennan), originally by Khaled Hosny
+Author-email: copypaste@kittens.ph
+License: OpenSource, BSD-style
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.orig
+License-File: AUTHORS
+Requires-Dist: fonttools (>=4.0.0)
+Requires-Dist: sfdutf7 (>=0.1.0)
+Requires-Dist: ufoLib2 (>=0.6.2)
+
+`sfd2ufo` — An SFD to UFO converter
+===================================
+
+[![PyPI version](https://badge.fury.io/py/sfdLib.svg)](https://badge.fury.io/py/sfdLib)
+
+A simple utility to convert FontForge’s SFD fonts to UFO fonts. The main
+objective is to create UFO files that are usable in a larger UFO based
+workflow, and for that existing UFO libraries are used to generate the UFO
+fonts.
+
+## Installation
+
+```bash
+pip install -U sfdLib # add --user for local install
+```
+
+Or:
+
+```bash
+git checkout https://github.com/MFEK/sfdLib.py.git
+cd ./sfdLib.py/
+virtualenv venv
+. venv/bin/activate
+pip install -e .
+```
+
+## License
+
+- Copyright (c) 2016–2022, Khaled Hosny &lt;khaledhosny@eglug.org&gt;, the MFEK
+Foundation Inc. &lt;info@mfek.org&gt;, and the sfdLib Project Authors (see
+AUTHORS)
+
+**NB**: Out of deference to this project's original author, the MFEK Foundation
+Inc. has not changed the license. (Normally, MFEK-maintained projects are
+relicensed as Apache 2.0.)
+
+```
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+may be used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+
