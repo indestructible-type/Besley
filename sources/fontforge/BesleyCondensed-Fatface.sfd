@@ -188,7 +188,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-3" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0"""
-BeginChars: 65671 761
+BeginChars: 65672 762
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -18164,8 +18164,8 @@ Width: 770
 Flags: W
 LayerCount: 2
 Fore
-Refer: 212 168 N 1 0 0 1 -114 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Refer: 212 168 N 1 0 0 1 -115 0 2
 EndChar
 
 StartChar: Upsilondieresis
@@ -19437,6 +19437,35 @@ LayerCount: 2
 Fore
 Refer: 687 901 N 1 0 0 1 -290 70 2
 Refer: 723 953 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Theta.alt
+Encoding: 65671 -1 761
+Width: 1240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+579 880 m 2
+ 661 880 l 2
+ 692 880 695 873 695 841 c 2
+ 695 651 l 2
+ 695 616 694 610 659 610 c 2
+ 587 610 l 2
+ 551 610 545 615 545 650 c 2
+ 545 839 l 2
+ 545 871 547 880 579 880 c 2
+30 750 m 0
+ 30 1316 164 1540 620 1540 c 0
+ 1076 1540 1210 1316 1210 750 c 0
+ 1210 184 1056 -40 620 -40 c 0
+ 164 -40 30 184 30 750 c 0
+515 750 m 0
+ 515 326 542 220 620 220 c 0
+ 718 220 725 326 725 750 c 0
+ 725 1174 698 1280 620 1280 c 0
+ 542 1280 515 1174 515 750 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

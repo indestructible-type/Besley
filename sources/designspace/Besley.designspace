@@ -13,8 +13,24 @@
     <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"></axis>
   </axes>
 
-  <sources>
+  <rules>
+    <rule name="altTheta">
+      <conditionset>
+        <condition maximum="95" minimum="80" name="Width" />
+        <condition maximum="900" minimum="600" name="Weight" />
+      </conditionset>
+      <sub name="Theta" with="Theta.alt" />
+    </rule>
+    <rule name="altThetaTwo">
+      <conditionset>
+        <condition maximum="80" minimum="75" name="Width" />
+        <condition maximum="900" minimum="400" name="Weight" />
+      </conditionset>
+      <sub name="Theta" with="Theta.alt" />
+    </rule>
+  </rules>
 
+  <sources>
     <source filename="../ufo/Besley-Book.ufo" name="Besley Regular" familyname="Besley" stylename="Regular">
       <location>
         <dimension name="Weight" xvalue="400"/>

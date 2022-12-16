@@ -188,7 +188,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-3" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0"""
-BeginChars: 65671 761
+BeginChars: 65672 762
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -9655,27 +9655,27 @@ EndChar
 
 StartChar: uni0394
 Encoding: 916 916 415
-Width: 1900
+Width: 1628
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1077 270 m 2
- 1135 270 1140 280 1126 319 c 2
- 874 1023 l 2
- 858 1069 842 1050 829 1019 c 2
- 538 313 l 2
- 525 281 527 270 563 270 c 2
- 1077 270 l 2
-1700 0 m 2
- 175 0 l 2
- 133 0 126 15 135 37 c 2
- 758 1497 l 2
- 771 1529 775 1530 821 1530 c 2
- 1121 1530 l 2
- 1168 1530 1174 1519 1187 1487 c 2
- 1753 61 l 2
- 1768 23 1757 0 1700 0 c 2
+946 270 m 2
+ 1004 270 1009 280 995 319 c 2
+ 743 1023 l 2
+ 727 1069 711 1050 698 1019 c 2
+ 407 313 l 2
+ 394 281 396 270 432 270 c 2
+ 946 270 l 2
+1569 0 m 2
+ 44 0 l 2
+ 2 0 -5 15 4 37 c 2
+ 627 1497 l 2
+ 640 1529 644 1530 690 1530 c 2
+ 990 1530 l 2
+ 1037 1530 1043 1519 1056 1487 c 2
+ 1622 61 l 2
+ 1637 23 1626 0 1569 0 c 2
 EndSplineSet
 EndChar
 
@@ -17989,8 +17989,8 @@ Width: 1120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 212 168 N 1 0 0 1 56 0 2
 Refer: 20 73 N 1 0 0 1 0 0 3
+Refer: 212 168 N 1 0 0 1 65 0 2
 EndChar
 
 StartChar: Upsilondieresis
@@ -18932,42 +18932,20 @@ EndChar
 
 StartChar: upsilon
 Encoding: 965 965 742
-Width: 1281
+Width: 1331
 VWidth: 1000
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
 767 184 m 1
- 901 184 991 368 991 594 c 0
- 991 628 981.844029393 654.339396012 936.592773438 658 c 0
- 796.111328125 669.364257812 686 727 686 863.411132812 c 0
- 686 979 758 1060 902.262695312 1060 c 0
- 1116 1060 1231 886 1231 584 c 0
- 1231 274 1079 -20 719 -20 c 1
+ 901 184 1041 368 1041 594 c 0
+ 1041 628 1031.84375 654.33984375 986.592773438 658 c 0
+ 846.111328125 669.364257812 736 727 736 863.411132812 c 0
+ 736 979 808 1060 952.262695312 1060 c 0
+ 1166 1060 1281 886 1281 584 c 0
+ 1281 274 1079 -20 719 -20 c 1
  767 184 l 1
-  Spiro
-    767 184 v
-    884.53 239.967 o
-    962.759 387.442 o
-    991 594 o
-    986.959 624.863 o
-    970.786 647.353 o
-    936.593 658 o
-    809.299 685.946 o
-    719.686 752.142 o
-    686 863.411 o
-    709.962 965.664 o
-    782.174 1034.77 o
-    902.263 1060 o
-    1082.34 1003.81 o
-    1193.34 841.418 o
-    1231 584 o
-    1178.37 289.898 o
-    1011.51 67.5387 o
-    719 -20 v
-    0 0 z
-  EndSpiro
 181 830 m 2
  86 830 l 2
  67 830 55 843 55 864 c 2
@@ -19297,7 +19275,7 @@ EndChar
 
 StartChar: upsilondieresis
 Encoding: 971 971 748
-Width: 1281
+Width: 1331
 VWidth: 1000
 Flags: W
 LayerCount: 2
@@ -19318,7 +19296,7 @@ EndChar
 
 StartChar: upsilontonos
 Encoding: 973 973 750
-Width: 1281
+Width: 1331
 VWidth: 1000
 Flags: W
 LayerCount: 2
@@ -19379,7 +19357,7 @@ EndChar
 
 StartChar: upsilondieresistonos
 Encoding: 944 944 756
-Width: 1281
+Width: 1331
 VWidth: 1000
 Flags: W
 LayerCount: 2
@@ -19544,6 +19522,35 @@ LayerCount: 2
 Fore
 Refer: 757 901 N 1 0 0 1 -200 70 2
 Refer: 732 953 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Theta.alt
+Encoding: 65671 -1 761
+Width: 1820
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+694 870 m 2
+ 1126 870 l 2
+ 1157 870 1160 863 1160 831 c 2
+ 1160 681 l 2
+ 1160 646 1159 640 1124 640 c 2
+ 702 640 l 2
+ 666 640 660 645 660 680 c 2
+ 660 829 l 2
+ 660 861 662 870 694 870 c 2
+70 750 m 0
+ 70 1216 384 1540 910 1540 c 0
+ 1436 1540 1750 1216 1750 750 c 0
+ 1750 284 1416 -40 910 -40 c 0
+ 384 -40 70 284 70 750 c 0
+590 750 m 0
+ 590 426 682 220 910 220 c 0
+ 1158 220 1230 426 1230 750 c 0
+ 1230 1074 1138 1280 910 1280 c 0
+ 682 1280 590 1074 590 750 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
