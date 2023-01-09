@@ -3,7 +3,7 @@ FontName: Besley-Italic
 FullName: Besley Italic
 FamilyName: Besley
 Weight: Book
-Copyright:
+Copyright: 
 UComments: "2016-4-15: Created with FontForge (http://fontforge.org)"
 Version: 004.000
 ItalicAngle: -13
@@ -21,6 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
+ModificationTime: 1673229699
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -180,6 +181,10 @@ LangName: 1033 "" "" "" "" "" "" "" "" "indestructible type*" "Owen Earl" "" "ht
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 8208 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -202,7 +207,7 @@ Grid
   Named: "CAPITAL HIGHT"
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0"""
+AnchorClass2: "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0""" 
 BeginChars: 65673 763
 
 StartChar: ampersand
@@ -3123,33 +3128,33 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 72
-Width: 2673
-Flags: MW
+Width: 873
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2276 1190 m 0
- 2276 1124 2218 1072 2142 1072 c 0
- 2064 1072 2002 1134 2002 1260 c 0
- 2002 1434 2172 1584 2337 1599 c 0
- 2352 1600 2360 1601 2360 1584 c 2
- 2360 1541 l 2
- 2360 1523 2350 1520 2335 1518 c 0
- 2244 1504 2096 1412 2107 1297 c 0
- 2109 1281 2118 1289 2129 1296 c 0
- 2142 1304 2159 1308 2180 1308 c 0
- 2246 1308 2276 1256 2276 1190 c 0
-2666 1190 m 0
- 2666 1124 2608 1072 2532 1072 c 0
- 2454 1072 2392 1134 2392 1260 c 0
- 2392 1434 2562 1584 2727 1599 c 0
- 2742 1600 2750 1601 2750 1584 c 2
- 2750 1541 l 2
- 2750 1523 2740 1520 2725 1518 c 0
- 2634 1504 2486 1412 2497 1297 c 0
- 2499 1281 2508 1289 2519 1296 c 0
- 2532 1304 2549 1308 2570 1308 c 0
- 2636 1308 2666 1256 2666 1190 c 0
+476 1190 m 0
+ 476 1124 418 1072 342 1072 c 0
+ 264 1072 202 1134 202 1260 c 0
+ 202 1434 372 1584 537 1599 c 0
+ 552 1600 560 1601 560 1584 c 2
+ 560 1541 l 2
+ 560 1523 550 1520 535 1518 c 0
+ 444 1504 296 1412 307 1297 c 0
+ 309 1281 318 1289 329 1296 c 0
+ 342 1304 359 1308 380 1308 c 0
+ 446 1308 476 1256 476 1190 c 0
+866 1190 m 0
+ 866 1124 808 1072 732 1072 c 0
+ 654 1072 592 1134 592 1260 c 0
+ 592 1434 762 1584 927 1599 c 0
+ 942 1600 950 1601 950 1584 c 2
+ 950 1541 l 2
+ 950 1523 940 1520 925 1518 c 0
+ 834 1504 686 1412 697 1297 c 0
+ 699 1281 708 1289 719 1296 c 0
+ 732 1304 749 1308 770 1308 c 0
+ 836 1308 866 1256 866 1190 c 0
 EndSplineSet
 EndChar
 
