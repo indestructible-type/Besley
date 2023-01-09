@@ -15,6 +15,8 @@ Redrew to make interpolatable
 Added small caps designed by Fredrick Brennan
 3.0
 Added a Narrow and Condesed version of the font. Added Cyrillic. Added dingbats.
+4.0
+Added support for the Greek Language
 
 Contact
 -------

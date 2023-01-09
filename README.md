@@ -2,7 +2,7 @@
 ========
 ![Besley* Picture](https://indestructibletype.com/assets/Besley.svg)
 Besley* is an original font created by indestructible type*. It is inspired by 
-the designs of Robert Besley. This is version 2.01.
+the designs of Robert Besley. This is version 4.0.
 
 Besley* is designed and maintained by [Owen Earl](https://plus.google.com/103790404905174393616), who is the creator of the font foundry [indestructible type*](http://indestructible-type.github.io).
 
@@ -29,7 +29,9 @@ Redrew letterforms to enable variable font versions. Improved language support. 
 <b>v2.01</b>
 Added small caps designed by [Fredrick Brennan](https://github.com/ctrlcctrlv/)<br>
 <b>v3.0</b>
-Added a Narrow and Condesed version of the font. Added Cyrillic. Added dingbats.
+Added a Narrow and Condesed version of the font. Added Cyrillic. Added dingbats.<br>
+<b>4.0</b>
+Added support for the Greek Language
 
 Building
 --------
