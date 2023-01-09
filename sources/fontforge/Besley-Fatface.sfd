@@ -56,36 +56,36 @@ Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kernin
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 52+ 42 "'kern' Horizontal Kerning lookup 0 kerning class 2"
- 173 a h m n agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek hcircumflex nacute uni0146 ncaron napostrophe uni0430 uni044A uni044C uni0459 uni045A uni045B
- 223 H I M N Igrave Iacute Icircumflex Idieresis Ntilde Hcircumflex Itilde Imacron Ibreve Iogonek Idotaccent uni0406 uni0407 uni040D uni040F uni0414 uni041B uni041C uni041D uni041F uni0426 uni0427 uni0428 uni0429 uni042B uni042F
- 157 C E Egrave Eacute Ecircumflex Edieresis Cacute Ccircumflex Cdotaccent Ccaron Emacron Ebreve Edotaccent Eogonek Ecaron uni0400 uni0401 uni0404 uni0415 uni0421
- 112 D O Q Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash Dcaron Dcroat Omacron Obreve uni041E uni0424 uni042D
- 90 J U Ugrave Uacute Ucircumflex Udieresis IJ Jcircumflex Utilde Umacron Ubreve Uring Uogonek
- 113 g r v w y ydieresis racute uni0157 rcaron wcircumflex ycircumflex uni0433 uni0442 uni0443 uni0453 uni045E uni0491
- 76 A backslash Agrave Aacute Acircumflex Atilde Adieresis Aring uni013B uni0410
+ 177 a h m n agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek hcircumflex nacute uni0146 ncaron napostrophe eta uni0430 uni044A uni044C uni0459 uni045A uni045B
+ 269 H I M N Igrave Iacute Icircumflex Idieresis Ntilde Hcircumflex Itilde Imacron Ibreve Iogonek Idotaccent Etatonos Iotatonos Iota Mu Nu Pi Iotadieresis uni0406 uni0407 uni040D uni040F uni0414 uni041B uni041C uni041D uni041F uni0426 uni0427 uni0428 uni0429 uni042B uni042F
+ 187 C E Egrave Eacute Ecircumflex Edieresis Cacute Ccircumflex Cdotaccent Ccaron Emacron Ebreve Edotaccent Eogonek Ecaron Epsilontonos Epsilon Xi Sigma uni0400 uni0401 uni0404 uni0415 uni0421
+ 143 D O Q Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash Dcaron Dcroat Omacron Obreve Omicrontonos Theta Omicron Phi uni041E uni0424 uni042D
+ 98 J U Ugrave Uacute Ucircumflex Udieresis IJ Jcircumflex Utilde Umacron Ubreve Uring Uogonek uni03A9
+ 126 g r v w y ydieresis racute uni0157 rcaron wcircumflex ycircumflex gamma nu chi uni0433 uni0442 uni0443 uni0453 uni045E uni0491
+ 97 A backslash Agrave Aacute Acircumflex Atilde Adieresis Aring uni013B Alpha uni0394 Lambda uni0410
  41 d l lacute uni013C lslash uniFB02 uniFB04
- 87 b c e o p thorn eogonek uni0402 uni0435 uni043E uni0441 uni044D uni0450 uni0451 uni0454
+ 116 b c e o p thorn eogonek omicron rho phi omicrontonos uni0402 uni0435 uni043E uni0441 uni044D uni0450 uni0451 uni0454
  68 quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle
  52 s sacute scircumflex scedilla scaron uni0437 uni0455
  26 z zacute zdotaccent zcaron
  37 slash V W Wcircumflex uni040E uni0423
- 48 k x uni0137 kgreenlandic uni0436 uni043A uni045C
- 34 Z Zacute Zdotaccent Zcaron uni0411
- 38 Y Yacute Ycircumflex Ydieresis uni0490
- 40 T uni0162 Tcaron uni0403 uni0413 uni0422
+ 54 k x uni0137 kgreenlandic kappa uni0436 uni043A uni045C
+ 39 Z Zacute Zdotaccent Zcaron Zeta uni0411
+ 66 Y Yacute Ycircumflex Ydieresis Upsilon Psi Upsilondieresis uni0490
+ 50 T uni0162 Tcaron Gamma Tau uni0403 uni0413 uni0422
  63 L Lacute Lslash uni0409 uni040A uni042A uni042C uni0462 uni0463
- 35 K X uni0136 uni040C uni0416 uni041A
- 9 u uogonek
- 9 t uni0163
+ 45 K X uni0136 Kappa Chi uni040C uni0416 uni041A
+ 22 u uogonek iota uni03BC
+ 13 t uni0163 tau
  27 i j uni0456 uni0457 uni0458
  9 f uniFB00
  12 comma period
  7 R R.alt
  9 S uni0405
- 9 P uni0420
+ 13 P Rho uni0420
  1 G
  1 F
- 17 B uni0412 uni0417
+ 22 B Beta uni0412 uni0417
  140 j.sc jcircumflex.sc u.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc ugrave.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc
  108 h.sc hcircumflex.sc i.sc iacute.sc ibreve.sc idieresis.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc m.sc
  105 d.sc o.sc oacute.sc obreve.sc ocircumflex.sc odieresis.sc ograve.sc ohungarumlaut.sc omacron.sc otilde.sc
@@ -108,30 +108,30 @@ KernClass2: 52+ 42 "'kern' Horizontal Kerning lookup 0 kerning class 2"
  4 f.sc
  9 dcaron.sc
  4 b.sc
- 468 B D E F H I K L M N P R Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Thorn Hcircumflex Itilde Imacron Ibreve Iogonek Idotaccent IJ uni0136 Lacute uni013B Lcaron Ldot Lslash Nacute Ncaron Racute uni0156 Rcaron uni0400 uni0401 uni0403 uni0406 uni0407 uni040A uni040C uni040D uni040F uni0411 uni0412 uni0413 uni0415 uni0418 uni0419 uni041A uni041C uni041D uni041F uni0420 uni0426 uni0428 uni0429 uni042B uni042C uni042E uni0462 R.alt
- 252 c d e o q ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron uni0435 uni043E uni0441 uni0444 uni0450 uni0451 uni0454
- 182 C G O Q Ograve Oacute Ocircumflex Otilde Odieresis Oslash Cacute Ccircumflex Cdotaccent Ccaron Gcircumflex Gbreve Gdotaccent uni0122 Omacron Obreve OE uni0404 uni041E uni0421 uni0424
+ 522 B D E F H I K L M N P R Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Thorn Hcircumflex Itilde Imacron Ibreve Iogonek Idotaccent IJ uni0136 Lacute uni013B Lcaron Ldot Lslash Nacute Ncaron Racute uni0156 Rcaron Beta Epsilon Eta Iota Kappa Mu Nu Pi Rho Iotadieresis uni0400 uni0401 uni0403 uni0406 uni0407 uni040A uni040C uni040D uni040F uni0411 uni0412 uni0413 uni0415 uni0418 uni0419 uni041A uni041C uni041D uni041F uni0420 uni0426 uni0428 uni0429 uni042B uni042C uni042E uni0462 R.alt
+ 290 c d e o q ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron alpha omicron sigma omicrontonos phi1 uni0435 uni043E uni0441 uni0444 uni0450 uni0451 uni0454
+ 200 C G O Q Ograve Oacute Ocircumflex Otilde Odieresis Oslash Cacute Ccircumflex Cdotaccent Ccaron Gcircumflex Gbreve Gdotaccent uni0122 Omacron Obreve OE Theta Omicron Phi uni0404 uni041E uni0421 uni0424
  117 i j igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi ij jcircumflex uni0456 uni0457 uni0458
- 90 slash A Agrave Aacute Acircumflex Atilde Adieresis Aring AE Amacron Abreve Aogonek uni0410
+ 111 slash A Agrave Aacute Acircumflex Atilde Adieresis Aring AE Amacron Abreve Aogonek Alpha uni0394 Lambda uni0410
  69 b h k l hcircumflex lacute uni013C lcaron ldot lslash uni0452 uni0463
- 201 m n r nacute uni0146 ncaron racute uni0157 rcaron uni0432 uni0433 uni0438 uni0439 uni043A uni043C uni043D uni043F uni0446 uni0448 uni0449 uni044B uni044C uni044E uni0453 uni045A uni045C uni045D uni045F
- 55 p u utilde umacron ubreve uring uogonek uni0440 uni0447
- 68 quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle
+ 214 m n r nacute uni0146 ncaron racute uni0157 rcaron eta kappa pi uni0432 uni0433 uni0438 uni0439 uni043A uni043C uni043D uni043F uni0446 uni0448 uni0449 uni044B uni044C uni044E uni0453 uni045A uni045C uni045D uni045F
+ 63 p u utilde umacron ubreve uring uogonek uni03BC uni0440 uni0447
+ 68 quotedbl quotesingle quoteleft quoteright quotedblleft quotedblright
  41 f uniFB00 uniFB01 uniFB02 uniFB03 uniFB04
  37 U Utilde Umacron Ubreve Uring Uogonek
- 45 v w y wcircumflex ycircumflex uni0443 uni045E
+ 58 v w y wcircumflex ycircumflex gamma nu chi uni0443 uni045E
  44 s sacute scircumflex scedilla scaron uni0455
  34 z zacute zdotaccent zcaron uni0434
  31 g gcircumflex gbreve gdotaccent
- 16 t uni0163 tcaron
- 20 a ae aogonek uni0430
+ 20 t uni0163 tcaron tau
+ 28 a ae aogonek epsilon uni0430
  15 V W Wcircumflex
- 56 T uni0162 Tcaron uni0402 uni040B uni0422 uni0427 uni042A
+ 60 T uni0162 Tcaron Tau uni0402 uni040B uni0422 uni0427 uni042A
  12 comma period
  17 x uni0436 uni0445
- 9 Z uni0414
- 1 Y
- 33 X uni040E uni0417 uni0423 uni0425
+ 14 Z Zeta uni0414
+ 13 Y Upsilon Psi
+ 37 X Chi uni040E uni0417 uni0423 uni0425
  9 S uni0405
  17 J uni0409 uni041B
  379 b.sc d.sc dcaron.sc e.sc eacute.sc ebreve.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc f.sc h.sc hcircumflex.sc i.sc iacute.sc ibreve.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc k.sc l.sc lacute.sc lcaron.sc m.sc n.sc nacute.sc ncaron.sc ntilde.sc p.sc r.sc racute.sc rcaron.sc uni0137.sc uni013C.sc uni0146.sc uni0157.sc uni0213.sc
@@ -18484,7 +18484,7 @@ EndChar
 
 StartChar: eta
 Encoding: 951 951 730
-Width: 1555
+Width: 1505
 Flags: W
 LayerCount: 2
 Fore
@@ -18714,7 +18714,7 @@ EndChar
 
 StartChar: xi
 Encoding: 958 958 736
-Width: 1190
+Width: 1158
 Flags: W
 LayerCount: 2
 Fore
@@ -19337,7 +19337,7 @@ EndChar
 
 StartChar: etatonos
 Encoding: 942 942 754
-Width: 1555
+Width: 1505
 Flags: W
 LayerCount: 2
 Fore
