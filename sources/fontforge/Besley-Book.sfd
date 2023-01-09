@@ -189,7 +189,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-3" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0"""  "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0"""
-BeginChars: 65672 763
+BeginChars: 65675 766
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -7578,6 +7578,7 @@ SplineSet
  13 0 0 2 0 42 c 2
 EndSplineSet
 Refer: 16 69 N 1 0 0 1 990 0 2
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 1 subtable" ae.sc
 EndChar
 
 StartChar: ae
@@ -7629,6 +7630,7 @@ SplineSet
  778 88 621 -20 410 -20 c 0
  232 -20 100 78 100 246 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ae.sc
 EndChar
 
 StartChar: Eth
@@ -7669,6 +7671,7 @@ SplineSet
  1141 1653 1146 1660 1186 1660 c 2
 EndSplineSet
 Refer: 26 79 N 1 0 0 1 0 0 2
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 1 subtable" oslash.sc
 EndChar
 
 StartChar: eth
@@ -7932,6 +7935,7 @@ SplineSet
  881 1209 886 1215 926 1215 c 2
 EndSplineSet
 Refer: 52 111 N 1 0 0 1 0 0 2
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" oslash.sc
 EndChar
 
 StartChar: ugrave
@@ -9055,6 +9059,7 @@ SplineSet
  1050 1500 l 1
 EndSplineSet
 Refer: 16 69 N 1 0 0 1 909 0 2
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 1 subtable" oe.sc
 EndChar
 
 StartChar: oe
@@ -9065,6 +9070,7 @@ LayerCount: 2
 Fore
 Refer: 52 111 N 1 0 0 1 0 0 2
 Refer: 42 101 N 1 0 0 1 801 0 2
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" oe.sc
 EndChar
 
 StartChar: Racute
@@ -19564,6 +19570,162 @@ SplineSet
  1320 1114 1178 1420 830 1420 c 0
  482 1420 340 1114 340 750 c 0
 EndSplineSet
+EndChar
+
+StartChar: ae.sc
+Encoding: 65672 -1 763
+Width: 1864
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 48 m 2
+ 0 87 l 2
+ 0 106 5 119 27 119 c 2
+ 115 119 l 2
+ 139 119 143 122 150 137 c 2
+ 721.606334842 912 l 2
+ 739.307692308 936 709.307617188 936 682 936 c 2
+ 587 936 l 2
+ 562 936 562 950 562 976 c 2
+ 562 1004 l 2
+ 562 1030 562 1040 586 1040 c 2
+ 1713 1040 l 2
+ 1752 1040 1755 1036 1755 995 c 2
+ 1755 735 l 2
+ 1755 711 1757 710 1728 710 c 2
+ 1690 710 l 2
+ 1665 710 1662 713 1660 733 c 0
+ 1656 889 1605 936 1443 936 c 2
+ 1127 936 l 2
+ 1102 936 1095 933 1095 908 c 2
+ 1095 603 l 2
+ 1095 584 1099 575 1119 575 c 2
+ 1213 575 l 2
+ 1312 575 1371 616 1379 700 c 0
+ 1380 713 1389 720 1404 720 c 2
+ 1436 720 l 2
+ 1455 720 1465 714 1465 701 c 2
+ 1465 372 l 2
+ 1465 350 1459 347 1435 347 c 2
+ 1404 347 l 2
+ 1388 347 1380 351 1378 368 c 0
+ 1369 452 1313 498 1213 498 c 2
+ 1121 498 l 2
+ 1097 498 1095 493 1095 470 c 2
+ 1095 132 l 2
+ 1095 107 1101 104 1127 104 c 2
+ 1431 104 l 2
+ 1616 104 1675 156 1679 336 c 0
+ 1679 349 1687 356 1702 356 c 2
+ 1738 356 l 2
+ 1762 356 1774 350 1774 337 c 2
+ 1774 32 l 2
+ 1774 8 1772 0 1749 0 c 2
+ 790 0 l 2
+ 766 0 762 7 762 34 c 2
+ 762 78 l 2
+ 762 102 765 104 787 104 c 2
+ 877 104 l 2
+ 911 104 915 107 915 140 c 2
+ 915 260 l 2
+ 915 289 915 289 874 289 c 2
+ 444 289 l 2
+ 413 289 406 288 399 271 c 1
+ 299 135 l 2
+ 294 124 298 119 313 119 c 2
+ 377 119 l 2
+ 402 119 412 112 412 84 c 2
+ 412 38 l 2
+ 412 3 411 0 377 0 c 2
+ 42 0 l 2
+ 8 0 0 9 0 48 c 2
+915 456 m 2
+ 915 905 l 2
+ 915 967.373271889 882.722725531 922.452825393 868.745033113 903 c 2
+ 526 426 l 2
+ 520.682617188 414.703125 533 418 544 418 c 2
+ 882 418 l 2
+ 915 418 915 418 915 456 c 2
+EndSplineSet
+EndChar
+
+StartChar: oe.sc
+Encoding: 65673 -1 764
+Width: 1802
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+853 140 m 2
+ 853 905 l 2
+ 853 933 848 936 819 936 c 2
+ 624 936 l 2
+ 498 936 418 896 364 824 c 0
+ 310 752 284 642 284 520 c 0
+ 284 403 310 299 360 228 c 0
+ 414 152 497 104 624 104 c 2
+ 815 104 l 2
+ 849 104 853 107 853 140 c 2
+1651 1040 m 2
+ 1690 1040 1693 1036 1693 995 c 2
+ 1693 735 l 2
+ 1693 711 1695 710 1666 710 c 2
+ 1628 710 l 2
+ 1603 710 1600 713 1598 733 c 0
+ 1594 889 1543 936 1381 936 c 2
+ 1065 936 l 2
+ 1040 936 1033 933 1033 908 c 2
+ 1033 603 l 2
+ 1033 584 1037 575 1057 575 c 2
+ 1151 575 l 2
+ 1250 575 1309 616 1317 700 c 0
+ 1318 713 1327 720 1342 720 c 2
+ 1374 720 l 2
+ 1393 720 1403 714 1403 701 c 2
+ 1403 372 l 2
+ 1403 350 1397 347 1373 347 c 2
+ 1342 347 l 2
+ 1326 347 1318 351 1316 368 c 0
+ 1307 452 1251 498 1151 498 c 2
+ 1059 498 l 2
+ 1035 498 1033 493 1033 470 c 2
+ 1033 131.797851562 l 2
+ 1033.03222656 106.983398438 1039.0703125 104 1065 104 c 2
+ 1369 104 l 2
+ 1554 104 1613 156 1617 336 c 0
+ 1617 349 1625 356 1640 356 c 2
+ 1676 356 l 2
+ 1700 356 1712 350 1712 337 c 2
+ 1712 32 l 2
+ 1712 8 1710 0 1687 0 c 2
+ 627 0 l 2
+ 450 0 313 58 221 149 c 0
+ 136 233 76 365 76 520 c 0
+ 76 674 140 806 226 890 c 0
+ 318 979 456 1040 627 1040 c 2
+ 1651 1040 l 2
+EndSplineSet
+EndChar
+
+StartChar: oslash.sc
+Encoding: 65674 -1 765
+Width: 1267
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+986 1215 m 2
+ 1031 1215 l 2
+ 1069 1215 1070 1211 1060 1192 c 2
+ 343 -165 l 2
+ 332 -186 322 -189 281 -189 c 2
+ 249 -189 l 2
+ 200 -189 197 -181 209 -158 c 2
+ 930 1189 l 2
+ 941 1209 946 1215 986 1215 c 2
+EndSplineSet
+Refer: 513 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

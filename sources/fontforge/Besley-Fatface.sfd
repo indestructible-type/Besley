@@ -3,6 +3,7 @@ FontName: Besley-Fatface
 FullName: Besley* Fatface
 FamilyName: Besley*
 Weight: Book
+Copyright:
 Version: 002.100
 ItalicAngle: 0
 UnderlinePosition: -200
@@ -188,7 +189,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-3" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3"""  "Anchor-2"""  "Anchor-1"""  "Anchor-0"""
-BeginChars: 65672 762
+BeginChars: 65675 765
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -7389,6 +7390,7 @@ SplineSet
  13 0 0 2 0 42 c 2
 EndSplineSet
 Refer: 16 69 N 1 0 0 1 1150 0 2
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 1 subtable" ae.sc
 EndChar
 
 StartChar: agrave
@@ -7506,6 +7508,7 @@ SplineSet
  806 76 736 -20 435 -20 c 0
  207 -20 45 68 45 246 c 0
 EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ae.sc
 EndChar
 
 StartChar: Eth
@@ -7635,6 +7638,7 @@ SplineSet
  1103 1655 1111 1660 1155 1660 c 2
 EndSplineSet
 Refer: 26 79 N 1 0 0 1 0 0 2
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 1 subtable" oslash.sc
 EndChar
 
 StartChar: yacute
@@ -7887,6 +7891,7 @@ SplineSet
  823 1210 831 1215 875 1215 c 2
 EndSplineSet
 Refer: 52 111 N 1 0 0 1 0 0 2
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" oslash.sc
 EndChar
 
 StartChar: ugrave
@@ -9005,6 +9010,7 @@ SplineSet
  1090 1500 l 1
 EndSplineSet
 Refer: 16 69 N 1 0 0 1 949 0 2
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 1 subtable" oe.sc
 EndChar
 
 StartChar: oe
@@ -9015,6 +9021,7 @@ LayerCount: 2
 Fore
 Refer: 52 111 N 1 0 0 1 0 0 2
 Refer: 42 101 N 1 0 0 1 801 0 2
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" oe.sc
 EndChar
 
 StartChar: Racute
@@ -19551,6 +19558,162 @@ SplineSet
  1230 1074 1138 1280 910 1280 c 0
  682 1280 590 1074 590 750 c 0
 EndSplineSet
+EndChar
+
+StartChar: ae.sc
+Encoding: 65672 -1 762
+Width: 2103
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+22 49 m 2
+ 22 187 l 2
+ 22 215 26 229 54 229 c 2
+ 166 229 l 2
+ 186 229 190 228 194 238 c 2
+ 588.036363636 754 l 2
+ 609.995187834 782.755603116 640.272444523 799 567 799 c 2
+ 397 799 l 2
+ 365 799 365 808 365 842 c 2
+ 365 999 l 2
+ 365 1036 371 1040 404 1040 c 2
+ 1996 1040 l 2
+ 2030 1040 2031 1031 2031 997 c 2
+ 2031 660 l 2
+ 2031 637 2025 642 1997 642 c 2
+ 1827 642 l 2
+ 1804 642 1800 644 1798 661 c 0
+ 1792 780 1729 799 1586 799 c 2
+ 1402 799 l 2
+ 1377 799 1358 799 1358 776 c 2
+ 1358 646 l 2
+ 1358 623 1362 617 1384 617 c 2
+ 1388 617 l 2
+ 1454 617 1503 655 1515 705 c 0
+ 1520 722 1522 728 1546 728 c 2
+ 1645 728 l 2
+ 1676 728 1688 731 1688 705 c 2
+ 1688 334 l 2
+ 1688 312 1677 313 1650 313 c 2
+ 1547 313 l 2
+ 1514 313 1521 317 1514 338 c 0
+ 1504 382 1448 428 1394 428 c 2
+ 1390 428 l 2
+ 1369 428 1358 418 1358 399 c 2
+ 1358 261 l 2
+ 1358 239 1372 241 1399 241 c 2
+ 1572 241 l 2
+ 1723 241 1811 261 1816 399 c 0
+ 1818 462 1806 483 1861 483 c 2
+ 2013 483 l 2
+ 2059 483 2049 460 2049 403 c 2
+ 2049 36 l 2
+ 2049 -1 2048 0 2012 0 c 2
+ 819 0 l 2
+ 787 0 785 -3 785 32 c 2
+ 785 212 l 2
+ 785 240 785 241 810 241 c 2
+ 907 241 l 2
+ 939 241 938 227 938 265 c 2
+ 938 285 l 2
+ 938 305 938 305 902 305 c 2
+ 560 305 l 2
+ 530 305 526 293 514 273 c 2
+ 500 248 l 2
+ 495 238 500 231 514 231 c 2
+ 566 231 l 2
+ 590 231 589 222 589 196 c 2
+ 589 32 l 2
+ 589 6 585 0 561 0 c 2
+ 67 0 l 2
+ 25 0 22 4 22 49 c 2
+938 513 m 2
+ 938 777 l 2
+ 938 800 905.87965547 809.096192341 880.224913495 777 c 2
+ 678 524 l 2
+ 664.835149983 507.529689806 672 481 696 481 c 2
+ 906 481 l 2
+ 938 481 938 481 938 513 c 2
+EndSplineSet
+EndChar
+
+StartChar: oe.sc
+Encoding: 65673 -1 763
+Width: 2033
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+868 274 m 2
+ 868 771 l 2
+ 868 798 857 799 828 799 c 2
+ 764 799 l 2
+ 685 799 624 776 580 730 c 0
+ 536 684 514 614 514 520 c 0
+ 514 426 538 356 585 310 c 0
+ 632 264 692 241 764 241 c 2
+ 827 241 l 2
+ 858 241 868 244 868 274 c 2
+1926 1040 m 2
+ 1960 1040 1961 1031 1961 997 c 2
+ 1961 660 l 2
+ 1961 637 1955 642 1927 642 c 2
+ 1757 642 l 2
+ 1734 642 1730 644 1728 661 c 0
+ 1722 780 1659 799 1516 799 c 2
+ 1332 799 l 2
+ 1308 799 1288 795 1288 772 c 2
+ 1288 646 l 2
+ 1288 623 1292 617 1314 617 c 2
+ 1318 617 l 2
+ 1384 617 1433 655 1445 705 c 0
+ 1450 722 1452 728 1476 728 c 2
+ 1575 728 l 2
+ 1606 728 1618 731 1618 705 c 2
+ 1618 334 l 2
+ 1618 312 1607 313 1580 313 c 2
+ 1477 313 l 2
+ 1444 313 1451 317 1444 338 c 0
+ 1434 382 1378 428 1324 428 c 2
+ 1320 428 l 2
+ 1299 428 1288 418 1288 399 c 2
+ 1288 271 l 2
+ 1288 244 1293 241 1321 241 c 2
+ 1502 241 l 2
+ 1653 241 1741 261 1746 399 c 0
+ 1748 462 1736 483 1791 483 c 2
+ 1943 483 l 2
+ 1989 483 1979 460 1979 403 c 2
+ 1979 49 l 2
+ 1979 12 1978 0 1942 0 c 2
+ 758.231445312 0.0009765625 l 2
+ 513.075195312 0.0009765625 320.705078125 42.2587890625 198 150 c 0
+ 102 234 49 352 49 520 c 0
+ 49 680 112 816 209 895 c 0
+ 337 1000 507 1040 760 1040 c 2
+ 1926 1040 l 2
+EndSplineSet
+EndChar
+
+StartChar: oslash.sc
+Encoding: 65674 -1 764
+Width: 1471
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+975 1215 m 2
+ 1093 1215 l 2
+ 1160 1215 1171 1212 1154 1173 c 2
+ 565 -155 l 2
+ 552 -185 544 -189 489 -189 c 2
+ 379 -189 l 2
+ 308 -189 292 -189 310 -149 c 2
+ 912 1187 l 2
+ 923 1210 931 1215 975 1215 c 2
+EndSplineSet
+Refer: 513 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
