@@ -6,15 +6,6 @@ languagesystem latn dflt;
 # GSUB 
 
 
-lookup ligaStandardLigatureslookup0 {
-  lookupflag 0;
-    sub \f \f  by \uniFB00;
-    sub \f \i  by \uniFB01;
-    sub \f \l  by \uniFB02;
-    sub \f \f \i  by \uniFB03;
-    sub \f \f \l  by \uniFB04;
-} ligaStandardLigatureslookup0;
-
 lookup onumOldstyleFigureslookup1 {
   lookupflag 0;
     sub \zero by \zero.oldstyle ;
@@ -99,6 +90,7 @@ lookup smcpLowercasetoSmallCapitalsinLatinlookup0 {
     sub \atilde by \atilde.sc ;
     sub \adieresis by \adieresis.sc ;
     sub \aring by \aring.sc ;
+    sub \ae by \ae.sc ;
     sub \eacute by \eacute.sc ;
     sub \egrave by \egrave.sc ;
     sub \ecircumflex by \ecircumflex.sc ;
@@ -113,6 +105,8 @@ lookup smcpLowercasetoSmallCapitalsinLatinlookup0 {
     sub \ocircumflex by \ocircumflex.sc ;
     sub \otilde by \otilde.sc ;
     sub \odieresis by \odieresis.sc ;
+    sub \oe by \oe.sc ;
+    sub \oslash by \oslash.sc ;
     sub \ugrave by \ugrave.sc ;
     sub \uacute by \uacute.sc ;
     sub \ucircumflex by \ucircumflex.sc ;
@@ -217,6 +211,7 @@ lookup c2scCapitalstoSmallCapitalsinLatinlookup1 {
     sub \Atilde by \atilde.sc ;
     sub \Adieresis by \adieresis.sc ;
     sub \Aring by \aring.sc ;
+    sub \AE by \ae.sc ;
     sub \Ccedilla by \ccedilla.sc ;
     sub \Egrave by \egrave.sc ;
     sub \Eacute by \eacute.sc ;
@@ -232,6 +227,8 @@ lookup c2scCapitalstoSmallCapitalsinLatinlookup1 {
     sub \Ocircumflex by \ocircumflex.sc ;
     sub \Otilde by \otilde.sc ;
     sub \Odieresis by \odieresis.sc ;
+    sub \OE by \oe.sc ;
+    sub \Oslash by \oslash.sc ;
     sub \Ugrave by \ugrave.sc ;
     sub \Uacute by \uacute.sc ;
     sub \Ucircumflex by \ucircumflex.sc ;
@@ -327,20 +324,14 @@ lookup caltContextualAlternateslookup9 {
 	\zacute.sc \zcaron.sc \zdotaccent.sc ] [\hyphen ]'  by [\hyphen.sc ];
 } caltContextualAlternateslookup9;
 
-feature liga {
-
- script DFLT;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-
- script grek;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-
- script latn;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-} liga;
+lookup ligaStandardLigatureslookup0 {
+  lookupflag 0;
+    sub \f \f  by \uniFB00;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+    sub \f \f \i  by \uniFB03;
+    sub \f \f \l  by \uniFB04;
+} ligaStandardLigatureslookup0;
 
 feature onum {
 
@@ -418,6 +409,21 @@ feature c2sc {
      language dflt ;
       lookup c2scCapitalstoSmallCapitalsinLatinlookup1;
 } c2sc;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script grek;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+} liga;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\ampersand \period \zero \one \two \three \four \five \six \seven 
