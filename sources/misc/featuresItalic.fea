@@ -6,15 +6,6 @@ languagesystem latn dflt;
 # GSUB 
 
 
-lookup ligaStandardLigatureslookup0 {
-  lookupflag 0;
-    sub \f \f  by \uniFB00;
-    sub \f \i  by \uniFB01;
-    sub \f \l  by \uniFB02;
-    sub \f \f \i  by \uniFB03;
-    sub \f \f \l  by \uniFB04;
-} ligaStandardLigatureslookup0;
-
 lookup onumOldstyleFigureslookup1 {
   lookupflag 0;
     sub \zero by \zero.oldstyle ;
@@ -327,20 +318,14 @@ lookup caltContextualAlternateslookup9 {
 	\zacute.sc \zcaron.sc \zdotaccent.sc ] [\hyphen ]'  by [\hyphen.sc ];
 } caltContextualAlternateslookup9;
 
-feature liga {
-
- script DFLT;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-
- script grek;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-
- script latn;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-} liga;
+lookup ligaStandardLigatureslookup0 {
+  lookupflag 0;
+    sub \f \f  by \uniFB00;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+    sub \f \f \i  by \uniFB03;
+    sub \f \f \l  by \uniFB04;
+} ligaStandardLigatureslookup0;
 
 feature onum {
 
@@ -418,6 +403,21 @@ feature c2sc {
      language dflt ;
       lookup c2scCapitalstoSmallCapitalsinLatinlookup1;
 } c2sc;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script grek;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+} liga;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\ampersand \period \zero \one \two \three \four \five \six \seven 
