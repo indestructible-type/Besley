@@ -5,14 +5,20 @@ if [[ ! -d ../fonts/webfonts ]]; then
     mkdir ../fonts/webfonts
 fi
 
-for font in ../fonts/ttf/*; do
-    FA=`basename "$font"`
-    FN=${FA::-4}
-    fonttools ttLib.woff2 compress "$font" --output-file "../fonts/webfonts/"$FN".woff2"
-done
+HAS_PARALLEL=$(hash parallel ; echo $?)
+TTFONTS=../fonts/ttf/*
+VARFONTS=../fonts/variable/*
+BUILDFONT='
+    FA="`basename $FONT`"
+    fonttools ttLib.woff2 compress "$FONT" --output-file "../fonts/webfonts/${FA%%.*}.woff2"
+'
 
-for font in ../fonts/variable/*; do
-    FA=`basename "$font"`
-    FN=${FA::-4}
-    fonttools ttLib.woff2 compress "$font" --output-file "../fonts/webfonts/"$FN".woff2"
-done
+if [[ $HAS_PARALLEL -eq 0 ]]; then
+    parallel --bar '
+        FONT={};'"$BUILDFONT" ::: $TTFONTS $VARFONTS
+else
+    >&2 echo 'This script will run slower. Consider installing GNU `parallel`.'
+    for FONT in $TTFONTS $VARFONTS; do
+        eval $BUILDFONT
+    done
+fi
