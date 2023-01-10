@@ -90,6 +90,7 @@ lookup smcpLowercasetoSmallCapitalsinLatinlookup0 {
     sub \atilde by \atilde.sc ;
     sub \adieresis by \adieresis.sc ;
     sub \aring by \aring.sc ;
+    sub \ae by \ae.sc ;
     sub \eacute by \eacute.sc ;
     sub \egrave by \egrave.sc ;
     sub \ecircumflex by \ecircumflex.sc ;
@@ -104,6 +105,8 @@ lookup smcpLowercasetoSmallCapitalsinLatinlookup0 {
     sub \ocircumflex by \ocircumflex.sc ;
     sub \otilde by \otilde.sc ;
     sub \odieresis by \odieresis.sc ;
+    sub \oe by \oe.sc ;
+    sub \oslash by \oslash.sc ;
     sub \ugrave by \ugrave.sc ;
     sub \uacute by \uacute.sc ;
     sub \ucircumflex by \ucircumflex.sc ;
@@ -208,6 +211,7 @@ lookup c2scCapitalstoSmallCapitalsinLatinlookup1 {
     sub \Atilde by \atilde.sc ;
     sub \Adieresis by \adieresis.sc ;
     sub \Aring by \aring.sc ;
+    sub \AE by \ae.sc ;
     sub \Ccedilla by \ccedilla.sc ;
     sub \Egrave by \egrave.sc ;
     sub \Eacute by \eacute.sc ;
@@ -223,6 +227,8 @@ lookup c2scCapitalstoSmallCapitalsinLatinlookup1 {
     sub \Ocircumflex by \ocircumflex.sc ;
     sub \Otilde by \otilde.sc ;
     sub \Odieresis by \odieresis.sc ;
+    sub \OE by \oe.sc ;
+    sub \Oslash by \oslash.sc ;
     sub \Ugrave by \ugrave.sc ;
     sub \Uacute by \uacute.sc ;
     sub \Ucircumflex by \ucircumflex.sc ;
